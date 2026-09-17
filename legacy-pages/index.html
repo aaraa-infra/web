@@ -2199,6 +2199,45 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  // Auto-scroll loop state & timer
+  var autoScrollTimer = null;
+  var autoScrollInterval = 3500; // Auto scroll every 3.5 seconds
+
+  function advanceSlide() {
+    updateDimensions();
+    if (maxScroll <= 0) return;
+
+    var firstCard = track.querySelector('.blog-slide-card');
+    var cardWidth = firstCard ? firstCard.offsetWidth : 360;
+    var gap = 30;
+    var step = cardWidth + gap;
+
+    // Loop smoothly: wrap around to start when end is reached
+    if (Math.abs(targetTranslate) >= maxScroll - 10) {
+      targetTranslate = 0;
+    } else {
+      targetTranslate = Math.max(-maxScroll, targetTranslate - step);
+    }
+    triggerAnimation();
+  }
+
+  function startAutoScroll() {
+    stopAutoScroll();
+    autoScrollTimer = setInterval(advanceSlide, autoScrollInterval);
+  }
+
+  function stopAutoScroll() {
+    if (autoScrollTimer) {
+      clearInterval(autoScrollTimer);
+      autoScrollTimer = null;
+    }
+  }
+
+  function restartAutoScrollTimer() {
+    stopAutoScroll();
+    startAutoScroll();
+  }
+
   // Navigation buttons smooth click sliding
   function shiftByCards(direction) {
     updateDimensions();
@@ -2206,13 +2245,20 @@ document.addEventListener("DOMContentLoaded", () => {
     var cardWidth = firstCard ? firstCard.offsetWidth : 360;
     var gap = 30;
     var shiftAmt = (cardWidth + gap) * direction;
-    targetTranslate = targetTranslate + shiftAmt;
-    targetTranslate = Math.max(-maxScroll, Math.min(0, targetTranslate));
+
+    if (direction === -1 && Math.abs(targetTranslate) >= maxScroll - 10) {
+      targetTranslate = 0;
+    } else if (direction === 1 && targetTranslate >= -5) {
+      targetTranslate = -maxScroll;
+    } else {
+      targetTranslate = Math.max(-maxScroll, Math.min(0, targetTranslate + shiftAmt));
+    }
     triggerAnimation();
   }
 
   // Touch and drag implementation for mobile/touch swipe
   function startDrag(clientX) {
+    stopAutoScroll();
     isDragging = true;
     startX = clientX;
     initialTranslate = currentTranslate;
@@ -2249,6 +2295,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (targetTranslate < -maxScroll) targetTranslate = -maxScroll;
     
     triggerAnimation();
+    restartAutoScrollTimer();
   }
 
   // Drag event listeners for touch devices
@@ -2287,13 +2334,19 @@ document.addEventListener("DOMContentLoaded", () => {
     endDrag();
   });
 
+  // Hover listeners to pause/resume auto-scroll
+  container.addEventListener('mouseenter', stopAutoScroll);
+  container.addEventListener('mouseleave', startAutoScroll);
+
   if (nextBtn) {
     nextBtn.addEventListener('click', function () {
+      restartAutoScrollTimer();
       shiftByCards(-1);
     });
   }
   if (prevBtn) {
     prevBtn.addEventListener('click', function () {
+      restartAutoScrollTimer();
       shiftByCards(1);
     });
   }
@@ -2308,8 +2361,9 @@ document.addEventListener("DOMContentLoaded", () => {
     triggerAnimation();
   });
 
-  // Initial call
+  // Initial call & auto-scroll start
   updateDimensions();
+  startAutoScroll();
 })();
 </script>
 </div>
