@@ -15,6 +15,8 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      { source: '/blog-post-4', destination: '/blog/solar-epc-civil-infrastructure-kudligi-karnataka', permanent: true },
+      { source: '/blog-post-4.html', destination: '/blog/solar-epc-civil-infrastructure-kudligi-karnataka', permanent: true },
       { source: '/projects-details.html', destination: '/completed-projects', permanent: true },
       { source: '/icr-civil-foundation-solar-project-toravi-karnataka', destination: '/blog/icr-civil-foundation-solar-project-toravi-karnataka', permanent: true },
       { source: '/icr-civil-foundation-solar-project-toravi-karnataka.html', destination: '/blog/icr-civil-foundation-solar-project-toravi-karnataka', permanent: true },
