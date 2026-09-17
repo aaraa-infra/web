@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import AdSenseUnit from '@/components/AdSenseUnit';
 
 // Simple SVG Icons for Premium Lucide look
 const Icons = {
@@ -45,16 +46,16 @@ const Icons = {
 
 // Hardcoded premium related stories data
 const RELATED_POSTS = [
-  { id: 'icr-civil-foundation-solar-project-toravi-karnataka', title: 'ICR Civil Foundations Toravi Solar Project', category: 'Solar / Renewable Energy', image: '/image/blog/toravi-solar/toravi-solar-1.jpg', date: 'June 30, 2026' },
-  { id: 'onam-celebration-at-our-office', title: 'Onam Celebration at Our Office', category: 'Corporate & Culture', image: '/image/blog/onam-celebration-at-our-office.jpg', date: 'August 28, 2026' },
-  { id: 'boat-apprenticeship-partner', title: 'BOAT Apprenticeship Partner', category: 'Partnerships', image: '/image/blog/blog-boat-partnership.png', date: 'July 3, 2026' },
-  { id: 'aaraa-infrastructure-180mwp-leap-green-project-thoothukudi', title: '180 MWp Leap Green Solar Project Thoothukudi', category: 'Solar / Renewable Energy', image: '/images/waaree/image-1788602564228.jpg', date: 'June 20, 2026' },
-  { id: 'ramky-industrial-construction-dobbaspet-karnataka', title: 'RAMKY Industrial Facility Dobbaspet', category: 'Industrial Construction', image: '/image/blog/ramky-industrial-construction-dobbaspet-karnataka.jpg', date: 'September 1, 2026' },
-  { id: 'solar-infrastructure-project-hulikunte-karnataka', title: 'Solar Infrastructure Project Hulikunte', category: 'Renewable Energy', image: '/image/blog/solar-infrastructure-project-hulikunte-karnataka.jpg', date: 'August 15, 2026' },
-  { id: 'aaraa-infrastructure-strengthens-industry-academia-collaboration-through-mou', title: 'Industry-Academia MoU Collaboration', category: 'Corporate & Growth', image: '/image/blog/aaraa-infrastructure-strengthens-industry-academia-collaboration-through-mou.jpg', date: 'August 10, 2026' },
-  { id: '400-mld-swro-desalination-project-perur-chennai', title: '400 MLD SWRO Desalination Plant Perur', category: 'Water Infrastructure', image: '/image/blog/perur-desalination/perur-desalination-1.jpg', date: 'October 22, 2025' },
-  { id: 'km-palace-marriage-hall-kundrathur-chennai', title: 'KM Palace Marriage Hall Kundrathur', category: 'Commercial Infrastructure', image: '/images/km-palace/km-palace-1.webp', date: 'September 15, 2025' },
-  { id: 'work-shed-construction-gummidipoondi-chennai', title: 'Work Shed Construction Meganath Alloys', category: 'Industrial Construction', image: '/image/project-item/shed3.jpg', date: 'November 15, 2025' }
+  { id: 'blog/icr-civil-foundation-solar-project-toravi-karnataka', title: 'ICR Civil Foundations Toravi Solar Project', category: 'Solar / Renewable Energy', image: '/image/blog/toravi-solar/toravi-solar-1.jpg', date: 'June 30, 2026' },
+  { id: 'blog/onam-celebration-at-our-office', title: 'Onam Celebration at Our Office', category: 'Corporate & Culture', image: '/image/blog/onam-celebration-at-our-office.jpg', date: 'August 28, 2026' },
+  { id: 'blog/official-boat-apprenticeship-partnership-civil-engineering', title: 'BOAT Apprenticeship Partner', category: 'Partnerships', image: '/image/blog/blog-boat-partnership.png', date: 'July 3, 2026' },
+  { id: 'blog/aaraa-infrastructure-180mwp-leap-green-project-thoothukudi', title: '180 MWp Leap Green Solar Project Thoothukudi', category: 'Solar / Renewable Energy', image: '/images/waaree/image-1788602564228.jpg', date: 'June 20, 2026' },
+  { id: 'blog/ramky-industrial-construction-dobbaspet-karnataka', title: 'RAMKY Industrial Facility Dobbaspet', category: 'Industrial Construction', image: '/image/blog/ramky-industrial-construction-dobbaspet-karnataka.jpg', date: 'September 1, 2026' },
+  { id: 'blog/solar-infrastructure-project-hulikunte-karnataka', title: 'Solar Infrastructure Project Hulikunte', category: 'Renewable Energy', image: '/image/blog/solar-infrastructure-project-hulikunte-karnataka.jpg', date: 'August 15, 2026' },
+  { id: 'blog/aaraa-infrastructure-strengthens-industry-academia-collaboration-through-mou', title: 'Industry-Academia MoU Collaboration', category: 'Corporate & Growth', image: '/image/blog/aaraa-infrastructure-strengthens-industry-academia-collaboration-through-mou.jpg', date: 'August 10, 2026' },
+  { id: 'blog/400-mld-swro-desalination-project-perur-chennai', title: '400 MLD SWRO Desalination Plant Perur', category: 'Water Infrastructure', image: '/image/blog/perur-desalination/perur-desalination-1.jpg', date: 'October 22, 2025' },
+  { id: 'blog/km-palace-marriage-hall-kundrathur-chennai', title: 'KM Palace Marriage Hall Kundrathur', category: 'Commercial Infrastructure', image: '/images/km-palace/km-palace-1.webp', date: 'September 15, 2025' },
+  { id: 'blog/work-shed-construction-gummidipoondi-chennai', title: 'Work Shed Construction Meganath Alloys', category: 'Industrial Construction', image: '/image/project-item/shed3.jpg', date: 'November 15, 2025' }
 ];
 
 export default function BlogPostDetail({ page }) {
@@ -324,6 +325,15 @@ export default function BlogPostDetail({ page }) {
                 </button>
               </div>
             </div>
+
+            {/* LOCATION 2 — SIDEBAR BELOW MENU */}
+            <AdSenseUnit
+              slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR}
+              format="auto"
+              responsive="true"
+              className="blog-sidebar-ad-unit"
+              style={{ marginTop: '24px' }}
+            />
           </div>
         </aside>
 
@@ -439,6 +449,15 @@ export default function BlogPostDetail({ page }) {
               })()}
             </div>
           )}
+
+          {/* LOCATION 1 — BELOW GALLERY */}
+          <AdSenseUnit
+            slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BELOW_GALLERY}
+            format="auto"
+            responsive="true"
+            className="blog-below-gallery-ad-unit"
+            style={{ margin: '32px 0' }}
+          />
 
           {/* AEO & GEO Key Takeaways / Answer-First Summary Box */}
           {page.subtitle && (

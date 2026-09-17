@@ -1,5 +1,6 @@
 import './globals.css';
 import BrandMarquee from '@/components/BrandMarquee';
+import AdSenseScript from '@/components/AdSenseScript';
 import Script from 'next/script';
 
 export const metadata = {
@@ -35,6 +36,9 @@ export default function RootLayout({children}){
         <link rel="stylesheet" href="/css/brand_marquee.css" />
       </head>
       <body>
+        {/* Google AdSense Script */}
+        <AdSenseScript />
+
         {/* Google Analytics 4 (GA4) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-B83YDF8ME5"
