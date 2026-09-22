@@ -46,6 +46,7 @@ const Icons = {
 
 // Hardcoded premium related stories data
 const RELATED_POSTS = [
+  { id: 'blog/mgr-adarsh-school-renovation-structural-repair-mogappair', title: 'MGR Adarsh School Structural Repair', category: 'Institutional Infrastructure', image: '/image/project-item/punjab2.jpg', date: 'August 15, 2026' },
   { id: 'blog/cost-of-corrosion-india-construction', title: 'Corrosion Costs India ₹14.15 Lakh Crore a Year', category: 'Infrastructure & Durability', image: '/image/blog/corrosion-costs-india-hero.jpg', date: 'September 18, 2026' },
   { id: 'blog/icr-civil-foundation-solar-project-toravi-karnataka', title: 'ICR Civil Foundations Toravi Solar Project', category: 'Solar / Renewable Energy', image: '/image/blog/toravi-solar/toravi-solar-1.jpg', date: 'June 30, 2026' },
   { id: 'blog/onam-celebration-at-our-office', title: 'Onam Celebration at Our Office', category: 'Corporate & Culture', image: '/image/blog/onam-celebration-at-our-office.jpg', date: 'August 28, 2026' },
