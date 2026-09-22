@@ -55,7 +55,7 @@ const REDIRECTS_MAP = {
   'Institutional-Development-VIBGYOR-Group-Hinjewadi-Pune': '/blog/institutional-development-vibgyor-group-hinjewadi',
   'institutional-development-vibgyor-group-hinjewadi': '/blog/institutional-development-vibgyor-group-hinjewadi',
   'projects-details': '/completed-projects',
-  'ongoingorchid-project': '/blog/institutional-development-vibgyor-group-hinjewadi',
+  'ongoingorchid-project': '/orchid-project',
   'contact': '/contact-us',
   'privacy-policy': '/aaraa-privacy-policy',
   'about-us': '/about',
