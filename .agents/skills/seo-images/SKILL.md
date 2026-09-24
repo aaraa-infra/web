@@ -62,8 +62,8 @@ Use progressive enhancement with the most efficient format first:
 
 ```html
 <picture>
-  <source srcset="image.avif" type="image/avif">
-  <source srcset="image.webp" type="image/webp">
+  <source srcset="image.avif" type="image-watermarked/avif">
+  <source srcset="image.webp" type="image-watermarked/webp">
   <img src="image.jpg" alt="Descriptive alt text" width="800" height="600" loading="lazy" decoding="async">
 </picture>
 ```

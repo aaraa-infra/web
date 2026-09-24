@@ -253,7 +253,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     }}
     </script>
 
-    <link rel="icon" href="https://www.aaraainfrastructure.com/logo.png" type="image/png">
+    <link rel="icon" href="https://www.aaraainfrastructure.com/logo.png" type="image-watermarked/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     <style>

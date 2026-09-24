@@ -501,19 +501,19 @@ loading="lazy" decoding="async" src="https://www.facebook.com/tr?id=149510223534
       }
 
       const identityProof = document.getElementById('identityProof').files[0];
-      if (!identityProof || !['application/pdf', 'image/jpeg', 'image/png'].includes(identityProof.type)) {
+      if (!identityProof || !['application/pdf', 'image-watermarked/jpeg', 'image-watermarked/png'].includes(identityProof.type)) {
         document.getElementById('identityProofError').style.display = 'block';
         isValid = false;
       }
 
       const addressProof = document.getElementById('addressProof').files[0];
-      if (!addressProof || !['application/pdf', 'image/jpeg', 'image/png'].includes(addressProof.type)) {
+      if (!addressProof || !['application/pdf', 'image-watermarked/jpeg', 'image-watermarked/png'].includes(addressProof.type)) {
         document.getElementById('addressProofError').style.display = 'block';
         isValid = false;
       }
 
       const tradeLicense = document.getElementById('tradeLicense').files[0];
-      if (tradeLicense && !['application/pdf', 'image/jpeg', 'image/png'].includes(tradeLicense.type)) {
+      if (tradeLicense && !['application/pdf', 'image-watermarked/jpeg', 'image-watermarked/png'].includes(tradeLicense.type)) {
         document.getElementById('tradeLicenseError').style.display = 'block';
         isValid = false;
       }

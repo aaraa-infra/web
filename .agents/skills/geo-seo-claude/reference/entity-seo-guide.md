@@ -138,7 +138,7 @@ Examples: "199 Clinic" (organization), "Dr. Sarah Johnson" (person), "Longevity 
     "name": "Harvard Medical School"
   }],
   "url": "https://199clinic.com/about/dr-sarah-johnson",
-  "image": "https://199clinic.com/images/dr-johnson.jpg",
+  "image": "https://199clinic.com/images-watermarked/dr-johnson.jpg",
   "description": "Board-certified dermatologist specializing in regenerative medicine with 15+ years of clinical experience.",
   "sameAs": [
     "https://scholar.google.com/citations?user=ABC123",
@@ -380,7 +380,7 @@ with [Stanford School of Medicine](https://med.stanford.edu).
   "honorificPrefix": "Dr.",
   "honorificSuffix": "MD, PhD",
   "url": "https://199clinic.com/about/dr-sarah-johnson",
-  "image": "https://199clinic.com/images/dr-johnson-profile.jpg",
+  "image": "https://199clinic.com/images-watermarked/dr-johnson-profile.jpg",
   "jobTitle": "Board-Certified Physician",
   "worksFor": {
     "@type": "Organization",

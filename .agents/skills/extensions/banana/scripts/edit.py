@@ -36,9 +36,9 @@ def edit_image(image_path, prompt, model, api_key):
 
     # Determine MIME type
     suffix = image_path.suffix.lower()
-    mime_types = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg",
-                  ".webp": "image/webp", ".gif": "image/gif"}
-    mime_type = mime_types.get(suffix, "image/png")
+    mime_types = {".png": "image-watermarked/png", ".jpg": "image-watermarked/jpeg", ".jpeg": "image-watermarked/jpeg",
+                  ".webp": "image-watermarked/webp", ".gif": "image-watermarked/gif"}
+    mime_type = mime_types.get(suffix, "image-watermarked/png")
 
     url = f"{API_BASE}/{model}:generateContent?key={api_key}"
 

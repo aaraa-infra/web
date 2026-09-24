@@ -99,7 +99,7 @@ After every successful generation, guide the user on:
    ```json
    {
      "@type": "ImageObject",
-     "url": "https://example.com/images/keyword-description.webp",
+     "url": "https://example.com/images-watermarked/keyword-description.webp",
      "width": 1200,
      "height": 630,
      "caption": "Descriptive caption with target keyword"
@@ -107,7 +107,7 @@ After every successful generation, guide the user on:
    ```
 6. **OG meta tags**:For social preview images, remind about:
    ```html
-   <meta property="og:image" content="https://example.com/images/og-image.webp" />
+   <meta property="og:image" content="https://example.com/images-watermarked/og-image.webp" />
    <meta property="og:image:width" content="1200" />
    <meta property="og:image:height" content="630" />
    <meta property="og:image:alt" content="Descriptive alt text" />

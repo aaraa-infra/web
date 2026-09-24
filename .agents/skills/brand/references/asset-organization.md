@@ -78,7 +78,7 @@ infographic_evergreen_pricing-comparison_20251209.png
   "path": "assets/banners/landing-pages/banner_claude-launch_hero-image_20251209.png",
   "dimensions": { "width": 1920, "height": 1080 },
   "fileSize": 245760,
-  "mimeType": "image/png",
+  "mimeType": "image-watermarked/png",
   "tags": ["campaign", "hero", "launch"],
   "status": "approved",
   "source": {

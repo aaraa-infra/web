@@ -174,7 +174,7 @@ Comprehensive reference for all schema types used in SEO/GEO optimization. Each 
   "description": "Learn how optimal biomarker ranges differ from lab references and can predict longevity more accurately.",
   "image": {
     "@type": "ImageObject",
-    "url": "https://example.com/images/biomarkers-guide.jpg",
+    "url": "https://example.com/images-watermarked/biomarkers-guide.jpg",
     "width": 1200,
     "height": 630
   },
@@ -287,7 +287,7 @@ Comprehensive reference for all schema types used in SEO/GEO optimization. Each 
   "description": "Step-by-step guide to optimize your content for ChatGPT, Perplexity, Claude, and other AI search engines.",
   "image": {
     "@type": "ImageObject",
-    "url": "https://example.com/images/ai-optimization-guide.jpg"
+    "url": "https://example.com/images-watermarked/ai-optimization-guide.jpg"
   },
   "totalTime": "PT15M",
   "estimatedCost": {
@@ -301,7 +301,7 @@ Comprehensive reference for all schema types used in SEO/GEO optimization. Each 
       "name": "Add TL;DR in first 60 words",
       "text": "Create a direct answer summary in the first 40-60 words of your content. This increases AI citation probability by 35% according to 2025 studies.",
       "url": "https://example.com/guide#step-1",
-      "image": "https://example.com/images/step-1.jpg"
+      "image": "https://example.com/images-watermarked/step-1.jpg"
     },
     {
       "@type": "HowToStep",
@@ -492,7 +492,7 @@ Comprehensive reference for all schema types used in SEO/GEO optimization. Each 
     "name": "Harvard Medical School"
   },
   "url": "https://example.com/about/dr-sarah-johnson",
-  "image": "https://example.com/images/dr-johnson.jpg",
+  "image": "https://example.com/images-watermarked/dr-johnson.jpg",
   "description": "Board-certified dermatologist specializing in regenerative medicine with 15+ years of clinical experience. Published researcher in longevity and aesthetic medicine.",
   "sameAs": [
     "https://scholar.google.com/citations?user=ABC123",

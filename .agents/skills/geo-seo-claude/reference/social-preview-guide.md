@@ -34,7 +34,7 @@ Social media previews (link cards) appear when URLs are shared across platforms.
 <!-- Essential Open Graph Tags -->
 <meta property="og:title" content="Your Page Title - 60-90 characters">
 <meta property="og:description" content="Compelling description that encourages clicks. Keep it engaging and specific. 150-200 characters ideal.">
-<meta property="og:image" content="https://example.com/images/social-preview.jpg">
+<meta property="og:image" content="https://example.com/images-watermarked/social-preview.jpg">
 <meta property="og:url" content="https://example.com/page">
 <meta property="og:type" content="website">
 ```
@@ -45,9 +45,9 @@ Social media previews (link cards) appear when URLs are shared across platforms.
 <!-- Complete Open Graph Tags -->
 <meta property="og:title" content="Understanding Longevity Biomarkers | 199 Clinic">
 <meta property="og:description" content="Learn how optimal biomarker ranges differ from lab references and predict longevity more accurately. Evidence-based guide from board-certified physicians.">
-<meta property="og:image" content="https://199clinic.com/images/biomarkers-guide-social.jpg">
+<meta property="og:image" content="https://199clinic.com/images-watermarked/biomarkers-guide-social.jpg">
 <meta property="og:image:alt" content="Infographic showing optimal vs. lab biomarker ranges">
-<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:type" content="image-watermarked/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://199clinic.com/blog/longevity-biomarkers">
@@ -127,7 +127,7 @@ Social media previews (link cards) appear when URLs are shared across platforms.
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Understanding Longevity Biomarkers">
 <meta name="twitter:description" content="Learn how optimal biomarker ranges predict longevity more accurately than standard lab references.">
-<meta name="twitter:image" content="https://199clinic.com/images/biomarkers-twitter.jpg">
+<meta name="twitter:image" content="https://199clinic.com/images-watermarked/biomarkers-twitter.jpg">
 <meta name="twitter:image:alt" content="Chart comparing optimal vs. lab biomarker ranges">
 <meta name="twitter:site" content="@199clinic">
 <meta name="twitter:creator" content="@drsarahjohnson">
@@ -239,7 +239,7 @@ Social media previews (link cards) appear when URLs are shared across platforms.
 **Example (iMessage-optimized)**:
 ```html
 <meta property="og:title" content="5 Biomarkers for Longevity | 199 Clinic">
-<meta property="og:image" content="https://199clinic.com/images/biomarkers-simple.jpg">
+<meta property="og:image" content="https://199clinic.com/images-watermarked/biomarkers-simple.jpg">
 <!-- og:description not shown in iMessage, but include for other platforms -->
 <meta property="og:description" content="Evidence-based guide to optimal biomarker ranges.">
 ```
@@ -462,9 +462,9 @@ Social media previews (link cards) appear when URLs are shared across platforms.
   <meta property="og:url" content="https://199clinic.com/blog/longevity-biomarkers">
   <meta property="og:title" content="Understanding Longevity Biomarkers | 199 Clinic">
   <meta property="og:description" content="Learn how optimal biomarker ranges differ from lab references and predict longevity more accurately. Evidence-based guide from board-certified physicians.">
-  <meta property="og:image" content="https://199clinic.com/images/biomarkers-social.jpg">
+  <meta property="og:image" content="https://199clinic.com/images-watermarked/biomarkers-social.jpg">
   <meta property="og:image:alt" content="Infographic showing optimal vs. lab biomarker ranges">
-  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:type" content="image-watermarked/jpeg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:site_name" content="199 Clinic">
@@ -482,7 +482,7 @@ Social media previews (link cards) appear when URLs are shared across platforms.
   <meta name="twitter:url" content="https://199clinic.com/blog/longevity-biomarkers">
   <meta name="twitter:title" content="Understanding Longevity Biomarkers | 199 Clinic">
   <meta name="twitter:description" content="Learn how optimal biomarker ranges differ from lab references and predict longevity more accurately.">
-  <meta name="twitter:image" content="https://199clinic.com/images/biomarkers-twitter.jpg">
+  <meta name="twitter:image" content="https://199clinic.com/images-watermarked/biomarkers-twitter.jpg">
   <meta name="twitter:image:alt" content="Chart comparing optimal vs. lab biomarker ranges">
   <meta name="twitter:site" content="@199clinic">
   <meta name="twitter:creator" content="@drsarahjohnson">
@@ -587,7 +587,7 @@ Social media previews (link cards) appear when URLs are shared across platforms.
 
 ### Don'ts ❌
 
-- Use relative URLs (/images/photo.jpg)
+- Use relative URLs (/images-watermarked/photo.jpg)
 - Exceed 1MB image file size
 - Use tiny images (<600px width)
 - Forget alt text

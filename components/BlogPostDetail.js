@@ -46,19 +46,33 @@ const Icons = {
 
 // Hardcoded premium related stories data
 const RELATED_POSTS = [
-  { id: 'blog/orchids-international-school-baynes-pallikaranai', title: 'Orchids International School Baynes', category: 'Educational Infrastructure', image: '/image/project-item/orchids-international-school.jpg', date: 'August 20, 2026' },
-  { id: 'blog/mgr-adarsh-school-renovation-structural-repair-mogappair', title: 'MGR Adarsh School Structural Repair', category: 'Institutional Infrastructure', image: '/image/project-item/punjab2.jpg', date: 'August 15, 2026' },
-  { id: 'blog/cost-of-corrosion-india-construction', title: 'Corrosion Costs India ₹14.15 Lakh Crore a Year', category: 'Infrastructure & Durability', image: '/image/blog/corrosion-costs-india-hero.jpg', date: 'September 18, 2026' },
-  { id: 'blog/icr-civil-foundation-solar-project-toravi-karnataka', title: 'ICR Civil Foundations Toravi Solar Project', category: 'Solar / Renewable Energy', image: '/image/blog/toravi-solar/toravi-solar-1.jpg', date: 'June 30, 2026' },
-  { id: 'blog/onam-celebration-at-our-office', title: 'Onam Celebration at Our Office', category: 'Corporate & Culture', image: '/image/blog/onam-celebration-at-our-office.jpg', date: 'August 28, 2026' },
-  { id: 'blog/official-boat-apprenticeship-partnership-civil-engineering', title: 'BOAT Apprenticeship Partner', category: 'Partnerships', image: '/image/blog/blog-boat-partnership.png', date: 'July 3, 2026' },
-  { id: 'blog/aaraa-infrastructure-180mwp-leap-green-project-thoothukudi', title: '180 MWp Leap Green Solar Project Thoothukudi', category: 'Solar / Renewable Energy', image: '/images/waaree/image-1788602564228.jpg', date: 'June 20, 2026' },
-  { id: 'blog/ramky-industrial-construction-dobbaspet-karnataka', title: 'RAMKY Industrial Facility Dobbaspet', category: 'Industrial Construction', image: '/image/blog/ramky-industrial-construction-dobbaspet-karnataka.jpg', date: 'September 1, 2026' },
-  { id: 'blog/solar-infrastructure-project-hulikunte-karnataka', title: 'Solar Infrastructure Project Hulikunte', category: 'Renewable Energy', image: '/image/blog/solar-infrastructure-project-hulikunte-karnataka.jpg', date: 'August 15, 2026' },
-  { id: 'blog/aaraa-infrastructure-strengthens-industry-academia-collaboration-through-mou', title: 'Industry-Academia MoU Collaboration', category: 'Corporate & Growth', image: '/image/blog/aaraa-infrastructure-strengthens-industry-academia-collaboration-through-mou.jpg', date: 'August 10, 2026' },
-  { id: 'blog/400-mld-swro-desalination-project-perur-chennai', title: '400 MLD SWRO Desalination Plant Perur', category: 'Water Infrastructure', image: '/image/blog/perur-desalination/perur-desalination-1.jpg', date: 'October 22, 2025' },
-  { id: 'blog/km-palace-marriage-hall-kundrathur-chennai', title: 'KM Palace Marriage Hall Kundrathur', category: 'Commercial Infrastructure', image: '/images/km-palace/km-palace-1.webp', date: 'September 15, 2025' },
-  { id: 'blog/work-shed-construction-gummidipoondi-chennai', title: 'Work Shed Construction Meganath Alloys', category: 'Industrial Construction', image: '/image/project-item/shed3.jpg', date: 'November 15, 2025' }
+  { id: 'blog/orchids-international-school-pulianthope-chennai', title: 'Orchids International School Pulianthope', category: 'Educational Infrastructure', image: '/image-watermarked/blog/orchids_pulianthope.webp', date: 'August 24, 2026' },
+  { id: 'blog/orchids-international-school-vandalur-chennai', title: 'Orchids International School Vandalur', category: 'Educational Infrastructure', image: '/image-watermarked/blog/orchids_vandalur.webp', date: 'August 25, 2026' },
+  { id: 'blog/orchids-international-school-oragadam-chennai', title: 'Orchids International School Oragadam', category: 'Educational Infrastructure', image: '/image-watermarked/blog/orchid_oragadam.webp', date: 'August 26, 2026' },
+  { id: 'blog/orchids-international-school-coimbatore', title: 'Orchids International School Coimbatore', category: 'Educational Infrastructure', image: '/image-watermarked/blog/orchids_coimbatore.webp', date: 'August 27, 2026' },
+  { id: 'blog/mms-drilling-concreting-alignment-kudligi-solar-project', title: 'Kudligi Solar MMS Drilling & Concreting', category: 'Renewable Energy', image: '/image-watermarked/blog/piling/drilling.png', date: 'August 15, 2026' },
+  { id: 'blog/itc-foundation-works-kudligi-solar-project', title: 'Kudligi Solar ITC Foundation Works', category: 'Renewable Energy', image: '/image-watermarked/blog/toravi-solar/toravi-solar-1.jpg', date: 'August 16, 2026' },
+  { id: 'blog/pile-testing-geotechnical-investigation-kudligi-solar-project', title: 'Kudligi Solar Pile Testing & Geotechnical', category: 'Renewable Energy', image: '/image-watermarked/blog/blog-karnataka.png', date: 'August 17, 2026' },
+  { id: 'blog/waaree-solar-infrastructure-poovani-maniyachi-thoothukudi', title: 'Waaree Solar Infrastructure Poovani & Maniyachi', category: 'Renewable Energy', image: '/images-watermarked/waaree/image-1788602564228.jpg', date: 'August 18, 2026' },
+  { id: 'blog/154mwp-solar-pv-project-puthiyamputhur', title: '154 MWp Solar PV Project Puthiyamputhur', category: 'Renewable Energy', image: '/image-watermarked/blog/blog-tuticorin.png', date: 'August 19, 2026' },
+  { id: 'blog/blue-star-rcc-road-construction', title: 'RCC Road Construction Blue Star UCH', category: 'Industrial Infrastructure', image: '/image-watermarked/blog/blue-star.png', date: 'August 12, 2026' },
+  { id: 'blog/reliance-civil-interior-works-pallikaranai-chennai', title: 'Reliance Civil & Interior Works Pallikaranai', category: 'Corporate Infrastructure', image: '/image-watermarked/blog/blog-reliance.png', date: 'August 10, 2026' },
+  { id: 'blog/srm-green-pearl-research-block-andhra-pradesh', title: 'SRM Green Pearl Research Block AP', category: 'Institutional Infrastructure', image: '/image-watermarked/blog/srm_green_pearl.webp', date: 'August 11, 2026' },
+  { id: 'blog/srm-external-development-works-kattankulathur', title: 'SRM External Development Works Kattankulathur', category: 'Institutional Infrastructure', image: '/image-watermarked/blog/srm_green_pearl.webp', date: 'December 31, 2025' },
+  { id: 'blog/orchids-international-school-manapakkam-chennai', title: 'Orchids International School Manapakkam', category: 'Educational Infrastructure', image: '/image-watermarked/blog/orchid_manapakkam.webp', date: 'August 22, 2026' },
+  { id: 'blog/orchids-international-school-baynes-pallikaranai', title: 'Orchids International School Baynes', category: 'Educational Infrastructure', image: '/image-watermarked/blog/orchid_pallikaranai.webp', date: 'August 20, 2026' },
+  { id: 'blog/mgr-adarsh-school-renovation-structural-repair-mogappair', title: 'MGR Adarsh School Structural Repair', category: 'Institutional Infrastructure', image: '/image-watermarked/project-item/punjab2.jpg', date: 'August 15, 2026' },
+  { id: 'blog/cost-of-corrosion-india-construction', title: 'Corrosion Costs India ₹14.15 Lakh Crore a Year', category: 'Infrastructure & Durability', image: '/image-watermarked/blog/corrosion-costs-india-hero.jpg', date: 'September 18, 2026' },
+  { id: 'blog/icr-civil-foundation-solar-project-toravi-karnataka', title: 'ICR Civil Foundations Toravi Solar Project', category: 'Solar / Renewable Energy', image: '/image-watermarked/blog/toravi-solar/toravi-solar-1.jpg', date: 'June 30, 2026' },
+  { id: 'blog/onam-celebration-at-our-office', title: 'Onam Celebration at Our Office', category: 'Corporate & Culture', image: '/image-watermarked/blog/onam-celebration-at-our-office.jpg', date: 'August 28, 2026' },
+  { id: 'blog/official-boat-apprenticeship-partnership-civil-engineering', title: 'BOAT Apprenticeship Partner', category: 'Partnerships', image: '/image-watermarked/blog/blog-boat-partnership.png', date: 'July 3, 2026' },
+  { id: 'blog/aaraa-infrastructure-180mwp-leap-green-project-thoothukudi', title: '180 MWp Leap Green Solar Project Thoothukudi', category: 'Solar / Renewable Energy', image: '/images-watermarked/waaree/image-1788602564228.jpg', date: 'June 20, 2026' },
+  { id: 'blog/ramky-industrial-construction-dobbaspet-karnataka', title: 'RAMKY Industrial Facility Dobbaspet', category: 'Industrial Construction', image: '/image-watermarked/blog/ramky-industrial-construction-dobbaspet-karnataka.jpg', date: 'September 1, 2026' },
+  { id: 'blog/solar-infrastructure-project-hulikunte-karnataka', title: 'Solar Infrastructure Project Hulikunte', category: 'Renewable Energy', image: '/image-watermarked/blog/solar-infrastructure-project-hulikunte-karnataka.jpg', date: 'August 15, 2026' },
+  { id: 'blog/aaraa-infrastructure-strengthens-industry-academia-collaboration-through-mou', title: 'Industry-Academia MoU Collaboration', category: 'Corporate & Growth', image: '/image-watermarked/blog/aaraa-infrastructure-strengthens-industry-academia-collaboration-through-mou.jpg', date: 'August 10, 2026' },
+  { id: 'blog/400-mld-swro-desalination-project-perur-chennai', title: '400 MLD SWRO Desalination Plant Perur', category: 'Water Infrastructure', image: '/image-watermarked/blog/perur-desalination/perur-desalination-1.jpg', date: 'October 22, 2025' },
+  { id: 'blog/km-palace-marriage-hall-kundrathur-chennai', title: 'KM Palace Marriage Hall Kundrathur', category: 'Commercial Infrastructure', image: '/images-watermarked/km-palace/km-palace-1.webp', date: 'September 15, 2025' },
+  { id: 'blog/work-shed-construction-gummidipoondi-chennai', title: 'Work Shed Construction Meganath Alloys', category: 'Industrial Construction', image: '/image-watermarked/project-item/shed3.jpg', date: 'November 15, 2025' }
 ];
 
 export default function BlogPostDetail({ page }) {
@@ -208,7 +222,7 @@ export default function BlogPostDetail({ page }) {
     "@type": "BlogPosting",
     "headline": page.title,
     "description": page.subtitle || `${page.title} - Comprehensive project execution details by AARAA Infrastructure.`,
-    "image": page.heroImage ? `https://www.aaraainfrastructure.com${page.heroImage}` : "https://www.aaraainfrastructure.com/image/project-item/project-item-12.jpg",
+    "image": page.heroImage ? `https://www.aaraainfrastructure.com${page.heroImage}` : "https://www.aaraainfrastructure.com/image-watermarked/project-item/project-item-12.jpg",
     "datePublished": page.date || "2026-01-01",
     "author": {
       "@type": "Organization",
@@ -499,7 +513,7 @@ export default function BlogPostDetail({ page }) {
               <div className="blog-quote-cite">
                 <div className="blog-quote-avatar" style={{ overflow: 'hidden', padding: 0 }}>
                   {page.quoteCite && (page.quoteCite.toLowerCase().includes('shanmugam') || page.quoteCite.toLowerCase().includes('operations head')) ? (
-                    <img src="/image/team/shanmugam.png" alt="Shanmugam - Operations Head" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    <img src="/image-watermarked/team/shanmugam.png" alt="Shanmugam - Operations Head" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   ) : (
                     page.quoteCite ? page.quoteCite.charAt(0) : 'S'
                   )}

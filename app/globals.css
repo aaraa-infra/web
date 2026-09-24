@@ -79,3 +79,42 @@ body{padding-bottom:var(--aaraa-brand-bar-h)}
 #ai-floating-cta{
   bottom:calc(var(--fab-pad, 18px) + var(--aaraa-brand-bar-h)) !important;
 }
+
+/* Accessible Screen Reader Only Utility */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+
+/* ================================
+   PREMIUM GALLERY CARD SHADOW & HOVER ELEVATION
+================================ */
+.project-item.style-5,
+.project-item {
+  border-radius: 14px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08), 0 1px 4px rgba(0, 0, 0, 0.04) !important;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  background-color: #ffffff !important;
+}
+
+.project-item.style-5:hover,
+.project-item:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.14), 0 3px 8px rgba(0, 0, 0, 0.06) !important;
+}
+
+.project-item.style-5 .image,
+.project-item .image {
+  border-top-left-radius: 14px !important;
+  border-top-right-radius: 14px !important;
+  overflow: hidden !important;
+}

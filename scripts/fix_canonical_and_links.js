@@ -93,7 +93,7 @@ htmlFiles.forEach(file => {
 
   // 3. Fix Image Paths
   const imgReplacements = [
-    { from: /src=["']images\/whatsapp-icon\.svg["']/gi, to: 'src="/images/whatsapp-icon.svg"' },
+    { from: /src=["']images\/whatsapp-icon\.svg["']/gi, to: 'src="/images-watermarked/whatsapp-icon.svg"' },
     { from: /src=["']logo\.png["']/gi, to: 'src="/logo.png"' }
   ];
 

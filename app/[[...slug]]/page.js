@@ -16,6 +16,12 @@ const JUNK_FILES = new Set([
 ]);
 
 const REDIRECTS_MAP = {
+  'KRC-Project': '/blog/external-development-krc-project-chennai',
+  'blog/KRC-Project': '/blog/external-development-krc-project-chennai',
+
+  'RCC-Precast-Drain': '/blog/construction-rcc-precast-drain-285-meters-chennai',
+  'blog/RCC-Precast-Drain': '/blog/construction-rcc-precast-drain-285-meters-chennai',
+
   'blog-post-1': '/blog/gmit-students-practical-training-junior-site-engineers',
   'blog-post-2': '/blog/campus-recruitment-internship-program-gmit-davangere',
   'blog-post-3': '/blog/aaraa-infrastructure-180mwp-leap-green-project-thoothukudi',
@@ -24,7 +30,9 @@ const REDIRECTS_MAP = {
   'blog/reliance-civil-interior-mep-fitout': '/blog/reliance-civil-interior-mep-fitout-chennai',
   'reliance-civil-interior-mep-fitout': '/blog/reliance-civil-interior-mep-fitout-chennai',
   'blog-post-6': '/blog/institutional-development-vibgyor-group-hinjewadi',
-  'blog-post-7': '/blog/institutional-development-precast-works-srm-university-andhra-pradesh',
+  'blog-post-7': '/blog/srm-green-pearl-research-block-andhra-pradesh',
+  'institutional-development-precast-works-srm-university-andhra-pradesh': '/blog/srm-green-pearl-research-block-andhra-pradesh',
+  'blog/institutional-development-precast-works-srm-university-andhra-pradesh': '/blog/srm-green-pearl-research-block-andhra-pradesh',
   'blog-post-8': '/blog/engineering-site-construction-internship-training-programme',
   'blog-post-9': '/blog/official-boat-apprenticeship-partnership-civil-engineering',
   'boat-apprenticeship-partner': '/blog/official-boat-apprenticeship-partnership-civil-engineering',
@@ -58,6 +66,8 @@ const REDIRECTS_MAP = {
   'ongoingorchid-project': '/orchid-project',
   'contact': '/contact-us',
   'privacy-policy': '/aaraa-privacy-policy',
+  'copyright-policy': '/copyright-and-image-usage-policy',
+  'copyright-image-usage-policy': '/copyright-and-image-usage-policy',
   'about-us': '/about',
   'our-services': '/services',
   'careers': '/careers',
@@ -177,7 +187,7 @@ export async function generateMetadata({params}){
   }
 
   const pathName = slug.join('/');
-  let ogImage = '/image/project-item/project-item-12.jpg';
+  let ogImage = '/image-watermarked/project-item/project-item-12.jpg';
   
   if (p.sourcePath && isBlogPostPath(p.sourcePath)) {
     try {
@@ -211,9 +221,9 @@ export async function generateMetadata({params}){
     icons: {
       icon: [
         { url: '/favicon.ico' },
-        { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-        { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-        { url: '/image/logo/favicon.png', type: 'image/png' },
+        { url: '/favicon-32x32.png', sizes: '32x32', type: 'image-watermarked/png' },
+        { url: '/favicon-16x16.png', sizes: '16x16', type: 'image-watermarked/png' },
+        { url: '/image/logo/favicon.png', type: 'image-watermarked/png' },
       ],
       shortcut: '/image/logo/favicon.png',
       apple: '/apple-touch-icon.png',
