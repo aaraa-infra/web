@@ -217,6 +217,7 @@ export async function generateMetadata({params}){
 
   const fullOgImage = ogImage.startsWith('http') ? ogImage : `https://www.aaraainfrastructure.com${ogImage.startsWith('/') ? '' : '/'}${ogImage}`;
 
+  const isLocationPage = pathName.startsWith('location/') || (p.sourcePath && p.sourcePath.startsWith('location/'));
   const isHomepage = slug.length === 0 || p.sourcePath === 'index.html' || cleanPath === '';
   const pageTitle = isHomepage ? getHomepageSeoTitle() : p.title;
 
@@ -224,7 +225,7 @@ export async function generateMetadata({params}){
     title: { absolute: pageTitle },
     description: p.description || undefined,
     alternates: { canonical: canonicalUrl },
-    robots: { index: true, follow: true },
+    robots: isLocationPage ? { index: false, follow: true } : { index: true, follow: true },
     icons: {
       icon: [
         { url: '/favicon.ico' },
