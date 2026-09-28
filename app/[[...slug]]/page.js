@@ -5,6 +5,7 @@ import LegacyDocument from '@/components/LegacyDocument';
 import BlogPostDetail from '@/components/BlogPostDetail';
 import {loadLegacyPage} from '@/lib/legacy-page';
 import {parseBlogPost} from '@/lib/blog-parser';
+import {getHomepageSeoTitle} from '@/lib/company-info';
 
 const JUNK_FILES = new Set([
   'gpt.html',
@@ -156,7 +157,10 @@ export async function generateStaticParams() {
         
         let clean = rel.replace(/\.html$/, '');
         if (clean.endsWith('/index')) clean = clean.replace(/\/index$/, '');
-        if (clean === 'index') continue; // Root homepage is handled by Next.js app/page or index
+        if (clean === 'index') {
+          params.push({ slug: [] });
+          continue;
+        }
 
         params.push({ slug: clean.split('/') });
       }
@@ -213,8 +217,11 @@ export async function generateMetadata({params}){
 
   const fullOgImage = ogImage.startsWith('http') ? ogImage : `https://www.aaraainfrastructure.com${ogImage.startsWith('/') ? '' : '/'}${ogImage}`;
 
+  const isHomepage = slug.length === 0 || p.sourcePath === 'index.html' || cleanPath === '';
+  const pageTitle = isHomepage ? getHomepageSeoTitle() : p.title;
+
   return {
-    title: { absolute: p.title },
+    title: { absolute: pageTitle },
     description: p.description || undefined,
     alternates: { canonical: canonicalUrl },
     robots: { index: true, follow: true },
@@ -229,7 +236,7 @@ export async function generateMetadata({params}){
       apple: '/apple-touch-icon.png',
     },
     openGraph: {
-      title: p.title,
+      title: pageTitle,
       description: p.description || undefined,
       url: canonicalUrl,
       siteName: 'AARAA Infrastructure',
@@ -238,14 +245,14 @@ export async function generateMetadata({params}){
           url: fullOgImage,
           width: 1200,
           height: 630,
-          alt: p.title,
+          alt: pageTitle,
         }
       ],
-      type: 'article',
+      type: isHomepage ? 'website' : 'article',
     },
     twitter: {
       card: 'summary_large_image',
-      title: p.title,
+      title: pageTitle,
       description: p.description || undefined,
       images: [fullOgImage],
     }
