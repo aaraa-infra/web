@@ -619,12 +619,23 @@ export default function BlogPostDetail({ page }) {
               </ul>
             </div>
             <div>
-              <h5 style={{ fontSize: '14px', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '20px' }}>Office</h5>
-              <p style={{ opacity: 0.7, fontSize: '14px', lineHeight: '1.6', maxWidth: '240px' }}>
-                Lotus Tower, Guindy,<br />
-                Chennai, Tamil Nadu 600032<br />
-                India
-              </p>
+              <h5 style={{ fontSize: '16px', fontWeight: 'bold', marginBottom: '16px' }}>Address &amp; Presence</h5>
+              <div style={{ opacity: 0.85, fontSize: '13px', lineHeight: '1.6', display: 'flex', flexDirection: 'column', gap: '12px', maxWidth: '320px' }}>
+                <div>
+                  <span style={{ color: '#ea2a31', marginRight: '6px' }}>📍</span><strong>Corporate Office:</strong><br />
+                  #85, 4th Floor, Lotus Tower Anna Salai, Guindy, Chennai – 600032 India.
+                </div>
+                <div>
+                  <span style={{ color: '#ea2a31', marginRight: '6px' }}>📍</span><strong>Branch Office:</strong><br />
+                  WeWork, Oberoi Commerz II, Mumbai 400 063.
+                </div>
+                <div>
+                  <span style={{ color: '#ea2a31', marginRight: '6px' }}>📞</span><strong>Call Us:</strong> <a href="tel:+918681003111" style={{ color: '#fff', textDecoration: 'none' }}>+91 868 100 3111</a>
+                </div>
+                <div>
+                  <span style={{ color: '#ea2a31', marginRight: '6px' }}>📍</span><strong>Mail:</strong> <a href="mailto:info@aaraainfrastructure.com" style={{ color: '#fff', textDecoration: 'none' }}>info@aaraainfrastructure.com</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
