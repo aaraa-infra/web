@@ -84,6 +84,26 @@ export default function BlogPostDetail({ page }) {
   const proseRef = useRef(null);
   const relatedScrollRef = useRef(null);
   const galleryScrollRef = useRef(null);
+  const thumbRefs = useRef([]);
+  const thumbnailsContainerRef = useRef(null);
+
+  // Auto-scroll active thumbnail into view when activeSlide changes
+  useEffect(() => {
+    if (thumbRefs.current[activeSlide]) {
+      thumbRefs.current[activeSlide].scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest',
+        inline: 'center'
+      });
+    }
+  }, [activeSlide]);
+
+  const scrollThumbnailsRow = (direction) => {
+    if (thumbnailsContainerRef.current) {
+      const scrollAmount = direction === 'left' ? -260 : 260;
+      thumbnailsContainerRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+  };
 
   const nextSlide = (e) => {
     if (e) e.stopPropagation();
@@ -356,8 +376,8 @@ export default function BlogPostDetail({ page }) {
 
         {/* Main Column */}
         <main className="blog-main-column">
-          {/* Standalone Video Card (if not part of gallery) */}
-          {page.videoSrc && (!page.galleryImages || !page.galleryImages.some(img => img.src === page.videoSrc)) && (
+          {/* Standalone Video Card (only if video is present and NOT already inside galleryImages) */}
+          {page.videoSrc && (!page.galleryImages || !page.galleryImages.some(img => img.src === page.videoSrc || (img.src && (img.src.includes('youtube.com') || img.src.includes('youtu.be'))))) && (
             <div 
               className="blog-video-card blog-reveal" 
               style={page.videoSrc.includes('.mp4') ? { maxWidth: '400px', margin: '0 auto 64px', aspectRatio: '9/16' } : {}}
@@ -374,7 +394,7 @@ export default function BlogPostDetail({ page }) {
                 </video>
               ) : (
                 <iframe
-                  src={page.videoSrc}
+                  src={page.videoSrc.includes('youtu.be/') ? `https://www.youtube.com/embed/${page.videoSrc.split('youtu.be/')[1]?.split('?')[0]}` : page.videoSrc}
                   title="Featured Video"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -394,11 +414,30 @@ export default function BlogPostDetail({ page }) {
 
               {(() => {
                 const currentItem = page.galleryImages[activeSlide] || page.galleryImages[0];
-                const isVideo = currentItem.type === 'video' || currentItem.src.endsWith('.mp4') || currentItem.src.endsWith('.webm');
+                const isVideo = currentItem.type === 'video' || (currentItem.src && (currentItem.src.includes('youtube.com') || currentItem.src.includes('youtu.be') || currentItem.src.endsWith('.mp4') || currentItem.src.endsWith('.webm')));
+                
+                let youtubeEmbedUrl = null;
+                if (isVideo && currentItem.src) {
+                  if (currentItem.src.includes('youtube.com/embed/')) {
+                    youtubeEmbedUrl = currentItem.src;
+                  } else if (currentItem.src.includes('youtu.be/')) {
+                    const id = currentItem.src.split('youtu.be/')[1]?.split('?')[0];
+                    youtubeEmbedUrl = `https://www.youtube.com/embed/${id}`;
+                  } else if (currentItem.src.includes('bSeik4_Nzg0')) {
+                    youtubeEmbedUrl = 'https://www.youtube.com/embed/bSeik4_Nzg0';
+                  } else if (currentItem.src.includes('_Z5XqdVVHJw')) {
+                    youtubeEmbedUrl = 'https://www.youtube.com/embed/_Z5XqdVVHJw';
+                  }
+                }
+
                 return (
                   <div>
                     {/* Featured Image / Video Display Box */}
-                    <div className="blog-featured-img-wrap" onClick={() => openLightbox(activeSlide)}>
+                    <div 
+                      className="blog-featured-img-wrap" 
+                      style={isVideo ? { cursor: 'default' } : {}}
+                      onClick={() => { if (!isVideo) openLightbox(activeSlide); }}
+                    >
                       {/* Navigation Overlay Arrow Buttons */}
                       {page.galleryImages.length > 1 && (
                         <button 
@@ -407,6 +446,7 @@ export default function BlogPostDetail({ page }) {
                           onClick={prevSlide}
                           aria-label="Previous slide"
                           title="Previous"
+                          style={{ zIndex: 30 }}
                         >
                           ‹
                         </button>
@@ -414,13 +454,24 @@ export default function BlogPostDetail({ page }) {
 
                       {isVideo ? (
                         <div style={{ position: 'relative', width: '100%', height: '100%', background: '#000' }}>
-                          <video 
-                            src={`${currentItem.src}#t=0.1`} 
-                            poster={page.heroImage} 
-                            controls 
-                            preload="metadata" 
-                            style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
-                          />
+                          {youtubeEmbedUrl ? (
+                            <iframe 
+                              src={`${youtubeEmbedUrl}${youtubeEmbedUrl.includes('?') ? '&' : '?'}autoplay=1`} 
+                              title={currentItem.heading || "KM Palace Project Walkthrough Video"} 
+                              className="w-full h-full"
+                              style={{ width: '100%', height: '100%', border: 'none' }}
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              allowFullScreen 
+                            />
+                          ) : (
+                            <video 
+                              src={currentItem.src} 
+                              poster={currentItem.poster || page.heroImage} 
+                              controls 
+                              autoPlay 
+                              style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
+                            />
+                          )}
                         </div>
                       ) : (
                         <img src={currentItem.src} alt={currentItem.heading || currentItem.alt} />
@@ -433,6 +484,7 @@ export default function BlogPostDetail({ page }) {
                           onClick={nextSlide}
                           aria-label="Next slide"
                           title="Next"
+                          style={{ zIndex: 30 }}
                         >
                           ›
                         </button>
@@ -441,24 +493,139 @@ export default function BlogPostDetail({ page }) {
 
                     {/* Active Image Title and Description Card */}
                     <div className="blog-featured-caption-card">
-                      <h4 className="blog-featured-caption-title">{currentItem.heading || 'Project Construction'}</h4>
+                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px', gap: '12px' }}>
+                        <span style={{
+                          fontSize: '11px',
+                          fontWeight: '700',
+                          textTransform: 'uppercase',
+                          letterSpacing: '0.08em',
+                          padding: '4px 10px',
+                          borderRadius: '20px',
+                          background: isVideo ? 'var(--color-primary)' : 'rgba(0, 0, 0, 0.06)',
+                          color: isVideo ? '#ffffff' : 'var(--color-dark)'
+                        }}>
+                          {isVideo ? '🎥 Project Construction Video' : `Item ${activeSlide + 1} of ${page.galleryImages.length}`}
+                        </span>
+                        <span style={{ fontSize: '12px', color: '#64748b', fontFamily: 'monospace', fontWeight: 600 }}>
+                          {activeSlide + 1} / {page.galleryImages.length}
+                        </span>
+                      </div>
+                      <h4 className="blog-featured-caption-title">{currentItem.heading || currentItem.alt}</h4>
                       <p className="blog-featured-caption-desc">{currentItem.description || currentItem.alt}</p>
                     </div>
 
-                    {/* Interactive Thumbnail Selector Strip */}
+                    {/* Interactive Thumbnail Selector Strip with Nav Controls */}
                     {page.galleryImages.length > 1 && (
-                      <div className="blog-featured-thumbnails-row">
-                        {page.galleryImages.map((thumb, idx) => (
-                          <button
-                            key={idx}
-                            type="button"
-                            className={`blog-featured-thumb-btn ${idx === activeSlide ? 'active' : ''}`}
-                            onClick={() => setActiveSlide(idx)}
-                            aria-label={`View slide ${idx + 1}`}
-                          >
-                            <img src={thumb.src} alt={thumb.heading || thumb.alt} />
-                          </button>
-                        ))}
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '14px' }}>
+                        <button
+                          type="button"
+                          onClick={() => scrollThumbnailsRow('left')}
+                          aria-label="Previous thumbnails"
+                          title="Previous Thumbnails"
+                          style={{
+                            flex: '0 0 34px',
+                            height: '34px',
+                            borderRadius: '50%',
+                            background: '#ffffff',
+                            border: '1px solid var(--color-border)',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            cursor: 'pointer',
+                            boxShadow: '0 2px 6px rgba(0,0,0,0.06)',
+                            fontWeight: 'bold',
+                            fontSize: '14px',
+                            color: 'var(--color-dark)'
+                          }}
+                        >
+                          ←
+                        </button>
+
+                        <div 
+                          ref={thumbnailsContainerRef}
+                          className="blog-featured-thumbnails-row"
+                          style={{ flex: 1, margin: 0, padding: '6px 2px', justifyContent: 'flex-start' }}
+                        >
+                          {page.galleryImages.map((thumb, idx) => {
+                            const isThumbVideo = thumb.type === 'video' || (thumb.src && (thumb.src.includes('youtube.com') || thumb.src.includes('youtu.be') || thumb.src.endsWith('.mp4')));
+                            
+                            let thumbImgSrc = thumb.src;
+                            if (isThumbVideo) {
+                              if (thumb.poster) {
+                                thumbImgSrc = thumb.poster;
+                              } else if (thumb.src.includes('bSeik4_Nzg0')) {
+                                thumbImgSrc = 'https://img.youtube.com/vi/bSeik4_Nzg0/hqdefault.jpg';
+                              } else if (thumb.src.includes('_Z5XqdVVHJw')) {
+                                thumbImgSrc = 'https://img.youtube.com/vi/_Z5XqdVVHJw/hqdefault.jpg';
+                              } else if (!thumb.src.endsWith('.mp4')) {
+                                thumbImgSrc = '/image/blog/km-palace/15-completed-km-palace-facade.webp';
+                              }
+                            }
+
+                            return (
+                              <button
+                                key={idx}
+                                ref={(el) => (thumbRefs.current[idx] = el)}
+                                type="button"
+                                className={`blog-featured-thumb-btn ${idx === activeSlide ? 'active' : ''}`}
+                                onClick={() => setActiveSlide(idx)}
+                                aria-label={`View slide ${idx + 1}: ${thumb.heading || thumb.alt}`}
+                                style={{ position: 'relative' }}
+                              >
+                                <img src={thumbImgSrc} alt={thumb.heading || thumb.alt} />
+                                {isThumbVideo && (
+                                  <div style={{
+                                    position: 'absolute',
+                                    inset: 0,
+                                    background: 'rgba(0,0,0,0.45)',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                  }}>
+                                    <div style={{
+                                      width: '22px',
+                                      height: '22px',
+                                      borderRadius: '50%',
+                                      background: 'var(--color-primary)',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      justifyContent: 'center',
+                                      boxShadow: '0 2px 6px rgba(0,0,0,0.4)'
+                                    }}>
+                                      <svg width="9" height="9" viewBox="0 0 24 24" fill="#ffffff">
+                                        <polygon points="5 3 19 12 5 21 5 3"/>
+                                      </svg>
+                                    </div>
+                                  </div>
+                                )}
+                              </button>
+                            );
+                          })}
+                        </div>
+
+                        <button
+                          type="button"
+                          onClick={() => scrollThumbnailsRow('right')}
+                          aria-label="Next thumbnails"
+                          title="Next Thumbnails"
+                          style={{
+                            flex: '0 0 34px',
+                            height: '34px',
+                            borderRadius: '50%',
+                            background: '#ffffff',
+                            border: '1px solid var(--color-border)',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            cursor: 'pointer',
+                            boxShadow: '0 2px 6px rgba(0,0,0,0.06)',
+                            fontWeight: 'bold',
+                            fontSize: '14px',
+                            color: 'var(--color-dark)'
+                          }}
+                        >
+                          →
+                        </button>
                       </div>
                     )}
                   </div>
@@ -657,22 +824,54 @@ export default function BlogPostDetail({ page }) {
           )}
 
           <div className="blog-lightbox-content" onClick={(e) => e.stopPropagation()}>
-            {page.galleryImages[lightboxIndex].type === 'video' || page.galleryImages[lightboxIndex].src.endsWith('.mp4') || page.galleryImages[lightboxIndex].src.endsWith('.webm') ? (
-              <video 
-                src={page.galleryImages[lightboxIndex].src} 
-                controls 
-                autoPlay 
-                playsInline
-                className="blog-lightbox-img" 
-                style={{ width: '100%', maxWidth: '800px', maxHeight: '75vh', borderRadius: '12px', background: '#000' }}
-              />
-            ) : (
-              <img 
-                src={page.galleryImages[lightboxIndex].src} 
-                className="blog-lightbox-img" 
-                alt={page.galleryImages[lightboxIndex].alt} 
-              />
-            )}
+            {(() => {
+              const currentLboxItem = page.galleryImages[lightboxIndex];
+              const isLboxVideo = currentLboxItem.type === 'video' || (currentLboxItem.src && (currentLboxItem.src.includes('youtube.com') || currentLboxItem.src.includes('youtu.be') || currentLboxItem.src.endsWith('.mp4') || currentLboxItem.src.endsWith('.webm')));
+              
+              if (isLboxVideo) {
+                let ytUrl = null;
+                if (currentLboxItem.src.includes('youtube.com/embed/')) {
+                  ytUrl = currentLboxItem.src;
+                } else if (currentLboxItem.src.includes('youtu.be/')) {
+                  const id = currentLboxItem.src.split('youtu.be/')[1]?.split('?')[0];
+                  ytUrl = `https://www.youtube.com/embed/${id}`;
+                } else if (currentLboxItem.src.includes('bSeik4_Nzg0')) {
+                  ytUrl = 'https://www.youtube.com/embed/bSeik4_Nzg0';
+                } else if (currentLboxItem.src.includes('_Z5XqdVVHJw')) {
+                  ytUrl = 'https://www.youtube.com/embed/_Z5XqdVVHJw';
+                }
+
+                if (ytUrl) {
+                  return (
+                    <iframe
+                      src={`${ytUrl}${ytUrl.includes('?') ? '&' : '?'}autoplay=1`}
+                      title={currentLboxItem.heading || "Video View"}
+                      style={{ width: '100%', maxWidth: '900px', height: '500px', borderRadius: '12px', border: 'none', background: '#000' }}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  );
+                }
+                return (
+                  <video 
+                    src={currentLboxItem.src} 
+                    controls 
+                    autoPlay 
+                    playsInline
+                    className="blog-lightbox-img" 
+                    style={{ width: '100%', maxWidth: '800px', maxHeight: '75vh', borderRadius: '12px', background: '#000' }}
+                  />
+                );
+              }
+
+              return (
+                <img 
+                  src={currentLboxItem.src} 
+                  className="blog-lightbox-img" 
+                  alt={currentLboxItem.alt} 
+                />
+              );
+            })()}
             <div className="blog-lightbox-caption-wrap" style={{ flexDirection: 'column', gap: '4px', maxWidth: '640px', textAlign: 'center', borderRadius: '16px', padding: '12px 24px' }}>
               <div style={{ fontSize: '15px', fontWeight: 700, color: '#ffffff' }}>
                 {page.galleryImages[lightboxIndex].heading || page.galleryImages[lightboxIndex].alt}
