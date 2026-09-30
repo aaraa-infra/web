@@ -418,15 +418,11 @@ export default function BlogPostDetail({ page }) {
                 
                 let youtubeEmbedUrl = null;
                 if (isVideo && currentItem.src) {
-                  if (currentItem.src.includes('youtube.com/embed/')) {
+                  const ytMatch = currentItem.src.match(/(?:embed\/|v\/|watch\?v=|youtu\.be\/|shorts\/)([a-zA-Z0-9_-]{11})/);
+                  if (ytMatch) {
+                    youtubeEmbedUrl = `https://www.youtube.com/embed/${ytMatch[1]}`;
+                  } else if (currentItem.src.includes('youtube.com/embed/')) {
                     youtubeEmbedUrl = currentItem.src;
-                  } else if (currentItem.src.includes('youtu.be/')) {
-                    const id = currentItem.src.split('youtu.be/')[1]?.split('?')[0];
-                    youtubeEmbedUrl = `https://www.youtube.com/embed/${id}`;
-                  } else if (currentItem.src.includes('bSeik4_Nzg0')) {
-                    youtubeEmbedUrl = 'https://www.youtube.com/embed/bSeik4_Nzg0';
-                  } else if (currentItem.src.includes('_Z5XqdVVHJw')) {
-                    youtubeEmbedUrl = 'https://www.youtube.com/embed/_Z5XqdVVHJw';
                   }
                 }
 
@@ -551,12 +547,11 @@ export default function BlogPostDetail({ page }) {
                             
                             let thumbImgSrc = thumb.src;
                             if (isThumbVideo) {
+                              const ytMatch = thumb.src ? thumb.src.match(/(?:embed\/|v\/|watch\?v=|youtu\.be\/|shorts\/)([a-zA-Z0-9_-]{11})/) : null;
                               if (thumb.poster) {
                                 thumbImgSrc = thumb.poster;
-                              } else if (thumb.src.includes('bSeik4_Nzg0')) {
-                                thumbImgSrc = 'https://img.youtube.com/vi/bSeik4_Nzg0/hqdefault.jpg';
-                              } else if (thumb.src.includes('_Z5XqdVVHJw')) {
-                                thumbImgSrc = 'https://img.youtube.com/vi/_Z5XqdVVHJw/hqdefault.jpg';
+                              } else if (ytMatch) {
+                                thumbImgSrc = `https://img.youtube.com/vi/${ytMatch[1]}/hqdefault.jpg`;
                               } else if (!thumb.src.endsWith('.mp4')) {
                                 thumbImgSrc = '/image/blog/km-palace/15-completed-km-palace-facade.webp';
                               }
