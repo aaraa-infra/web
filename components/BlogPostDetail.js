@@ -71,7 +71,7 @@ const RELATED_POSTS = [
   { id: 'blog/solar-infrastructure-project-hulikunte-karnataka', title: 'Solar Infrastructure Project Hulikunte', category: 'Renewable Energy', image: '/image-watermarked/blog/solar-infrastructure-project-hulikunte-karnataka.jpg', date: 'August 15, 2026' },
   { id: 'blog/aaraa-infrastructure-strengthens-industry-academia-collaboration-through-mou', title: 'Industry-Academia MoU Collaboration', category: 'Corporate & Growth', image: '/image-watermarked/blog/aaraa-infrastructure-strengthens-industry-academia-collaboration-through-mou.jpg', date: 'August 10, 2026' },
   { id: 'blog/400-mld-swro-desalination-project-perur-chennai', title: '400 MLD SWRO Desalination Plant Perur', category: 'Water Infrastructure', image: '/image-watermarked/blog/perur-desalination/perur-desalination-1.jpg', date: 'October 22, 2025' },
-  { id: 'blog/km-palace-marriage-hall-kundrathur-chennai', title: 'KM Palace Marriage Hall Kundrathur', category: 'Commercial Infrastructure', image: '/image/blog/km-palace/15-completed-km-palace-facade.webp', date: 'September 15, 2025' },
+  { id: 'blog/km-palace-marriage-hall-kundrathur-chennai', title: 'KM Palace Marriage Hall Kundrathur', category: 'Commercial Infrastructure', image: '/image/blog/km-palace/km-palace-1.webp', date: 'September 15, 2025' },
   { id: 'blog/work-shed-construction-gummidipoondi-chennai', title: 'Work Shed Construction Meganath Alloys', category: 'Industrial Construction', image: '/image-watermarked/project-item/shed3.jpg', date: 'November 15, 2025' }
 ];
 
@@ -553,7 +553,7 @@ export default function BlogPostDetail({ page }) {
                               } else if (ytMatch) {
                                 thumbImgSrc = `https://img.youtube.com/vi/${ytMatch[1]}/hqdefault.jpg`;
                               } else if (!thumb.src.endsWith('.mp4')) {
-                                thumbImgSrc = '/image/blog/km-palace/15-completed-km-palace-facade.webp';
+                                thumbImgSrc = '/image/blog/km-palace/km-palace-1.webp';
                               }
                             }
 
