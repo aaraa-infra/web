@@ -3252,7 +3252,8 @@ a:hover, a:focus {
 
 /*------------ footer ---------------- */
 .footer {
-  background-image: url("../image/section/bg-footer.jpg");
+  background-image: none;
+  background-color: #0b132b;
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
