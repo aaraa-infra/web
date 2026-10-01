@@ -46,10 +46,10 @@ const Icons = {
 
 // Hardcoded premium related stories data
 const RELATED_POSTS = [
-  { id: 'blog/orchids-international-school-pulianthope-chennai', title: 'Orchids International School Pulianthope', category: 'Educational Infrastructure', image: '/image/blog/orchids_pulianthope.webp', date: 'August 24, 2026' },
-  { id: 'blog/orchids-international-school-vandalur-chennai', title: 'Orchids International School Vandalur', category: 'Educational Infrastructure', image: '/image/blog/orchids_vandalur.webp', date: 'August 25, 2026' },
-  { id: 'blog/orchids-international-school-oragadam-chennai', title: 'Orchids International School Oragadam', category: 'Educational Infrastructure', image: '/image/blog/orchid_oragadam.webp', date: 'August 26, 2026' },
-  { id: 'blog/orchids-international-school-coimbatore', title: 'Orchids International School Coimbatore', category: 'Educational Infrastructure', image: '/image/blog/orchids_coimbatore.webp', date: 'August 27, 2026' },
+  { id: 'blog/orchids-international-school-pulianthope-chennai', title: 'Orchids International School Pulianthope', category: 'Educational Infrastructure', image: '/image/thumb/Pulianthope.png', date: 'August 24, 2026' },
+  { id: 'blog/orchids-international-school-vandalur-chennai', title: 'Orchids International School Vandalur', category: 'Educational Infrastructure', image: '/image/thumb/vandlur.png', date: 'August 25, 2026' },
+  { id: 'blog/orchids-international-school-oragadam-chennai', title: 'Orchids International School Oragadam', category: 'Educational Infrastructure', image: '/image/thumb/orgadam.png', date: 'August 26, 2026' },
+  { id: 'blog/orchids-international-school-coimbatore', title: 'Orchids International School Coimbatore', category: 'Educational Infrastructure', image: '/image/thumb/coimbatore.png', date: 'August 27, 2026' },
   { id: 'blog/mms-drilling-concreting-alignment-kudligi-solar-project', title: 'Kudligi Solar MMS Drilling & Concreting', category: 'Renewable Energy', image: '/image/blog/piling/drilling.png', date: 'August 15, 2026' },
   { id: 'blog/itc-foundation-works-kudligi-solar-project', title: 'Kudligi Solar ITC Foundation Works', category: 'Renewable Energy', image: '/image/blog/itc-foundation-works-kudligi-solar-project/20-completed-kudligi-77mw-solar-project.webp', date: 'August 16, 2026' },
   { id: 'blog/pile-testing-geotechnical-investigation-kudligi-solar-project', title: 'Kudligi Solar Pile Testing & Geotechnical', category: 'Renewable Energy', image: '/image/blog/blog-karnataka.png', date: 'August 17, 2026' },
