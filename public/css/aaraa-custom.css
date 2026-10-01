@@ -1812,33 +1812,3 @@ section.blog-hero .overlay {
   }
 }
 
-
-/* ==========================================================================
-   GLOBAL GPS MAP CAMERA / SITE PHOTO BRANDING WATERMARK OVERLAY RULES
-   Enforces: Single centered AARAA logo, max-width 210px, zero duplicates
-   ========================================================================== */
-.aaraa-watermark-overlay,
-.gallery-watermark,
-.site-photo-watermark,
-.gps-watermark,
-.photo-overlay-logo {
-  position: absolute !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  max-width: 210px !important;
-  width: 210px !important;
-  height: auto !important;
-  pointer-events: none !important;
-  z-index: 10 !important;
-  opacity: 0.35 !important;
-}
-
-/* Remove bottom-right, secondary, or duplicate watermark overlays */
-.watermark-bottom-right,
-.watermark-corner,
-.duplicate-watermark,
-.logo-overlay-secondary,
-.secondary-watermark {
-  display: none !important;
-}
