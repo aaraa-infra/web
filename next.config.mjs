@@ -15,6 +15,9 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      { source: '/blog/image/:path*', destination: '/image/:path*', permanent: true },
+      { source: '/blog/mgr-adarsh-school-mogappair-chennai', destination: '/blog/mgr-adarsh-school-renovation-structural-repair-mogappair', permanent: true },
+      { source: '/mgr-adarsh-school-mogappair-chennai', destination: '/blog/mgr-adarsh-school-renovation-structural-repair-mogappair', permanent: true },
       { source: '/blog-post-1', destination: '/blog/gmit-students-practical-training-junior-site-engineers', permanent: true },
       { source: '/blog-post-2', destination: '/blog/campus-recruitment-internship-program-gmit-davangere', permanent: true },
       { source: '/blog-post-3', destination: '/blog/aaraa-infrastructure-180mwp-leap-green-project-thoothukudi', permanent: true },

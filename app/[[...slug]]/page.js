@@ -17,6 +17,9 @@ const JUNK_FILES = new Set([
 ]);
 
 const REDIRECTS_MAP = {
+  'mgr-adarsh-school-mogappair-chennai': '/blog/mgr-adarsh-school-renovation-structural-repair-mogappair',
+  'blog/mgr-adarsh-school-mogappair-chennai': '/blog/mgr-adarsh-school-renovation-structural-repair-mogappair',
+
   'KRC-Project': '/blog/external-development-krc-project-chennai',
   'blog/KRC-Project': '/blog/external-development-krc-project-chennai',
 
@@ -64,7 +67,8 @@ const REDIRECTS_MAP = {
   'Institutional-Development-VIBGYOR-Group-Hinjewadi-Pune': '/blog/institutional-development-vibgyor-group-hinjewadi',
   'institutional-development-vibgyor-group-hinjewadi': '/blog/institutional-development-vibgyor-group-hinjewadi',
   'projects-details': '/completed-projects',
-  'ongoingorchid-project': '/orchid-project',
+  'ongoingorchid-project': '/project-details-orchid',
+  'orchid-project': '/project-details-orchid',
   'contact': '/contact-us',
   'privacy-policy': '/aaraa-privacy-policy',
   'copyright-policy': '/copyright-and-image-usage-policy',
@@ -122,6 +126,8 @@ function isBlogPostPath(sourcePath = '') {
     norm.startsWith('blog-post-') ||
     norm.startsWith('potluck-celebration-') ||
     norm.startsWith('onam-celebration-') ||
+    norm.includes('project-details-orchid') ||
+    norm.includes('orchid-project') ||
     norm.includes('400-MLD-') ||
     norm.includes('400-mld-') ||
     norm.includes('140.6_MW_') ||
