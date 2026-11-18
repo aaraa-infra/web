@@ -46,6 +46,8 @@ const Icons = {
 
 // Hardcoded premium related stories data
 const RELATED_POSTS = [
+  { id: 'blog/snake-bite-emergency-mock-drill-hulikunta-solar-plant', title: 'Snake Bite Emergency Mock Drill at Solar Plant', category: 'Health, Safety & Environment (HSE)', image: '/image/blog/snake-bite-emergency-mock-drill/05-safety-officer-emergency-medical-team-activation.jpg', date: 'November 18, 2026' },
+  { id: 'blog/solar-infrastructure-project-hulikunte-karnataka', title: 'Solar Infrastructure Project Hulikunte', category: 'Renewable Energy', image: '/image/blog/solar-infrastructure-project-hulikunte-karnataka.jpg', date: 'September 2, 2026' },
   { id: 'blog/orchids-international-school-pulianthope-chennai', title: 'Orchids International School Pulianthope', category: 'Educational Infrastructure', image: '/image/thumb/Pulianthope.png', date: 'August 24, 2026' },
   { id: 'blog/orchids-international-school-vandalur-chennai', title: 'Orchids International School Vandalur', category: 'Educational Infrastructure', image: '/image/thumb/vandlur.png', date: 'August 25, 2026' },
   { id: 'blog/orchids-international-school-oragadam-chennai', title: 'Orchids International School Oragadam', category: 'Educational Infrastructure', image: '/image/thumb/orgadam.png', date: 'August 26, 2026' },
