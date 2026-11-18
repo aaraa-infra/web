@@ -1025,16 +1025,17 @@
   transform: translateY(-2px);
 }
 
-/* GSAP/Reveal-up Scroll Animations */
+/* Reveal-up Scroll Animations - Default visible to prevent blank screen */
 .blog-reveal {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 800ms cubic-bezier(0.16, 1, 0.3, 1), transform 800ms cubic-bezier(0.16, 1, 0.3, 1);
+  opacity: 1;
+  transform: none;
 }
 
-.blog-reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
+.blog-prose {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: none !important;
 }
 
 /* Lightbox overlay style */

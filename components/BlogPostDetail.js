@@ -665,7 +665,7 @@ export default function BlogPostDetail({ page }) {
           {/* Article Prose Content */}
           <article 
             ref={proseRef}
-            className="blog-prose blog-reveal"
+            className="blog-prose"
             dangerouslySetInnerHTML={{ __html: page.articleHtml }}
           />
 
