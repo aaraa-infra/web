@@ -284,11 +284,6 @@ fbq('track', 'PageView');
           <span class="error" id="cinError">Valid CIN is required (e.g., L12345MH1999PLC123456)</span>
         </div>
         <div class="form-group">
-          <label for="aadhaar">Aadhaar Number (Last 4 digits) *</label>
-          <input type="text" id="aadhaar" name="aadhaar" pattern="[0-9]{4}" required>
-          <span class="error" id="aadhaarError">Last 4 digits of Aadhaar are required</span>
-        </div>
-        <div class="form-group">
           <label for="msme">MSME Registration Number (if applicable)</label>
           <input type="text" id="msme" name="msme">
         </div>
@@ -333,7 +328,7 @@ fbq('track', 'PageView');
           <span class="error" id="incorporationCertError">Please upload a PDF file</span>
         </div>
         <div class="form-group">
-          <label for="identityProof">Identity Proof (Aadhaar, Voter ID, Passport) *</label>
+          <label for="identityProof">Government Photo ID Proof (PAN, Voter ID, Passport, Driving License) *</label>
           <input type="file" id="identityProof" name="identityProof" accept=".pdf,.jpg,.jpeg,.png" required>
           <span class="error" id="identityProofError">Please upload a valid file (PDF, JPG, JPEG, PNG)</span>
         </div>
@@ -441,12 +436,6 @@ fbq('track', 'PageView');
         }
       }
 
-      const aadhaar = document.getElementById('aadhaar').value;
-      const aadhaarRegex = /^[0-9]{4}$/;
-      if (!aadhaarRegex.test(aadhaar)) {
-        document.getElementById('aadhaarError').style.display = 'block';
-        isValid = false;
-      }
 
       const bankAccount = document.getElementById('bankAccount').value;
       const bankAccountRegex = /^[0-9]{9,18}$/;

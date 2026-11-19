@@ -214,13 +214,6 @@
           }
         }
 
-        if (name === 'aadhaar') {
-          var aadhaarDigits = value.replace(/\D/g, '');
-          if (aadhaarDigits.length !== 12) {
-            errors.push({ field: name, message: 'Aadhaar must be exactly 12 digits' });
-            return;
-          }
-        }
 
         if (name === 'pan') {
           if (!/^[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$/.test(value)) {
@@ -248,7 +241,6 @@
         mobile: 'Phone Number',
         message: 'Message',
         company: 'Company Name',
-        aadhaar: 'Aadhaar Number',
         pan: 'PAN Number',
         gst: 'GST Number',
         clientName: 'Full Name',

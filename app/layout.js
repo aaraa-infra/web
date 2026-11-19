@@ -16,12 +16,7 @@ export const metadata = {
     shortcut: '/image/logo/favicon.png',
     apple: '/apple-touch-icon.png',
   },
-  verification: {
-    google: 'google_site_verification_placeholder',
-    other: {
-      'msvalidate.01': ['msvalidate_verification_placeholder'],
-    },
-  },
+
 };
 
 export default function RootLayout({children}){

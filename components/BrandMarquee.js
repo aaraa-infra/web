@@ -30,11 +30,25 @@ export default function BrandMarquee() {
   return (
     <div className="aaraa-fixed-brand-bar" aria-label="Our trusted partners" role="region">
       <div className="aaraa-fixed-brand-track">
-        {TRACK_ITEMS.map((b, i) => (
-          <span className="aaraa-fixed-brand-item" key={`${b.src}-${i}`}>
-            <img src={b.src} alt={b.alt} width={221} height={59} loading="lazy" decoding="async" />
-          </span>
-        ))}
+        {TRACK_ITEMS.map((b, i) => {
+          const isClone = i >= BRANDS.length;
+          return (
+            <span
+              className="aaraa-fixed-brand-item"
+              key={`${b.src}-${i}`}
+              aria-hidden={isClone ? 'true' : undefined}
+            >
+              <img
+                src={b.src}
+                alt={isClone ? '' : b.alt}
+                width={221}
+                height={59}
+                loading="lazy"
+                decoding="async"
+              />
+            </span>
+          );
+        })}
       </div>
     </div>
   );

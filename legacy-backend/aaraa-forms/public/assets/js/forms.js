@@ -10,7 +10,6 @@
     gst: /^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[1-9A-Z]{1}Z[0-9A-Z]{1}$/,
     pan: /^[A-Z]{5}[0-9]{4}[A-Z]$/,
     ifsc: /^[A-Z]{4}0[A-Z0-9]{6}$/,
-    aadhaar4: /^\d{4}$/,
     pincode: /^\d{6}$/
   };
   var MSG = {
@@ -20,7 +19,6 @@
     gst: 'Enter a valid 15-character GSTIN (e.g. 22AAAAA0000A1Z5).',
     pan: 'Enter a valid PAN (e.g. ABCDE1234F).',
     ifsc: 'Enter a valid IFSC code (e.g. HDFC0001234).',
-    aadhaar4: 'Enter the last 4 digits of Aadhaar only.',
     file: 'Please choose a file.',
     filesize: 'File exceeds the maximum allowed size.',
     consent: 'Please accept the privacy terms to continue.'

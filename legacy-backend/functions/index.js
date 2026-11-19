@@ -137,7 +137,6 @@ function buildEmailHTML(data, formType, submissionId, fileUrls = {}) {
     mobile: 'Mobile Number',
     message: 'Message',
     company: 'Company Name',
-    aadhaar: 'Aadhaar Number',
     pan: 'PAN Number',
     gst: 'GST Number',
     service: 'Service Interested In',
