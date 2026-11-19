@@ -82,9 +82,9 @@ export default function JobsListingPage() {
 
       {/* Results Header */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
-        <h3 style={{ fontSize: '18px', fontWeight: '700', color: '#1e293b', margin: 0 }}>
+        <h2 style={{ fontSize: '18px', fontWeight: '700', color: '#1e293b', margin: 0 }}>
           Showing {filteredJobs.length} Positions
-        </h3>
+        </h2>
       </div>
 
       {/* Jobs Grid */}

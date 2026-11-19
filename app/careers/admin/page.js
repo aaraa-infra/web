@@ -121,7 +121,7 @@ export default function HRAdminDashboard() {
     return (
       <div style={{ minHeight: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: "'Montserrat', sans-serif", padding: '20px' }}>
         <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: '20px', padding: '40px 32px', maxWidth: '400px', width: '100%', boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1)', textAlign: 'center' }}>
-          <img src="/logo.png" alt="AARAA Logo" style={{ height: '40px', marginBottom: '16px' }} />
+          <img src="/logo.png" alt="AARAA Logo" width={99} height={40} style={{ height: '40px', width: 'auto', marginBottom: '16px' }} />
           <h2 style={{ fontSize: '20px', fontWeight: '800', color: '#0f172a', margin: '0 0 8px' }}>HR Admin Portal</h2>
           <p style={{ color: '#64748b', fontSize: '13px', margin: '0 0 24px' }}>Restricted access for AARAA Infrastructure HR Personnel.</p>
           <form onSubmit={handleLogin}>

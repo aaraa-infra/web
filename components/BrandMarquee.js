@@ -32,7 +32,7 @@ export default function BrandMarquee() {
       <div className="aaraa-fixed-brand-track">
         {TRACK_ITEMS.map((b, i) => (
           <span className="aaraa-fixed-brand-item" key={`${b.src}-${i}`}>
-            <img src={b.src} alt={b.alt} loading="lazy" />
+            <img src={b.src} alt={b.alt} width={221} height={59} loading="lazy" decoding="async" />
           </span>
         ))}
       </div>

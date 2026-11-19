@@ -2,19 +2,41 @@
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  cleanDistDir: false,
   outputFileTracingIncludes: { '/[[...slug]]': ['./legacy-pages/**/*'] },
   devIndicators: false,
   async headers() {
     return [{
       source: '/:path*',
       headers: [
+        { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
         { key: 'X-Content-Type-Options', value: 'nosniff' },
-        { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' }
+        { key: 'X-XSS-Protection', value: '1; mode=block' },
+        { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+        { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' }
       ]
     }];
   },
   async redirects() {
     return [
+      { source: '/index', destination: '/', permanent: true },
+      { source: '/400-mld-swro-desalination-project-perur-chennai', destination: '/blog/400-mld-swro-desalination-project-perur-chennai', permanent: true },
+      { source: '/aaraa-infrastructure-180mwp-leap-green-project-thoothukudi', destination: '/blog/aaraa-infrastructure-180mwp-leap-green-project-thoothukudi', permanent: true },
+      { source: '/km-palace-marriage-hall-kundrathur-chennai', destination: '/blog/km-palace-marriage-hall-kundrathur-chennai', permanent: true },
+      { source: '/solar-epc-civil-infrastructure-kudligi-karnataka', destination: '/blog/solar-epc-civil-infrastructure-kudligi-karnataka', permanent: true },
+      { source: '/work-shed-construction-gummidipoondi-chennai', destination: '/blog/work-shed-construction-gummidipoondi-chennai', permanent: true },
+      { source: '/blog/reliance-civil-interior-works-pallikaranai-chennai', destination: '/blog/reliance-civil-interior-mep-fitout-chennai', permanent: true },
+      { source: '/BOAT_Announcement', destination: '/blog/official-boat-apprenticeship-partnership-civil-engineering', permanent: true },
+      { source: '/new-blog', destination: '/blog/official-boat-apprenticeship-partnership-civil-engineering', permanent: true },
+      { source: '/blog-details', destination: '/blog', permanent: true },
+      { source: '/blog-post', destination: '/blog', permanent: true },
+      { source: '/raje_signature', destination: '/raje', permanent: true },
+      { source: '/forms/subcontractor', destination: '/subcontractor-empanelment', permanent: true },
+      { source: '/forms/partnership', destination: '/strategic-partnerships', permanent: true },
+      { source: '/forms/vendor', destination: '/vendor-registration', permanent: true },
+      { source: '/forms/joint-venture', destination: '/joint-ventures', permanent: true },
+      { source: '/forms/careers', destination: '/careers', permanent: true },
+      { source: '/forms/quick-enquiry', destination: '/contact-us', permanent: true },
       { source: '/blog/image/:path*', destination: '/image/:path*', permanent: true },
       { source: '/blog/mgr-adarsh-school-mogappair-chennai', destination: '/blog/mgr-adarsh-school-renovation-structural-repair-mogappair', permanent: true },
       { source: '/mgr-adarsh-school-mogappair-chennai', destination: '/blog/mgr-adarsh-school-renovation-structural-repair-mogappair', permanent: true },

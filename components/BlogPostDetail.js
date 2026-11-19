@@ -58,7 +58,7 @@ const RELATED_POSTS = [
   { id: 'blog/waaree-solar-infrastructure-poovani-maniyachi-thoothukudi', title: 'Waaree Solar Infrastructure Poovani & Maniyachi', category: 'Renewable Energy', image: '/image/blog/waaree/image-1788602564198.jpg', date: 'August 18, 2026' },
   { id: 'blog/154mwp-solar-pv-project-puthiyamputhur', title: '154 MWp Solar PV Project Puthiyamputhur', category: 'Renewable Energy', image: '/image/blog/blog-tuticorin.png', date: 'August 19, 2026' },
   { id: 'blog/blue-star-rcc-road-construction', title: 'RCC Road Construction Blue Star UCH', category: 'Industrial Infrastructure', image: '/image/blog/blue-star.png', date: 'August 12, 2026' },
-  { id: 'blog/reliance-civil-interior-works-pallikaranai-chennai', title: 'Reliance Civil & Interior Works Pallikaranai', category: 'Corporate Infrastructure', image: '/image/blog/blog-reliance.png', date: 'August 10, 2026' },
+  { id: 'blog/reliance-civil-interior-mep-fitout-chennai', title: 'Reliance Civil & Interior Works Pallikaranai', category: 'Corporate Infrastructure', image: '/image/blog/blog-reliance.png', date: 'August 10, 2026' },
   { id: 'blog/srm-green-pearl-research-block-andhra-pradesh', title: 'SRM Green Pearl Research Block AP', category: 'Institutional Infrastructure', image: '/image/blog/srm_green_pearl.webp', date: 'August 11, 2026' },
   { id: 'blog/srm-external-development-works-kattankulathur', title: 'SRM External Development Works Kattankulathur', category: 'Institutional Infrastructure', image: '/image/blog/srm/1.jpeg', date: 'December 31, 2025' },
   { id: 'blog/orchids-international-school-manapakkam-chennai', title: 'Orchids International School Manapakkam', category: 'Educational Infrastructure', image: '/image/blog/orchid_manapakkam.webp', date: 'August 22, 2026' },
@@ -281,7 +281,7 @@ export default function BlogPostDetail({ page }) {
       <nav className="blog-nav-sticky">
         <div className="blog-nav-container">
           <Link href="/" className="blog-logo">
-            <img src="/logo.png" alt="AARAA Infrastructure Logo" />
+            <img src="/logo.png" alt="AARAA Infrastructure Logo" width="178" height="72" fetchPriority="high" />
           </Link>
           <div className="blog-nav-links">
             <Link href="/" className="blog-nav-link">Home</Link>
@@ -299,7 +299,7 @@ export default function BlogPostDetail({ page }) {
       <header className="blog-hero">
         {page.heroImage && (
           <div className="blog-hero-bg">
-            <img src={page.heroImage} alt={page.title} />
+            <img src={page.heroImage} alt={page.title} width={page.heroWidth || 1200} height={page.heroHeight || 675} fetchPriority="high" loading="eager" decoding="async" />
           </div>
         )}
         <div className="blog-hero-overlay"></div>
@@ -472,7 +472,7 @@ export default function BlogPostDetail({ page }) {
                           )}
                         </div>
                       ) : (
-                        <img src={currentItem.src} alt={currentItem.heading || currentItem.alt} />
+                        <img src={currentItem.src} alt={currentItem.heading || currentItem.alt} width={currentItem.width || 1200} height={currentItem.height || 675} loading="lazy" decoding="async" />
                       )}
 
                       {page.galleryImages.length > 1 && (
@@ -569,7 +569,7 @@ export default function BlogPostDetail({ page }) {
                                 aria-label={`View slide ${idx + 1}: ${thumb.heading || thumb.alt}`}
                                 style={{ position: 'relative' }}
                               >
-                                <img src={thumbImgSrc} alt={thumb.heading || thumb.alt} />
+                                <img src={thumbImgSrc} alt={thumb.heading || thumb.alt} loading="lazy" decoding="async" width="100" height="70" />
                                 {isThumbVideo && (
                                   <div style={{
                                     position: 'absolute',
@@ -677,7 +677,7 @@ export default function BlogPostDetail({ page }) {
               <div className="blog-quote-cite">
                 <div className="blog-quote-avatar" style={{ overflow: 'hidden', padding: 0 }}>
                   {page.quoteCite && (page.quoteCite.toLowerCase().includes('shanmugam') || page.quoteCite.toLowerCase().includes('operations head')) ? (
-                    <img src="/image-watermarked/team/shanmugam.png" alt="Shanmugam - Operations Head" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    <img src="/image-watermarked/team/shanmugam.png" alt="Shanmugam - Operations Head" width={172} height={193} loading="lazy" decoding="async" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   ) : (
                     page.quoteCite ? page.quoteCite.charAt(0) : 'S'
                   )}
@@ -728,7 +728,7 @@ export default function BlogPostDetail({ page }) {
             {RELATED_POSTS.map((post, idx) => (
               <Link key={idx} href={`/${post.id}`} className="blog-related-card">
                 <div className="blog-related-img">
-                  <img src={post.image} alt={post.title} loading="lazy" />
+                  <img src={post.image} alt={post.title} loading="lazy" decoding="async" width="400" height="250" />
                 </div>
                 <div className="blog-related-card-content">
                   <span className="blog-related-card-category">{post.category}</span>
@@ -753,7 +753,7 @@ export default function BlogPostDetail({ page }) {
             <Link href="/completed-projects" className="blog-cta-btn primary">
               Explore Our Projects
             </Link>
-            <Link href="/forms/careers" className="blog-cta-btn secondary">
+            <Link href="/careers" className="blog-cta-btn secondary">
               Join Our Team
             </Link>
             <Link href="/contact-us" className="blog-cta-btn secondary">
@@ -767,7 +767,7 @@ export default function BlogPostDetail({ page }) {
       <footer style={{ background: '#0B132B', color: '#FFFFFF', padding: '60px 24px', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', gap: '40px' }}>
           <div>
-            <img src="/logo.png" alt="AARAA Infrastructure Logo" style={{ height: '36px', marginBottom: '20px' }} />
+            <img src="/logo.png" alt="AARAA Infrastructure Logo" width="89" height="36" loading="lazy" decoding="async" style={{ height: '36px', width: 'auto', marginBottom: '20px' }} />
             <p style={{ opacity: 0.6, fontSize: '14px', maxWidth: '320px' }}>
               AARAA Infrastructure Pvt. Ltd. is a premier general contractor specializing in commercial, industrial, infrastructure, and renewable energy developments.
             </p>
@@ -866,6 +866,10 @@ export default function BlogPostDetail({ page }) {
                   src={currentLboxItem.src} 
                   className="blog-lightbox-img" 
                   alt={currentLboxItem.alt} 
+                  width={currentLboxItem.width || 1200}
+                  height={currentLboxItem.height || 675}
+                  loading="lazy"
+                  decoding="async"
                 />
               );
             })()}

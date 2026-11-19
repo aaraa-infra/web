@@ -43,9 +43,9 @@ export default async function LocationPage({ params }) {
       </div>
 
       <section style={{ marginBottom: '48px' }}>
-        <h3 style={{ fontSize: '22px', fontWeight: '800', color: '#0f172a', marginBottom: '20px' }}>
+        <h2 style={{ fontSize: '22px', fontWeight: '800', color: '#0f172a', marginBottom: '20px' }}>
           Active Jobs in {loc.name} ({jobs.length})
-        </h3>
+        </h2>
         {jobs.length === 0 ? (
           <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '16px', padding: '40px 24px', textAlign: 'center' }}>
             <p style={{ color: '#64748b', margin: '0 0 16px' }}>There are currently no active openings posted in {loc.name}.</p>

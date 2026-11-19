@@ -54,7 +54,7 @@ export default async function JobDetailPage({ params }) {
           <div style={{ background: '#fffbe6', border: '1px solid #ffe58f', borderRadius: '12px', padding: '16px 24px', marginBottom: '32px', display: 'flex', alignItems: 'center', gap: '12px' }}>
             <span style={{ fontSize: '24px' }}>⚠️</span>
             <div>
-              <h4 style={{ margin: '0 0 4px', fontSize: '16px', color: '#873800', fontWeight: '700' }}>Position Closed</h4>
+              <span style={{ display: 'block', margin: '0 0 4px', fontSize: '16px', color: '#873800', fontWeight: '700' }}>Position Closed</span>
               <p style={{ margin: 0, fontSize: '14px', color: '#612500' }}>
                 Applications for this specific opening are currently closed. Please explore our active vacancies below.
               </p>
@@ -102,7 +102,7 @@ export default async function JobDetailPage({ params }) {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '36px' }}>
           {/* About & Role */}
           <section>
-            <h3 style={{ fontSize: '22px', fontWeight: '800', color: '#0f172a', marginBottom: '14px' }}>Role Overview</h3>
+            <h2 style={{ fontSize: '22px', fontWeight: '800', color: '#0f172a', marginBottom: '14px' }}>Role Overview</h2>
             <p style={{ color: '#334155', fontSize: '16px', lineHeight: '1.7', whiteSpace: 'pre-line' }}>
               {job.description}
             </p>
@@ -111,7 +111,7 @@ export default async function JobDetailPage({ params }) {
           {/* Key Responsibilities */}
           {job.responsibilities && job.responsibilities.length > 0 && (
             <section>
-              <h3 style={{ fontSize: '22px', fontWeight: '800', color: '#0f172a', marginBottom: '16px' }}>Key Responsibilities</h3>
+              <h2 style={{ fontSize: '22px', fontWeight: '800', color: '#0f172a', marginBottom: '16px' }}>Key Responsibilities</h2>
               <ul style={{ color: '#334155', fontSize: '15px', lineHeight: '1.7', paddingLeft: '20px' }}>
                 {job.responsibilities.map((resp, idx) => (
                   <li key={idx} style={{ marginBottom: '8px' }}>{resp}</li>
@@ -123,7 +123,7 @@ export default async function JobDetailPage({ params }) {
           {/* Requirements & Qualification */}
           {job.requirements && job.requirements.length > 0 && (
             <section>
-              <h3 style={{ fontSize: '22px', fontWeight: '800', color: '#0f172a', marginBottom: '16px' }}>Qualifications & Skill Requirements</h3>
+              <h2 style={{ fontSize: '22px', fontWeight: '800', color: '#0f172a', marginBottom: '16px' }}>Qualifications & Skill Requirements</h2>
               <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '12px', padding: '20px', marginBottom: '16px' }}>
                 <strong>Educational Qualification:</strong> {job.qualification}
               </div>
@@ -138,7 +138,7 @@ export default async function JobDetailPage({ params }) {
           {/* Benefits */}
           {job.benefits && job.benefits.length > 0 && (
             <section>
-              <h3 style={{ fontSize: '22px', fontWeight: '800', color: '#0f172a', marginBottom: '16px' }}>Benefits & Offerings</h3>
+              <h2 style={{ fontSize: '22px', fontWeight: '800', color: '#0f172a', marginBottom: '16px' }}>Benefits & Offerings</h2>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
                 {job.benefits.map((b, idx) => (
                   <span key={idx} style={{ background: '#f0fdf4', color: '#166534', border: '1px solid #bbf7d0', padding: '8px 16px', borderRadius: '20px', fontSize: '13px', fontWeight: '600' }}>
@@ -153,9 +153,9 @@ export default async function JobDetailPage({ params }) {
         {/* Similar Opportunities */}
         {similarJobs.length > 0 && (
           <section style={{ marginTop: '60px', borderTop: '1px solid #e2e8f0', paddingTop: '40px' }}>
-            <h3 style={{ fontSize: '24px', fontWeight: '800', color: '#0f172a', marginBottom: '24px' }}>
+            <h2 style={{ fontSize: '24px', fontWeight: '800', color: '#0f172a', marginBottom: '24px' }}>
               Similar Construction Opportunities
-            </h3>
+            </h2>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '24px' }}>
               {similarJobs.map(sj => (
                 <JobCard key={sj.id} job={sj} />

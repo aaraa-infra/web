@@ -1,0 +1,6764 @@
+{
+  "/logo.png": {
+    "width": 662,
+    "height": 267,
+    "aspectRatio": 2.479,
+    "sizeKB": 30.7,
+    "ext": ".png"
+  },
+  "logo.png": {
+    "width": 662,
+    "height": 267,
+    "aspectRatio": 2.479,
+    "sizeKB": 30.7,
+    "ext": ".png"
+  },
+  "/image-watermarked/project-item/project-item-12.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 122.7,
+    "ext": ".jpg"
+  },
+  "image-watermarked/project-item/project-item-12.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 122.7,
+    "ext": ".jpg"
+  },
+  "/image/project-item/inner_banner.png": {
+    "width": 1224,
+    "height": 460,
+    "aspectRatio": 2.661,
+    "sizeKB": 1163.2,
+    "ext": ".png"
+  },
+  "image/project-item/inner_banner.png": {
+    "width": 1224,
+    "height": 460,
+    "aspectRatio": 2.661,
+    "sizeKB": 1163.2,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project1.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1698.9,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project1.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1698.9,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project2.png": {
+    "width": 864,
+    "height": 1184,
+    "aspectRatio": 0.73,
+    "sizeKB": 1434.5,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project2.png": {
+    "width": 864,
+    "height": 1184,
+    "aspectRatio": 0.73,
+    "sizeKB": 1434.5,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project3.png": {
+    "width": 864,
+    "height": 1184,
+    "aspectRatio": 0.73,
+    "sizeKB": 1915.5,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project3.png": {
+    "width": 864,
+    "height": 1184,
+    "aspectRatio": 0.73,
+    "sizeKB": 1915.5,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project4.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1943.2,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project4.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1943.2,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project5.png": {
+    "width": 864,
+    "height": 1184,
+    "aspectRatio": 0.73,
+    "sizeKB": 2025,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project5.png": {
+    "width": 864,
+    "height": 1184,
+    "aspectRatio": 0.73,
+    "sizeKB": 2025,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project6.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1815,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project6.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1815,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project7.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1782.4,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project7.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1782.4,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project8.png": {
+    "width": 864,
+    "height": 1184,
+    "aspectRatio": 0.73,
+    "sizeKB": 2087.8,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project8.png": {
+    "width": 864,
+    "height": 1184,
+    "aspectRatio": 0.73,
+    "sizeKB": 2087.8,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project9.png": {
+    "width": 864,
+    "height": 1184,
+    "aspectRatio": 0.73,
+    "sizeKB": 1727.5,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project9.png": {
+    "width": 864,
+    "height": 1184,
+    "aspectRatio": 0.73,
+    "sizeKB": 1727.5,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project10.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1715.3,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project10.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1715.3,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project11.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1898.4,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project11.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1898.4,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project12.png": {
+    "width": 864,
+    "height": 1184,
+    "aspectRatio": 0.73,
+    "sizeKB": 2448.8,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project12.png": {
+    "width": 864,
+    "height": 1184,
+    "aspectRatio": 0.73,
+    "sizeKB": 2448.8,
+    "ext": ".png"
+  },
+  "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project13.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1976.8,
+    "ext": ".png"
+  },
+  "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project13.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1976.8,
+    "ext": ".png"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill/05-safety-officer-emergency-medical-team-activation.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 154.2,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill/05-safety-officer-emergency-medical-team-activation.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 154.2,
+    "ext": ".jpg"
+  },
+  "/image/blog/solar-infrastructure-project-hulikunte-karnataka.jpg": {
+    "width": 1024,
+    "height": 575,
+    "aspectRatio": 1.781,
+    "sizeKB": 184.9,
+    "ext": ".jpg"
+  },
+  "image/blog/solar-infrastructure-project-hulikunte-karnataka.jpg": {
+    "width": 1024,
+    "height": 575,
+    "aspectRatio": 1.781,
+    "sizeKB": 184.9,
+    "ext": ".jpg"
+  },
+  "/image/thumb/Pulianthope.png": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 419.6,
+    "ext": ".png"
+  },
+  "image/thumb/Pulianthope.png": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 419.6,
+    "ext": ".png"
+  },
+  "/image/thumb/vandlur.png": {
+    "width": 680,
+    "height": 454,
+    "aspectRatio": 1.498,
+    "sizeKB": 557.6,
+    "ext": ".png"
+  },
+  "image/thumb/vandlur.png": {
+    "width": 680,
+    "height": 454,
+    "aspectRatio": 1.498,
+    "sizeKB": 557.6,
+    "ext": ".png"
+  },
+  "/image/thumb/orgadam.png": {
+    "width": 680,
+    "height": 454,
+    "aspectRatio": 1.498,
+    "sizeKB": 496.7,
+    "ext": ".png"
+  },
+  "image/thumb/orgadam.png": {
+    "width": 680,
+    "height": 454,
+    "aspectRatio": 1.498,
+    "sizeKB": 496.7,
+    "ext": ".png"
+  },
+  "/image/thumb/coimbatore.png": {
+    "width": 680,
+    "height": 383,
+    "aspectRatio": 1.775,
+    "sizeKB": 479.2,
+    "ext": ".png"
+  },
+  "image/thumb/coimbatore.png": {
+    "width": 680,
+    "height": 383,
+    "aspectRatio": 1.775,
+    "sizeKB": 479.2,
+    "ext": ".png"
+  },
+  "/image/blog/piling/drilling.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1898.4,
+    "ext": ".png"
+  },
+  "image/blog/piling/drilling.png": {
+    "width": 1184,
+    "height": 864,
+    "aspectRatio": 1.37,
+    "sizeKB": 1898.4,
+    "ext": ".png"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/20-completed-kudligi-77mw-solar-project.webp": {
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333,
+    "sizeKB": 262.5,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/20-completed-kudligi-77mw-solar-project.webp": {
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333,
+    "sizeKB": 262.5,
+    "ext": ".webp"
+  },
+  "/image/blog/blog-karnataka.png": {
+    "width": 1024,
+    "height": 1024,
+    "aspectRatio": 1,
+    "sizeKB": 1893.4,
+    "ext": ".png"
+  },
+  "image/blog/blog-karnataka.png": {
+    "width": 1024,
+    "height": 1024,
+    "aspectRatio": 1,
+    "sizeKB": 1893.4,
+    "ext": ".png"
+  },
+  "/image/blog/waaree/image-1788602564198.jpg": {
+    "width": 1200,
+    "height": 1500,
+    "aspectRatio": 0.8,
+    "sizeKB": 955.4,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1788602564198.jpg": {
+    "width": 1200,
+    "height": 1500,
+    "aspectRatio": 0.8,
+    "sizeKB": 955.4,
+    "ext": ".jpg"
+  },
+  "/image/blog/blog-tuticorin.png": {
+    "width": 1024,
+    "height": 1024,
+    "aspectRatio": 1,
+    "sizeKB": 2014.2,
+    "ext": ".png"
+  },
+  "image/blog/blog-tuticorin.png": {
+    "width": 1024,
+    "height": 1024,
+    "aspectRatio": 1,
+    "sizeKB": 2014.2,
+    "ext": ".png"
+  },
+  "/image/blog/blue-star.png": {
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333,
+    "sizeKB": 1466.3,
+    "ext": ".png"
+  },
+  "image/blog/blue-star.png": {
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333,
+    "sizeKB": 1466.3,
+    "ext": ".png"
+  },
+  "/image/blog/blog-reliance.png": {
+    "width": 1024,
+    "height": 1024,
+    "aspectRatio": 1,
+    "sizeKB": 2165.4,
+    "ext": ".png"
+  },
+  "image/blog/blog-reliance.png": {
+    "width": 1024,
+    "height": 1024,
+    "aspectRatio": 1,
+    "sizeKB": 2165.4,
+    "ext": ".png"
+  },
+  "/image/blog/srm_green_pearl.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 47.5,
+    "ext": ".webp"
+  },
+  "image/blog/srm_green_pearl.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 47.5,
+    "ext": ".webp"
+  },
+  "/image/blog/srm/1.jpeg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 475.6,
+    "ext": ".jpeg"
+  },
+  "image/blog/srm/1.jpeg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 475.6,
+    "ext": ".jpeg"
+  },
+  "/image/blog/orchid_manapakkam.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 85.2,
+    "ext": ".webp"
+  },
+  "image/blog/orchid_manapakkam.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 85.2,
+    "ext": ".webp"
+  },
+  "/image/blog/orchid_pallikaranai.webp": {
+    "width": 680,
+    "height": 454,
+    "aspectRatio": 1.498,
+    "sizeKB": 162.4,
+    "ext": ".webp"
+  },
+  "image/blog/orchid_pallikaranai.webp": {
+    "width": 680,
+    "height": 454,
+    "aspectRatio": 1.498,
+    "sizeKB": 162.4,
+    "ext": ".webp"
+  },
+  "/image/project-item/punjab2.jpg": {
+    "width": 2048,
+    "height": 1296,
+    "aspectRatio": 1.58,
+    "sizeKB": 465,
+    "ext": ".jpg"
+  },
+  "image/project-item/punjab2.jpg": {
+    "width": 2048,
+    "height": 1296,
+    "aspectRatio": 1.58,
+    "sizeKB": 465,
+    "ext": ".jpg"
+  },
+  "/image/blog/corrosion-costs-india-hero.jpg": {
+    "width": 1024,
+    "height": 576,
+    "aspectRatio": 1.778,
+    "sizeKB": 178.2,
+    "ext": ".jpg"
+  },
+  "image/blog/corrosion-costs-india-hero.jpg": {
+    "width": 1024,
+    "height": 576,
+    "aspectRatio": 1.778,
+    "sizeKB": 178.2,
+    "ext": ".jpg"
+  },
+  "/image/blog/toravi-solar/toravi-solar-1.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 211.7,
+    "ext": ".jpg"
+  },
+  "image/blog/toravi-solar/toravi-solar-1.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 211.7,
+    "ext": ".jpg"
+  },
+  "/image/blog/onam-celebration-at-our-office.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 179.6,
+    "ext": ".jpg"
+  },
+  "image/blog/onam-celebration-at-our-office.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 179.6,
+    "ext": ".jpg"
+  },
+  "/image/blog/blog-boat-partnership.png": {
+    "width": 1672,
+    "height": 941,
+    "aspectRatio": 1.777,
+    "sizeKB": 1372.2,
+    "ext": ".png"
+  },
+  "image/blog/blog-boat-partnership.png": {
+    "width": 1672,
+    "height": 941,
+    "aspectRatio": 1.777,
+    "sizeKB": 1372.2,
+    "ext": ".png"
+  },
+  "/images/waaree/image-1788602564228.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 624.9,
+    "ext": ".jpg"
+  },
+  "images/waaree/image-1788602564228.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 624.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/ramky-industrial-construction-dobbaspet-karnataka.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 257.5,
+    "ext": ".jpg"
+  },
+  "image/blog/ramky-industrial-construction-dobbaspet-karnataka.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 257.5,
+    "ext": ".jpg"
+  },
+  "/image-watermarked/blog/solar-infrastructure-project-hulikunte-karnataka.jpg": {
+    "width": 1024,
+    "height": 575,
+    "aspectRatio": 1.781,
+    "sizeKB": 184.8,
+    "ext": ".jpg"
+  },
+  "image-watermarked/blog/solar-infrastructure-project-hulikunte-karnataka.jpg": {
+    "width": 1024,
+    "height": 575,
+    "aspectRatio": 1.781,
+    "sizeKB": 184.8,
+    "ext": ".jpg"
+  },
+  "/image-watermarked/blog/aaraa-infrastructure-strengthens-industry-academia-collaboration-through-mou.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 173.5,
+    "ext": ".jpg"
+  },
+  "image-watermarked/blog/aaraa-infrastructure-strengthens-industry-academia-collaboration-through-mou.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 173.5,
+    "ext": ".jpg"
+  },
+  "/image-watermarked/blog/perur-desalination/perur-desalination-1.jpg": {
+    "width": 1024,
+    "height": 575,
+    "aspectRatio": 1.781,
+    "sizeKB": 103.4,
+    "ext": ".jpg"
+  },
+  "image-watermarked/blog/perur-desalination/perur-desalination-1.jpg": {
+    "width": 1024,
+    "height": 575,
+    "aspectRatio": 1.781,
+    "sizeKB": 103.4,
+    "ext": ".jpg"
+  },
+  "/image/blog/km-palace/km-palace-1.webp": {
+    "width": 1920,
+    "height": 1280,
+    "aspectRatio": 1.5,
+    "sizeKB": 319.9,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/km-palace-1.webp": {
+    "width": 1920,
+    "height": 1280,
+    "aspectRatio": 1.5,
+    "sizeKB": 319.9,
+    "ext": ".webp"
+  },
+  "/image-watermarked/project-item/shed3.jpg": {
+    "width": 1224,
+    "height": 814,
+    "aspectRatio": 1.504,
+    "sizeKB": 178.6,
+    "ext": ".jpg"
+  },
+  "image-watermarked/project-item/shed3.jpg": {
+    "width": 1224,
+    "height": 814,
+    "aspectRatio": 1.504,
+    "sizeKB": 178.6,
+    "ext": ".jpg"
+  },
+  "/image-watermarked/brand/brand-1.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 12.9,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-1.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 12.9,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-2.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 13.1,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-2.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 13.1,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-3.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.7,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-3.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.7,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-4.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 7.3,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-4.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 7.3,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-5.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 9.4,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-5.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 9.4,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-6.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 9.1,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-6.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 9.1,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-7.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 7.1,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-7.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 7.1,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-8.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 11.9,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-8.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 11.9,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-9.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.1,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-9.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.1,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-10.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.8,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-10.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.8,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-11.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 6.8,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-11.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 6.8,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-12.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 5.3,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-12.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 5.3,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-13.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 13.3,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-13.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 13.3,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-14.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 7.9,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-14.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 7.9,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-15.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 15,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-15.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 15,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-16.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 12.1,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-16.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 12.1,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-17.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 11.9,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-17.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 11.9,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-18.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.3,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-18.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.3,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-19.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 15,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-19.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 15,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-20.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 15.5,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-20.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 15.5,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-21.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 5.9,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-21.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 5.9,
+    "ext": ".png"
+  },
+  "/image-watermarked/brand/brand-22.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 4.6,
+    "ext": ".png"
+  },
+  "image-watermarked/brand/brand-22.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 4.6,
+    "ext": ".png"
+  },
+  "/image/logo/logo-white.png": {
+    "width": 1024,
+    "height": 399,
+    "aspectRatio": 2.566,
+    "sizeKB": 43.9,
+    "ext": ".png"
+  },
+  "image/logo/logo-white.png": {
+    "width": 1024,
+    "height": 399,
+    "aspectRatio": 2.566,
+    "sizeKB": 43.9,
+    "ext": ".png"
+  },
+  "/image/section/bg-section-about-h3.jpg": {
+    "width": 1921,
+    "height": 591,
+    "aspectRatio": 3.25,
+    "sizeKB": 14.2,
+    "ext": ".jpg"
+  },
+  "image/section/bg-section-about-h3.jpg": {
+    "width": 1921,
+    "height": 591,
+    "aspectRatio": 3.25,
+    "sizeKB": 14.2,
+    "ext": ".jpg"
+  },
+  "/image/brand/brand-1.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 12.9,
+    "ext": ".png"
+  },
+  "image/brand/brand-1.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 12.9,
+    "ext": ".png"
+  },
+  "/image/brand/brand-2.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 13.1,
+    "ext": ".png"
+  },
+  "image/brand/brand-2.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 13.1,
+    "ext": ".png"
+  },
+  "/image/brand/brand-3.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.7,
+    "ext": ".png"
+  },
+  "image/brand/brand-3.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.7,
+    "ext": ".png"
+  },
+  "/image/brand/brand-4.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 7.3,
+    "ext": ".png"
+  },
+  "image/brand/brand-4.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 7.3,
+    "ext": ".png"
+  },
+  "/image/brand/brand-5.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 9.4,
+    "ext": ".png"
+  },
+  "image/brand/brand-5.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 9.4,
+    "ext": ".png"
+  },
+  "/image/brand/brand-6.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 9.1,
+    "ext": ".png"
+  },
+  "image/brand/brand-6.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 9.1,
+    "ext": ".png"
+  },
+  "/image/section/item-section-testimonial-h-2-1.png": {
+    "width": 788,
+    "height": 1274,
+    "aspectRatio": 0.619,
+    "sizeKB": 132.2,
+    "ext": ".png"
+  },
+  "image/section/item-section-testimonial-h-2-1.png": {
+    "width": 788,
+    "height": 1274,
+    "aspectRatio": 0.619,
+    "sizeKB": 132.2,
+    "ext": ".png"
+  },
+  "/image/page-title/about.webp": {
+    "width": 1224,
+    "height": 460,
+    "aspectRatio": 2.661,
+    "sizeKB": 79.1,
+    "ext": ".webp"
+  },
+  "image/page-title/about.webp": {
+    "width": 1224,
+    "height": 460,
+    "aspectRatio": 2.661,
+    "sizeKB": 79.1,
+    "ext": ".webp"
+  },
+  "/image/blog/perur-desalination/perur-desalination-1.jpg": {
+    "width": 1024,
+    "height": 575,
+    "aspectRatio": 1.781,
+    "sizeKB": 101.2,
+    "ext": ".jpg"
+  },
+  "image/blog/perur-desalination/perur-desalination-1.jpg": {
+    "width": 1024,
+    "height": 575,
+    "aspectRatio": 1.781,
+    "sizeKB": 101.2,
+    "ext": ".jpg"
+  },
+  "/image/blog/perur-desalination/perur-desalination-2.jpg": {
+    "width": 1024,
+    "height": 458,
+    "aspectRatio": 2.236,
+    "sizeKB": 160.2,
+    "ext": ".jpg"
+  },
+  "image/blog/perur-desalination/perur-desalination-2.jpg": {
+    "width": 1024,
+    "height": 458,
+    "aspectRatio": 2.236,
+    "sizeKB": 160.2,
+    "ext": ".jpg"
+  },
+  "/image/blog/perur-desalination/perur-desalination-3.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 251.9,
+    "ext": ".jpg"
+  },
+  "image/blog/perur-desalination/perur-desalination-3.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 251.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/perur-desalination/perur-desalination-4.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 250.1,
+    "ext": ".jpg"
+  },
+  "image/blog/perur-desalination/perur-desalination-4.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 250.1,
+    "ext": ".jpg"
+  },
+  "/image/blog/perur-desalination/perur-desalination-5.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 198.7,
+    "ext": ".jpg"
+  },
+  "image/blog/perur-desalination/perur-desalination-5.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 198.7,
+    "ext": ".jpg"
+  },
+  "/image/blog/perur-desalination/perur-desalination-6.jpg": {
+    "width": 768,
+    "height": 1024,
+    "aspectRatio": 0.75,
+    "sizeKB": 152,
+    "ext": ".jpg"
+  },
+  "image/blog/perur-desalination/perur-desalination-6.jpg": {
+    "width": 768,
+    "height": 1024,
+    "aspectRatio": 0.75,
+    "sizeKB": 152,
+    "ext": ".jpg"
+  },
+  "/image/blog/perur-desalination/perur-desalination-7.jpg": {
+    "width": 1024,
+    "height": 576,
+    "aspectRatio": 1.778,
+    "sizeKB": 209.2,
+    "ext": ".jpg"
+  },
+  "image/blog/perur-desalination/perur-desalination-7.jpg": {
+    "width": 1024,
+    "height": 576,
+    "aspectRatio": 1.778,
+    "sizeKB": 209.2,
+    "ext": ".jpg"
+  },
+  "/image/blog/perur-desalination/perur-desalination-8.jpg": {
+    "width": 576,
+    "height": 1024,
+    "aspectRatio": 0.563,
+    "sizeKB": 144.6,
+    "ext": ".jpg"
+  },
+  "image/blog/perur-desalination/perur-desalination-8.jpg": {
+    "width": 576,
+    "height": 1024,
+    "aspectRatio": 0.563,
+    "sizeKB": 144.6,
+    "ext": ".jpg"
+  },
+  "/image/blog/perur-desalination/perur-desalination-9.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 285.3,
+    "ext": ".jpg"
+  },
+  "image/blog/perur-desalination/perur-desalination-9.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 285.3,
+    "ext": ".jpg"
+  },
+  "/image/blog/perur-desalination/perur-desalination-10.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 147,
+    "ext": ".jpg"
+  },
+  "image/blog/perur-desalination/perur-desalination-10.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 147,
+    "ext": ".jpg"
+  },
+  "/images/waaree/image-1788602535756.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 367.4,
+    "ext": ".jpg"
+  },
+  "images/waaree/image-1788602535756.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 367.4,
+    "ext": ".jpg"
+  },
+  "/images/waaree/image-1788602535812.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 329.9,
+    "ext": ".jpg"
+  },
+  "images/waaree/image-1788602535812.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 329.9,
+    "ext": ".jpg"
+  },
+  "/images/waaree/image-1788602535866.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 364.9,
+    "ext": ".jpg"
+  },
+  "images/waaree/image-1788602535866.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 364.9,
+    "ext": ".jpg"
+  },
+  "/images/waaree/image-1788602535879.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333,
+    "sizeKB": 488.6,
+    "ext": ".jpg"
+  },
+  "images/waaree/image-1788602535879.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333,
+    "sizeKB": 488.6,
+    "ext": ".jpg"
+  },
+  "/images/waaree/image-1788602535896.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 497,
+    "ext": ".jpg"
+  },
+  "images/waaree/image-1788602535896.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 497,
+    "ext": ".jpg"
+  },
+  "/images/waaree/image-1788602539596.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333,
+    "sizeKB": 475.9,
+    "ext": ".jpg"
+  },
+  "images/waaree/image-1788602539596.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333,
+    "sizeKB": 475.9,
+    "ext": ".jpg"
+  },
+  "/images/waaree/image-1788602555432.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 462,
+    "ext": ".jpg"
+  },
+  "images/waaree/image-1788602555432.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 462,
+    "ext": ".jpg"
+  },
+  "/images/waaree/image-1788602555450.jpg": {
+    "width": 720,
+    "height": 1280,
+    "aspectRatio": 0.563,
+    "sizeKB": 276.5,
+    "ext": ".jpg"
+  },
+  "images/waaree/image-1788602555450.jpg": {
+    "width": 720,
+    "height": 1280,
+    "aspectRatio": 0.563,
+    "sizeKB": 276.5,
+    "ext": ".jpg"
+  },
+  "/images/waaree/image-1788602555488.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 358.5,
+    "ext": ".jpg"
+  },
+  "images/waaree/image-1788602555488.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 358.5,
+    "ext": ".jpg"
+  },
+  "/image/blog/industry-academia-mou/industry-academia-mou-banner.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 172.6,
+    "ext": ".jpg"
+  },
+  "image/blog/industry-academia-mou/industry-academia-mou-banner.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 172.6,
+    "ext": ".jpg"
+  },
+  "/image/blog/industry-academia-mou/mou-interns-meeting-1.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 131.6,
+    "ext": ".jpg"
+  },
+  "image/blog/industry-academia-mou/mou-interns-meeting-1.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 131.6,
+    "ext": ".jpg"
+  },
+  "/image/blog/industry-academia-mou/mou-interns-meeting-2.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 106.1,
+    "ext": ".jpg"
+  },
+  "image/blog/industry-academia-mou/mou-interns-meeting-2.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 106.1,
+    "ext": ".jpg"
+  },
+  "/image/blog/industry-academia-mou/mou-interns-meeting-3.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 125.9,
+    "ext": ".jpg"
+  },
+  "image/blog/industry-academia-mou/mou-interns-meeting-3.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 125.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/industry-academia-mou/mou-interns-meeting-4.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 165.6,
+    "ext": ".jpg"
+  },
+  "image/blog/industry-academia-mou/mou-interns-meeting-4.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 165.6,
+    "ext": ".jpg"
+  },
+  "/image/blog/operational-excellence.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 190.8,
+    "ext": ".jpg"
+  },
+  "image/blog/operational-excellence.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 190.8,
+    "ext": ".jpg"
+  },
+  "/image/blog/blog-gmit-campus.jpg": {
+    "width": 768,
+    "height": 1024,
+    "aspectRatio": 0.75,
+    "sizeKB": 228.3,
+    "ext": ".jpg"
+  },
+  "image/blog/blog-gmit-campus.jpg": {
+    "width": 768,
+    "height": 1024,
+    "aspectRatio": 0.75,
+    "sizeKB": 228.3,
+    "ext": ".jpg"
+  },
+  "/image/blog/blog-gmit-memento.jpg": {
+    "width": 768,
+    "height": 1024,
+    "aspectRatio": 0.75,
+    "sizeKB": 110.2,
+    "ext": ".jpg"
+  },
+  "image/blog/blog-gmit-memento.jpg": {
+    "width": 768,
+    "height": 1024,
+    "aspectRatio": 0.75,
+    "sizeKB": 110.2,
+    "ext": ".jpg"
+  },
+  "/image/blog/blog-gmit-gift.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 122.9,
+    "ext": ".jpg"
+  },
+  "image/blog/blog-gmit-gift.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 122.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/rcc-drain.png": {
+    "width": 1672,
+    "height": 941,
+    "aspectRatio": 1.777,
+    "sizeKB": 3398.8,
+    "ext": ".png"
+  },
+  "image/blog/rcc-drain.png": {
+    "width": 1672,
+    "height": 941,
+    "aspectRatio": 1.777,
+    "sizeKB": 3398.8,
+    "ext": ".png"
+  },
+  "/image/blog/corrosion-cost-india-2026.png": {
+    "width": 1024,
+    "height": 563,
+    "aspectRatio": 1.819,
+    "sizeKB": 67.3,
+    "ext": ".png"
+  },
+  "image/blog/corrosion-cost-india-2026.png": {
+    "width": 1024,
+    "height": 563,
+    "aspectRatio": 1.819,
+    "sizeKB": 67.3,
+    "ext": ".png"
+  },
+  "/image/blog/dharmambal-polytechnic-internship-progress-review.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 164.9,
+    "ext": ".jpg"
+  },
+  "image/blog/dharmambal-polytechnic-internship-progress-review.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 164.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/dharmambal-polytechnic-gallery-1.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 168.8,
+    "ext": ".jpg"
+  },
+  "image/blog/dharmambal-polytechnic-gallery-1.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 168.8,
+    "ext": ".jpg"
+  },
+  "/image/blog/dharmambal-polytechnic-gallery-2.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 161.9,
+    "ext": ".jpg"
+  },
+  "image/blog/dharmambal-polytechnic-gallery-2.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 161.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/dharmambal-polytechnic-gallery-3.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 161.3,
+    "ext": ".jpg"
+  },
+  "image/blog/dharmambal-polytechnic-gallery-3.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 161.3,
+    "ext": ".jpg"
+  },
+  "/image/blog/blog-wpt-internship.jpg": {
+    "width": 1024,
+    "height": 576,
+    "aspectRatio": 1.778,
+    "sizeKB": 165.8,
+    "ext": ".jpg"
+  },
+  "image/blog/blog-wpt-internship.jpg": {
+    "width": 1024,
+    "height": 576,
+    "aspectRatio": 1.778,
+    "sizeKB": 165.8,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc.png": {
+    "width": 1090,
+    "height": 1443,
+    "aspectRatio": 0.755,
+    "sizeKB": 2590.1,
+    "ext": ".png"
+  },
+  "image/blog/krc/krc.png": {
+    "width": 1090,
+    "height": 1443,
+    "aspectRatio": 0.755,
+    "sizeKB": 2590.1,
+    "ext": ".png"
+  },
+  "/image/blog/krc/krc-external-development-1.jpg": {
+    "width": 3468,
+    "height": 3468,
+    "aspectRatio": 1,
+    "sizeKB": 3166.5,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-1.jpg": {
+    "width": 3468,
+    "height": 3468,
+    "aspectRatio": 1,
+    "sizeKB": 3166.5,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-2.jpg": {
+    "width": 3468,
+    "height": 3468,
+    "aspectRatio": 1,
+    "sizeKB": 2968.3,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-2.jpg": {
+    "width": 3468,
+    "height": 3468,
+    "aspectRatio": 1,
+    "sizeKB": 2968.3,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-3.jpg": {
+    "width": 3468,
+    "height": 3468,
+    "aspectRatio": 1,
+    "sizeKB": 3536.7,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-3.jpg": {
+    "width": 3468,
+    "height": 3468,
+    "aspectRatio": 1,
+    "sizeKB": 3536.7,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-4.jpg": {
+    "width": 3468,
+    "height": 3468,
+    "aspectRatio": 1,
+    "sizeKB": 2583.1,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-4.jpg": {
+    "width": 3468,
+    "height": 3468,
+    "aspectRatio": 1,
+    "sizeKB": 2583.1,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-5.jpg": {
+    "width": 3468,
+    "height": 3468,
+    "aspectRatio": 1,
+    "sizeKB": 3527.7,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-5.jpg": {
+    "width": 3468,
+    "height": 3468,
+    "aspectRatio": 1,
+    "sizeKB": 3527.7,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-6.jpg": {
+    "width": 3468,
+    "height": 3468,
+    "aspectRatio": 1,
+    "sizeKB": 2776.9,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-6.jpg": {
+    "width": 3468,
+    "height": 3468,
+    "aspectRatio": 1,
+    "sizeKB": 2776.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-7.jpg": {
+    "width": 4624,
+    "height": 3468,
+    "aspectRatio": 1.333,
+    "sizeKB": 2111.6,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-7.jpg": {
+    "width": 4624,
+    "height": 3468,
+    "aspectRatio": 1.333,
+    "sizeKB": 2111.6,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-8.jpg": {
+    "width": 4624,
+    "height": 3468,
+    "aspectRatio": 1.333,
+    "sizeKB": 2376.3,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-8.jpg": {
+    "width": 4624,
+    "height": 3468,
+    "aspectRatio": 1.333,
+    "sizeKB": 2376.3,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-9.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3187.6,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-9.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3187.6,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-10.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "aspectRatio": 1.333,
+    "sizeKB": 5005.5,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-10.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "aspectRatio": 1.333,
+    "sizeKB": 5005.5,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-11.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "aspectRatio": 1.333,
+    "sizeKB": 2680.2,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-11.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "aspectRatio": 1.333,
+    "sizeKB": 2680.2,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-12.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "aspectRatio": 0.75,
+    "sizeKB": 2191.4,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-12.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "aspectRatio": 0.75,
+    "sizeKB": 2191.4,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-13.jpg": {
+    "width": 4284,
+    "height": 5712,
+    "aspectRatio": 0.75,
+    "sizeKB": 3502.8,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-13.jpg": {
+    "width": 4284,
+    "height": 5712,
+    "aspectRatio": 0.75,
+    "sizeKB": 3502.8,
+    "ext": ".jpg"
+  },
+  "/image/blog/krc/krc-external-development-14.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "aspectRatio": 1.333,
+    "sizeKB": 1818.9,
+    "ext": ".jpg"
+  },
+  "image/blog/krc/krc-external-development-14.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "aspectRatio": 1.333,
+    "sizeKB": 1818.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/blog-gmit-office-group.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 159.4,
+    "ext": ".jpg"
+  },
+  "image/blog/blog-gmit-office-group.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 159.4,
+    "ext": ".jpg"
+  },
+  "/image/blog/toravi-solar/toravi-solar-2.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 198,
+    "ext": ".jpg"
+  },
+  "image/blog/toravi-solar/toravi-solar-2.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 198,
+    "ext": ".jpg"
+  },
+  "/image/blog/vibgyor-pune/vibgyor-pune-home-thumb.png": {
+    "width": 680,
+    "height": 383,
+    "aspectRatio": 1.775,
+    "sizeKB": 444.4,
+    "ext": ".png"
+  },
+  "image/blog/vibgyor-pune/vibgyor-pune-home-thumb.png": {
+    "width": 680,
+    "height": 383,
+    "aspectRatio": 1.775,
+    "sizeKB": 444.4,
+    "ext": ".png"
+  },
+  "/image/blog/vibgyor-pune/HDP09718.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 152.4,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09718.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 152.4,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09721.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 162.1,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09721.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 162.1,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09723.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 282,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09723.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 282,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09727.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 375.2,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09727.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 375.2,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09728.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 404.2,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09728.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 404.2,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09731.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 194.2,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09731.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 194.2,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09732.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 272.1,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09732.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 272.1,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09733.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 353.4,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09733.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 353.4,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09734.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 157.5,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09734.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 157.5,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09735.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 272,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09735.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 272,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09736.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 282.9,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09736.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 282.9,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09737.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 114.4,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09737.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 114.4,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09738.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 123,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09738.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 123,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09739.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 273,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09739.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 273,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09740.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 193.2,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09740.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 193.2,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09741.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 864.5,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09741.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 864.5,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09742.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 373.7,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09742.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 373.7,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09743.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 434.2,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09743.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 434.2,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09745.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 337.7,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09745.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 337.7,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09746.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 270.3,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09746.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 270.3,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09747.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 302.2,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09747.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 302.2,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09748.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 382.7,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09748.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 382.7,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09749.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 444,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09749.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 444,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09750.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 325.4,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09750.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 325.4,
+    "ext": ".webp"
+  },
+  "/image/blog/vibgyor-pune/HDP09751.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 434.4,
+    "ext": ".webp"
+  },
+  "image/blog/vibgyor-pune/HDP09751.webp": {
+    "width": 5168,
+    "height": 3448,
+    "aspectRatio": 1.499,
+    "sizeKB": 434.4,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/01-site-survey-rocky-terrain.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 391.1,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/01-site-survey-rocky-terrain.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 391.1,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/02-land-clearing-subgrade-prep.webp": {
+    "width": 1436,
+    "height": 900,
+    "aspectRatio": 1.596,
+    "sizeKB": 448.4,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/02-land-clearing-subgrade-prep.webp": {
+    "width": 1436,
+    "height": 900,
+    "aspectRatio": 1.596,
+    "sizeKB": 448.4,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/03-foundation-trench-excavation.webp": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 479.1,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/03-foundation-trench-excavation.webp": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 479.1,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/04-pcc-subbase-bed-casting.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 476.9,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/04-pcc-subbase-bed-casting.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 476.9,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/05-rebar-mesh-binding-itc02.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 476.4,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/05-rebar-mesh-binding-itc02.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 476.4,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/06-column-starter-anchor-bolts.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 300.3,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/06-column-starter-anchor-bolts.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 300.3,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/07-foundation-shuttering-formwork.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 178,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/07-foundation-shuttering-formwork.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 178,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/08-monolithic-m35-concrete-pour.webp": {
+    "width": 900,
+    "height": 1600,
+    "aspectRatio": 0.563,
+    "sizeKB": 480.3,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/08-monolithic-m35-concrete-pour.webp": {
+    "width": 900,
+    "height": 1600,
+    "aspectRatio": 0.563,
+    "sizeKB": 480.3,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/09-concrete-curing-quality-check.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 407.5,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/09-concrete-curing-quality-check.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 407.5,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/10-mms-piling-drilling-rig.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 362.8,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/10-mms-piling-drilling-rig.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 362.8,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/11-mms-pile-foundation-casting.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 367.9,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/11-mms-pile-foundation-casting.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 367.9,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/12-itc03-transformer-pad-civil.webp": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 202.6,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/12-itc03-transformer-pad-civil.webp": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 202.6,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/13-cable-trench-drainage-civil.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 243.9,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/13-cable-trench-drainage-civil.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 243.9,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/14-switchyard-equipment-foundations.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 224.2,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/14-switchyard-equipment-foundations.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 224.2,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/15-solar-mms-steel-structure-mount.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 289.4,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/15-solar-mms-steel-structure-mount.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 289.4,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/16-solar-pv-module-installation.webp": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 302.1,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/16-solar-pv-module-installation.webp": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 302.1,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/17-inverter-transformer-equipment-set.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 268.2,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/17-inverter-transformer-equipment-set.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 268.2,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/18-substation-gantry-yard-overview.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 291.8,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/18-substation-gantry-yard-overview.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 291.8,
+    "ext": ".webp"
+  },
+  "/image/blog/itc-foundation-works-kudligi-solar-project/19-kudligi-solar-block-array-overview.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 371.2,
+    "ext": ".webp"
+  },
+  "image/blog/itc-foundation-works-kudligi-solar-project/19-kudligi-solar-block-array-overview.webp": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 371.2,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/01-site-survey-groundbreaking.webp": {
+    "width": 1920,
+    "height": 880,
+    "aspectRatio": 2.182,
+    "sizeKB": 647.4,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/01-site-survey-groundbreaking.webp": {
+    "width": 1920,
+    "height": 880,
+    "aspectRatio": 2.182,
+    "sizeKB": 647.4,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/02-site-earthworks-levelling.webp": {
+    "width": 1920,
+    "height": 1264,
+    "aspectRatio": 1.519,
+    "sizeKB": 804.7,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/02-site-earthworks-levelling.webp": {
+    "width": 1920,
+    "height": 1264,
+    "aspectRatio": 1.519,
+    "sizeKB": 804.7,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/03-subgrade-compaction-footing.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 1229,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/03-subgrade-compaction-footing.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 1229,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/04-raft-rebar-grid-binding.webp": {
+    "width": 1920,
+    "height": 2560,
+    "aspectRatio": 0.75,
+    "sizeKB": 2168.5,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/04-raft-rebar-grid-binding.webp": {
+    "width": 1920,
+    "height": 2560,
+    "aspectRatio": 0.75,
+    "sizeKB": 2168.5,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/05-raft-foundation-concreting.webp": {
+    "width": 1920,
+    "height": 2398,
+    "aspectRatio": 0.801,
+    "sizeKB": 1857.3,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/05-raft-foundation-concreting.webp": {
+    "width": 1920,
+    "height": 2398,
+    "aspectRatio": 0.801,
+    "sizeKB": 1857.3,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/06-ground-column-shuttering-casting.webp": {
+    "width": 1920,
+    "height": 1280,
+    "aspectRatio": 1.5,
+    "sizeKB": 895.6,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/06-ground-column-shuttering-casting.webp": {
+    "width": 1920,
+    "height": 1280,
+    "aspectRatio": 1.5,
+    "sizeKB": 895.6,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/07-pt-slab-formwork-tendons.webp": {
+    "width": 1920,
+    "height": 1280,
+    "aspectRatio": 1.5,
+    "sizeKB": 790.2,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/07-pt-slab-formwork-tendons.webp": {
+    "width": 1920,
+    "height": 1280,
+    "aspectRatio": 1.5,
+    "sizeKB": 790.2,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/08-central-mandapam-pt-slab-pour.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 1733.9,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/08-central-mandapam-pt-slab-pour.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 1733.9,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/09-upper-tier-column-framework.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 1183.3,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/09-upper-tier-column-framework.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 1183.3,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/10-upper-tier-frame-extension.webp": {
+    "width": 1920,
+    "height": 2560,
+    "aspectRatio": 0.75,
+    "sizeKB": 1688.7,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/10-upper-tier-frame-extension.webp": {
+    "width": 1920,
+    "height": 2560,
+    "aspectRatio": 0.75,
+    "sizeKB": 1688.7,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/11-solid-block-masonry-walls.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 704.5,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/11-solid-block-masonry-walls.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 704.5,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/12-wall-plastering-mep-chasing.webp": {
+    "width": 1920,
+    "height": 1272,
+    "aspectRatio": 1.509,
+    "sizeKB": 452.1,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/12-wall-plastering-mep-chasing.webp": {
+    "width": 1920,
+    "height": 1272,
+    "aspectRatio": 1.509,
+    "sizeKB": 452.1,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/13-peb-steel-roof-truss-assembly.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 953.2,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/13-peb-steel-roof-truss-assembly.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 953.2,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/17-gps-verified-site-handover.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 748.5,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/17-gps-verified-site-handover.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 748.5,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/km-palace-11.webp": {
+    "width": 1920,
+    "height": 1127,
+    "aspectRatio": 1.704,
+    "sizeKB": 157.1,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/km-palace-11.webp": {
+    "width": 1920,
+    "height": 1127,
+    "aspectRatio": 1.704,
+    "sizeKB": 157.1,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/km-palace-16.webp": {
+    "width": 1920,
+    "height": 1127,
+    "aspectRatio": 1.704,
+    "sizeKB": 261.4,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/km-palace-16.webp": {
+    "width": 1920,
+    "height": 1127,
+    "aspectRatio": 1.704,
+    "sizeKB": 261.4,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/km-palace-26.webp": {
+    "width": 1920,
+    "height": 1280,
+    "aspectRatio": 1.5,
+    "sizeKB": 735,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/km-palace-26.webp": {
+    "width": 1920,
+    "height": 1280,
+    "aspectRatio": 1.5,
+    "sizeKB": 735,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/14-interior-ceiling-vitrified-tiling.webp": {
+    "width": 1920,
+    "height": 2392,
+    "aspectRatio": 0.803,
+    "sizeKB": 772,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/14-interior-ceiling-vitrified-tiling.webp": {
+    "width": 1920,
+    "height": 2392,
+    "aspectRatio": 0.803,
+    "sizeKB": 772,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/km-palace-14.webp": {
+    "width": 1920,
+    "height": 1121,
+    "aspectRatio": 1.713,
+    "sizeKB": 285.1,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/km-palace-14.webp": {
+    "width": 1920,
+    "height": 1121,
+    "aspectRatio": 1.713,
+    "sizeKB": 285.1,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/km-palace-15.webp": {
+    "width": 1280,
+    "height": 1794,
+    "aspectRatio": 0.713,
+    "sizeKB": 236,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/km-palace-15.webp": {
+    "width": 1280,
+    "height": 1794,
+    "aspectRatio": 0.713,
+    "sizeKB": 236,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/km-palace-27.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 528.3,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/km-palace-27.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 528.3,
+    "ext": ".webp"
+  },
+  "/image/blog/km-palace/km-palace-28.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 736.6,
+    "ext": ".webp"
+  },
+  "image/blog/km-palace/km-palace-28.webp": {
+    "width": 1920,
+    "height": 1440,
+    "aspectRatio": 1.333,
+    "sizeKB": 736.6,
+    "ext": ".webp"
+  },
+  "/image/blog/mgr-adharsh/20240526_30000PM_ByGPSMapCamera.jpg": {
+    "width": 4608,
+    "height": 3456,
+    "aspectRatio": 1.333,
+    "sizeKB": 4233.7,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/20240526_30000PM_ByGPSMapCamera.jpg": {
+    "width": 4608,
+    "height": 3456,
+    "aspectRatio": 1.333,
+    "sizeKB": 4233.7,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/20240526_30639PM_ByGPSMapCamera.jpg": {
+    "width": 3456,
+    "height": 4608,
+    "aspectRatio": 0.75,
+    "sizeKB": 3497.7,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/20240526_30639PM_ByGPSMapCamera.jpg": {
+    "width": 3456,
+    "height": 4608,
+    "aspectRatio": 0.75,
+    "sizeKB": 3497.7,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/20240526_30647PM_ByGPSMapCamera.jpg": {
+    "width": 3456,
+    "height": 4608,
+    "aspectRatio": 0.75,
+    "sizeKB": 2332.7,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/20240526_30647PM_ByGPSMapCamera.jpg": {
+    "width": 3456,
+    "height": 4608,
+    "aspectRatio": 0.75,
+    "sizeKB": 2332.7,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/20240526_30712PM_ByGPSMapCamera.jpg": {
+    "width": 4608,
+    "height": 3456,
+    "aspectRatio": 1.333,
+    "sizeKB": 2532.6,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/20240526_30712PM_ByGPSMapCamera.jpg": {
+    "width": 4608,
+    "height": 3456,
+    "aspectRatio": 1.333,
+    "sizeKB": 2532.6,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/20240610_113702AM_ByGPSMapCamera.jpg": {
+    "width": 3456,
+    "height": 4608,
+    "aspectRatio": 0.75,
+    "sizeKB": 3535.1,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/20240610_113702AM_ByGPSMapCamera.jpg": {
+    "width": 3456,
+    "height": 4608,
+    "aspectRatio": 0.75,
+    "sizeKB": 3535.1,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/20240618_64029PM_ByGPSMapCamera.jpg": {
+    "width": 4608,
+    "height": 3456,
+    "aspectRatio": 1.333,
+    "sizeKB": 3252.5,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/20240618_64029PM_ByGPSMapCamera.jpg": {
+    "width": 4608,
+    "height": 3456,
+    "aspectRatio": 1.333,
+    "sizeKB": 3252.5,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/20240624_30349PM_ByGPSMapCamera.jpg": {
+    "width": 4608,
+    "height": 3456,
+    "aspectRatio": 1.333,
+    "sizeKB": 5025.7,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/20240624_30349PM_ByGPSMapCamera.jpg": {
+    "width": 4608,
+    "height": 3456,
+    "aspectRatio": 1.333,
+    "sizeKB": 5025.7,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/20240625_21500PM_ByGPSMapCamera.jpg": {
+    "width": 3456,
+    "height": 4608,
+    "aspectRatio": 0.75,
+    "sizeKB": 4673.9,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/20240625_21500PM_ByGPSMapCamera.jpg": {
+    "width": 3456,
+    "height": 4608,
+    "aspectRatio": 0.75,
+    "sizeKB": 4673.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/20240625_21507PM_ByGPSMapCamera.jpg": {
+    "width": 3456,
+    "height": 4608,
+    "aspectRatio": 0.75,
+    "sizeKB": 4337.1,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/20240625_21507PM_ByGPSMapCamera.jpg": {
+    "width": 3456,
+    "height": 4608,
+    "aspectRatio": 0.75,
+    "sizeKB": 4337.1,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/20240625_21521PM_ByGPSMapCamera.jpg": {
+    "width": 3456,
+    "height": 4608,
+    "aspectRatio": 0.75,
+    "sizeKB": 3598.9,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/20240625_21521PM_ByGPSMapCamera.jpg": {
+    "width": 3456,
+    "height": 4608,
+    "aspectRatio": 0.75,
+    "sizeKB": 3598.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/20240709_11621PM_ByGPSMapCamera.jpg": {
+    "width": 4608,
+    "height": 3456,
+    "aspectRatio": 1.333,
+    "sizeKB": 3091.5,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/20240709_11621PM_ByGPSMapCamera.jpg": {
+    "width": 4608,
+    "height": 3456,
+    "aspectRatio": 1.333,
+    "sizeKB": 3091.5,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240526145813.jpg": {
+    "width": 4624,
+    "height": 3468,
+    "aspectRatio": 1.333,
+    "sizeKB": 5578.2,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240526145813.jpg": {
+    "width": 4624,
+    "height": 3468,
+    "aspectRatio": 1.333,
+    "sizeKB": 5578.2,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240526145910.jpg": {
+    "width": 4624,
+    "height": 3468,
+    "aspectRatio": 1.333,
+    "sizeKB": 5113.7,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240526145910.jpg": {
+    "width": 4624,
+    "height": 3468,
+    "aspectRatio": 1.333,
+    "sizeKB": 5113.7,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240605124925.jpg": {
+    "width": 4624,
+    "height": 3468,
+    "aspectRatio": 1.333,
+    "sizeKB": 4884.4,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240605124925.jpg": {
+    "width": 4624,
+    "height": 3468,
+    "aspectRatio": 1.333,
+    "sizeKB": 4884.4,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240610101600.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3679.4,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240610101600.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3679.4,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240610101617.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 2764.3,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240610101617.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 2764.3,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240610101621.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 2854.7,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240610101621.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 2854.7,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240610101624.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 2909.4,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240610101624.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 2909.4,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240610101626.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3004.6,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240610101626.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3004.6,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240610101651.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3516.9,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240610101651.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3516.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240610101652.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 4203,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240610101652.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 4203,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240610101655.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3623.3,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240610101655.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3623.3,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240610101708.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3459.9,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240610101708.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3459.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240610101712.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3070.5,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240610101712.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3070.5,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240610101714.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3268.8,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240610101714.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 3268.8,
+    "ext": ".jpg"
+  },
+  "/image/blog/mgr-adharsh/IMG20240610113823.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 4115.1,
+    "ext": ".jpg"
+  },
+  "image/blog/mgr-adharsh/IMG20240610113823.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 4115.1,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-01.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 261.4,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-01.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 261.4,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-02.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 232.3,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-02.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 232.3,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-03.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 232.6,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-03.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 232.6,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-04.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 292.2,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-04.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 292.2,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-05.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 166.4,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-05.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 166.4,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-06.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 168,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-06.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 168,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-07.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 270.1,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-07.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 270.1,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-08.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 315.7,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-08.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 315.7,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-09.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 290.9,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-09.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 290.9,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-10.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 271.7,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-10.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 271.7,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-11.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 259.8,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-11.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 259.8,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-12.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 141.8,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-12.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 141.8,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-13.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 141.8,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-13.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 141.8,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-14.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 273.9,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-14.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 273.9,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-15.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 213.8,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-15.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 213.8,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-16.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 197.5,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-16.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 197.5,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-17.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 233.2,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-17.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 233.2,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-18.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 320.3,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-18.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 320.3,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-19.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 291.8,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-19.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 291.8,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-20.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 305.8,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-20.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 305.8,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-21.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 309.3,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-21.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 309.3,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-22.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 336.3,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-22.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 336.3,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-23.jpg": {
+    "width": 900,
+    "height": 1600,
+    "aspectRatio": 0.563,
+    "sizeKB": 224.2,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-23.jpg": {
+    "width": 900,
+    "height": 1600,
+    "aspectRatio": 0.563,
+    "sizeKB": 224.2,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-24.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 334.6,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-24.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 334.6,
+    "ext": ".jpg"
+  },
+  "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-25.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 208.7,
+    "ext": ".jpg"
+  },
+  "images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-25.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 208.7,
+    "ext": ".jpg"
+  },
+  "/image/blog/onam-celebration-gallery-1.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 198.1,
+    "ext": ".jpg"
+  },
+  "image/blog/onam-celebration-gallery-1.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 198.1,
+    "ext": ".jpg"
+  },
+  "/image/blog/onam-celebration-gallery-2.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 180.8,
+    "ext": ".jpg"
+  },
+  "image/blog/onam-celebration-gallery-2.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 180.8,
+    "ext": ".jpg"
+  },
+  "/image/blog/ois-pallikaranai/orchids-pallikaranai-1.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 77.9,
+    "ext": ".webp"
+  },
+  "image/blog/ois-pallikaranai/orchids-pallikaranai-1.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 77.9,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-pallikaranai/orchids-pallikaranai-2.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 48.9,
+    "ext": ".webp"
+  },
+  "image/blog/ois-pallikaranai/orchids-pallikaranai-2.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 48.9,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-pallikaranai/orchids-pallikaranai-3.webp": {
+    "width": 680,
+    "height": 510,
+    "aspectRatio": 1.333,
+    "sizeKB": 47.9,
+    "ext": ".webp"
+  },
+  "image/blog/ois-pallikaranai/orchids-pallikaranai-3.webp": {
+    "width": 680,
+    "height": 510,
+    "aspectRatio": 1.333,
+    "sizeKB": 47.9,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-pallikaranai/orchids-pallikaranai-4.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 49.2,
+    "ext": ".webp"
+  },
+  "image/blog/ois-pallikaranai/orchids-pallikaranai-4.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 49.2,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-pallikaranai/orchids-pallikaranai-5.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 57.1,
+    "ext": ".webp"
+  },
+  "image/blog/ois-pallikaranai/orchids-pallikaranai-5.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 57.1,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-pallikaranai/orchids-pallikaranai-6.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 55.1,
+    "ext": ".webp"
+  },
+  "image/blog/ois-pallikaranai/orchids-pallikaranai-6.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 55.1,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-pallikaranai/orchids-pallikaranai-7.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 67.9,
+    "ext": ".webp"
+  },
+  "image/blog/ois-pallikaranai/orchids-pallikaranai-7.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 67.9,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-pallikaranai/orchids-pallikaranai-8.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 67.4,
+    "ext": ".webp"
+  },
+  "image/blog/ois-pallikaranai/orchids-pallikaranai-8.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 67.4,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-pallikaranai/orchids-pallikaranai-9.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 55.4,
+    "ext": ".webp"
+  },
+  "image/blog/ois-pallikaranai/orchids-pallikaranai-9.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 55.4,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-pallikaranai/orchids-pallikaranai-10.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 36.8,
+    "ext": ".webp"
+  },
+  "image/blog/ois-pallikaranai/orchids-pallikaranai-10.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 36.8,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-pallikaranai/orchids-pallikaranai-11.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 47.4,
+    "ext": ".webp"
+  },
+  "image/blog/ois-pallikaranai/orchids-pallikaranai-11.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 47.4,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-manapakkam/1.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 48.9,
+    "ext": ".webp"
+  },
+  "image/blog/ois-manapakkam/1.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 48.9,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-manapakkam/2.webp": {
+    "width": 513,
+    "height": 510,
+    "aspectRatio": 1.006,
+    "sizeKB": 65.6,
+    "ext": ".webp"
+  },
+  "image/blog/ois-manapakkam/2.webp": {
+    "width": 513,
+    "height": 510,
+    "aspectRatio": 1.006,
+    "sizeKB": 65.6,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-manapakkam/4.webp": {
+    "width": 384,
+    "height": 510,
+    "aspectRatio": 0.753,
+    "sizeKB": 22.8,
+    "ext": ".webp"
+  },
+  "image/blog/ois-manapakkam/4.webp": {
+    "width": 384,
+    "height": 510,
+    "aspectRatio": 0.753,
+    "sizeKB": 22.8,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-manapakkam/5.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 46.6,
+    "ext": ".webp"
+  },
+  "image/blog/ois-manapakkam/5.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 46.6,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-manapakkam/6.webp": {
+    "width": 384,
+    "height": 510,
+    "aspectRatio": 0.753,
+    "sizeKB": 31.7,
+    "ext": ".webp"
+  },
+  "image/blog/ois-manapakkam/6.webp": {
+    "width": 384,
+    "height": 510,
+    "aspectRatio": 0.753,
+    "sizeKB": 31.7,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-manapakkam/7.webp": {
+    "width": 382,
+    "height": 510,
+    "aspectRatio": 0.749,
+    "sizeKB": 29,
+    "ext": ".webp"
+  },
+  "image/blog/ois-manapakkam/7.webp": {
+    "width": 382,
+    "height": 510,
+    "aspectRatio": 0.749,
+    "sizeKB": 29,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-manapakkam/8.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 48.4,
+    "ext": ".webp"
+  },
+  "image/blog/ois-manapakkam/8.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 48.4,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-manapakkam/9.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 56.3,
+    "ext": ".webp"
+  },
+  "image/blog/ois-manapakkam/9.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 56.3,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-manapakkam/10.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 73.9,
+    "ext": ".webp"
+  },
+  "image/blog/ois-manapakkam/10.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 73.9,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/1.webp": {
+    "width": 680,
+    "height": 454,
+    "aspectRatio": 1.498,
+    "sizeKB": 66.1,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/1.webp": {
+    "width": 680,
+    "height": 454,
+    "aspectRatio": 1.498,
+    "sizeKB": 66.1,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/2.webp": {
+    "width": 680,
+    "height": 454,
+    "aspectRatio": 1.498,
+    "sizeKB": 85.8,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/2.webp": {
+    "width": 680,
+    "height": 454,
+    "aspectRatio": 1.498,
+    "sizeKB": 85.8,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/4.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 34.2,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/4.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 34.2,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/5.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 108,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/5.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 108,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/6.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 80.3,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/6.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 80.3,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/7.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 29.7,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/7.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 29.7,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/8.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 56.1,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/8.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 56.1,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/9.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 39.4,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/9.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 39.4,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/10.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 33.5,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/10.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 33.5,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/11.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 121.8,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/11.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 121.8,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/13.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 70.5,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/13.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 70.5,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/14.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 73.9,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/14.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 73.9,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-oragadam/15.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 23.1,
+    "ext": ".webp"
+  },
+  "image/blog/ois-oragadam/15.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 23.1,
+    "ext": ".webp"
+  },
+  "/image/blog/pulianthope/1.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 32.3,
+    "ext": ".webp"
+  },
+  "image/blog/pulianthope/1.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 32.3,
+    "ext": ".webp"
+  },
+  "/image/blog/pulianthope/2.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 32.3,
+    "ext": ".webp"
+  },
+  "image/blog/pulianthope/2.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 32.3,
+    "ext": ".webp"
+  },
+  "/image/blog/pulianthope/3.webp": {
+    "width": 680,
+    "height": 510,
+    "aspectRatio": 1.333,
+    "sizeKB": 65.5,
+    "ext": ".webp"
+  },
+  "image/blog/pulianthope/3.webp": {
+    "width": 680,
+    "height": 510,
+    "aspectRatio": 1.333,
+    "sizeKB": 65.5,
+    "ext": ".webp"
+  },
+  "/image/blog/pulianthope/4.webp": {
+    "width": 680,
+    "height": 510,
+    "aspectRatio": 1.333,
+    "sizeKB": 70.7,
+    "ext": ".webp"
+  },
+  "image/blog/pulianthope/4.webp": {
+    "width": 680,
+    "height": 510,
+    "aspectRatio": 1.333,
+    "sizeKB": 70.7,
+    "ext": ".webp"
+  },
+  "/image/blog/pulianthope/5.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 89.5,
+    "ext": ".webp"
+  },
+  "image/blog/pulianthope/5.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 89.5,
+    "ext": ".webp"
+  },
+  "/image/blog/pulianthope/6.webp": {
+    "width": 680,
+    "height": 452,
+    "aspectRatio": 1.504,
+    "sizeKB": 36.3,
+    "ext": ".webp"
+  },
+  "image/blog/pulianthope/6.webp": {
+    "width": 680,
+    "height": 452,
+    "aspectRatio": 1.504,
+    "sizeKB": 36.3,
+    "ext": ".webp"
+  },
+  "/image/blog/pulianthope/7.webp": {
+    "width": 382,
+    "height": 510,
+    "aspectRatio": 0.749,
+    "sizeKB": 32.3,
+    "ext": ".webp"
+  },
+  "image/blog/pulianthope/7.webp": {
+    "width": 382,
+    "height": 510,
+    "aspectRatio": 0.749,
+    "sizeKB": 32.3,
+    "ext": ".webp"
+  },
+  "/image/blog/pulianthope/8.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 27.9,
+    "ext": ".webp"
+  },
+  "image/blog/pulianthope/8.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 27.9,
+    "ext": ".webp"
+  },
+  "/image/blog/pulianthope/9.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 56.2,
+    "ext": ".webp"
+  },
+  "image/blog/pulianthope/9.webp": {
+    "width": 680,
+    "height": 382,
+    "aspectRatio": 1.78,
+    "sizeKB": 56.2,
+    "ext": ".webp"
+  },
+  "/image/blog/pulianthope/10.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 43,
+    "ext": ".webp"
+  },
+  "image/blog/pulianthope/10.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 43,
+    "ext": ".webp"
+  },
+  "/image/blog/pulianthope/11.webp": {
+    "width": 680,
+    "height": 510,
+    "aspectRatio": 1.333,
+    "sizeKB": 81.8,
+    "ext": ".webp"
+  },
+  "image/blog/pulianthope/11.webp": {
+    "width": 680,
+    "height": 510,
+    "aspectRatio": 1.333,
+    "sizeKB": 81.8,
+    "ext": ".webp"
+  },
+  "/image/blog/pulianthope/12.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 61,
+    "ext": ".webp"
+  },
+  "image/blog/pulianthope/12.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 61,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-vandalur/orchids-vandalur-1.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 33.3,
+    "ext": ".webp"
+  },
+  "image/blog/ois-vandalur/orchids-vandalur-1.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 33.3,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-vandalur/orchids-vandalur-2.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 37.3,
+    "ext": ".webp"
+  },
+  "image/blog/ois-vandalur/orchids-vandalur-2.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 37.3,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-vandalur/orchids-vandalur-3.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 35.3,
+    "ext": ".webp"
+  },
+  "image/blog/ois-vandalur/orchids-vandalur-3.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 35.3,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-vandalur/orchids-vandalur-4.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 43.9,
+    "ext": ".webp"
+  },
+  "image/blog/ois-vandalur/orchids-vandalur-4.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 43.9,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-vandalur/orchids-vandalur-5.webp": {
+    "width": 680,
+    "height": 384,
+    "aspectRatio": 1.771,
+    "sizeKB": 51.7,
+    "ext": ".webp"
+  },
+  "image/blog/ois-vandalur/orchids-vandalur-5.webp": {
+    "width": 680,
+    "height": 384,
+    "aspectRatio": 1.771,
+    "sizeKB": 51.7,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-vandalur/orchids-vandalur-6.webp": {
+    "width": 680,
+    "height": 384,
+    "aspectRatio": 1.771,
+    "sizeKB": 78.3,
+    "ext": ".webp"
+  },
+  "image/blog/ois-vandalur/orchids-vandalur-6.webp": {
+    "width": 680,
+    "height": 384,
+    "aspectRatio": 1.771,
+    "sizeKB": 78.3,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-vandalur/orchids-vandalur-7.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 32.4,
+    "ext": ".webp"
+  },
+  "image/blog/ois-vandalur/orchids-vandalur-7.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 32.4,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-vandalur/orchids-vandalur-8.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 79.6,
+    "ext": ".webp"
+  },
+  "image/blog/ois-vandalur/orchids-vandalur-8.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 79.6,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-vandalur/orchids-vandalur-9.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 65.8,
+    "ext": ".webp"
+  },
+  "image/blog/ois-vandalur/orchids-vandalur-9.webp": {
+    "width": 680,
+    "height": 453,
+    "aspectRatio": 1.501,
+    "sizeKB": 65.8,
+    "ext": ".webp"
+  },
+  "/image/blog/ois-vandalur/orchids-vandalur-10.png": {
+    "width": 141,
+    "height": 101,
+    "aspectRatio": 1.396,
+    "sizeKB": 29.2,
+    "ext": ".png"
+  },
+  "image/blog/ois-vandalur/orchids-vandalur-10.png": {
+    "width": 141,
+    "height": 101,
+    "aspectRatio": 1.396,
+    "sizeKB": 29.2,
+    "ext": ".png"
+  },
+  "/image/blog/potluck-celebration-2026.jpg": {
+    "width": 1024,
+    "height": 576,
+    "aspectRatio": 1.778,
+    "sizeKB": 157.9,
+    "ext": ".jpg"
+  },
+  "image/blog/potluck-celebration-2026.jpg": {
+    "width": 1024,
+    "height": 576,
+    "aspectRatio": 1.778,
+    "sizeKB": 157.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-dobbaspet-banner.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 257.5,
+    "ext": ".jpg"
+  },
+  "image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-dobbaspet-banner.jpg": {
+    "width": 1024,
+    "height": 768,
+    "aspectRatio": 1.333,
+    "sizeKB": 257.5,
+    "ext": ".jpg"
+  },
+  "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-dismantling-crane-1.jpg": {
+    "width": 1024,
+    "height": 576,
+    "aspectRatio": 1.778,
+    "sizeKB": 267.9,
+    "ext": ".jpg"
+  },
+  "image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-dismantling-crane-1.jpg": {
+    "width": 1024,
+    "height": 576,
+    "aspectRatio": 1.778,
+    "sizeKB": 267.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-foundation-loader-2.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 217.2,
+    "ext": ".jpg"
+  },
+  "image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-foundation-loader-2.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 217.2,
+    "ext": ".jpg"
+  },
+  "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-excavator-earthwork-3.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 244.1,
+    "ext": ".jpg"
+  },
+  "image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-excavator-earthwork-3.jpg": {
+    "width": 1024,
+    "height": 770,
+    "aspectRatio": 1.33,
+    "sizeKB": 244.1,
+    "ext": ".jpg"
+  },
+  "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-rc-wall-shuttering-4.jpg": {
+    "width": 1024,
+    "height": 575,
+    "aspectRatio": 1.781,
+    "sizeKB": 225.8,
+    "ext": ".jpg"
+  },
+  "image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-rc-wall-shuttering-4.jpg": {
+    "width": 1024,
+    "height": 575,
+    "aspectRatio": 1.781,
+    "sizeKB": 225.8,
+    "ext": ".jpg"
+  },
+  "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-column-concrete-vibrator-5.jpg": {
+    "width": 768,
+    "height": 1024,
+    "aspectRatio": 0.75,
+    "sizeKB": 261.7,
+    "ext": ".jpg"
+  },
+  "image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-column-concrete-vibrator-5.jpg": {
+    "width": 768,
+    "height": 1024,
+    "aspectRatio": 0.75,
+    "sizeKB": 261.7,
+    "ext": ".jpg"
+  },
+  "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-rc-wall-panels-line-6.jpg": {
+    "width": 1024,
+    "height": 577,
+    "aspectRatio": 1.775,
+    "sizeKB": 228.2,
+    "ext": ".jpg"
+  },
+  "image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-rc-wall-panels-line-6.jpg": {
+    "width": 1024,
+    "height": 577,
+    "aspectRatio": 1.775,
+    "sizeKB": 228.2,
+    "ext": ".jpg"
+  },
+  "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-retaining-wall-concrete-7.jpg": {
+    "width": 1024,
+    "height": 577,
+    "aspectRatio": 1.775,
+    "sizeKB": 234.7,
+    "ext": ".jpg"
+  },
+  "image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-retaining-wall-concrete-7.jpg": {
+    "width": 1024,
+    "height": 577,
+    "aspectRatio": 1.775,
+    "sizeKB": 234.7,
+    "ext": ".jpg"
+  },
+  "/image-watermarked/team/shanmugam.png": {
+    "width": 172,
+    "height": 193,
+    "aspectRatio": 0.891,
+    "sizeKB": 39.3,
+    "ext": ".png"
+  },
+  "image-watermarked/team/shanmugam.png": {
+    "width": 172,
+    "height": 193,
+    "aspectRatio": 0.891,
+    "sizeKB": 39.3,
+    "ext": ".png"
+  },
+  "/image/project-item/shell33.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 71.9,
+    "ext": ".jpg"
+  },
+  "image/project-item/shell33.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 71.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill-hulikunta-solar-plant.jpg": {
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333,
+    "sizeKB": 165.4,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill-hulikunta-solar-plant.jpg": {
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333,
+    "sizeKB": 165.4,
+    "ext": ".jpg"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill/01-solar-site-work-front-material-inspection.jpg": {
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333,
+    "sizeKB": 160.1,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill/01-solar-site-work-front-material-inspection.jpg": {
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333,
+    "sizeKB": 160.1,
+    "ext": ".jpg"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill/02-simulated-incident-spot-and-initial-response.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 224.6,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill/02-simulated-incident-spot-and-initial-response.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 224.6,
+    "ext": ".jpg"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill/03-simulated-snake-bite-puncture-marks-first-aid.jpg": {
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333,
+    "sizeKB": 154.6,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill/03-simulated-snake-bite-puncture-marks-first-aid.jpg": {
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333,
+    "sizeKB": 154.6,
+    "ext": ".jpg"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill/04-safety-team-incident-spot-casualty-assessment.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 142.5,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill/04-safety-team-incident-spot-casualty-assessment.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 142.5,
+    "ext": ".jpg"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill/06-team-assisting-and-evacuating-injured-worker.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 162.5,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill/06-team-assisting-and-evacuating-injured-worker.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 162.5,
+    "ext": ".jpg"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill/07-transferring-casualty-into-emergency-vehicle.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 114.9,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill/07-transferring-casualty-into-emergency-vehicle.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 114.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill/08-casualty-stabilization-inside-evacuation-vehicle.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 118.9,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill/08-casualty-stabilization-inside-evacuation-vehicle.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 118.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill/09-emergency-response-vehicle-site-arrival.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 102.8,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill/09-emergency-response-vehicle-site-arrival.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 102.8,
+    "ext": ".jpg"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill/10-emergency-transportation-bolero-vehicle-dispatch.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 101,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill/10-emergency-transportation-bolero-vehicle-dispatch.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 101,
+    "ext": ".jpg"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill/11-emergency-hospital-dispatch-vehicle-departure.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 99,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill/11-emergency-hospital-dispatch-vehicle-departure.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 99,
+    "ext": ".jpg"
+  },
+  "/image/blog/snake-bite-emergency-mock-drill/12-emergency-response-vehicle-standby-solar-site.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 109.5,
+    "ext": ".jpg"
+  },
+  "image/blog/snake-bite-emergency-mock-drill/12-emergency-response-vehicle-standby-solar-site.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 109.5,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620742929.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 329.6,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620742929.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 329.6,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620742940.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 489.6,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620742940.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 489.6,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620742946.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 339.5,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620742946.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 339.5,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620753854.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 439.1,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620753854.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 439.1,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620756992.jpg": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 299.1,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620756992.jpg": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 299.1,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620757998.jpg": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 221.4,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620757998.jpg": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 221.4,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620758819.jpg": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 343.2,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620758819.jpg": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 343.2,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620760835.jpg": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 250.2,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620760835.jpg": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 250.2,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620761616.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 286.7,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620761616.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 286.7,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620763388.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 317.9,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620763388.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 317.9,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620764584.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 330.9,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620764584.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 330.9,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620765456.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 267.5,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620765456.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 267.5,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620766320.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 361.6,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620766320.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 361.6,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620766865.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 393.5,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620766865.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 393.5,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620767405.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 236,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620767405.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 236,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620768001.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 240.7,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620768001.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 240.7,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620768489.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 227.1,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620768489.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 227.1,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620768947.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 315.1,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620768947.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 315.1,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620769470.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 355.6,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620769470.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 355.6,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620769960.jpg": {
+    "width": 900,
+    "height": 1600,
+    "aspectRatio": 0.563,
+    "sizeKB": 419,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620769960.jpg": {
+    "width": 900,
+    "height": 1600,
+    "aspectRatio": 0.563,
+    "sizeKB": 419,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620770511.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 291.1,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620770511.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 291.1,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620771159.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 290,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620771159.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 290,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620771799.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 181.4,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620771799.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 181.4,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620772309.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 367.3,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620772309.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 367.3,
+    "ext": ".jpg"
+  },
+  "/images/kudligi/image-1789620772895.jpg": {
+    "width": 900,
+    "height": 1600,
+    "aspectRatio": 0.563,
+    "sizeKB": 287.2,
+    "ext": ".jpg"
+  },
+  "images/kudligi/image-1789620772895.jpg": {
+    "width": 900,
+    "height": 1600,
+    "aspectRatio": 0.563,
+    "sizeKB": 287.2,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-02.jpg": {
+    "width": 1600,
+    "height": 1204,
+    "aspectRatio": 1.329,
+    "sizeKB": 225.9,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-02.jpg": {
+    "width": 1600,
+    "height": 1204,
+    "aspectRatio": 1.329,
+    "sizeKB": 225.9,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-105.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333,
+    "sizeKB": 278,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-105.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333,
+    "sizeKB": 278,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-133.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 258.1,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-133.jpg": {
+    "width": 1600,
+    "height": 900,
+    "aspectRatio": 1.778,
+    "sizeKB": 258.1,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-152.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333,
+    "sizeKB": 189.4,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-152.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.333,
+    "sizeKB": 189.4,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-163.jpg": {
+    "width": 738,
+    "height": 1599,
+    "aspectRatio": 0.462,
+    "sizeKB": 143.8,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-163.jpg": {
+    "width": 738,
+    "height": 1599,
+    "aspectRatio": 0.462,
+    "sizeKB": 143.8,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-174.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 291.5,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-174.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 291.5,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-186.jpg": {
+    "width": 899,
+    "height": 1599,
+    "aspectRatio": 0.562,
+    "sizeKB": 121.9,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-186.jpg": {
+    "width": 899,
+    "height": 1599,
+    "aspectRatio": 0.562,
+    "sizeKB": 121.9,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-198.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 218.5,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-198.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 218.5,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-211.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 207.2,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-211.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 207.2,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-237.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 284.2,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-237.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 284.2,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-251.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 341.5,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-251.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 341.5,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-266.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 224.9,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-266.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 224.9,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-28.jpg": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 257.1,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-28.jpg": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 257.1,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-291.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 250.7,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-291.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 250.7,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-332.jpg": {
+    "width": 899,
+    "height": 1599,
+    "aspectRatio": 0.562,
+    "sizeKB": 260.4,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-332.jpg": {
+    "width": 899,
+    "height": 1599,
+    "aspectRatio": 0.562,
+    "sizeKB": 260.4,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-369.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 110.2,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-369.jpg": {
+    "width": 1599,
+    "height": 899,
+    "aspectRatio": 1.779,
+    "sizeKB": 110.2,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-383.jpg": {
+    "width": 899,
+    "height": 1599,
+    "aspectRatio": 0.562,
+    "sizeKB": 139.8,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-383.jpg": {
+    "width": 899,
+    "height": 1599,
+    "aspectRatio": 0.562,
+    "sizeKB": 139.8,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-49.jpg": {
+    "width": 720,
+    "height": 1280,
+    "aspectRatio": 0.563,
+    "sizeKB": 282.8,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-49.jpg": {
+    "width": 720,
+    "height": 1280,
+    "aspectRatio": 0.563,
+    "sizeKB": 282.8,
+    "ext": ".jpg"
+  },
+  "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-61.jpg": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 303.5,
+    "ext": ".jpg"
+  },
+  "images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-61.jpg": {
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": 1.778,
+    "sizeKB": 303.5,
+    "ext": ".jpg"
+  },
+  "/image/blog/srm/2.jpeg": {
+    "width": 1280,
+    "height": 1080,
+    "aspectRatio": 1.185,
+    "sizeKB": 510.3,
+    "ext": ".jpeg"
+  },
+  "image/blog/srm/2.jpeg": {
+    "width": 1280,
+    "height": 1080,
+    "aspectRatio": 1.185,
+    "sizeKB": 510.3,
+    "ext": ".jpeg"
+  },
+  "/image/blog/srm/3.jpeg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 633,
+    "ext": ".jpeg"
+  },
+  "image/blog/srm/3.jpeg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 633,
+    "ext": ".jpeg"
+  },
+  "/image/blog/srm/4.jpeg": {
+    "width": 1224,
+    "height": 1221,
+    "aspectRatio": 1.002,
+    "sizeKB": 754.5,
+    "ext": ".jpeg"
+  },
+  "image/blog/srm/4.jpeg": {
+    "width": 1224,
+    "height": 1221,
+    "aspectRatio": 1.002,
+    "sizeKB": 754.5,
+    "ext": ".jpeg"
+  },
+  "/image/blog/srm/5.jpg": {
+    "width": 4624,
+    "height": 3468,
+    "aspectRatio": 1.333,
+    "sizeKB": 7913.5,
+    "ext": ".jpg"
+  },
+  "image/blog/srm/5.jpg": {
+    "width": 4624,
+    "height": 3468,
+    "aspectRatio": 1.333,
+    "sizeKB": 7913.5,
+    "ext": ".jpg"
+  },
+  "/image/blog/srm/6.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 6477.3,
+    "ext": ".jpg"
+  },
+  "image/blog/srm/6.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 6477.3,
+    "ext": ".jpg"
+  },
+  "/image/blog/srm/7.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 6257.9,
+    "ext": ".jpg"
+  },
+  "image/blog/srm/7.jpg": {
+    "width": 3468,
+    "height": 4624,
+    "aspectRatio": 0.75,
+    "sizeKB": 6257.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/srm-ap/IMG-20251209-WA0127.jpg": {
+    "width": 1280,
+    "height": 576,
+    "aspectRatio": 2.222,
+    "sizeKB": 61.4,
+    "ext": ".jpg"
+  },
+  "image/blog/srm-ap/IMG-20251209-WA0127.jpg": {
+    "width": 1280,
+    "height": 576,
+    "aspectRatio": 2.222,
+    "sizeKB": 61.4,
+    "ext": ".jpg"
+  },
+  "/image/blog/srm-ap/IMG-20251209-WA0128.jpg": {
+    "width": 1280,
+    "height": 576,
+    "aspectRatio": 2.222,
+    "sizeKB": 44.3,
+    "ext": ".jpg"
+  },
+  "image/blog/srm-ap/IMG-20251209-WA0128.jpg": {
+    "width": 1280,
+    "height": 576,
+    "aspectRatio": 2.222,
+    "sizeKB": 44.3,
+    "ext": ".jpg"
+  },
+  "/image/blog/srm-ap/industrial-mechanical-room-red-piping.png": {
+    "width": 841,
+    "height": 977,
+    "aspectRatio": 0.861,
+    "sizeKB": 1200.1,
+    "ext": ".png"
+  },
+  "image/blog/srm-ap/industrial-mechanical-room-red-piping.png": {
+    "width": 841,
+    "height": 977,
+    "aspectRatio": 0.861,
+    "sizeKB": 1200.1,
+    "ext": ".png"
+  },
+  "/image/blog/waaree/image-1788602555612.jpg": {
+    "width": 1200,
+    "height": 1504,
+    "aspectRatio": 0.798,
+    "sizeKB": 825.9,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1788602555612.jpg": {
+    "width": 1200,
+    "height": 1504,
+    "aspectRatio": 0.798,
+    "sizeKB": 825.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/waaree/image-1788602564152.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 301.8,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1788602564152.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 301.8,
+    "ext": ".jpg"
+  },
+  "/image/blog/waaree/image-1788602576898.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 455.8,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1788602576898.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "aspectRatio": 0.75,
+    "sizeKB": 455.8,
+    "ext": ".jpg"
+  },
+  "/image/blog/waaree/image-1788854709679.jpg": {
+    "width": 899,
+    "height": 1515,
+    "aspectRatio": 0.593,
+    "sizeKB": 408.2,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1788854709679.jpg": {
+    "width": 899,
+    "height": 1515,
+    "aspectRatio": 0.593,
+    "sizeKB": 408.2,
+    "ext": ".jpg"
+  },
+  "/image/blog/waaree/image-1788854709705.jpg": {
+    "width": 1200,
+    "height": 1436,
+    "aspectRatio": 0.836,
+    "sizeKB": 602,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1788854709705.jpg": {
+    "width": 1200,
+    "height": 1436,
+    "aspectRatio": 0.836,
+    "sizeKB": 602,
+    "ext": ".jpg"
+  },
+  "/image/blog/waaree/image-1788932667620.jpg": {
+    "width": 1200,
+    "height": 1504,
+    "aspectRatio": 0.798,
+    "sizeKB": 777.9,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1788932667620.jpg": {
+    "width": 1200,
+    "height": 1504,
+    "aspectRatio": 0.798,
+    "sizeKB": 777.9,
+    "ext": ".jpg"
+  },
+  "/image/blog/waaree/image-1790670811635.jpg": {
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333,
+    "sizeKB": 195.8,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1790670811635.jpg": {
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.333,
+    "sizeKB": 195.8,
+    "ext": ".jpg"
+  },
+  "/image/blog/waaree/image-1790670811651.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 245.2,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1790670811651.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 245.2,
+    "ext": ".jpg"
+  },
+  "/image/blog/waaree/image-1790670811681.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 215,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1790670811681.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 215,
+    "ext": ".jpg"
+  },
+  "/image/blog/waaree/image-1790670811694.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 279.4,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1790670811694.jpg": {
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "sizeKB": 279.4,
+    "ext": ".jpg"
+  },
+  "/image/blog/waaree/image-1790670812417.jpg": {
+    "width": 1200,
+    "height": 1496,
+    "aspectRatio": 0.802,
+    "sizeKB": 652.8,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1790670812417.jpg": {
+    "width": 1200,
+    "height": 1496,
+    "aspectRatio": 0.802,
+    "sizeKB": 652.8,
+    "ext": ".jpg"
+  },
+  "/image/blog/waaree/image-1790670812428.jpg": {
+    "width": 899,
+    "height": 1519,
+    "aspectRatio": 0.592,
+    "sizeKB": 412.8,
+    "ext": ".jpg"
+  },
+  "image/blog/waaree/image-1790670812428.jpg": {
+    "width": 899,
+    "height": 1519,
+    "aspectRatio": 0.592,
+    "sizeKB": 412.8,
+    "ext": ".jpg"
+  },
+  "/image/project-item/shed3.jpg": {
+    "width": 1224,
+    "height": 814,
+    "aspectRatio": 1.504,
+    "sizeKB": 175.1,
+    "ext": ".jpg"
+  },
+  "image/project-item/shed3.jpg": {
+    "width": 1224,
+    "height": 814,
+    "aspectRatio": 1.504,
+    "sizeKB": 175.1,
+    "ext": ".jpg"
+  },
+  "/image/project-item/shed2.jpg": {
+    "width": 1224,
+    "height": 828,
+    "aspectRatio": 1.478,
+    "sizeKB": 328.8,
+    "ext": ".jpg"
+  },
+  "image/project-item/shed2.jpg": {
+    "width": 1224,
+    "height": 828,
+    "aspectRatio": 1.478,
+    "sizeKB": 328.8,
+    "ext": ".jpg"
+  },
+  "/image/project-item/shed4.jpg": {
+    "width": 1224,
+    "height": 812,
+    "aspectRatio": 1.507,
+    "sizeKB": 265.6,
+    "ext": ".jpg"
+  },
+  "image/project-item/shed4.jpg": {
+    "width": 1224,
+    "height": 812,
+    "aspectRatio": 1.507,
+    "sizeKB": 265.6,
+    "ext": ".jpg"
+  },
+  "/image/logo/logo-black.png": {
+    "width": 1024,
+    "height": 399,
+    "aspectRatio": 2.566,
+    "sizeKB": 44.3,
+    "ext": ".png"
+  },
+  "image/logo/logo-black.png": {
+    "width": 1024,
+    "height": 399,
+    "aspectRatio": 2.566,
+    "sizeKB": 44.3,
+    "ext": ".png"
+  },
+  "/image/blog/bhoomi-pooja-banner.jpg": {
+    "width": 1024,
+    "height": 576,
+    "aspectRatio": 1.778,
+    "sizeKB": 169.4,
+    "ext": ".jpg"
+  },
+  "image/blog/bhoomi-pooja-banner.jpg": {
+    "width": 1024,
+    "height": 576,
+    "aspectRatio": 1.778,
+    "sizeKB": 169.4,
+    "ext": ".jpg"
+  },
+  "/image/section/section-markets-item-1.png": {
+    "width": 587,
+    "height": 499,
+    "aspectRatio": 1.176,
+    "sizeKB": 16.4,
+    "ext": ".png"
+  },
+  "image/section/section-markets-item-1.png": {
+    "width": 587,
+    "height": 499,
+    "aspectRatio": 1.176,
+    "sizeKB": 16.4,
+    "ext": ".png"
+  },
+  "/image/section/img-section-industry.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 469.4,
+    "ext": ".jpg"
+  },
+  "image/section/img-section-industry.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 469.4,
+    "ext": ".jpg"
+  },
+  "/image/peb-gallery/peb-industrial-building.jpg": {
+    "width": 248,
+    "height": 194,
+    "aspectRatio": 1.278,
+    "sizeKB": 24.5,
+    "ext": ".jpg"
+  },
+  "image/peb-gallery/peb-industrial-building.jpg": {
+    "width": 248,
+    "height": 194,
+    "aspectRatio": 1.278,
+    "sizeKB": 24.5,
+    "ext": ".jpg"
+  },
+  "/image/peb-gallery/peb-warehouse.jpg": {
+    "width": 248,
+    "height": 194,
+    "aspectRatio": 1.278,
+    "sizeKB": 26.9,
+    "ext": ".jpg"
+  },
+  "image/peb-gallery/peb-warehouse.jpg": {
+    "width": 248,
+    "height": 194,
+    "aspectRatio": 1.278,
+    "sizeKB": 26.9,
+    "ext": ".jpg"
+  },
+  "/image/peb-gallery/peb-railway-project.jpg": {
+    "width": 248,
+    "height": 194,
+    "aspectRatio": 1.278,
+    "sizeKB": 19.9,
+    "ext": ".jpg"
+  },
+  "image/peb-gallery/peb-railway-project.jpg": {
+    "width": 248,
+    "height": 194,
+    "aspectRatio": 1.278,
+    "sizeKB": 19.9,
+    "ext": ".jpg"
+  },
+  "/image/peb-gallery/peb-curved-roof.jpg": {
+    "width": 260,
+    "height": 194,
+    "aspectRatio": 1.34,
+    "sizeKB": 20.9,
+    "ext": ".jpg"
+  },
+  "image/peb-gallery/peb-curved-roof.jpg": {
+    "width": 260,
+    "height": 194,
+    "aspectRatio": 1.34,
+    "sizeKB": 20.9,
+    "ext": ".jpg"
+  },
+  "/image/peb-gallery/peb-foot-over-bridge.jpg": {
+    "width": 248,
+    "height": 198,
+    "aspectRatio": 1.253,
+    "sizeKB": 18.8,
+    "ext": ".jpg"
+  },
+  "image/peb-gallery/peb-foot-over-bridge.jpg": {
+    "width": 248,
+    "height": 198,
+    "aspectRatio": 1.253,
+    "sizeKB": 18.8,
+    "ext": ".jpg"
+  },
+  "/image/peb-gallery/peb-plant-structure.jpg": {
+    "width": 248,
+    "height": 198,
+    "aspectRatio": 1.253,
+    "sizeKB": 26,
+    "ext": ".jpg"
+  },
+  "image/peb-gallery/peb-plant-structure.jpg": {
+    "width": 248,
+    "height": 198,
+    "aspectRatio": 1.253,
+    "sizeKB": 26,
+    "ext": ".jpg"
+  },
+  "/image/peb-gallery/peb-roof-beam.jpg": {
+    "width": 248,
+    "height": 198,
+    "aspectRatio": 1.253,
+    "sizeKB": 21.2,
+    "ext": ".jpg"
+  },
+  "image/peb-gallery/peb-roof-beam.jpg": {
+    "width": 248,
+    "height": 198,
+    "aspectRatio": 1.253,
+    "sizeKB": 21.2,
+    "ext": ".jpg"
+  },
+  "/image/peb-gallery/peb-column-formwork.jpg": {
+    "width": 260,
+    "height": 198,
+    "aspectRatio": 1.313,
+    "sizeKB": 25.8,
+    "ext": ".jpg"
+  },
+  "image/peb-gallery/peb-column-formwork.jpg": {
+    "width": 260,
+    "height": 198,
+    "aspectRatio": 1.313,
+    "sizeKB": 25.8,
+    "ext": ".jpg"
+  },
+  "/image/peb-gallery/peb-wall-formwork.jpg": {
+    "width": 220,
+    "height": 180,
+    "aspectRatio": 1.222,
+    "sizeKB": 24.1,
+    "ext": ".jpg"
+  },
+  "image/peb-gallery/peb-wall-formwork.jpg": {
+    "width": 220,
+    "height": 180,
+    "aspectRatio": 1.222,
+    "sizeKB": 24.1,
+    "ext": ".jpg"
+  },
+  "/image/peb-gallery/peb-industrial-shed-1.jpg": {
+    "width": 198,
+    "height": 158,
+    "aspectRatio": 1.253,
+    "sizeKB": 19.4,
+    "ext": ".jpg"
+  },
+  "image/peb-gallery/peb-industrial-shed-1.jpg": {
+    "width": 198,
+    "height": 158,
+    "aspectRatio": 1.253,
+    "sizeKB": 19.4,
+    "ext": ".jpg"
+  },
+  "/image/peb-gallery/peb-industrial-building-project.jpg": {
+    "width": 500,
+    "height": 234,
+    "aspectRatio": 2.137,
+    "sizeKB": 51.6,
+    "ext": ".jpg"
+  },
+  "image/peb-gallery/peb-industrial-building-project.jpg": {
+    "width": 500,
+    "height": 234,
+    "aspectRatio": 2.137,
+    "sizeKB": 51.6,
+    "ext": ".jpg"
+  },
+  "/image/peb-gallery/peb-completed-facility.jpg": {
+    "width": 512,
+    "height": 234,
+    "aspectRatio": 2.188,
+    "sizeKB": 62.6,
+    "ext": ".jpg"
+  },
+  "image/peb-gallery/peb-completed-facility.jpg": {
+    "width": 512,
+    "height": 234,
+    "aspectRatio": 2.188,
+    "sizeKB": 62.6,
+    "ext": ".jpg"
+  },
+  "/image/section/img-section-market.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 452.1,
+    "ext": ".jpg"
+  },
+  "image/section/img-section-market.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 452.1,
+    "ext": ".jpg"
+  },
+  "/image/project-item/project-item-7.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 105.9,
+    "ext": ".jpg"
+  },
+  "image/project-item/project-item-7.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 105.9,
+    "ext": ".jpg"
+  },
+  "/image/project-item/project-item-6.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 122.9,
+    "ext": ".jpg"
+  },
+  "image/project-item/project-item-6.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 122.9,
+    "ext": ".jpg"
+  },
+  "/image/project-item/road-paving.jpg": {
+    "width": 2048,
+    "height": 1306,
+    "aspectRatio": 1.568,
+    "sizeKB": 632,
+    "ext": ".jpg"
+  },
+  "image/project-item/road-paving.jpg": {
+    "width": 2048,
+    "height": 1306,
+    "aspectRatio": 1.568,
+    "sizeKB": 632,
+    "ext": ".jpg"
+  },
+  "/image/project-item/project-item-11.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 115.3,
+    "ext": ".jpg"
+  },
+  "image/project-item/project-item-11.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 115.3,
+    "ext": ".jpg"
+  },
+  "/image/project-item/project-item-12.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 122.1,
+    "ext": ".jpg"
+  },
+  "image/project-item/project-item-12.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 122.1,
+    "ext": ".jpg"
+  },
+  "/image/project-item/srm.jpg": {
+    "width": 1040,
+    "height": 780,
+    "aspectRatio": 1.333,
+    "sizeKB": 186.8,
+    "ext": ".jpg"
+  },
+  "image/project-item/srm.jpg": {
+    "width": 1040,
+    "height": 780,
+    "aspectRatio": 1.333,
+    "sizeKB": 186.8,
+    "ext": ".jpg"
+  },
+  "/image/project-item/drainandroad.jpg": {
+    "width": 2048,
+    "height": 1296,
+    "aspectRatio": 1.58,
+    "sizeKB": 596.3,
+    "ext": ".jpg"
+  },
+  "image/project-item/drainandroad.jpg": {
+    "width": 2048,
+    "height": 1296,
+    "aspectRatio": 1.58,
+    "sizeKB": 596.3,
+    "ext": ".jpg"
+  },
+  "/image/project-item/project-item-1.jpg": {
+    "width": 1200,
+    "height": 896,
+    "aspectRatio": 1.339,
+    "sizeKB": 342.5,
+    "ext": ".jpg"
+  },
+  "image/project-item/project-item-1.jpg": {
+    "width": 1200,
+    "height": 896,
+    "aspectRatio": 1.339,
+    "sizeKB": 342.5,
+    "ext": ".jpg"
+  },
+  "/image/project-item/132mw-wind-solar-hybrid-project-kudligi-aaraa-infrastructure.jpg": {
+    "width": 1024,
+    "height": 765,
+    "aspectRatio": 1.339,
+    "sizeKB": 165.3,
+    "ext": ".jpg"
+  },
+  "image/project-item/132mw-wind-solar-hybrid-project-kudligi-aaraa-infrastructure.jpg": {
+    "width": 1024,
+    "height": 765,
+    "aspectRatio": 1.339,
+    "sizeKB": 165.3,
+    "ext": ".jpg"
+  },
+  "/image/project-item/peb-structure-chennai.jpg": {
+    "width": 187,
+    "height": 118,
+    "aspectRatio": 1.585,
+    "sizeKB": 10.3,
+    "ext": ".jpg"
+  },
+  "image/project-item/peb-structure-chennai.jpg": {
+    "width": 187,
+    "height": 118,
+    "aspectRatio": 1.585,
+    "sizeKB": 10.3,
+    "ext": ".jpg"
+  },
+  "/image/section/drain.jpg": {
+    "width": 1734,
+    "height": 948,
+    "aspectRatio": 1.829,
+    "sizeKB": 706.1,
+    "ext": ".jpg"
+  },
+  "image/section/drain.jpg": {
+    "width": 1734,
+    "height": 948,
+    "aspectRatio": 1.829,
+    "sizeKB": 706.1,
+    "ext": ".jpg"
+  },
+  "/image/project-item/drain.jpg": {
+    "width": 2048,
+    "height": 1305,
+    "aspectRatio": 1.569,
+    "sizeKB": 473.8,
+    "ext": ".jpg"
+  },
+  "image/project-item/drain.jpg": {
+    "width": 2048,
+    "height": 1305,
+    "aspectRatio": 1.569,
+    "sizeKB": 473.8,
+    "ext": ".jpg"
+  },
+  "/images/whatsapp-icon.svg": {
+    "width": 32,
+    "height": 32,
+    "aspectRatio": 1,
+    "sizeKB": 0.9,
+    "ext": ".svg"
+  },
+  "images/whatsapp-icon.svg": {
+    "width": 32,
+    "height": 32,
+    "aspectRatio": 1,
+    "sizeKB": 0.9,
+    "ext": ".svg"
+  },
+  "/image/logo/logo-2.svg": {
+    "width": 364,
+    "height": 92,
+    "aspectRatio": 3.957,
+    "sizeKB": 7.2,
+    "ext": ".svg"
+  },
+  "image/logo/logo-2.svg": {
+    "width": 364,
+    "height": 92,
+    "aspectRatio": 3.957,
+    "sizeKB": 7.2,
+    "ext": ".svg"
+  },
+  "/image/logo/logo-black.svg": {
+    "width": 316,
+    "height": 90,
+    "aspectRatio": 3.511,
+    "sizeKB": 6,
+    "ext": ".svg"
+  },
+  "image/logo/logo-black.svg": {
+    "width": 316,
+    "height": 90,
+    "aspectRatio": 3.511,
+    "sizeKB": 6,
+    "ext": ".svg"
+  },
+  "/image/section/img-section-gendral.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 329.6,
+    "ext": ".jpg"
+  },
+  "image/section/img-section-gendral.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 329.6,
+    "ext": ".jpg"
+  },
+  "/image/avatar/avata-history.jpg": {
+    "width": 449,
+    "height": 563,
+    "aspectRatio": 0.798,
+    "sizeKB": 29.7,
+    "ext": ".jpg"
+  },
+  "image/avatar/avata-history.jpg": {
+    "width": 449,
+    "height": 563,
+    "aspectRatio": 0.798,
+    "sizeKB": 29.7,
+    "ext": ".jpg"
+  },
+  "/image/section/history-item-1.jpg": {
+    "width": 749,
+    "height": 563,
+    "aspectRatio": 1.33,
+    "sizeKB": 290.4,
+    "ext": ".jpg"
+  },
+  "image/section/history-item-1.jpg": {
+    "width": 749,
+    "height": 563,
+    "aspectRatio": 1.33,
+    "sizeKB": 290.4,
+    "ext": ".jpg"
+  },
+  "/image/section/history-item-2.jpg": {
+    "width": 499,
+    "height": 375,
+    "aspectRatio": 1.331,
+    "sizeKB": 154.7,
+    "ext": ".jpg"
+  },
+  "image/section/history-item-2.jpg": {
+    "width": 499,
+    "height": 375,
+    "aspectRatio": 1.331,
+    "sizeKB": 154.7,
+    "ext": ".jpg"
+  },
+  "/image/section/history-item-3.jpg": {
+    "width": 499,
+    "height": 375,
+    "aspectRatio": 1.331,
+    "sizeKB": 111,
+    "ext": ".jpg"
+  },
+  "image/section/history-item-3.jpg": {
+    "width": 499,
+    "height": 375,
+    "aspectRatio": 1.331,
+    "sizeKB": 111,
+    "ext": ".jpg"
+  },
+  "/image/section/history-item-4.jpg": {
+    "width": 749,
+    "height": 563,
+    "aspectRatio": 1.33,
+    "sizeKB": 356.4,
+    "ext": ".jpg"
+  },
+  "image/section/history-item-4.jpg": {
+    "width": 749,
+    "height": 563,
+    "aspectRatio": 1.33,
+    "sizeKB": 356.4,
+    "ext": ".jpg"
+  },
+  "/image/section/history-item-5.jpg": {
+    "width": 749,
+    "height": 563,
+    "aspectRatio": 1.33,
+    "sizeKB": 317.7,
+    "ext": ".jpg"
+  },
+  "image/section/history-item-5.jpg": {
+    "width": 749,
+    "height": 563,
+    "aspectRatio": 1.33,
+    "sizeKB": 317.7,
+    "ext": ".jpg"
+  },
+  "/image/section/history-item-6.jpg": {
+    "width": 749,
+    "height": 563,
+    "aspectRatio": 1.33,
+    "sizeKB": 267.3,
+    "ext": ".jpg"
+  },
+  "image/section/history-item-6.jpg": {
+    "width": 749,
+    "height": 563,
+    "aspectRatio": 1.33,
+    "sizeKB": 267.3,
+    "ext": ".jpg"
+  },
+  "/image/section/history-item-10.jpg": {
+    "width": 749,
+    "height": 563,
+    "aspectRatio": 1.33,
+    "sizeKB": 463.2,
+    "ext": ".jpg"
+  },
+  "image/section/history-item-10.jpg": {
+    "width": 749,
+    "height": 563,
+    "aspectRatio": 1.33,
+    "sizeKB": 463.2,
+    "ext": ".jpg"
+  },
+  "/image/section/history-item-11.jpg": {
+    "width": 749,
+    "height": 563,
+    "aspectRatio": 1.33,
+    "sizeKB": 373.8,
+    "ext": ".jpg"
+  },
+  "image/section/history-item-11.jpg": {
+    "width": 749,
+    "height": 563,
+    "aspectRatio": 1.33,
+    "sizeKB": 373.8,
+    "ext": ".jpg"
+  },
+  "/image/about-left.png": {
+    "width": 669,
+    "height": 795,
+    "aspectRatio": 0.842,
+    "sizeKB": 816.3,
+    "ext": ".png"
+  },
+  "image/about-left.png": {
+    "width": 669,
+    "height": 795,
+    "aspectRatio": 0.842,
+    "sizeKB": 816.3,
+    "ext": ".png"
+  },
+  "/image/section/section-about-p-testimonials.png": {
+    "width": 904,
+    "height": 566,
+    "aspectRatio": 1.597,
+    "sizeKB": 424.9,
+    "ext": ".png"
+  },
+  "image/section/section-about-p-testimonials.png": {
+    "width": 904,
+    "height": 566,
+    "aspectRatio": 1.597,
+    "sizeKB": 424.9,
+    "ext": ".png"
+  },
+  "/image/services-item/services-item-1.jpg": {
+    "width": 555,
+    "height": 389,
+    "aspectRatio": 1.427,
+    "sizeKB": 80.8,
+    "ext": ".jpg"
+  },
+  "image/services-item/services-item-1.jpg": {
+    "width": 555,
+    "height": 389,
+    "aspectRatio": 1.427,
+    "sizeKB": 80.8,
+    "ext": ".jpg"
+  },
+  "/image/services-item/services-item-2.jpg": {
+    "width": 555,
+    "height": 389,
+    "aspectRatio": 1.427,
+    "sizeKB": 61,
+    "ext": ".jpg"
+  },
+  "image/services-item/services-item-2.jpg": {
+    "width": 555,
+    "height": 389,
+    "aspectRatio": 1.427,
+    "sizeKB": 61,
+    "ext": ".jpg"
+  },
+  "/image/services-item/services-item-3.jpg": {
+    "width": 555,
+    "height": 389,
+    "aspectRatio": 1.427,
+    "sizeKB": 71.7,
+    "ext": ".jpg"
+  },
+  "image/services-item/services-item-3.jpg": {
+    "width": 555,
+    "height": 389,
+    "aspectRatio": 1.427,
+    "sizeKB": 71.7,
+    "ext": ".jpg"
+  },
+  "/image/services-item/services-item-4.jpg": {
+    "width": 555,
+    "height": 389,
+    "aspectRatio": 1.427,
+    "sizeKB": 66.4,
+    "ext": ".jpg"
+  },
+  "image/services-item/services-item-4.jpg": {
+    "width": 555,
+    "height": 389,
+    "aspectRatio": 1.427,
+    "sizeKB": 66.4,
+    "ext": ".jpg"
+  },
+  "/image/services-item/services-item-5.jpg": {
+    "width": 555,
+    "height": 389,
+    "aspectRatio": 1.427,
+    "sizeKB": 47.9,
+    "ext": ".jpg"
+  },
+  "image/services-item/services-item-5.jpg": {
+    "width": 555,
+    "height": 389,
+    "aspectRatio": 1.427,
+    "sizeKB": 47.9,
+    "ext": ".jpg"
+  },
+  "/image/services-item/services-item-6.jpg": {
+    "width": 555,
+    "height": 389,
+    "aspectRatio": 1.427,
+    "sizeKB": 89.1,
+    "ext": ".jpg"
+  },
+  "image/services-item/services-item-6.jpg": {
+    "width": 555,
+    "height": 389,
+    "aspectRatio": 1.427,
+    "sizeKB": 89.1,
+    "ext": ".jpg"
+  },
+  "/image/map.webp": {
+    "width": 1672,
+    "height": 941,
+    "aspectRatio": 1.777,
+    "sizeKB": 149.6,
+    "ext": ".webp"
+  },
+  "image/map.webp": {
+    "width": 1672,
+    "height": 941,
+    "aspectRatio": 1.777,
+    "sizeKB": 149.6,
+    "ext": ".webp"
+  },
+  "/image/brand/brand-7.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 7.1,
+    "ext": ".png"
+  },
+  "image/brand/brand-7.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 7.1,
+    "ext": ".png"
+  },
+  "/image/brand/brand-8.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 11.9,
+    "ext": ".png"
+  },
+  "image/brand/brand-8.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 11.9,
+    "ext": ".png"
+  },
+  "/image/brand/brand-9.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.1,
+    "ext": ".png"
+  },
+  "image/brand/brand-9.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.1,
+    "ext": ".png"
+  },
+  "/image/brand/brand-10.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.8,
+    "ext": ".png"
+  },
+  "image/brand/brand-10.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.8,
+    "ext": ".png"
+  },
+  "/image/brand/brand-11.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 6.8,
+    "ext": ".png"
+  },
+  "image/brand/brand-11.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 6.8,
+    "ext": ".png"
+  },
+  "/image/brand/brand-12.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 5.3,
+    "ext": ".png"
+  },
+  "image/brand/brand-12.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 5.3,
+    "ext": ".png"
+  },
+  "/image/brand/brand-13.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 13.3,
+    "ext": ".png"
+  },
+  "image/brand/brand-13.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 13.3,
+    "ext": ".png"
+  },
+  "/image/brand/brand-14.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 7.9,
+    "ext": ".png"
+  },
+  "image/brand/brand-14.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 7.9,
+    "ext": ".png"
+  },
+  "/image/brand/brand-15.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 15,
+    "ext": ".png"
+  },
+  "image/brand/brand-15.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 15,
+    "ext": ".png"
+  },
+  "/image/brand/brand-16.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 12.1,
+    "ext": ".png"
+  },
+  "image/brand/brand-16.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 12.1,
+    "ext": ".png"
+  },
+  "/image/brand/brand-17.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 11.9,
+    "ext": ".png"
+  },
+  "image/brand/brand-17.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 11.9,
+    "ext": ".png"
+  },
+  "/image/brand/brand-18.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.3,
+    "ext": ".png"
+  },
+  "image/brand/brand-18.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 8.3,
+    "ext": ".png"
+  },
+  "/image/brand/brand-19.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 15,
+    "ext": ".png"
+  },
+  "image/brand/brand-19.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 15,
+    "ext": ".png"
+  },
+  "/image/brand/brand-20.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 15.5,
+    "ext": ".png"
+  },
+  "image/brand/brand-20.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 15.5,
+    "ext": ".png"
+  },
+  "/image/brand/brand-21.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 5.9,
+    "ext": ".png"
+  },
+  "image/brand/brand-21.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 5.9,
+    "ext": ".png"
+  },
+  "/image/brand/brand-22.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 4.6,
+    "ext": ".png"
+  },
+  "image/brand/brand-22.png": {
+    "width": 221,
+    "height": 59,
+    "aspectRatio": 3.746,
+    "sizeKB": 4.6,
+    "ext": ".png"
+  },
+  "/image/project-item/srm-kattankulathur.jpg": {
+    "width": 1040,
+    "height": 780,
+    "aspectRatio": 1.333,
+    "sizeKB": 186.8,
+    "ext": ".jpg"
+  },
+  "image/project-item/srm-kattankulathur.jpg": {
+    "width": 1040,
+    "height": 780,
+    "aspectRatio": 1.333,
+    "sizeKB": 186.8,
+    "ext": ".jpg"
+  },
+  "/image/section/img-section-road.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 322.6,
+    "ext": ".jpg"
+  },
+  "image/section/img-section-road.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 322.6,
+    "ext": ".jpg"
+  },
+  "/image/section/img-section-college.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 343.2,
+    "ext": ".jpg"
+  },
+  "image/section/img-section-college.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 343.2,
+    "ext": ".jpg"
+  },
+  "/image/section/img-section-interior.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 318.4,
+    "ext": ".jpg"
+  },
+  "image/section/img-section-interior.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 318.4,
+    "ext": ".jpg"
+  },
+  "/image/section/img-section-mep.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 322.3,
+    "ext": ".jpg"
+  },
+  "image/section/img-section-mep.jpg": {
+    "width": 879,
+    "height": 597,
+    "aspectRatio": 1.472,
+    "sizeKB": 322.3,
+    "ext": ".jpg"
+  },
+  "/image/project-item/project-item-2.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 107.5,
+    "ext": ".jpg"
+  },
+  "image/project-item/project-item-2.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 107.5,
+    "ext": ".jpg"
+  },
+  "/image/project-item/project-item-3.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 131.3,
+    "ext": ".jpg"
+  },
+  "image/project-item/project-item-3.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 131.3,
+    "ext": ".jpg"
+  },
+  "/fb.png": {
+    "width": 960,
+    "height": 960,
+    "aspectRatio": 1,
+    "sizeKB": 31.4,
+    "ext": ".png"
+  },
+  "fb.png": {
+    "width": 960,
+    "height": 960,
+    "aspectRatio": 1,
+    "sizeKB": 31.4,
+    "ext": ".png"
+  },
+  "/yt.png": {
+    "width": 640,
+    "height": 640,
+    "aspectRatio": 1,
+    "sizeKB": 20.5,
+    "ext": ".png"
+  },
+  "yt.png": {
+    "width": 640,
+    "height": 640,
+    "aspectRatio": 1,
+    "sizeKB": 20.5,
+    "ext": ".png"
+  },
+  "/li.png": {
+    "width": 450,
+    "height": 400,
+    "aspectRatio": 1.125,
+    "sizeKB": 23.6,
+    "ext": ".png"
+  },
+  "li.png": {
+    "width": 450,
+    "height": 400,
+    "aspectRatio": 1.125,
+    "sizeKB": 23.6,
+    "ext": ".png"
+  },
+  "/ig.png": {
+    "width": 200,
+    "height": 200,
+    "aspectRatio": 1,
+    "sizeKB": 13.5,
+    "ext": ".png"
+  },
+  "ig.png": {
+    "width": 200,
+    "height": 200,
+    "aspectRatio": 1,
+    "sizeKB": 13.5,
+    "ext": ".png"
+  },
+  "/mail.png": {
+    "width": 200,
+    "height": 200,
+    "aspectRatio": 1,
+    "sizeKB": 6,
+    "ext": ".png"
+  },
+  "mail.png": {
+    "width": 200,
+    "height": 200,
+    "aspectRatio": 1,
+    "sizeKB": 6,
+    "ext": ".png"
+  },
+  "/ph.png": {
+    "width": 201,
+    "height": 201,
+    "aspectRatio": 1,
+    "sizeKB": 6,
+    "ext": ".png"
+  },
+  "ph.png": {
+    "width": 201,
+    "height": 201,
+    "aspectRatio": 1,
+    "sizeKB": 6,
+    "ext": ".png"
+  },
+  "/icons/address.png": {
+    "width": 201,
+    "height": 201,
+    "aspectRatio": 1,
+    "sizeKB": 8.5,
+    "ext": ".png"
+  },
+  "icons/address.png": {
+    "width": 201,
+    "height": 201,
+    "aspectRatio": 1,
+    "sizeKB": 8.5,
+    "ext": ".png"
+  },
+  "/images/kudligi/kudlugi-soloar.png": {
+    "width": 1672,
+    "height": 941,
+    "aspectRatio": 1.777,
+    "sizeKB": 3587.9,
+    "ext": ".png"
+  },
+  "images/kudligi/kudlugi-soloar.png": {
+    "width": 1672,
+    "height": 941,
+    "aspectRatio": 1.777,
+    "sizeKB": 3587.9,
+    "ext": ".png"
+  },
+  "/image/project-item/project-item-26.jpg": {
+    "width": 770,
+    "height": 406,
+    "aspectRatio": 1.897,
+    "sizeKB": 112.7,
+    "ext": ".jpg"
+  },
+  "image/project-item/project-item-26.jpg": {
+    "width": 770,
+    "height": 406,
+    "aspectRatio": 1.897,
+    "sizeKB": 112.7,
+    "ext": ".jpg"
+  },
+  "/image/project-item/project-item-8.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 90.7,
+    "ext": ".jpg"
+  },
+  "image/project-item/project-item-8.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 90.7,
+    "ext": ".jpg"
+  },
+  "/image/project-item/project-item-9.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 113.9,
+    "ext": ".jpg"
+  },
+  "image/project-item/project-item-9.jpg": {
+    "width": 665,
+    "height": 665,
+    "aspectRatio": 1,
+    "sizeKB": 113.9,
+    "ext": ".jpg"
+  },
+  "/image/section/item-section-project-h3.png": {
+    "width": 474,
+    "height": 661,
+    "aspectRatio": 0.717,
+    "sizeKB": 9.1,
+    "ext": ".png"
+  },
+  "image/section/item-section-project-h3.png": {
+    "width": 474,
+    "height": 661,
+    "aspectRatio": 0.717,
+    "sizeKB": 9.1,
+    "ext": ".png"
+  },
+  "/image/section/post-grid-small-item-1.jpg": {
+    "width": 555,
+    "height": 627,
+    "aspectRatio": 0.885,
+    "sizeKB": 383,
+    "ext": ".jpg"
+  },
+  "image/section/post-grid-small-item-1.jpg": {
+    "width": 555,
+    "height": 627,
+    "aspectRatio": 0.885,
+    "sizeKB": 383,
+    "ext": ".jpg"
+  },
+  "/image/project-item/our_conclusion.png": {
+    "width": 811,
+    "height": 788,
+    "aspectRatio": 1.029,
+    "sizeKB": 389.5,
+    "ext": ".png"
+  },
+  "image/project-item/our_conclusion.png": {
+    "width": 811,
+    "height": 788,
+    "aspectRatio": 1.029,
+    "sizeKB": 389.5,
+    "ext": ".png"
+  }
+}

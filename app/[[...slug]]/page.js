@@ -17,6 +17,26 @@ const JUNK_FILES = new Set([
 ]);
 
 const REDIRECTS_MAP = {
+  'index': '/',
+  '400-mld-swro-desalination-project-perur-chennai': '/blog/400-mld-swro-desalination-project-perur-chennai',
+  'aaraa-infrastructure-180mwp-leap-green-project-thoothukudi': '/blog/aaraa-infrastructure-180mwp-leap-green-project-thoothukudi',
+  'km-palace-marriage-hall-kundrathur-chennai': '/blog/km-palace-marriage-hall-kundrathur-chennai',
+  'solar-epc-civil-infrastructure-kudligi-karnataka': '/blog/solar-epc-civil-infrastructure-kudligi-karnataka',
+  'work-shed-construction-gummidipoondi-chennai': '/blog/work-shed-construction-gummidipoondi-chennai',
+  'blog/reliance-civil-interior-works-pallikaranai-chennai': '/blog/reliance-civil-interior-mep-fitout-chennai',
+  'BOAT_Announcement': '/blog/official-boat-apprenticeship-partnership-civil-engineering',
+  'new-blog': '/blog/official-boat-apprenticeship-partnership-civil-engineering',
+  'blog-details': '/blog',
+  'blog-post': '/blog',
+
+  'raje_signature': '/raje',
+  'forms/subcontractor': '/subcontractor-empanelment',
+  'forms/partnership': '/strategic-partnerships',
+  'forms/vendor': '/vendor-registration',
+  'forms/joint-venture': '/joint-ventures',
+  'forms/careers': '/careers',
+  'forms/quick-enquiry': '/contact-us',
+
   'mgr-adarsh-school-mogappair-chennai': '/blog/mgr-adarsh-school-renovation-structural-repair-mogappair',
   'blog/mgr-adarsh-school-mogappair-chennai': '/blog/mgr-adarsh-school-renovation-structural-repair-mogappair',
 

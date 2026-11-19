@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if IE 8]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
@@ -46,9 +46,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 fbq('init', '1495102235345639');
 fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-loading="lazy" decoding="async" src="https://www.facebook.com/tr?id=1495102235345639&ev=PageView&noscript=1" alt="Tr?id=&ev=PageView&noscript= - Careers at AARAA Infrastructure - Join Our Construction Team in Chennai"
-/></noscript>
+<noscript><img height="1" width="1" style="display:none" decoding="async" src="https://www.facebook.com/tr?id=1495102235345639&ev=PageView&noscript=1" alt="Tr?id=&ev=PageView&noscript= - Careers at AARAA Infrastructure - Join Our Construction Team in Chennai" / fetchpriority="high"></noscript>
 <!-- End Meta Pixel Code -->
 
   <!-- Google Analytics 4 -->
@@ -180,7 +178,7 @@ loading="lazy" decoding="async" src="https://www.facebook.com/tr?id=149510223534
                 <div class="header-left gap-77">
                     <div class="logo logo-header">
                         <a href="/index">
-                            <img loading="lazy" decoding="async" src="image/logo/logo-white.png" alt="">
+                            <img loading="lazy" decoding="async" src="image/logo/logo-white.png" alt="" width="1024" height="399">
                         </a>
                     </div>
                     <nav style="font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 15px; color: #000;" class="main-menu" role="navigation">
@@ -209,16 +207,16 @@ loading="lazy" decoding="async" src="https://www.facebook.com/tr?id=149510223534
                                         <a href="#" class="item-link-2">Partner With Us</a>
                                         <i class="icon-arrow-menu"></i>
                                         <ul class="sub-menu-2">
-                                            <li class="sub-menu-item"><a href="/forms/partnership">Strategic Partnerships</a></li>
-                                            <li class="sub-menu-item"><a href="/forms/joint-venture">Joint Ventures</a></li>
-                                            <li class="sub-menu-item"><a href="/forms/vendor">Become a Vendor</a></li>
+                                            <li class="sub-menu-item"><a href="/strategic-partnerships">Strategic Partnerships</a></li>
+                                            <li class="sub-menu-item"><a href="/joint-ventures">Joint Ventures</a></li>
+                                            <li class="sub-menu-item"><a href="/vendor-registration">Become a Vendor</a></li>
                                         </ul>
                                     </li>
                                     <li class="sub-menu-item menu-item-has-children-2">
                                         <a href="#" class="item-link-2">Build With Us</a>
                                         <i class="icon-arrow-menu"></i>
                                         <ul class="sub-menu-2">
-                                            <li class="sub-menu-item"><a href="/forms/subcontractor">Subcontractor Empanelment</a></li>
+                                            <li class="sub-menu-item"><a href="/subcontractor-empanelment">Subcontractor Empanelment</a></li>
                                         </ul>
                                     </li>
                                     <li class="sub-menu-item menu-item-has-children-2">
@@ -269,10 +267,10 @@ loading="lazy" decoding="async" src="https://www.facebook.com/tr?id=149510223534
   <a href="javascript:void(0)" class="header-btn" onclick="openPopup()">Become a Vendor</a>
 
 <!-- Popup Form -->
-<div id="popupForm" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#00000099; justify-content:center; align-items:center; z-index:9999;">
+<div id="popupForm" role="dialog" aria-modal="true" aria-labelledby="vendorModalTitle" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#00000099; justify-content:center; align-items:center; z-index:9999;">
   <div style="background:#fff; padding:30px; border-radius:10px; width:90%; max-width:500px; position:relative;">
-    <button onclick="closePopup()" aria-label="Close" style="position:absolute; top:10px; right:10px;">&times;</button>
-    <h2 style="margin-bottom:10px;">Vendor Registration</h2>
+    <button onclick="closePopup()" aria-label="Close Vendor Registration Modal" aria-label="Close" style="position:absolute; top:10px; right:10px;">&times;</button>
+    <div id="vendorModalTitle" class="modal-title" style="margin-bottom:10px; font-size:22px; font-weight:bold; color:#1a1a1a;">Vendor Registration</div>
     <form id="vendorForm">
       <input type="text" name="name" placeholder="Full Name" required><br><br>
       <input type="email" name="email" placeholder="Email" required><br><br>
@@ -290,10 +288,10 @@ loading="lazy" decoding="async" src="https://www.facebook.com/tr?id=149510223534
   </div>
 </div>
   <a href="#quickEnquiry" class="header-btn" onclick="openEnquiry()">Enquiry</a>
-<div id="enquiryForm" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#00000099; justify-content:center; align-items:center; z-index:9999;">
+<div id="enquiryForm" role="dialog" aria-modal="true" aria-labelledby="enquiryModalTitle" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#00000099; justify-content:center; align-items:center; z-index:9999;">
   <div style="background:#fff; padding:30px; border-radius:10px; width:90%; max-width:500px; position:relative;">
-    <button onclick="closeEnquiry()" style="position:absolute; top:10px; right:10px;">&times;</button>
-    <h2 style="margin-bottom:10px;">Quick Enquiry</h2>
+    <button onclick="closeEnquiry()" aria-label="Close Quick Enquiry Modal" style="position:absolute; top:10px; right:10px;">&times;</button>
+    <div id="enquiryModalTitle" class="modal-title" style="margin-bottom:10px; font-size:22px; font-weight:bold; color:#1a1a1a;">Quick Enquiry</div>
     <form id="quickEnquiryForm">
       <input type="text" name="name" placeholder="Your Name" required><br><br>
       <input type="email" name="email" placeholder="Your Email" required><br><br>
@@ -324,10 +322,9 @@ loading="lazy" decoding="async" src="https://www.facebook.com/tr?id=149510223534
 <section style="position: relative; height: 750px; width: 100%; background: url('image/page-title/career.webp') center center / cover no-repeat;">
   <!-- TEXT FIXED TO BOTTOM WITH LOGO-ALIGNED LEFT PADDING -->
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; color: white; text-align: center;">
-  <h2 style="font-size: 100px; line-height: 1; margin: 0; font-weight: bold;">
-   Life at AARAA
-
-  </h2>
+  <h1 style="font-size: clamp(28px, 4.5vw, 44px); line-height: 1.2; margin: 0; font-weight: bold;">
+   Careers &amp; Life at AARAA
+  </h1>
 </div>
 </section>
 
@@ -338,9 +335,9 @@ loading="lazy" decoding="async" src="https://www.facebook.com/tr?id=149510223534
                                 <span class="sub-title style-2 text-uppercase fw5 mb-12 mx-auto tf-animate-2">
                                     AARAA
                                 </span>
-								  <h3 class="title mb-12 tf-animate-2">
+								  <h2 class="title mb-12 tf-animate-2">
                                   Build More Than Projects – Build Your Legacy
-                                </h3>
+                                </h2>
                               
                                 <div class="text lsp-0 tf-animate-2">
                                   Be a part of a dynamic, forward-thinking organization where innovation meets impact. At AARAA, we're building more than infrastructure – we're building careers.
@@ -399,7 +396,7 @@ loading="lazy" decoding="async" src="https://www.facebook.com/tr?id=149510223534
 <header class="hero" role="banner">
     <div class="container">
       <div class="badge">We're Hiring – Chennai</div>
-      <h1 class="sr-only title">Open Positions at <span style="color:var(--aaraa-red)">AARAA Infrastructure</span></h1>
+      <h2 class="title">Open Positions at <span style="color:var(--aaraa-red)">AARAA Infrastructure</span></h2>
       <p class="subtitle">We are looking for <strong>2025 - 2026 BE Civil &amp; B.Arch fresh graduates</strong> and experienced professionals across execution and engineering.</p>
       <div class="cta-row">
         <a class="btn" href="https://www.aaraainfrastructure.com">Home</a>
@@ -548,7 +545,7 @@ loading="lazy" decoding="async" src="https://www.facebook.com/tr?id=149510223534
 
     <div class="apply-card">
       <button class="apply-close" type="button" title="Close dialog" data-close aria-label="Close application form">&times;</button>
-      <h3 id="applyTitle" class="apply-h3">Apply for a Role</h3>
+      <div id="applyTitle" class="apply-h3">Apply for a Role</div>
 
       <form id="applyForm" data-form-type="career" enctype="multipart/form-data" novalidate>
         <input type="hidden" name="page" value="Careers - AARAA Infrastructure">
@@ -834,7 +831,7 @@ loading="lazy" decoding="async" src="https://www.facebook.com/tr?id=149510223534
                     <div class="footer-middle">
                         <div class="left logo-footer">
                             <a href="/index" class="logo">
-                                <img loading="lazy" decoding="async" src="image/logo/logo-white.png" alt="">
+                                <img loading="lazy" decoding="async" src="image/logo/logo-white.png" alt="" width="1024" height="399">
                             </a>
                             <div class="post-social bg-color-bg-1">
                                 <ul>
@@ -1046,10 +1043,10 @@ document.getElementById("currentYear").textContent = new Date().getFullYear();
             <a href="#">Join AARAA</a>
             <ul>
                 <li><a href="/careers">Career Opportunities</a></li>
-                <li><a href="/forms/partnership">Strategic Partnerships</a></li>
-                <li><a href="/forms/joint-venture">Joint Ventures</a></li>
-                <li><a href="/forms/vendor">Become a Vendor</a></li>
-                <li><a href="/forms/subcontractor">Subcontractor Empanelment</a></li>
+                <li><a href="/strategic-partnerships">Strategic Partnerships</a></li>
+                <li><a href="/joint-ventures">Joint Ventures</a></li>
+                <li><a href="/vendor-registration">Become a Vendor</a></li>
+                <li><a href="/subcontractor-empanelment">Subcontractor Empanelment</a></li>
                 <li><a href="/internship-program">Internship Program</a></li>
             </ul>
         </li>
