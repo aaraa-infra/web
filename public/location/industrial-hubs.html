@@ -91,7 +91,11 @@
         }
         
         .logo img {
-            height: 48px;
+            display: block;
+            height: 50px;
+            width: auto;
+            max-width: 130px;
+            object-fit: contain;
         }
         
         .logo-text {
@@ -440,8 +444,7 @@
     <header>
         <div class="nav-container">
             <a href="https://www.aaraainfrastructure.com" class="logo">
-                <img src="https://aaraainfrastructure.com/logo.png" alt="AARAA Infrastructure" loading="eager">
-                
+                <img src="/image/logo/logo-black.png" alt="AARAA Infrastructure" width="128" height="50" loading="eager" decoding="async">
             </a>
             
             <nav>
@@ -473,7 +476,7 @@
         </div>
     </header>
     <!-- HERO -->
-    <section class="hero" style="height: 50vh; min-height: 400px; display: flex; align-items: center; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../peb-industrial-building-construction-epc-project.webp') no-repeat center center; background-size: cover;">
+    <section class="hero" style="height: 50vh; min-height: 400px; display: flex; align-items: center; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/location-heroes/industrial-hubs-hero.webp') no-repeat center center; background-size: cover;">
         <div class="hero-content" style="text-align: center; margin: 0 auto;">
             <h1 style="font-size: clamp(2.5rem, 5vw, 4.5rem); color: white;">Industrial Construction Hubs</h1>
             <p style="font-size: 1.25rem; color: white; max-width: 800px; margin: 1.5rem auto 2.5rem;">Connecting premier B2B manufacturing, warehousing, infrastructure, and solar EPC services across major South Indian industrial corridors.</p>
