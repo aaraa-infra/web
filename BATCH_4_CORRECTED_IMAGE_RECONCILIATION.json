@@ -1,0 +1,5073 @@
+{
+  "rawInventory269": {
+    "recordCount": 269,
+    "origBytes": 315412439,
+    "origMiB": 300.8007,
+    "origMB": 315.4124,
+    "newBytes": 111333618,
+    "newMiB": 106.176,
+    "newMB": 111.3336,
+    "webpBytes": 82168878,
+    "webpMiB": 78.3623,
+    "webpMB": 82.1689,
+    "savedBytes": 204078821,
+    "savedMiB": 194.6247,
+    "savedMB": 204.0788,
+    "reductionPercent": 64.7
+  },
+  "duplicate13RecordsAnalysis": {
+    "count": 13,
+    "pass1Superseded": {
+      "description": "Pass 1 initial optimization records superseded in final disk state",
+      "origBytes": 23739879,
+      "origMiB": 22.6401,
+      "origMB": 23.7399,
+      "newBytes": 6793833,
+      "newMiB": 6.4791,
+      "newMB": 6.7938,
+      "webpBytes": 1887490,
+      "webpMiB": 1.8001,
+      "webpMB": 1.8875,
+      "savedBytes": 16946046,
+      "savedMiB": 16.161,
+      "savedMB": 16.946,
+      "reductionPercent": 71.38
+    },
+    "pass2Refinement": {
+      "description": "Pass 2 final re-quantization records written to disk",
+      "origBytes": 23739879,
+      "origMiB": 22.6401,
+      "origMB": 23.7399,
+      "newBytes": 6022375,
+      "newMiB": 5.7434,
+      "newMB": 6.0224,
+      "webpBytes": 2023234,
+      "webpMiB": 1.9295,
+      "webpMB": 2.0232,
+      "savedBytes": 17717504,
+      "savedMiB": 16.8967,
+      "savedMB": 17.7175,
+      "reductionPercent": 74.63
+    },
+    "pass2RefinementDelta": {
+      "description": "Delta between Pass 1 and Pass 2 across the 13 duplicated paths",
+      "newBytesAdjustment": 771458,
+      "newMiBAdjustment": 0.7357,
+      "newMBAdjustment": 0.7715,
+      "webpBytesAdjustment": 135744,
+      "webpMiBAdjustment": 0.1295,
+      "webpMBAdjustment": 0.1357,
+      "savedBytesAdjustment": 771458,
+      "savedMiBAdjustment": 0.7357,
+      "savedMBAdjustment": 0.7715
+    }
+  },
+  "deduplicatedPhysical256": {
+    "fileCount": 256,
+    "origBytes": 291672560,
+    "origMiB": 278.1606,
+    "origMB": 291.6726,
+    "finalBytes": 104539785,
+    "finalMiB": 99.6969,
+    "finalMB": 104.5398,
+    "webpBytes": 80281388,
+    "webpMiB": 76.5623,
+    "webpMB": 80.2814,
+    "savedBytes": 187132775,
+    "savedMiB": 178.4637,
+    "savedMB": 187.1328,
+    "reductionPercent": 64.16,
+    "webpSavedBytes": 211391172,
+    "webpSavedMiB": 201.5983,
+    "webpSavedMB": 211.3912,
+    "webpReductionPercent": 72.48
+  },
+  "reconciliationEquations": {
+    "assetCount": {
+      "formula": "269 (raw) - 13 (duplicates) = 256 (physical files)",
+      "difference": 0
+    },
+    "originalBytes": {
+      "formula": "315,412,439 (raw) - 23,739,879 (duplicate) = 291,672,560 (physical)",
+      "difference": 0
+    },
+    "optimisedBytesDirect": {
+      "formula": "111,333,618 (raw) - 6,793,833 (Pass 1 superseded duplicate) = 104,539,785 (physical)",
+      "difference": 0
+    },
+    "optimisedBytesViaPass2": {
+      "formula": "111,333,618 (raw) - 6,022,375 (Pass 2 duplicate) - 771,458 (Pass 2 adjustment) = 104,539,785 (physical)",
+      "difference": 0
+    },
+    "webpBytesDirect": {
+      "formula": "82,168,878 (raw) - 1,887,490 (Pass 1 superseded duplicate) = 80,281,388 (physical)",
+      "difference": 0
+    },
+    "webpBytesViaPass2": {
+      "formula": "82,168,878 (raw) - 2,023,234 (Pass 2 duplicate) + 135,744 (Pass 2 adjustment) = 80,281,388 (physical)",
+      "difference": 0
+    },
+    "savedBytesDirect": {
+      "formula": "204,078,821 (raw) - 16,946,046 (Pass 1 duplicate savings) = 187,132,775 (physical)",
+      "difference": 0
+    },
+    "savedBytesViaPass2": {
+      "formula": "204,078,821 (raw) - 17,717,504 (Pass 2 duplicate savings) + 771,458 (Pass 2 adjustment) = 187,132,775 (physical)",
+      "difference": 0
+    }
+  },
+  "duplicateGroups": [
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project8.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project8.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project8.png",
+        "ext": ".png",
+        "originalDimensions": "864x1184",
+        "optimizedDimensions": "864x1184",
+        "origSizeBytes": 2137866,
+        "origSizeKB": 2087.8,
+        "newSizeBytes": 688436,
+        "newSizeKB": 672.3,
+        "webpSizeBytes": 218276,
+        "webpSizeKB": 213.2,
+        "savedKB": 1415.5,
+        "reductionPercent": 67.8,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 48
+      },
+      "pass2Record": {
+        "src": "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project8.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project8.png",
+        "ext": ".png",
+        "originalDimensions": "864x1184",
+        "optimizedDimensions": "864x1184",
+        "origSizeBytes": 2137866,
+        "origSizeKB": 2087.8,
+        "newSizeBytes": 573135,
+        "newSizeKB": 559.7,
+        "webpSizeBytes": 221646,
+        "webpSizeKB": 216.5,
+        "savedKB": 1528.1,
+        "reductionPercent": 73.2,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 49
+      },
+      "refinementDelta": {
+        "newBytesDiff": 115301,
+        "webpBytesDiff": 3370,
+        "savedBytesDiff": 115301
+      }
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project5.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project5.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project5.png",
+        "ext": ".png",
+        "originalDimensions": "864x1184",
+        "optimizedDimensions": "864x1184",
+        "origSizeBytes": 2073578,
+        "origSizeKB": 2025,
+        "newSizeBytes": 611884,
+        "newSizeKB": 597.5,
+        "webpSizeBytes": 188264,
+        "webpSizeKB": 183.9,
+        "savedKB": 1427.4,
+        "reductionPercent": 70.5,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 50
+      },
+      "pass2Record": {
+        "src": "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project5.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project5.png",
+        "ext": ".png",
+        "originalDimensions": "864x1184",
+        "optimizedDimensions": "864x1184",
+        "origSizeBytes": 2073578,
+        "origSizeKB": 2025,
+        "newSizeBytes": 555985,
+        "newSizeKB": 543,
+        "webpSizeBytes": 201886,
+        "webpSizeKB": 197.2,
+        "savedKB": 1482,
+        "reductionPercent": 73.2,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 51
+      },
+      "refinementDelta": {
+        "newBytesDiff": 55899,
+        "webpBytesDiff": 13622,
+        "savedBytesDiff": 55899
+      }
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project13.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project13.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project13.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 2024273,
+        "origSizeKB": 1976.8,
+        "newSizeBytes": 576919,
+        "newSizeKB": 563.4,
+        "webpSizeBytes": 170646,
+        "webpSizeKB": 166.6,
+        "savedKB": 1413.4,
+        "reductionPercent": 71.5,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 53
+      },
+      "pass2Record": {
+        "src": "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project13.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project13.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 2024273,
+        "origSizeKB": 1976.8,
+        "newSizeBytes": 507674,
+        "newSizeKB": 495.8,
+        "webpSizeBytes": 185666,
+        "webpSizeKB": 181.3,
+        "savedKB": 1481.1,
+        "reductionPercent": 74.9,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 54
+      },
+      "refinementDelta": {
+        "newBytesDiff": 69245,
+        "webpBytesDiff": 15020,
+        "savedBytesDiff": 69245
+      }
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project4.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project4.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project4.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 1989803,
+        "origSizeKB": 1943.2,
+        "newSizeBytes": 562304,
+        "newSizeKB": 549.1,
+        "webpSizeBytes": 196382,
+        "webpSizeKB": 191.8,
+        "savedKB": 1394,
+        "reductionPercent": 71.7,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 55
+      },
+      "pass2Record": {
+        "src": "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project4.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project4.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 1989803,
+        "origSizeKB": 1943.2,
+        "newSizeBytes": 506886,
+        "newSizeKB": 495,
+        "webpSizeBytes": 203822,
+        "webpSizeKB": 199,
+        "savedKB": 1448.2,
+        "reductionPercent": 74.5,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 56
+      },
+      "refinementDelta": {
+        "newBytesDiff": 55418,
+        "webpBytesDiff": 7440,
+        "savedBytesDiff": 55418
+      }
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project3.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project3.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project3.png",
+        "ext": ".png",
+        "originalDimensions": "864x1184",
+        "optimizedDimensions": "864x1184",
+        "origSizeBytes": 1961439,
+        "origSizeKB": 1915.5,
+        "newSizeBytes": 585396,
+        "newSizeKB": 571.7,
+        "webpSizeBytes": 151186,
+        "webpSizeKB": 147.6,
+        "savedKB": 1343.8,
+        "reductionPercent": 70.2,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 57
+      },
+      "pass2Record": {
+        "src": "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project3.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project3.png",
+        "ext": ".png",
+        "originalDimensions": "864x1184",
+        "optimizedDimensions": "864x1184",
+        "origSizeBytes": 1961439,
+        "origSizeKB": 1915.5,
+        "newSizeBytes": 519217,
+        "newSizeKB": 507,
+        "webpSizeBytes": 166024,
+        "webpSizeKB": 162.1,
+        "savedKB": 1408.4,
+        "reductionPercent": 73.5,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 58
+      },
+      "refinementDelta": {
+        "newBytesDiff": 66179,
+        "webpBytesDiff": 14838,
+        "savedBytesDiff": 66179
+      }
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project11.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project11.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project11.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 1943959,
+        "origSizeKB": 1898.4,
+        "newSizeBytes": 598001,
+        "newSizeKB": 584,
+        "webpSizeBytes": 183708,
+        "webpSizeKB": 179.4,
+        "savedKB": 1314.4,
+        "reductionPercent": 69.2,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 59
+      },
+      "pass2Record": {
+        "src": "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project11.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project11.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 1943959,
+        "origSizeKB": 1898.4,
+        "newSizeBytes": 534093,
+        "newSizeKB": 521.6,
+        "webpSizeBytes": 189290,
+        "webpSizeKB": 184.9,
+        "savedKB": 1376.8,
+        "reductionPercent": 72.5,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 60
+      },
+      "refinementDelta": {
+        "newBytesDiff": 63908,
+        "webpBytesDiff": 5582,
+        "savedBytesDiff": 63908
+      }
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project6.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project6.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project6.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 1858552,
+        "origSizeKB": 1815,
+        "newSizeBytes": 521447,
+        "newSizeKB": 509.2,
+        "webpSizeBytes": 132686,
+        "webpSizeKB": 129.6,
+        "savedKB": 1305.8,
+        "reductionPercent": 71.9,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 65
+      },
+      "pass2Record": {
+        "src": "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project6.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project6.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 1858552,
+        "origSizeKB": 1815,
+        "newSizeBytes": 470942,
+        "newSizeKB": 459.9,
+        "webpSizeBytes": 141266,
+        "webpSizeKB": 138,
+        "savedKB": 1355.1,
+        "reductionPercent": 74.7,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 66
+      },
+      "refinementDelta": {
+        "newBytesDiff": 50505,
+        "webpBytesDiff": 8580,
+        "savedBytesDiff": 50505
+      }
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project7.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project7.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project7.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 1825220,
+        "origSizeKB": 1782.4,
+        "newSizeBytes": 479295,
+        "newSizeKB": 468.1,
+        "webpSizeBytes": 130440,
+        "webpSizeKB": 127.4,
+        "savedKB": 1314.4,
+        "reductionPercent": 73.7,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 67
+      },
+      "pass2Record": {
+        "src": "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project7.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project7.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 1825220,
+        "origSizeKB": 1782.4,
+        "newSizeBytes": 429673,
+        "newSizeKB": 419.6,
+        "webpSizeBytes": 137592,
+        "webpSizeKB": 134.4,
+        "savedKB": 1362.8,
+        "reductionPercent": 76.5,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 68
+      },
+      "refinementDelta": {
+        "newBytesDiff": 49622,
+        "webpBytesDiff": 7152,
+        "savedBytesDiff": 49622
+      }
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project9.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project9.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project9.png",
+        "ext": ".png",
+        "originalDimensions": "864x1184",
+        "optimizedDimensions": "864x1184",
+        "origSizeBytes": 1769003,
+        "origSizeKB": 1727.5,
+        "newSizeBytes": 466509,
+        "newSizeKB": 455.6,
+        "webpSizeBytes": 127140,
+        "webpSizeKB": 124.2,
+        "savedKB": 1272,
+        "reductionPercent": 73.6,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 70
+      },
+      "pass2Record": {
+        "src": "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project9.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project9.png",
+        "ext": ".png",
+        "originalDimensions": "864x1184",
+        "optimizedDimensions": "864x1184",
+        "origSizeBytes": 1769003,
+        "origSizeKB": 1727.5,
+        "newSizeBytes": 437618,
+        "newSizeKB": 427.4,
+        "webpSizeBytes": 136058,
+        "webpSizeKB": 132.9,
+        "savedKB": 1300.2,
+        "reductionPercent": 75.3,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 71
+      },
+      "refinementDelta": {
+        "newBytesDiff": 28891,
+        "webpBytesDiff": 8918,
+        "savedBytesDiff": 28891
+      }
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project10.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project10.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project10.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 1756490,
+        "origSizeKB": 1715.3,
+        "newSizeBytes": 549937,
+        "newSizeKB": 537,
+        "webpSizeBytes": 104484,
+        "webpSizeKB": 102,
+        "savedKB": 1178.3,
+        "reductionPercent": 68.7,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 72
+      },
+      "pass2Record": {
+        "src": "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project10.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project10.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 1756490,
+        "origSizeKB": 1715.3,
+        "newSizeBytes": 466230,
+        "newSizeKB": 455.3,
+        "webpSizeBytes": 109118,
+        "webpSizeKB": 106.6,
+        "savedKB": 1260,
+        "reductionPercent": 73.5,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 73
+      },
+      "refinementDelta": {
+        "newBytesDiff": 83707,
+        "webpBytesDiff": 4634,
+        "savedBytesDiff": 83707
+      }
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project1.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project1.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project1.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 1739666,
+        "origSizeKB": 1698.9,
+        "newSizeBytes": 465891,
+        "newSizeKB": 455,
+        "webpSizeBytes": 107858,
+        "webpSizeKB": 105.3,
+        "savedKB": 1243.9,
+        "reductionPercent": 73.2,
+        "occurrences": 14,
+        "routesCount": 2,
+        "rawRowIndex": 74
+      },
+      "pass2Record": {
+        "src": "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project1.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project1.png",
+        "ext": ".png",
+        "originalDimensions": "1184x864",
+        "optimizedDimensions": "1184x864",
+        "origSizeBytes": 1739666,
+        "origSizeKB": 1698.9,
+        "newSizeBytes": 419548,
+        "newSizeKB": 409.7,
+        "webpSizeBytes": 118926,
+        "webpSizeKB": 116.1,
+        "savedKB": 1289.2,
+        "reductionPercent": 75.9,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 75
+      },
+      "refinementDelta": {
+        "newBytesDiff": 46343,
+        "webpBytesDiff": 11068,
+        "savedBytesDiff": 46343
+      }
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project2.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project2.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project2.png",
+        "ext": ".png",
+        "originalDimensions": "864x1184",
+        "optimizedDimensions": "864x1184",
+        "origSizeBytes": 1468936,
+        "origSizeKB": 1434.5,
+        "newSizeBytes": 375595,
+        "newSizeKB": 366.8,
+        "webpSizeBytes": 39844,
+        "webpSizeKB": 38.9,
+        "savedKB": 1067.7,
+        "reductionPercent": 74.4,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 78
+      },
+      "pass2Record": {
+        "src": "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project2.png",
+        "file": "public\\image\\project-item\\kudligi_solar\\140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project2.png",
+        "ext": ".png",
+        "originalDimensions": "864x1184",
+        "optimizedDimensions": "864x1184",
+        "origSizeBytes": 1468936,
+        "origSizeKB": 1434.5,
+        "newSizeBytes": 295835,
+        "newSizeKB": 288.9,
+        "webpSizeBytes": 44056,
+        "webpSizeKB": 43,
+        "savedKB": 1145.6,
+        "reductionPercent": 79.9,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 79
+      },
+      "refinementDelta": {
+        "newBytesDiff": 79760,
+        "webpBytesDiff": 4212,
+        "savedBytesDiff": 79760
+      }
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\inner_banner.png",
+      "recordsCount": 2,
+      "pass1Record": {
+        "src": "/image/project-item/inner_banner.png",
+        "file": "public\\image\\project-item\\inner_banner.png",
+        "ext": ".png",
+        "originalDimensions": "1224x460",
+        "optimizedDimensions": "1224x460",
+        "origSizeBytes": 1191094,
+        "origSizeKB": 1163.2,
+        "newSizeBytes": 312219,
+        "newSizeKB": 304.9,
+        "webpSizeBytes": 136576,
+        "webpSizeKB": 133.4,
+        "savedKB": 858.3,
+        "reductionPercent": 73.8,
+        "occurrences": 5,
+        "routesCount": 3,
+        "rawRowIndex": 84
+      },
+      "pass2Record": {
+        "src": "image/project-item/inner_banner.png",
+        "file": "public\\image\\project-item\\inner_banner.png",
+        "ext": ".png",
+        "originalDimensions": "1224x460",
+        "optimizedDimensions": "1224x460",
+        "origSizeBytes": 1191094,
+        "origSizeKB": 1163.2,
+        "newSizeBytes": 305539,
+        "newSizeKB": 298.4,
+        "webpSizeBytes": 167884,
+        "webpSizeKB": 163.9,
+        "savedKB": 864.8,
+        "reductionPercent": 74.3,
+        "occurrences": 1,
+        "routesCount": 1,
+        "rawRowIndex": 85
+      },
+      "refinementDelta": {
+        "newBytesDiff": 6680,
+        "webpBytesDiff": 31308,
+        "savedBytesDiff": 6680
+      }
+    }
+  ],
+  "canonicalPhysicalInventory": [
+    {
+      "canonicalPath": "public\\image\\blog\\srm\\5.jpg",
+      "primarySrc": "/image/blog/srm/5.jpg",
+      "allSrcs": [
+        "/image/blog/srm/5.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1440",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 8103412,
+      "finalSizeBytes": 699316,
+      "webpSizeBytes": 708942,
+      "savedBytes": 7404096,
+      "reductionPercent": 91.37,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 699316
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\srm\\6.jpg",
+      "primarySrc": "/image/blog/srm/6.jpg",
+      "allSrcs": [
+        "/image/blog/srm/6.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 6632755,
+      "finalSizeBytes": 884736,
+      "webpSizeBytes": 840532,
+      "savedBytes": 5748019,
+      "reductionPercent": 86.66,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 840532
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\srm\\7.jpg",
+      "primarySrc": "/image/blog/srm/7.jpg",
+      "allSrcs": [
+        "/image/blog/srm/7.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 6408113,
+      "finalSizeBytes": 898394,
+      "webpSizeBytes": 978788,
+      "savedBytes": 5509719,
+      "reductionPercent": 85.98,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 898394
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240526145813.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240526145813.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240526145813.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4624x3468",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 5712036,
+      "finalSizeBytes": 793830,
+      "webpSizeBytes": 957524,
+      "savedBytes": 4918206,
+      "reductionPercent": 86.1,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 793830
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240526145910.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240526145910.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240526145910.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4624x3468",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 5236410,
+      "finalSizeBytes": 725013,
+      "webpSizeBytes": 845892,
+      "savedBytes": 4511397,
+      "reductionPercent": 86.15,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 725013
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\20240624_30349pm_bygpsmapcamera.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/20240624_30349PM_ByGPSMapCamera.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/20240624_30349PM_ByGPSMapCamera.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4608x3456",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 5146361,
+      "finalSizeBytes": 698100,
+      "webpSizeBytes": 783780,
+      "savedBytes": 4448261,
+      "reductionPercent": 86.44,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 698100
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-10.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-10.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-10.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5712x4284",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 5125644,
+      "finalSizeBytes": 521522,
+      "webpSizeBytes": 519866,
+      "savedBytes": 4604122,
+      "reductionPercent": 89.83,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 519866
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240605124925.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240605124925.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240605124925.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4624x3468",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 5001675,
+      "finalSizeBytes": 687891,
+      "webpSizeBytes": 822790,
+      "savedBytes": 4313784,
+      "reductionPercent": 86.25,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 687891
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\20240625_21500pm_bygpsmapcamera.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/20240625_21500PM_ByGPSMapCamera.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/20240625_21500PM_ByGPSMapCamera.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3456x4608",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 4786084,
+      "finalSizeBytes": 1083243,
+      "webpSizeBytes": 1223812,
+      "savedBytes": 3702841,
+      "reductionPercent": 77.37,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 1083243
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\20240625_21507pm_bygpsmapcamera.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/20240625_21507PM_ByGPSMapCamera.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/20240625_21507PM_ByGPSMapCamera.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3456x4608",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 4441185,
+      "finalSizeBytes": 997903,
+      "webpSizeBytes": 1124334,
+      "savedBytes": 3443282,
+      "reductionPercent": 77.53,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 997903
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\20240526_30000pm_bygpsmapcamera.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/20240526_30000PM_ByGPSMapCamera.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/20240526_30000PM_ByGPSMapCamera.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4608x3456",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 4335352,
+      "finalSizeBytes": 604060,
+      "webpSizeBytes": 677494,
+      "savedBytes": 3731292,
+      "reductionPercent": 86.07,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 604060
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240610101652.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240610101652.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240610101652.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 4303830,
+      "finalSizeBytes": 888306,
+      "webpSizeBytes": 1016034,
+      "savedBytes": 3415524,
+      "reductionPercent": 79.36,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 888306
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240610113823.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240610113823.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240610113823.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 4213821,
+      "finalSizeBytes": 954379,
+      "webpSizeBytes": 1042090,
+      "savedBytes": 3259442,
+      "reductionPercent": 77.35,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 954379
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240610101600.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240610101600.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240610101600.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 3767742,
+      "finalSizeBytes": 791305,
+      "webpSizeBytes": 800816,
+      "savedBytes": 2976437,
+      "reductionPercent": 79,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 791305
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240610101655.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240610101655.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240610101655.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 3710260,
+      "finalSizeBytes": 794448,
+      "webpSizeBytes": 815652,
+      "savedBytes": 2915812,
+      "reductionPercent": 78.59,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 794448
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\20240625_21521pm_bygpsmapcamera.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/20240625_21521PM_ByGPSMapCamera.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/20240625_21521PM_ByGPSMapCamera.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3456x4608",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 3685282,
+      "finalSizeBytes": 796392,
+      "webpSizeBytes": 830560,
+      "savedBytes": 2888890,
+      "reductionPercent": 78.39,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 796392
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\kudlugi-soloar.png",
+      "primarySrc": "/images/kudligi/kudlugi-soloar.png",
+      "allSrcs": [
+        "/images/kudligi/kudlugi-soloar.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1672x941",
+      "optimizedDimensions": "1672x941",
+      "origSizeBytes": 3673960,
+      "finalSizeBytes": 958454,
+      "webpSizeBytes": 448130,
+      "savedBytes": 2715506,
+      "reductionPercent": 73.91,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 448130
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-3.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-3.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-3.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x3468",
+      "optimizedDimensions": "1920x1920",
+      "origSizeBytes": 3621626,
+      "finalSizeBytes": 577981,
+      "webpSizeBytes": 702836,
+      "savedBytes": 3043645,
+      "reductionPercent": 84.04,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 577981
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\20240610_113702am_bygpsmapcamera.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/20240610_113702AM_ByGPSMapCamera.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/20240610_113702AM_ByGPSMapCamera.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3456x4608",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 3619909,
+      "finalSizeBytes": 768449,
+      "webpSizeBytes": 781908,
+      "savedBytes": 2851460,
+      "reductionPercent": 78.77,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 768449
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-5.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-5.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-5.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x3468",
+      "optimizedDimensions": "1920x1920",
+      "origSizeBytes": 3612356,
+      "finalSizeBytes": 597331,
+      "webpSizeBytes": 718590,
+      "savedBytes": 3015025,
+      "reductionPercent": 83.46,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 597331
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240610101651.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240610101651.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240610101651.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 3601294,
+      "finalSizeBytes": 799684,
+      "webpSizeBytes": 810752,
+      "savedBytes": 2801610,
+      "reductionPercent": 77.79,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 799684
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-13.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-13.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-13.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4284x5712",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 3586872,
+      "finalSizeBytes": 415328,
+      "webpSizeBytes": 393972,
+      "savedBytes": 3171544,
+      "reductionPercent": 88.42,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 393972
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\20240526_30639pm_bygpsmapcamera.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/20240526_30639PM_ByGPSMapCamera.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/20240526_30639PM_ByGPSMapCamera.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3456x4608",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 3581656,
+      "finalSizeBytes": 801479,
+      "webpSizeBytes": 803290,
+      "savedBytes": 2780177,
+      "reductionPercent": 77.62,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 801479
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240610101708.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240610101708.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240610101708.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 3542912,
+      "finalSizeBytes": 745499,
+      "webpSizeBytes": 766226,
+      "savedBytes": 2797413,
+      "reductionPercent": 78.96,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 745499
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\rcc-drain.png",
+      "primarySrc": "/image/blog/rcc-drain.png",
+      "allSrcs": [
+        "/image/blog/rcc-drain.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1672x941",
+      "optimizedDimensions": "1672x941",
+      "origSizeBytes": 3480384,
+      "finalSizeBytes": 913956,
+      "webpSizeBytes": 406700,
+      "savedBytes": 2566428,
+      "reductionPercent": 73.74,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 406700
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240610101714.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240610101714.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240610101714.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 3347275,
+      "finalSizeBytes": 716423,
+      "webpSizeBytes": 685342,
+      "savedBytes": 2630852,
+      "reductionPercent": 78.6,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 685342
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\20240618_64029pm_bygpsmapcamera.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/20240618_64029PM_ByGPSMapCamera.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/20240618_64029PM_ByGPSMapCamera.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4608x3456",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 3330566,
+      "finalSizeBytes": 398408,
+      "webpSizeBytes": 402706,
+      "savedBytes": 2932158,
+      "reductionPercent": 88.04,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 398408
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-9.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-9.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-9.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 3264060,
+      "finalSizeBytes": 687731,
+      "webpSizeBytes": 685116,
+      "savedBytes": 2576329,
+      "reductionPercent": 78.93,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 685116
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-1.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-1.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-1.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x3468",
+      "optimizedDimensions": "1920x1920",
+      "origSizeBytes": 3242529,
+      "finalSizeBytes": 640581,
+      "webpSizeBytes": 628920,
+      "savedBytes": 2601948,
+      "reductionPercent": 80.24,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 628920
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\20240709_11621pm_bygpsmapcamera.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/20240709_11621PM_ByGPSMapCamera.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/20240709_11621PM_ByGPSMapCamera.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4608x3456",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 3165740,
+      "finalSizeBytes": 425689,
+      "webpSizeBytes": 428786,
+      "savedBytes": 2740051,
+      "reductionPercent": 86.55,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 425689
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240610101712.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240610101712.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240610101712.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 3144240,
+      "finalSizeBytes": 676682,
+      "webpSizeBytes": 664086,
+      "savedBytes": 2467558,
+      "reductionPercent": 78.48,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 664086
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240610101626.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240610101626.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240610101626.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 3076663,
+      "finalSizeBytes": 689288,
+      "webpSizeBytes": 639744,
+      "savedBytes": 2387375,
+      "reductionPercent": 77.6,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 639744
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-2.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-2.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-2.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x3468",
+      "optimizedDimensions": "1920x1920",
+      "origSizeBytes": 3039512,
+      "finalSizeBytes": 490334,
+      "webpSizeBytes": 504816,
+      "savedBytes": 2549178,
+      "reductionPercent": 83.87,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 490334
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240610101624.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240610101624.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240610101624.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 2979255,
+      "finalSizeBytes": 666223,
+      "webpSizeBytes": 604654,
+      "savedBytes": 2313032,
+      "reductionPercent": 77.64,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 604654
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240610101621.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240610101621.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240610101621.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 2923217,
+      "finalSizeBytes": 659822,
+      "webpSizeBytes": 584636,
+      "savedBytes": 2263395,
+      "reductionPercent": 77.43,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 584636
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-6.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-6.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-6.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x3468",
+      "optimizedDimensions": "1920x1920",
+      "origSizeBytes": 2843554,
+      "finalSizeBytes": 459360,
+      "webpSizeBytes": 488832,
+      "savedBytes": 2384194,
+      "reductionPercent": 83.85,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 459360
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\img20240610101617.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/IMG20240610101617.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/IMG20240610101617.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x4624",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 2830599,
+      "finalSizeBytes": 634723,
+      "webpSizeBytes": 554070,
+      "savedBytes": 2195876,
+      "reductionPercent": 77.58,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 554070
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-11.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-11.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-11.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4032x3024",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 2744492,
+      "finalSizeBytes": 468743,
+      "webpSizeBytes": 484670,
+      "savedBytes": 2275749,
+      "reductionPercent": 82.92,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 468743
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc.png",
+      "primarySrc": "/image/blog/krc/krc.png",
+      "allSrcs": [
+        "/image/blog/krc/krc.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1090x1443",
+      "optimizedDimensions": "1090x1443",
+      "origSizeBytes": 2652269,
+      "finalSizeBytes": 693284,
+      "webpSizeBytes": 241804,
+      "savedBytes": 1958985,
+      "reductionPercent": 73.86,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 241804
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-4.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-4.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-4.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3468x3468",
+      "optimizedDimensions": "1920x1920",
+      "origSizeBytes": 2645090,
+      "finalSizeBytes": 349498,
+      "webpSizeBytes": 353876,
+      "savedBytes": 2295592,
+      "reductionPercent": 86.79,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 349498
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\20240526_30712pm_bygpsmapcamera.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/20240526_30712PM_ByGPSMapCamera.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/20240526_30712PM_ByGPSMapCamera.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4608x3456",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 2593416,
+      "finalSizeBytes": 381247,
+      "webpSizeBytes": 352732,
+      "savedBytes": 2212169,
+      "reductionPercent": 85.3,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 352732
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project12.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project12.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project12.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "864x1184",
+      "optimizedDimensions": "864x1184",
+      "origSizeBytes": 2507550,
+      "finalSizeBytes": 827899,
+      "webpSizeBytes": 309466,
+      "savedBytes": 1679651,
+      "reductionPercent": 66.98,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 309466
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-8.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-8.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-8.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4624x3468",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 2433298,
+      "finalSizeBytes": 399792,
+      "webpSizeBytes": 356512,
+      "savedBytes": 2033506,
+      "reductionPercent": 83.57,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 356512
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\mgr-adharsh\\20240526_30647pm_bygpsmapcamera.jpg",
+      "primarySrc": "/image/blog/mgr-adharsh/20240526_30647PM_ByGPSMapCamera.jpg",
+      "allSrcs": [
+        "/image/blog/mgr-adharsh/20240526_30647PM_ByGPSMapCamera.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3456x4608",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 2388690,
+      "finalSizeBytes": 516126,
+      "webpSizeBytes": 448632,
+      "savedBytes": 1872564,
+      "reductionPercent": 78.39,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 448632
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-12.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-12.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-12.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "3024x4032",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 2243951,
+      "finalSizeBytes": 603126,
+      "webpSizeBytes": 552158,
+      "savedBytes": 1640825,
+      "reductionPercent": 73.12,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 552158
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\04-raft-rebar-grid-binding.webp",
+      "primarySrc": "/image/blog/km-palace/04-raft-rebar-grid-binding.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/04-raft-rebar-grid-binding.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x2560",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 2220502,
+      "finalSizeBytes": 2220502,
+      "webpSizeBytes": 1369372,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 1369372
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\blog-reliance.png",
+      "primarySrc": "/image/blog/blog-reliance.png",
+      "allSrcs": [
+        "/image/blog/blog-reliance.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x1024",
+      "optimizedDimensions": "1024x1024",
+      "origSizeBytes": 2217420,
+      "finalSizeBytes": 752813,
+      "webpSizeBytes": 280990,
+      "savedBytes": 1464607,
+      "reductionPercent": 66.05,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 280990
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-7.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-7.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-7.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4624x3468",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 2162276,
+      "finalSizeBytes": 307430,
+      "webpSizeBytes": 265572,
+      "savedBytes": 1854846,
+      "reductionPercent": 85.78,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 265572
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project8.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project8.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project8.png",
+        "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project8.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "864x1184",
+      "optimizedDimensions": "864x1184",
+      "origSizeBytes": 2137866,
+      "finalSizeBytes": 573135,
+      "webpSizeBytes": 221646,
+      "savedBytes": 1564731,
+      "reductionPercent": 73.19,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 221646
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project5.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project5.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project5.png",
+        "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project5.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "864x1184",
+      "optimizedDimensions": "864x1184",
+      "origSizeBytes": 2073578,
+      "finalSizeBytes": 555985,
+      "webpSizeBytes": 201886,
+      "savedBytes": 1517593,
+      "reductionPercent": 73.19,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 201886
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\blog-tuticorin.png",
+      "primarySrc": "/image/blog/blog-tuticorin.png",
+      "allSrcs": [
+        "/image/blog/blog-tuticorin.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x1024",
+      "optimizedDimensions": "1024x1024",
+      "origSizeBytes": 2062547,
+      "finalSizeBytes": 608389,
+      "webpSizeBytes": 249012,
+      "savedBytes": 1454158,
+      "reductionPercent": 70.5,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 249012
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project13.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project13.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project13.png",
+        "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project13.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "1184x864",
+      "optimizedDimensions": "1184x864",
+      "origSizeBytes": 2024273,
+      "finalSizeBytes": 507674,
+      "webpSizeBytes": 185666,
+      "savedBytes": 1516599,
+      "reductionPercent": 74.92,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 185666
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project4.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project4.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project4.png",
+        "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project4.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "1184x864",
+      "optimizedDimensions": "1184x864",
+      "origSizeBytes": 1989803,
+      "finalSizeBytes": 506886,
+      "webpSizeBytes": 203822,
+      "savedBytes": 1482917,
+      "reductionPercent": 74.53,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 203822
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project3.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project3.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project3.png",
+        "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project3.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "864x1184",
+      "optimizedDimensions": "864x1184",
+      "origSizeBytes": 1961439,
+      "finalSizeBytes": 519217,
+      "webpSizeBytes": 166024,
+      "savedBytes": 1442222,
+      "reductionPercent": 73.53,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 166024
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project11.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project11.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project11.png",
+        "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project11.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "1184x864",
+      "optimizedDimensions": "1184x864",
+      "origSizeBytes": 1943959,
+      "finalSizeBytes": 534093,
+      "webpSizeBytes": 189290,
+      "savedBytes": 1409866,
+      "reductionPercent": 72.53,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 189290
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\piling\\drilling.png",
+      "primarySrc": "/image/blog/piling/drilling.png",
+      "allSrcs": [
+        "/image/blog/piling/drilling.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1184x864",
+      "optimizedDimensions": "1184x864",
+      "origSizeBytes": 1943959,
+      "finalSizeBytes": 598001,
+      "webpSizeBytes": 183708,
+      "savedBytes": 1345958,
+      "reductionPercent": 69.24,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 183708
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\blog-karnataka.png",
+      "primarySrc": "/image/blog/blog-karnataka.png",
+      "allSrcs": [
+        "/image/blog/blog-karnataka.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x1024",
+      "optimizedDimensions": "1024x1024",
+      "origSizeBytes": 1938814,
+      "finalSizeBytes": 555110,
+      "webpSizeBytes": 188176,
+      "savedBytes": 1383704,
+      "reductionPercent": 71.37,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 188176
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\05-raft-foundation-concreting.webp",
+      "primarySrc": "/image/blog/km-palace/05-raft-foundation-concreting.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/05-raft-foundation-concreting.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x2398",
+      "optimizedDimensions": "1920x2398",
+      "origSizeBytes": 1901836,
+      "finalSizeBytes": 1901836,
+      "webpSizeBytes": 1159316,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 1159316
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\krc\\krc-external-development-14.jpg",
+      "primarySrc": "/image/blog/krc/krc-external-development-14.jpg",
+      "allSrcs": [
+        "/image/blog/krc/krc-external-development-14.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "4032x3024",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 1862539,
+      "finalSizeBytes": 311158,
+      "webpSizeBytes": 254930,
+      "savedBytes": 1551381,
+      "reductionPercent": 83.29,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 254930
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project6.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project6.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project6.png",
+        "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project6.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "1184x864",
+      "optimizedDimensions": "1184x864",
+      "origSizeBytes": 1858552,
+      "finalSizeBytes": 470942,
+      "webpSizeBytes": 141266,
+      "savedBytes": 1387610,
+      "reductionPercent": 74.66,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 141266
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project7.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project7.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project7.png",
+        "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project7.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "1184x864",
+      "optimizedDimensions": "1184x864",
+      "origSizeBytes": 1825220,
+      "finalSizeBytes": 429673,
+      "webpSizeBytes": 137592,
+      "savedBytes": 1395547,
+      "reductionPercent": 76.46,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 137592
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\08-central-mandapam-pt-slab-pour.webp",
+      "primarySrc": "/image/blog/km-palace/08-central-mandapam-pt-slab-pour.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/08-central-mandapam-pt-slab-pour.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1440",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 1775478,
+      "finalSizeBytes": 1775478,
+      "webpSizeBytes": 1092638,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 1092638
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project9.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project9.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project9.png",
+        "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project9.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "864x1184",
+      "optimizedDimensions": "864x1184",
+      "origSizeBytes": 1769003,
+      "finalSizeBytes": 437618,
+      "webpSizeBytes": 136058,
+      "savedBytes": 1331385,
+      "reductionPercent": 75.26,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 136058
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project10.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project10.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project10.png",
+        "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project10.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "1184x864",
+      "optimizedDimensions": "1184x864",
+      "origSizeBytes": 1756490,
+      "finalSizeBytes": 466230,
+      "webpSizeBytes": 109118,
+      "savedBytes": 1290260,
+      "reductionPercent": 73.46,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 109118
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project1.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project1.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project1.png",
+        "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project1.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "1184x864",
+      "optimizedDimensions": "1184x864",
+      "origSizeBytes": 1739666,
+      "finalSizeBytes": 419548,
+      "webpSizeBytes": 118926,
+      "savedBytes": 1320118,
+      "reductionPercent": 75.88,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 118926
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\10-upper-tier-frame-extension.webp",
+      "primarySrc": "/image/blog/km-palace/10-upper-tier-frame-extension.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/10-upper-tier-frame-extension.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x2560",
+      "optimizedDimensions": "1920x2560",
+      "origSizeBytes": 1729210,
+      "finalSizeBytes": 1729210,
+      "webpSizeBytes": 1072652,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 1072652
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\blue-star.png",
+      "primarySrc": "/image/blog/blue-star.png",
+      "allSrcs": [
+        "/image/blog/blue-star.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1280x960",
+      "optimizedDimensions": "1280x960",
+      "origSizeBytes": 1501465,
+      "finalSizeBytes": 621651,
+      "webpSizeBytes": 183736,
+      "savedBytes": 879814,
+      "reductionPercent": 58.6,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 183736
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\kudligi_solar\\140.6_mw_capacity_wind–solar_hybrid_power_project2.png",
+      "primarySrc": "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project2.png",
+      "allSrcs": [
+        "/image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project2.png",
+        "image/project-item/kudligi_solar/140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project2.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "864x1184",
+      "optimizedDimensions": "864x1184",
+      "origSizeBytes": 1468936,
+      "finalSizeBytes": 295835,
+      "webpSizeBytes": 44056,
+      "savedBytes": 1173101,
+      "reductionPercent": 79.86,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 44056
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\blog-boat-partnership.png",
+      "primarySrc": "/image/blog/blog-boat-partnership.png",
+      "allSrcs": [
+        "/image/blog/blog-boat-partnership.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1672x941",
+      "optimizedDimensions": "1672x941",
+      "origSizeBytes": 1405109,
+      "finalSizeBytes": 461786,
+      "webpSizeBytes": 99316,
+      "savedBytes": 943323,
+      "reductionPercent": 67.14,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 99316
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\03-subgrade-compaction-footing.webp",
+      "primarySrc": "/image/blog/km-palace/03-subgrade-compaction-footing.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/03-subgrade-compaction-footing.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1440",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 1258536,
+      "finalSizeBytes": 1258536,
+      "webpSizeBytes": 750140,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 750140
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\srm-ap\\industrial-mechanical-room-red-piping.png",
+      "primarySrc": "/image/blog/srm-ap/industrial-mechanical-room-red-piping.png",
+      "allSrcs": [
+        "/image/blog/srm-ap/industrial-mechanical-room-red-piping.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "841x977",
+      "optimizedDimensions": "841x977",
+      "origSizeBytes": 1228880,
+      "finalSizeBytes": 397327,
+      "webpSizeBytes": 102146,
+      "savedBytes": 831553,
+      "reductionPercent": 67.67,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 102146
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\09-upper-tier-column-framework.webp",
+      "primarySrc": "/image/blog/km-palace/09-upper-tier-column-framework.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/09-upper-tier-column-framework.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1440",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 1211688,
+      "finalSizeBytes": 1211688,
+      "webpSizeBytes": 731514,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 731514
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\inner_banner.png",
+      "primarySrc": "/image/project-item/inner_banner.png",
+      "allSrcs": [
+        "/image/project-item/inner_banner.png",
+        "image/project-item/inner_banner.png"
+      ],
+      "duplicateCount": 2,
+      "originalDimensions": "1224x460",
+      "optimizedDimensions": "1224x460",
+      "origSizeBytes": 1191094,
+      "finalSizeBytes": 305539,
+      "webpSizeBytes": 167884,
+      "savedBytes": 885555,
+      "reductionPercent": 74.35,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 167884
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\waaree\\image-1788602564198.jpg",
+      "primarySrc": "/image/blog/waaree/image-1788602564198.jpg",
+      "allSrcs": [
+        "/image/blog/waaree/image-1788602564198.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1500",
+      "optimizedDimensions": "1200x1500",
+      "origSizeBytes": 978300,
+      "finalSizeBytes": 434047,
+      "webpSizeBytes": 480368,
+      "savedBytes": 544253,
+      "reductionPercent": 55.63,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 434047
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\13-peb-steel-roof-truss-assembly.webp",
+      "primarySrc": "/image/blog/km-palace/13-peb-steel-roof-truss-assembly.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/13-peb-steel-roof-truss-assembly.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1440",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 976126,
+      "finalSizeBytes": 976126,
+      "webpSizeBytes": 584470,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 584470
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\06-ground-column-shuttering-casting.webp",
+      "primarySrc": "/image/blog/km-palace/06-ground-column-shuttering-casting.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/06-ground-column-shuttering-casting.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1280",
+      "optimizedDimensions": "1920x1280",
+      "origSizeBytes": 917092,
+      "finalSizeBytes": 917092,
+      "webpSizeBytes": 561804,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 561804
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09741.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09741.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09741.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 885222,
+      "finalSizeBytes": 885222,
+      "webpSizeBytes": 209224,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 209224
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\waaree\\image-1788602555612.jpg",
+      "primarySrc": "/image/blog/waaree/image-1788602555612.jpg",
+      "allSrcs": [
+        "/image/blog/waaree/image-1788602555612.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1504",
+      "optimizedDimensions": "1200x1504",
+      "origSizeBytes": 845674,
+      "finalSizeBytes": 334787,
+      "webpSizeBytes": 323700,
+      "savedBytes": 510887,
+      "reductionPercent": 60.41,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 323700
+    },
+    {
+      "canonicalPath": "public\\image\\about-left.png",
+      "primarySrc": "/image/about-left.png",
+      "allSrcs": [
+        "/image/about-left.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "669x795",
+      "optimizedDimensions": "669x795",
+      "origSizeBytes": 835853,
+      "finalSizeBytes": 280033,
+      "webpSizeBytes": 70838,
+      "savedBytes": 555820,
+      "reductionPercent": 66.5,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 70838
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\02-site-earthworks-levelling.webp",
+      "primarySrc": "/image/blog/km-palace/02-site-earthworks-levelling.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/02-site-earthworks-levelling.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1264",
+      "optimizedDimensions": "1920x1264",
+      "origSizeBytes": 823996,
+      "finalSizeBytes": 823996,
+      "webpSizeBytes": 507788,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 507788
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\07-pt-slab-formwork-tendons.webp",
+      "primarySrc": "/image/blog/km-palace/07-pt-slab-formwork-tendons.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/07-pt-slab-formwork-tendons.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1280",
+      "optimizedDimensions": "1920x1280",
+      "origSizeBytes": 809158,
+      "finalSizeBytes": 809158,
+      "webpSizeBytes": 483040,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 483040
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\waaree\\image-1788932667620.jpg",
+      "primarySrc": "/image/blog/waaree/image-1788932667620.jpg",
+      "allSrcs": [
+        "/image/blog/waaree/image-1788932667620.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1504",
+      "optimizedDimensions": "1200x1504",
+      "origSizeBytes": 796617,
+      "finalSizeBytes": 325486,
+      "webpSizeBytes": 332904,
+      "savedBytes": 471131,
+      "reductionPercent": 59.14,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 325486
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\14-interior-ceiling-vitrified-tiling.webp",
+      "primarySrc": "/image/blog/km-palace/14-interior-ceiling-vitrified-tiling.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/14-interior-ceiling-vitrified-tiling.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x2392",
+      "optimizedDimensions": "1920x2392",
+      "origSizeBytes": 790486,
+      "finalSizeBytes": 790486,
+      "webpSizeBytes": 495906,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 495906
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\srm\\4.jpeg",
+      "primarySrc": "/image/blog/srm/4.jpeg",
+      "allSrcs": [
+        "/image/blog/srm/4.jpeg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1224x1221",
+      "optimizedDimensions": "1224x1221",
+      "origSizeBytes": 772627,
+      "finalSizeBytes": 324056,
+      "webpSizeBytes": 340246,
+      "savedBytes": 448571,
+      "reductionPercent": 58.06,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 324056
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\17-gps-verified-site-handover.webp",
+      "primarySrc": "/image/blog/km-palace/17-gps-verified-site-handover.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/17-gps-verified-site-handover.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1440",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 766454,
+      "finalSizeBytes": 766454,
+      "webpSizeBytes": 469012,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 469012
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\km-palace-28.webp",
+      "primarySrc": "/image/blog/km-palace/km-palace-28.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/km-palace-28.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1440",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 754276,
+      "finalSizeBytes": 754276,
+      "webpSizeBytes": 445222,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 445222
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\km-palace-26.webp",
+      "primarySrc": "/image/blog/km-palace/km-palace-26.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/km-palace-26.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1280",
+      "optimizedDimensions": "1920x1280",
+      "origSizeBytes": 752620,
+      "finalSizeBytes": 752620,
+      "webpSizeBytes": 447410,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 447410
+    },
+    {
+      "canonicalPath": "public\\image\\section\\drain.jpg",
+      "primarySrc": "/image/section/drain.jpg",
+      "allSrcs": [
+        "/image/section/drain.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1734x948",
+      "optimizedDimensions": "1734x948",
+      "origSizeBytes": 723000,
+      "finalSizeBytes": 169946,
+      "webpSizeBytes": 126302,
+      "savedBytes": 553054,
+      "reductionPercent": 76.49,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 126302
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\11-solid-block-masonry-walls.webp",
+      "primarySrc": "/image/blog/km-palace/11-solid-block-masonry-walls.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/11-solid-block-masonry-walls.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1440",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 721420,
+      "finalSizeBytes": 721420,
+      "webpSizeBytes": 439724,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 439724
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\waaree\\image-1790670812417.jpg",
+      "primarySrc": "/image/blog/waaree/image-1790670812417.jpg",
+      "allSrcs": [
+        "/image/blog/waaree/image-1790670812417.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1496",
+      "optimizedDimensions": "1200x1496",
+      "origSizeBytes": 668447,
+      "finalSizeBytes": 267458,
+      "webpSizeBytes": 261194,
+      "savedBytes": 400989,
+      "reductionPercent": 59.99,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 261194
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\01-site-survey-groundbreaking.webp",
+      "primarySrc": "/image/blog/km-palace/01-site-survey-groundbreaking.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/01-site-survey-groundbreaking.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x880",
+      "optimizedDimensions": "1920x880",
+      "origSizeBytes": 662968,
+      "finalSizeBytes": 662968,
+      "webpSizeBytes": 399566,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 399566
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\srm\\3.jpeg",
+      "primarySrc": "/image/blog/srm/3.jpeg",
+      "allSrcs": [
+        "/image/blog/srm/3.jpeg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "960x1280",
+      "optimizedDimensions": "960x1280",
+      "origSizeBytes": 648152,
+      "finalSizeBytes": 272417,
+      "webpSizeBytes": 284044,
+      "savedBytes": 375735,
+      "reductionPercent": 57.97,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 272417
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\road-paving.jpg",
+      "primarySrc": "/image/project-item/road-paving.jpg",
+      "allSrcs": [
+        "/image/project-item/road-paving.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "2048x1306",
+      "optimizedDimensions": "1920x1224",
+      "origSizeBytes": 647218,
+      "finalSizeBytes": 394598,
+      "webpSizeBytes": 385562,
+      "savedBytes": 252620,
+      "reductionPercent": 39.03,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 385562
+    },
+    {
+      "canonicalPath": "public\\images\\waaree\\image-1788602564228.jpg",
+      "primarySrc": "/images/waaree/image-1788602564228.jpg",
+      "allSrcs": [
+        "/images/waaree/image-1788602564228.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1600",
+      "optimizedDimensions": "1200x1600",
+      "origSizeBytes": 639860,
+      "finalSizeBytes": 465879,
+      "webpSizeBytes": 497038,
+      "savedBytes": 173981,
+      "reductionPercent": 27.19,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 465879
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\waaree\\image-1788854709705.jpg",
+      "primarySrc": "/image/blog/waaree/image-1788854709705.jpg",
+      "allSrcs": [
+        "/image/blog/waaree/image-1788854709705.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1436",
+      "optimizedDimensions": "1200x1436",
+      "origSizeBytes": 616418,
+      "finalSizeBytes": 253918,
+      "webpSizeBytes": 240772,
+      "savedBytes": 362500,
+      "reductionPercent": 58.81,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 240772
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\drainandroad.jpg",
+      "primarySrc": "/image/project-item/drainandroad.jpg",
+      "allSrcs": [
+        "/image/project-item/drainandroad.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "2048x1296",
+      "optimizedDimensions": "1920x1215",
+      "origSizeBytes": 610594,
+      "finalSizeBytes": 378117,
+      "webpSizeBytes": 352142,
+      "savedBytes": 232477,
+      "reductionPercent": 38.07,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 352142
+    },
+    {
+      "canonicalPath": "public\\image\\thumb\\vandlur.png",
+      "primarySrc": "/image/thumb/vandlur.png",
+      "allSrcs": [
+        "/image/thumb/vandlur.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "680x454",
+      "optimizedDimensions": "680x454",
+      "origSizeBytes": 570989,
+      "finalSizeBytes": 166781,
+      "webpSizeBytes": 78812,
+      "savedBytes": 404208,
+      "reductionPercent": 70.79,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 78812
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\km-palace-27.webp",
+      "primarySrc": "/image/blog/km-palace/km-palace-27.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/km-palace-27.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1440",
+      "optimizedDimensions": "1920x1440",
+      "origSizeBytes": 540968,
+      "finalSizeBytes": 540968,
+      "webpSizeBytes": 317230,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 317230
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\srm\\2.jpeg",
+      "primarySrc": "/image/blog/srm/2.jpeg",
+      "allSrcs": [
+        "/image/blog/srm/2.jpeg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1280x1080",
+      "optimizedDimensions": "1280x1080",
+      "origSizeBytes": 522564,
+      "finalSizeBytes": 207300,
+      "webpSizeBytes": 189268,
+      "savedBytes": 315264,
+      "reductionPercent": 60.33,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 189268
+    },
+    {
+      "canonicalPath": "public\\images\\waaree\\image-1788602535896.jpg",
+      "primarySrc": "/images/waaree/image-1788602535896.jpg",
+      "allSrcs": [
+        "/images/waaree/image-1788602535896.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1600",
+      "optimizedDimensions": "1200x1600",
+      "origSizeBytes": 508901,
+      "finalSizeBytes": 371870,
+      "webpSizeBytes": 379356,
+      "savedBytes": 137031,
+      "reductionPercent": 26.93,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 371870
+    },
+    {
+      "canonicalPath": "public\\image\\thumb\\orgadam.png",
+      "primarySrc": "/image/thumb/orgadam.png",
+      "allSrcs": [
+        "/image/thumb/orgadam.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "680x454",
+      "optimizedDimensions": "680x454",
+      "origSizeBytes": 508664,
+      "finalSizeBytes": 147281,
+      "webpSizeBytes": 63578,
+      "savedBytes": 361383,
+      "reductionPercent": 71.05,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 63578
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620742940.jpg",
+      "primarySrc": "/images/kudligi/image-1789620742940.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620742940.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 501346,
+      "finalSizeBytes": 362206,
+      "webpSizeBytes": 389480,
+      "savedBytes": 139140,
+      "reductionPercent": 27.75,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 362206
+    },
+    {
+      "canonicalPath": "public\\images\\waaree\\image-1788602535879.jpg",
+      "primarySrc": "/images/waaree/image-1788602535879.jpg",
+      "allSrcs": [
+        "/images/waaree/image-1788602535879.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x1200",
+      "optimizedDimensions": "1600x1200",
+      "origSizeBytes": 500283,
+      "finalSizeBytes": 370246,
+      "webpSizeBytes": 372340,
+      "savedBytes": 130037,
+      "reductionPercent": 25.99,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 370246
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\08-monolithic-m35-concrete-pour.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/08-monolithic-m35-concrete-pour.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/08-monolithic-m35-concrete-pour.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "900x1600",
+      "optimizedDimensions": "900x1600",
+      "origSizeBytes": 491828,
+      "finalSizeBytes": 491828,
+      "webpSizeBytes": 288220,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 288220
+    },
+    {
+      "canonicalPath": "public\\image\\thumb\\coimbatore.png",
+      "primarySrc": "/image/thumb/coimbatore.png",
+      "allSrcs": [
+        "/image/thumb/coimbatore.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "680x383",
+      "optimizedDimensions": "680x383",
+      "origSizeBytes": 490708,
+      "finalSizeBytes": 159605,
+      "webpSizeBytes": 63466,
+      "savedBytes": 331103,
+      "reductionPercent": 67.47,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 63466
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\03-foundation-trench-excavation.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/03-foundation-trench-excavation.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/03-foundation-trench-excavation.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1600",
+      "optimizedDimensions": "1200x1600",
+      "origSizeBytes": 490560,
+      "finalSizeBytes": 490560,
+      "webpSizeBytes": 456186,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 456186
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\04-pcc-subbase-bed-casting.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/04-pcc-subbase-bed-casting.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/04-pcc-subbase-bed-casting.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 488372,
+      "finalSizeBytes": 488372,
+      "webpSizeBytes": 282148,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 282148
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\05-rebar-mesh-binding-itc02.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/05-rebar-mesh-binding-itc02.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/05-rebar-mesh-binding-itc02.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 487824,
+      "finalSizeBytes": 487824,
+      "webpSizeBytes": 282932,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 282932
+    },
+    {
+      "canonicalPath": "public\\images\\waaree\\image-1788602539596.jpg",
+      "primarySrc": "/images/waaree/image-1788602539596.jpg",
+      "allSrcs": [
+        "/images/waaree/image-1788602539596.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x1200",
+      "optimizedDimensions": "1600x1200",
+      "origSizeBytes": 487289,
+      "finalSizeBytes": 355416,
+      "webpSizeBytes": 359708,
+      "savedBytes": 131873,
+      "reductionPercent": 27.06,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 355416
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\srm\\1.jpeg",
+      "primarySrc": "/image/blog/srm/1.jpeg",
+      "allSrcs": [
+        "/image/blog/srm/1.jpeg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "960x1280",
+      "optimizedDimensions": "960x1280",
+      "origSizeBytes": 487003,
+      "finalSizeBytes": 195285,
+      "webpSizeBytes": 179398,
+      "savedBytes": 291718,
+      "reductionPercent": 59.9,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 179398
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\drain.jpg",
+      "primarySrc": "/image/project-item/drain.jpg",
+      "allSrcs": [
+        "/image/project-item/drain.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "2048x1305",
+      "optimizedDimensions": "1920x1223",
+      "origSizeBytes": 485143,
+      "finalSizeBytes": 303279,
+      "webpSizeBytes": 241420,
+      "savedBytes": 181864,
+      "reductionPercent": 37.49,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 241420
+    },
+    {
+      "canonicalPath": "public\\image\\section\\img-section-industry.jpg",
+      "primarySrc": "/image/section/img-section-industry.jpg",
+      "allSrcs": [
+        "/image/section/img-section-industry.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "879x597",
+      "optimizedDimensions": "879x597",
+      "origSizeBytes": 480628,
+      "finalSizeBytes": 105606,
+      "webpSizeBytes": 104250,
+      "savedBytes": 375022,
+      "reductionPercent": 78.03,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 104250
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\punjab2.jpg",
+      "primarySrc": "/image/project-item/punjab2.jpg",
+      "allSrcs": [
+        "/image/project-item/punjab2.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "2048x1296",
+      "optimizedDimensions": "1920x1215",
+      "origSizeBytes": 476120,
+      "finalSizeBytes": 297055,
+      "webpSizeBytes": 249768,
+      "savedBytes": 179065,
+      "reductionPercent": 37.61,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 249768
+    },
+    {
+      "canonicalPath": "public\\image\\section\\history-item-10.jpg",
+      "primarySrc": "/image/section/history-item-10.jpg",
+      "allSrcs": [
+        "/image/section/history-item-10.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "749x563",
+      "optimizedDimensions": "749x563",
+      "origSizeBytes": 474348,
+      "finalSizeBytes": 90824,
+      "webpSizeBytes": 104326,
+      "savedBytes": 383524,
+      "reductionPercent": 80.85,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 90824
+    },
+    {
+      "canonicalPath": "public\\images\\waaree\\image-1788602555432.jpg",
+      "primarySrc": "/images/waaree/image-1788602555432.jpg",
+      "allSrcs": [
+        "/images/waaree/image-1788602555432.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1600",
+      "optimizedDimensions": "1200x1600",
+      "origSizeBytes": 473050,
+      "finalSizeBytes": 347408,
+      "webpSizeBytes": 338564,
+      "savedBytes": 125642,
+      "reductionPercent": 26.56,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 338564
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\waaree\\image-1788602576898.jpg",
+      "primarySrc": "/image/blog/waaree/image-1788602576898.jpg",
+      "allSrcs": [
+        "/image/blog/waaree/image-1788602576898.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1600",
+      "optimizedDimensions": "1200x1600",
+      "origSizeBytes": 466733,
+      "finalSizeBytes": 346683,
+      "webpSizeBytes": 336612,
+      "savedBytes": 120050,
+      "reductionPercent": 25.72,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 336612
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\12-wall-plastering-mep-chasing.webp",
+      "primarySrc": "/image/blog/km-palace/12-wall-plastering-mep-chasing.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/12-wall-plastering-mep-chasing.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1272",
+      "optimizedDimensions": "1920x1272",
+      "origSizeBytes": 462938,
+      "finalSizeBytes": 462938,
+      "webpSizeBytes": 277842,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 277842
+    },
+    {
+      "canonicalPath": "public\\image\\section\\img-section-market.jpg",
+      "primarySrc": "/image/section/img-section-market.jpg",
+      "allSrcs": [
+        "/image/section/img-section-market.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "879x597",
+      "optimizedDimensions": "879x597",
+      "origSizeBytes": 462919,
+      "finalSizeBytes": 99440,
+      "webpSizeBytes": 92622,
+      "savedBytes": 363479,
+      "reductionPercent": 78.52,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 92622
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\02-land-clearing-subgrade-prep.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/02-land-clearing-subgrade-prep.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/02-land-clearing-subgrade-prep.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1436x900",
+      "optimizedDimensions": "1436x900",
+      "origSizeBytes": 459136,
+      "finalSizeBytes": 459136,
+      "webpSizeBytes": 270816,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 270816
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\vibgyor-pune-home-thumb.png",
+      "primarySrc": "/image/blog/vibgyor-pune/vibgyor-pune-home-thumb.png",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/vibgyor-pune-home-thumb.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "680x383",
+      "optimizedDimensions": "680x383",
+      "origSizeBytes": 455086,
+      "finalSizeBytes": 135962,
+      "webpSizeBytes": 57014,
+      "savedBytes": 319124,
+      "reductionPercent": 70.12,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 57014
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09749.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09749.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09749.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 454650,
+      "finalSizeBytes": 454650,
+      "webpSizeBytes": 210556,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 210556
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620753854.jpg",
+      "primarySrc": "/images/kudligi/image-1789620753854.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620753854.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 449608,
+      "finalSizeBytes": 327667,
+      "webpSizeBytes": 336932,
+      "savedBytes": 121941,
+      "reductionPercent": 27.12,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 327667
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09751.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09751.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09751.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 444810,
+      "finalSizeBytes": 444810,
+      "webpSizeBytes": 172318,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 172318
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09743.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09743.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09743.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 444636,
+      "finalSizeBytes": 444636,
+      "webpSizeBytes": 187194,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 187194
+    },
+    {
+      "canonicalPath": "public\\image\\section\\section-about-p-testimonials.png",
+      "primarySrc": "/image/section/section-about-p-testimonials.png",
+      "allSrcs": [
+        "/image/section/section-about-p-testimonials.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "904x566",
+      "optimizedDimensions": "904x566",
+      "origSizeBytes": 435086,
+      "finalSizeBytes": 139155,
+      "webpSizeBytes": 100018,
+      "savedBytes": 295931,
+      "reductionPercent": 68.02,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 100018
+    },
+    {
+      "canonicalPath": "public\\image\\thumb\\pulianthope.png",
+      "primarySrc": "/image/thumb/Pulianthope.png",
+      "allSrcs": [
+        "/image/thumb/Pulianthope.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "680x453",
+      "optimizedDimensions": "680x453",
+      "origSizeBytes": 429659,
+      "finalSizeBytes": 125188,
+      "webpSizeBytes": 42724,
+      "savedBytes": 304471,
+      "reductionPercent": 70.86,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 42724
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620769960.jpg",
+      "primarySrc": "/images/kudligi/image-1789620769960.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620769960.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "900x1600",
+      "optimizedDimensions": "900x1600",
+      "origSizeBytes": 429090,
+      "finalSizeBytes": 313521,
+      "webpSizeBytes": 313272,
+      "savedBytes": 115569,
+      "reductionPercent": 26.93,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 313272
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\waaree\\image-1790670812428.jpg",
+      "primarySrc": "/image/blog/waaree/image-1790670812428.jpg",
+      "allSrcs": [
+        "/image/blog/waaree/image-1790670812428.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "899x1519",
+      "optimizedDimensions": "899x1519",
+      "origSizeBytes": 422663,
+      "finalSizeBytes": 167219,
+      "webpSizeBytes": 153230,
+      "savedBytes": 255444,
+      "reductionPercent": 60.44,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 153230
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\waaree\\image-1788854709679.jpg",
+      "primarySrc": "/image/blog/waaree/image-1788854709679.jpg",
+      "allSrcs": [
+        "/image/blog/waaree/image-1788854709679.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "899x1515",
+      "optimizedDimensions": "899x1515",
+      "origSizeBytes": 418015,
+      "finalSizeBytes": 165846,
+      "webpSizeBytes": 151784,
+      "savedBytes": 252169,
+      "reductionPercent": 60.33,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 151784
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\09-concrete-curing-quality-check.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/09-concrete-curing-quality-check.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/09-concrete-curing-quality-check.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 417248,
+      "finalSizeBytes": 417248,
+      "webpSizeBytes": 239750,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 239750
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09728.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09728.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09728.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 413916,
+      "finalSizeBytes": 413916,
+      "webpSizeBytes": 134074,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 134074
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620766865.jpg",
+      "primarySrc": "/images/kudligi/image-1789620766865.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620766865.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 402917,
+      "finalSizeBytes": 294124,
+      "webpSizeBytes": 286654,
+      "savedBytes": 108793,
+      "reductionPercent": 27,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 286654
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\01-site-survey-rocky-terrain.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/01-site-survey-rocky-terrain.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/01-site-survey-rocky-terrain.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 400500,
+      "finalSizeBytes": 400500,
+      "webpSizeBytes": 225670,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 225670
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\our_conclusion.png",
+      "primarySrc": "/image/project-item/our_conclusion.png",
+      "allSrcs": [
+        "/image/project-item/our_conclusion.png"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "811x788",
+      "optimizedDimensions": "811x788",
+      "origSizeBytes": 398822,
+      "finalSizeBytes": 184248,
+      "webpSizeBytes": 66306,
+      "savedBytes": 214574,
+      "reductionPercent": 53.8,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 66306
+    },
+    {
+      "canonicalPath": "public\\image\\section\\post-grid-small-item-1.jpg",
+      "primarySrc": "/image/section/post-grid-small-item-1.jpg",
+      "allSrcs": [
+        "/image/section/post-grid-small-item-1.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "555x627",
+      "optimizedDimensions": "555x627",
+      "origSizeBytes": 392230,
+      "finalSizeBytes": 78112,
+      "webpSizeBytes": 79144,
+      "savedBytes": 314118,
+      "reductionPercent": 80.09,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 78112
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09748.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09748.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09748.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 391904,
+      "finalSizeBytes": 391904,
+      "webpSizeBytes": 174164,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 174164
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09727.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09727.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09727.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 384172,
+      "finalSizeBytes": 384172,
+      "webpSizeBytes": 163978,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 163978
+    },
+    {
+      "canonicalPath": "public\\image\\section\\history-item-11.jpg",
+      "primarySrc": "/image/section/history-item-11.jpg",
+      "allSrcs": [
+        "/image/section/history-item-11.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "749x563",
+      "optimizedDimensions": "749x563",
+      "origSizeBytes": 382805,
+      "finalSizeBytes": 88659,
+      "webpSizeBytes": 79156,
+      "savedBytes": 294146,
+      "reductionPercent": 76.84,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 79156
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09742.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09742.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09742.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 382640,
+      "finalSizeBytes": 382640,
+      "webpSizeBytes": 134876,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 134876
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\19-kudligi-solar-block-array-overview.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/19-kudligi-solar-block-array-overview.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/19-kudligi-solar-block-array-overview.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 380096,
+      "finalSizeBytes": 380096,
+      "webpSizeBytes": 214910,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 214910
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\11-mms-pile-foundation-casting.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/11-mms-pile-foundation-casting.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/11-mms-pile-foundation-casting.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 376780,
+      "finalSizeBytes": 376780,
+      "webpSizeBytes": 225996,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 225996
+    },
+    {
+      "canonicalPath": "public\\images\\waaree\\image-1788602535756.jpg",
+      "primarySrc": "/images/waaree/image-1788602535756.jpg",
+      "allSrcs": [
+        "/images/waaree/image-1788602535756.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1600",
+      "optimizedDimensions": "1200x1600",
+      "origSizeBytes": 376226,
+      "finalSizeBytes": 272690,
+      "webpSizeBytes": 250170,
+      "savedBytes": 103536,
+      "reductionPercent": 27.52,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 250170
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620772309.jpg",
+      "primarySrc": "/images/kudligi/image-1789620772309.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620772309.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 376163,
+      "finalSizeBytes": 274353,
+      "webpSizeBytes": 268402,
+      "savedBytes": 101810,
+      "reductionPercent": 27.07,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 268402
+    },
+    {
+      "canonicalPath": "public\\images\\waaree\\image-1788602535866.jpg",
+      "primarySrc": "/images/waaree/image-1788602535866.jpg",
+      "allSrcs": [
+        "/images/waaree/image-1788602535866.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1600",
+      "optimizedDimensions": "1200x1600",
+      "origSizeBytes": 373666,
+      "finalSizeBytes": 270076,
+      "webpSizeBytes": 242582,
+      "savedBytes": 103590,
+      "reductionPercent": 27.72,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 242582
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\10-mms-piling-drilling-rig.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/10-mms-piling-drilling-rig.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/10-mms-piling-drilling-rig.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 371532,
+      "finalSizeBytes": 371532,
+      "webpSizeBytes": 215478,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 215478
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620766320.jpg",
+      "primarySrc": "/images/kudligi/image-1789620766320.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620766320.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 370289,
+      "finalSizeBytes": 271690,
+      "webpSizeBytes": 260532,
+      "savedBytes": 98599,
+      "reductionPercent": 26.63,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 260532
+    },
+    {
+      "canonicalPath": "public\\images\\waaree\\image-1788602555488.jpg",
+      "primarySrc": "/images/waaree/image-1788602555488.jpg",
+      "allSrcs": [
+        "/images/waaree/image-1788602555488.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1600",
+      "optimizedDimensions": "1200x1600",
+      "origSizeBytes": 367145,
+      "finalSizeBytes": 265717,
+      "webpSizeBytes": 236544,
+      "savedBytes": 101428,
+      "reductionPercent": 27.63,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 236544
+    },
+    {
+      "canonicalPath": "public\\image\\section\\history-item-4.jpg",
+      "primarySrc": "/image/section/history-item-4.jpg",
+      "allSrcs": [
+        "/image/section/history-item-4.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "749x563",
+      "optimizedDimensions": "749x563",
+      "origSizeBytes": 364940,
+      "finalSizeBytes": 71756,
+      "webpSizeBytes": 65580,
+      "savedBytes": 293184,
+      "reductionPercent": 80.34,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 65580
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620769470.jpg",
+      "primarySrc": "/images/kudligi/image-1789620769470.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620769470.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 364125,
+      "finalSizeBytes": 263990,
+      "webpSizeBytes": 255516,
+      "savedBytes": 100135,
+      "reductionPercent": 27.5,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 255516
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09733.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09733.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09733.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 361926,
+      "finalSizeBytes": 361926,
+      "webpSizeBytes": 154844,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 154844
+    },
+    {
+      "canonicalPath": "public\\image\\section\\img-section-college.jpg",
+      "primarySrc": "/image/section/img-section-college.jpg",
+      "allSrcs": [
+        "/image/section/img-section-college.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "879x597",
+      "optimizedDimensions": "879x597",
+      "origSizeBytes": 351463,
+      "finalSizeBytes": 75607,
+      "webpSizeBytes": 69638,
+      "savedBytes": 275856,
+      "reductionPercent": 78.49,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 69638
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620758819.jpg",
+      "primarySrc": "/images/kudligi/image-1789620758819.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620758819.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1280x720",
+      "optimizedDimensions": "1280x720",
+      "origSizeBytes": 351386,
+      "finalSizeBytes": 254238,
+      "webpSizeBytes": 282574,
+      "savedBytes": 97148,
+      "reductionPercent": 27.65,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 254238
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\project-item-1.jpg",
+      "primarySrc": "/image/project-item/project-item-1.jpg",
+      "allSrcs": [
+        "/image/project-item/project-item-1.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x896",
+      "optimizedDimensions": "1200x896",
+      "origSizeBytes": 350710,
+      "finalSizeBytes": 232356,
+      "webpSizeBytes": 234416,
+      "savedBytes": 118354,
+      "reductionPercent": 33.75,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 232356
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-251.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-251.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-251.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1600",
+      "optimizedDimensions": "1200x1600",
+      "origSizeBytes": 349739,
+      "finalSizeBytes": 349643,
+      "webpSizeBytes": 339302,
+      "savedBytes": 96,
+      "reductionPercent": 0.03,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 339302
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620742946.jpg",
+      "primarySrc": "/images/kudligi/image-1789620742946.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620742946.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 347605,
+      "finalSizeBytes": 253593,
+      "webpSizeBytes": 234090,
+      "savedBytes": 94012,
+      "reductionPercent": 27.05,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 234090
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09745.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09745.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09745.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 345778,
+      "finalSizeBytes": 345778,
+      "webpSizeBytes": 144384,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 144384
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-22.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-22.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-22.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 344371,
+      "finalSizeBytes": 344371,
+      "webpSizeBytes": 366696,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 344371
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-24.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-24.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-24.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 342592,
+      "finalSizeBytes": 342587,
+      "webpSizeBytes": 341306,
+      "savedBytes": 5,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 341306
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620764584.jpg",
+      "primarySrc": "/images/kudligi/image-1789620764584.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620764584.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 338811,
+      "finalSizeBytes": 246572,
+      "webpSizeBytes": 231254,
+      "savedBytes": 92239,
+      "reductionPercent": 27.22,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 231254
+    },
+    {
+      "canonicalPath": "public\\images\\waaree\\image-1788602535812.jpg",
+      "primarySrc": "/images/waaree/image-1788602535812.jpg",
+      "allSrcs": [
+        "/images/waaree/image-1788602535812.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1600",
+      "optimizedDimensions": "1200x1600",
+      "origSizeBytes": 337778,
+      "finalSizeBytes": 242141,
+      "webpSizeBytes": 217946,
+      "savedBytes": 95637,
+      "reductionPercent": 28.31,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 217946
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620742929.jpg",
+      "primarySrc": "/images/kudligi/image-1789620742929.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620742929.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 337529,
+      "finalSizeBytes": 244921,
+      "webpSizeBytes": 241636,
+      "savedBytes": 92608,
+      "reductionPercent": 27.44,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 241636
+    },
+    {
+      "canonicalPath": "public\\image\\section\\img-section-gendral.jpg",
+      "primarySrc": "/image/section/img-section-gendral.jpg",
+      "allSrcs": [
+        "/image/section/img-section-gendral.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "879x597",
+      "optimizedDimensions": "879x597",
+      "origSizeBytes": 337500,
+      "finalSizeBytes": 68196,
+      "webpSizeBytes": 55304,
+      "savedBytes": 269304,
+      "reductionPercent": 79.79,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 55304
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\shed2.jpg",
+      "primarySrc": "/image/project-item/shed2.jpg",
+      "allSrcs": [
+        "/image/project-item/shed2.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1224x828",
+      "optimizedDimensions": "1224x828",
+      "origSizeBytes": 336656,
+      "finalSizeBytes": 227045,
+      "webpSizeBytes": 224282,
+      "savedBytes": 109611,
+      "reductionPercent": 32.56,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 224282
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09750.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09750.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09750.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 333168,
+      "finalSizeBytes": 333168,
+      "webpSizeBytes": 151998,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 151998
+    },
+    {
+      "canonicalPath": "public\\image\\section\\img-section-road.jpg",
+      "primarySrc": "/image/section/img-section-road.jpg",
+      "allSrcs": [
+        "/image/section/img-section-road.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "879x597",
+      "optimizedDimensions": "879x597",
+      "origSizeBytes": 330300,
+      "finalSizeBytes": 70732,
+      "webpSizeBytes": 68650,
+      "savedBytes": 259568,
+      "reductionPercent": 78.59,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 68650
+    },
+    {
+      "canonicalPath": "public\\image\\section\\img-section-mep.jpg",
+      "primarySrc": "/image/section/img-section-mep.jpg",
+      "allSrcs": [
+        "/image/section/img-section-mep.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "879x597",
+      "optimizedDimensions": "879x597",
+      "origSizeBytes": 330013,
+      "finalSizeBytes": 65527,
+      "webpSizeBytes": 50438,
+      "savedBytes": 264486,
+      "reductionPercent": 80.14,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 50438
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-18.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-18.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-18.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 327977,
+      "finalSizeBytes": 327977,
+      "webpSizeBytes": 330626,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 327977
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\km-palace-1.webp",
+      "primarySrc": "/image/blog/km-palace/km-palace-1.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/km-palace-1.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1280",
+      "optimizedDimensions": "1920x1280",
+      "origSizeBytes": 327582,
+      "finalSizeBytes": 327582,
+      "webpSizeBytes": 172282,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 172282
+    },
+    {
+      "canonicalPath": "public\\image\\section\\img-section-interior.jpg",
+      "primarySrc": "/image/section/img-section-interior.jpg",
+      "allSrcs": [
+        "/image/section/img-section-interior.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "879x597",
+      "optimizedDimensions": "879x597",
+      "origSizeBytes": 326081,
+      "finalSizeBytes": 76048,
+      "webpSizeBytes": 58432,
+      "savedBytes": 250033,
+      "reductionPercent": 76.68,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 58432
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620763388.jpg",
+      "primarySrc": "/images/kudligi/image-1789620763388.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620763388.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 325542,
+      "finalSizeBytes": 239009,
+      "webpSizeBytes": 216966,
+      "savedBytes": 86533,
+      "reductionPercent": 26.58,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 216966
+    },
+    {
+      "canonicalPath": "public\\image\\section\\history-item-5.jpg",
+      "primarySrc": "/image/section/history-item-5.jpg",
+      "allSrcs": [
+        "/image/section/history-item-5.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "749x563",
+      "optimizedDimensions": "749x563",
+      "origSizeBytes": 325288,
+      "finalSizeBytes": 75067,
+      "webpSizeBytes": 65436,
+      "savedBytes": 250221,
+      "reductionPercent": 76.92,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 65436
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-08.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-08.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-08.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 323240,
+      "finalSizeBytes": 323240,
+      "webpSizeBytes": 329574,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 323240
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620768947.jpg",
+      "primarySrc": "/images/kudligi/image-1789620768947.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620768947.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 322705,
+      "finalSizeBytes": 235736,
+      "webpSizeBytes": 219288,
+      "savedBytes": 86969,
+      "reductionPercent": 26.95,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 219288
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-21.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-21.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-21.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 316753,
+      "finalSizeBytes": 316753,
+      "webpSizeBytes": 323352,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 316753
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-20.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-20.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-20.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 313152,
+      "finalSizeBytes": 313152,
+      "webpSizeBytes": 307386,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 307386
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-61.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-61.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-61.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1280x720",
+      "optimizedDimensions": "1280x720",
+      "origSizeBytes": 310812,
+      "finalSizeBytes": 193708,
+      "webpSizeBytes": 195646,
+      "savedBytes": 117104,
+      "reductionPercent": 37.68,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 193708
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09747.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09747.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09747.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 309468,
+      "finalSizeBytes": 309468,
+      "webpSizeBytes": 95274,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 95274
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\16-solar-pv-module-installation.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/16-solar-pv-module-installation.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/16-solar-pv-module-installation.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1280x720",
+      "optimizedDimensions": "1280x720",
+      "origSizeBytes": 309384,
+      "finalSizeBytes": 309384,
+      "webpSizeBytes": 180572,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 180572
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\waaree\\image-1788602564152.jpg",
+      "primarySrc": "/image/blog/waaree/image-1788602564152.jpg",
+      "allSrcs": [
+        "/image/blog/waaree/image-1788602564152.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1200x1600",
+      "optimizedDimensions": "1200x1600",
+      "origSizeBytes": 309001,
+      "finalSizeBytes": 225689,
+      "webpSizeBytes": 195070,
+      "savedBytes": 83312,
+      "reductionPercent": 26.96,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 195070
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\06-column-starter-anchor-bolts.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/06-column-starter-anchor-bolts.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/06-column-starter-anchor-bolts.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 307552,
+      "finalSizeBytes": 307552,
+      "webpSizeBytes": 292490,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 292490
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620756992.jpg",
+      "primarySrc": "/images/kudligi/image-1789620756992.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620756992.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1280x720",
+      "optimizedDimensions": "1280x720",
+      "origSizeBytes": 306272,
+      "finalSizeBytes": 220578,
+      "webpSizeBytes": 238434,
+      "savedBytes": 85694,
+      "reductionPercent": 27.98,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 220578
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-04.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-04.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-04.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 299246,
+      "finalSizeBytes": 299117,
+      "webpSizeBytes": 299022,
+      "savedBytes": 129,
+      "reductionPercent": 0.04,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 299022
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\18-substation-gantry-yard-overview.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/18-substation-gantry-yard-overview.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/18-substation-gantry-yard-overview.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 298810,
+      "finalSizeBytes": 298810,
+      "webpSizeBytes": 167768,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 167768
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-19.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-19.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-19.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 298800,
+      "finalSizeBytes": 298800,
+      "webpSizeBytes": 294502,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 294502
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-174.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-174.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-174.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1599x899",
+      "optimizedDimensions": "1599x899",
+      "origSizeBytes": 298458,
+      "finalSizeBytes": 298458,
+      "webpSizeBytes": 304570,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 298458
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620770511.jpg",
+      "primarySrc": "/images/kudligi/image-1789620770511.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620770511.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 298054,
+      "finalSizeBytes": 217333,
+      "webpSizeBytes": 200178,
+      "savedBytes": 80721,
+      "reductionPercent": 27.08,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 200178
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-09.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-09.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-09.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 297919,
+      "finalSizeBytes": 297919,
+      "webpSizeBytes": 289154,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 289154
+    },
+    {
+      "canonicalPath": "public\\image\\section\\history-item-1.jpg",
+      "primarySrc": "/image/section/history-item-1.jpg",
+      "allSrcs": [
+        "/image/section/history-item-1.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "749x563",
+      "optimizedDimensions": "749x563",
+      "origSizeBytes": 297410,
+      "finalSizeBytes": 82952,
+      "webpSizeBytes": 98440,
+      "savedBytes": 214458,
+      "reductionPercent": 72.11,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 82952
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620771159.jpg",
+      "primarySrc": "/images/kudligi/image-1789620771159.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620771159.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 296982,
+      "finalSizeBytes": 221082,
+      "webpSizeBytes": 186484,
+      "savedBytes": 75900,
+      "reductionPercent": 25.56,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 186484
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\15-solar-mms-steel-structure-mount.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/15-solar-mms-steel-structure-mount.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/15-solar-mms-steel-structure-mount.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 296360,
+      "finalSizeBytes": 296360,
+      "webpSizeBytes": 175402,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 175402
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620772895.jpg",
+      "primarySrc": "/images/kudligi/image-1789620772895.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620772895.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "900x1600",
+      "optimizedDimensions": "900x1600",
+      "origSizeBytes": 294079,
+      "finalSizeBytes": 216335,
+      "webpSizeBytes": 199140,
+      "savedBytes": 77744,
+      "reductionPercent": 26.44,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 199140
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620761616.jpg",
+      "primarySrc": "/images/kudligi/image-1789620761616.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620761616.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 293566,
+      "finalSizeBytes": 212557,
+      "webpSizeBytes": 189218,
+      "savedBytes": 81009,
+      "reductionPercent": 27.59,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 189218
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\perur-desalination\\perur-desalination-9.jpg",
+      "primarySrc": "/image/blog/perur-desalination/perur-desalination-9.jpg",
+      "allSrcs": [
+        "/image/blog/perur-desalination/perur-desalination-9.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x770",
+      "optimizedDimensions": "1024x770",
+      "origSizeBytes": 292129,
+      "finalSizeBytes": 187156,
+      "webpSizeBytes": 213658,
+      "savedBytes": 104973,
+      "reductionPercent": 35.93,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 187156
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\km-palace-14.webp",
+      "primarySrc": "/image/blog/km-palace/km-palace-14.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/km-palace-14.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1121",
+      "optimizedDimensions": "1920x1121",
+      "origSizeBytes": 291920,
+      "finalSizeBytes": 291920,
+      "webpSizeBytes": 124134,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 124134
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-237.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-237.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-237.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1599x899",
+      "optimizedDimensions": "1599x899",
+      "origSizeBytes": 291015,
+      "finalSizeBytes": 290958,
+      "webpSizeBytes": 273968,
+      "savedBytes": 57,
+      "reductionPercent": 0.02,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 273968
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09736.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09736.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09736.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 289676,
+      "finalSizeBytes": 289676,
+      "webpSizeBytes": 125138,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 125138
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-49.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-49.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-49.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "720x1280",
+      "optimizedDimensions": "720x1280",
+      "origSizeBytes": 289638,
+      "finalSizeBytes": 182140,
+      "webpSizeBytes": 174734,
+      "savedBytes": 107498,
+      "reductionPercent": 37.11,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 174734
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09723.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09723.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09723.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 288720,
+      "finalSizeBytes": 288720,
+      "webpSizeBytes": 114798,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 114798
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\waaree\\image-1790670811694.jpg",
+      "primarySrc": "/image/blog/waaree/image-1790670811694.jpg",
+      "allSrcs": [
+        "/image/blog/waaree/image-1790670811694.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "960x1280",
+      "optimizedDimensions": "960x1280",
+      "origSizeBytes": 286117,
+      "finalSizeBytes": 208598,
+      "webpSizeBytes": 209756,
+      "savedBytes": 77519,
+      "reductionPercent": 27.09,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 208598
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-105.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-105.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-105.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x1200",
+      "optimizedDimensions": "1600x1200",
+      "origSizeBytes": 284668,
+      "finalSizeBytes": 282997,
+      "webpSizeBytes": 255992,
+      "savedBytes": 1671,
+      "reductionPercent": 0.59,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 255992
+    },
+    {
+      "canonicalPath": "public\\images\\waaree\\image-1788602555450.jpg",
+      "primarySrc": "/images/waaree/image-1788602555450.jpg",
+      "allSrcs": [
+        "/images/waaree/image-1788602555450.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "720x1280",
+      "optimizedDimensions": "720x1280",
+      "origSizeBytes": 283150,
+      "finalSizeBytes": 207062,
+      "webpSizeBytes": 218310,
+      "savedBytes": 76088,
+      "reductionPercent": 26.87,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 207062
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-14.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-14.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-14.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 280493,
+      "finalSizeBytes": 280493,
+      "webpSizeBytes": 265430,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 265430
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09739.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09739.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09739.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 279506,
+      "finalSizeBytes": 279506,
+      "webpSizeBytes": 97708,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 97708
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09732.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09732.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09732.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 278624,
+      "finalSizeBytes": 278624,
+      "webpSizeBytes": 104392,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 104392
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09735.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09735.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09735.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 278500,
+      "finalSizeBytes": 278500,
+      "webpSizeBytes": 129792,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 129792
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-10.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-10.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-10.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 278234,
+      "finalSizeBytes": 278234,
+      "webpSizeBytes": 268130,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 268130
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\vibgyor-pune\\hdp09746.webp",
+      "primarySrc": "/image/blog/vibgyor-pune/HDP09746.webp",
+      "allSrcs": [
+        "/image/blog/vibgyor-pune/HDP09746.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "5168x3448",
+      "optimizedDimensions": "1920x1281",
+      "origSizeBytes": 276804,
+      "finalSizeBytes": 276804,
+      "webpSizeBytes": 94088,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 94088
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-07.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-07.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-07.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 276594,
+      "finalSizeBytes": 276317,
+      "webpSizeBytes": 255932,
+      "savedBytes": 277,
+      "reductionPercent": 0.1,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 255932
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\17-inverter-transformer-equipment-set.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/17-inverter-transformer-equipment-set.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/17-inverter-transformer-equipment-set.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 274668,
+      "finalSizeBytes": 274668,
+      "webpSizeBytes": 145354,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 145354
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\ramky-industrial-construction-dobbaspet-karnataka\\ramky-dismantling-crane-1.jpg",
+      "primarySrc": "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-dismantling-crane-1.jpg",
+      "allSrcs": [
+        "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-dismantling-crane-1.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x576",
+      "optimizedDimensions": "1024x576",
+      "origSizeBytes": 274372,
+      "finalSizeBytes": 158582,
+      "webpSizeBytes": 181048,
+      "savedBytes": 115790,
+      "reductionPercent": 42.2,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 158582
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620765456.jpg",
+      "primarySrc": "/images/kudligi/image-1789620765456.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620765456.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 273947,
+      "finalSizeBytes": 202631,
+      "webpSizeBytes": 170332,
+      "savedBytes": 71316,
+      "reductionPercent": 26.03,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 170332
+    },
+    {
+      "canonicalPath": "public\\image\\section\\history-item-6.jpg",
+      "primarySrc": "/image/section/history-item-6.jpg",
+      "allSrcs": [
+        "/image/section/history-item-6.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "749x563",
+      "optimizedDimensions": "749x563",
+      "origSizeBytes": 273730,
+      "finalSizeBytes": 66744,
+      "webpSizeBytes": 57710,
+      "savedBytes": 206986,
+      "reductionPercent": 75.62,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 57710
+    },
+    {
+      "canonicalPath": "public\\image\\project-item\\shed4.jpg",
+      "primarySrc": "/image/project-item/shed4.jpg",
+      "allSrcs": [
+        "/image/project-item/shed4.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1224x812",
+      "optimizedDimensions": "1224x812",
+      "origSizeBytes": 271945,
+      "finalSizeBytes": 179565,
+      "webpSizeBytes": 182752,
+      "savedBytes": 92380,
+      "reductionPercent": 33.97,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 179565
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\20-completed-kudligi-77mw-solar-project.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/20-completed-kudligi-77mw-solar-project.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/20-completed-kudligi-77mw-solar-project.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x1200",
+      "optimizedDimensions": "1600x1200",
+      "origSizeBytes": 268750,
+      "finalSizeBytes": 268750,
+      "webpSizeBytes": 252616,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 252616
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\ramky-industrial-construction-dobbaspet-karnataka\\ramky-column-concrete-vibrator-5.jpg",
+      "primarySrc": "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-column-concrete-vibrator-5.jpg",
+      "allSrcs": [
+        "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-column-concrete-vibrator-5.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "768x1024",
+      "optimizedDimensions": "768x1024",
+      "origSizeBytes": 267990,
+      "finalSizeBytes": 176781,
+      "webpSizeBytes": 184210,
+      "savedBytes": 91209,
+      "reductionPercent": 34.03,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 176781
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-01.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-01.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-01.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 267709,
+      "finalSizeBytes": 267491,
+      "webpSizeBytes": 246760,
+      "savedBytes": 218,
+      "reductionPercent": 0.08,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 246760
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\km-palace-16.webp",
+      "primarySrc": "/image/blog/km-palace/km-palace-16.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/km-palace-16.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1920x1127",
+      "optimizedDimensions": "1920x1127",
+      "origSizeBytes": 267636,
+      "finalSizeBytes": 267636,
+      "webpSizeBytes": 136810,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 136810
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-332.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-332.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-332.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "899x1599",
+      "optimizedDimensions": "899x1599",
+      "origSizeBytes": 266677,
+      "finalSizeBytes": 266527,
+      "webpSizeBytes": 248872,
+      "savedBytes": 150,
+      "reductionPercent": 0.06,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 248872
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-11.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-11.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-11.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 266032,
+      "finalSizeBytes": 266032,
+      "webpSizeBytes": 247820,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 247820
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-133.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-133.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-133.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 264274,
+      "finalSizeBytes": 264254,
+      "webpSizeBytes": 252532,
+      "savedBytes": 20,
+      "reductionPercent": 0.01,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 252532
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\ramky-industrial-construction-dobbaspet-karnataka.jpg",
+      "primarySrc": "/image/blog/ramky-industrial-construction-dobbaspet-karnataka.jpg",
+      "allSrcs": [
+        "/image/blog/ramky-industrial-construction-dobbaspet-karnataka.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x768",
+      "optimizedDimensions": "1024x768",
+      "origSizeBytes": 263704,
+      "finalSizeBytes": 170075,
+      "webpSizeBytes": 185892,
+      "savedBytes": 93629,
+      "reductionPercent": 35.51,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 170075
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\ramky-industrial-construction-dobbaspet-karnataka\\ramky-dobbaspet-banner.jpg",
+      "primarySrc": "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-dobbaspet-banner.jpg",
+      "allSrcs": [
+        "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-dobbaspet-banner.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x768",
+      "optimizedDimensions": "1024x768",
+      "origSizeBytes": 263704,
+      "finalSizeBytes": 170075,
+      "webpSizeBytes": 185892,
+      "savedBytes": 93629,
+      "reductionPercent": 35.51,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 170075
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-28.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-28.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-28.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1280x720",
+      "optimizedDimensions": "1280x720",
+      "origSizeBytes": 263238,
+      "finalSizeBytes": 161701,
+      "webpSizeBytes": 144858,
+      "savedBytes": 101537,
+      "reductionPercent": 38.57,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 144858
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\perur-desalination\\perur-desalination-3.jpg",
+      "primarySrc": "/image/blog/perur-desalination/perur-desalination-3.jpg",
+      "allSrcs": [
+        "/image/blog/perur-desalination/perur-desalination-3.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x770",
+      "optimizedDimensions": "1024x770",
+      "origSizeBytes": 257927,
+      "finalSizeBytes": 162039,
+      "webpSizeBytes": 182298,
+      "savedBytes": 95888,
+      "reductionPercent": 37.18,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 162039
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-291.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-291.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-291.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1599x899",
+      "optimizedDimensions": "1599x899",
+      "origSizeBytes": 256666,
+      "finalSizeBytes": 256666,
+      "webpSizeBytes": 243908,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 243908
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620760835.jpg",
+      "primarySrc": "/images/kudligi/image-1789620760835.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620760835.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1280x720",
+      "optimizedDimensions": "1280x720",
+      "origSizeBytes": 256222,
+      "finalSizeBytes": 187421,
+      "webpSizeBytes": 184094,
+      "savedBytes": 68801,
+      "reductionPercent": 26.85,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 184094
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\perur-desalination\\perur-desalination-4.jpg",
+      "primarySrc": "/image/blog/perur-desalination/perur-desalination-4.jpg",
+      "allSrcs": [
+        "/image/blog/perur-desalination/perur-desalination-4.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x770",
+      "optimizedDimensions": "1024x770",
+      "origSizeBytes": 256141,
+      "finalSizeBytes": 164749,
+      "webpSizeBytes": 175126,
+      "savedBytes": 91392,
+      "reductionPercent": 35.68,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 164749
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\waaree\\image-1790670811651.jpg",
+      "primarySrc": "/image/blog/waaree/image-1790670811651.jpg",
+      "allSrcs": [
+        "/image/blog/waaree/image-1790670811651.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "960x1280",
+      "optimizedDimensions": "960x1280",
+      "origSizeBytes": 251102,
+      "finalSizeBytes": 184381,
+      "webpSizeBytes": 178118,
+      "savedBytes": 66721,
+      "reductionPercent": 26.57,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 178118
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\ramky-industrial-construction-dobbaspet-karnataka\\ramky-excavator-earthwork-3.jpg",
+      "primarySrc": "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-excavator-earthwork-3.jpg",
+      "allSrcs": [
+        "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-excavator-earthwork-3.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x770",
+      "optimizedDimensions": "1024x770",
+      "origSizeBytes": 249919,
+      "finalSizeBytes": 159948,
+      "webpSizeBytes": 174482,
+      "savedBytes": 89971,
+      "reductionPercent": 36,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 159948
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\13-cable-trench-drainage-civil.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/13-cable-trench-drainage-civil.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/13-cable-trench-drainage-civil.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 249778,
+      "finalSizeBytes": 249778,
+      "webpSizeBytes": 122602,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 122602
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620768001.jpg",
+      "primarySrc": "/images/kudligi/image-1789620768001.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620768001.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 246466,
+      "finalSizeBytes": 183239,
+      "webpSizeBytes": 143508,
+      "savedBytes": 63227,
+      "reductionPercent": 25.65,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 143508
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620767405.jpg",
+      "primarySrc": "/images/kudligi/image-1789620767405.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620767405.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 241712,
+      "finalSizeBytes": 182788,
+      "webpSizeBytes": 138382,
+      "savedBytes": 58924,
+      "reductionPercent": 24.38,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 138382
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\km-palace\\km-palace-15.webp",
+      "primarySrc": "/image/blog/km-palace/km-palace-15.webp",
+      "allSrcs": [
+        "/image/blog/km-palace/km-palace-15.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1280x1794",
+      "optimizedDimensions": "1280x1794",
+      "origSizeBytes": 241642,
+      "finalSizeBytes": 241642,
+      "webpSizeBytes": 121258,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 121258
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\ramky-industrial-construction-dobbaspet-karnataka\\ramky-retaining-wall-concrete-7.jpg",
+      "primarySrc": "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-retaining-wall-concrete-7.jpg",
+      "allSrcs": [
+        "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-retaining-wall-concrete-7.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x577",
+      "optimizedDimensions": "1024x577",
+      "origSizeBytes": 240288,
+      "finalSizeBytes": 154360,
+      "webpSizeBytes": 177888,
+      "savedBytes": 85928,
+      "reductionPercent": 35.76,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 154360
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-17.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-17.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-17.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 238823,
+      "finalSizeBytes": 238441,
+      "webpSizeBytes": 210762,
+      "savedBytes": 382,
+      "reductionPercent": 0.16,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 210762
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-03.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-03.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-03.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 238191,
+      "finalSizeBytes": 236212,
+      "webpSizeBytes": 200236,
+      "savedBytes": 1979,
+      "reductionPercent": 0.83,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 200236
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-02.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-02.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-02.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 237869,
+      "finalSizeBytes": 237480,
+      "webpSizeBytes": 206704,
+      "savedBytes": 389,
+      "reductionPercent": 0.16,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 206704
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\blog-gmit-campus.jpg",
+      "primarySrc": "/image/blog/blog-gmit-campus.jpg",
+      "allSrcs": [
+        "/image/blog/blog-gmit-campus.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "768x1024",
+      "optimizedDimensions": "768x1024",
+      "origSizeBytes": 233793,
+      "finalSizeBytes": 146154,
+      "webpSizeBytes": 156538,
+      "savedBytes": 87639,
+      "reductionPercent": 37.49,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 146154
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\ramky-industrial-construction-dobbaspet-karnataka\\ramky-rc-wall-panels-line-6.jpg",
+      "primarySrc": "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-rc-wall-panels-line-6.jpg",
+      "allSrcs": [
+        "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-rc-wall-panels-line-6.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x577",
+      "optimizedDimensions": "1024x577",
+      "origSizeBytes": 233697,
+      "finalSizeBytes": 151063,
+      "webpSizeBytes": 169982,
+      "savedBytes": 82634,
+      "reductionPercent": 35.36,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 151063
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620768489.jpg",
+      "primarySrc": "/images/kudligi/image-1789620768489.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620768489.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 232545,
+      "finalSizeBytes": 173947,
+      "webpSizeBytes": 133580,
+      "savedBytes": 58598,
+      "reductionPercent": 25.2,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 133580
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-02.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-02.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-02.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x1204",
+      "optimizedDimensions": "1600x1204",
+      "origSizeBytes": 231333,
+      "finalSizeBytes": 231071,
+      "webpSizeBytes": 197434,
+      "savedBytes": 262,
+      "reductionPercent": 0.11,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 197434
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\ramky-industrial-construction-dobbaspet-karnataka\\ramky-rc-wall-shuttering-4.jpg",
+      "primarySrc": "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-rc-wall-shuttering-4.jpg",
+      "allSrcs": [
+        "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-rc-wall-shuttering-4.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x575",
+      "optimizedDimensions": "1024x575",
+      "origSizeBytes": 231254,
+      "finalSizeBytes": 147428,
+      "webpSizeBytes": 167218,
+      "savedBytes": 83826,
+      "reductionPercent": 36.25,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 147428
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-266.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-266.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-266.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1599x899",
+      "optimizedDimensions": "1599x899",
+      "origSizeBytes": 230270,
+      "finalSizeBytes": 230255,
+      "webpSizeBytes": 197378,
+      "savedBytes": 15,
+      "reductionPercent": 0.01,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 197378
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\snake-bite-emergency-mock-drill\\02-simulated-incident-spot-and-initial-response.jpg",
+      "primarySrc": "/image/blog/snake-bite-emergency-mock-drill/02-simulated-incident-spot-and-initial-response.jpg",
+      "allSrcs": [
+        "/image/blog/snake-bite-emergency-mock-drill/02-simulated-incident-spot-and-initial-response.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "960x1280",
+      "optimizedDimensions": "960x1280",
+      "origSizeBytes": 229986,
+      "finalSizeBytes": 196624,
+      "webpSizeBytes": 259512,
+      "savedBytes": 33362,
+      "reductionPercent": 14.51,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 196624
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-23.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-23.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-23.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "900x1600",
+      "optimizedDimensions": "900x1600",
+      "origSizeBytes": 229627,
+      "finalSizeBytes": 229627,
+      "webpSizeBytes": 221622,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 221622
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\14-switchyard-equipment-foundations.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/14-switchyard-equipment-foundations.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/14-switchyard-equipment-foundations.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 229602,
+      "finalSizeBytes": 229602,
+      "webpSizeBytes": 121746,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 121746
+    },
+    {
+      "canonicalPath": "public\\images\\kudligi\\image-1789620757998.jpg",
+      "primarySrc": "/images/kudligi/image-1789620757998.jpg",
+      "allSrcs": [
+        "/images/kudligi/image-1789620757998.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1280x720",
+      "optimizedDimensions": "1280x720",
+      "origSizeBytes": 226715,
+      "finalSizeBytes": 168235,
+      "webpSizeBytes": 159304,
+      "savedBytes": 58480,
+      "reductionPercent": 25.79,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 159304
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-198.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-198.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-198.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1599x899",
+      "optimizedDimensions": "1599x899",
+      "origSizeBytes": 223757,
+      "finalSizeBytes": 223705,
+      "webpSizeBytes": 204238,
+      "savedBytes": 52,
+      "reductionPercent": 0.02,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 204238
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\ramky-industrial-construction-dobbaspet-karnataka\\ramky-foundation-loader-2.jpg",
+      "primarySrc": "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-foundation-loader-2.jpg",
+      "allSrcs": [
+        "/image/blog/ramky-industrial-construction-dobbaspet-karnataka/ramky-foundation-loader-2.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x770",
+      "optimizedDimensions": "1024x770",
+      "origSizeBytes": 222423,
+      "finalSizeBytes": 142872,
+      "webpSizeBytes": 144190,
+      "savedBytes": 79551,
+      "reductionPercent": 35.77,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 142872
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\waaree\\image-1790670811681.jpg",
+      "primarySrc": "/image/blog/waaree/image-1790670811681.jpg",
+      "allSrcs": [
+        "/image/blog/waaree/image-1790670811681.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "960x1280",
+      "optimizedDimensions": "960x1280",
+      "origSizeBytes": 220127,
+      "finalSizeBytes": 161381,
+      "webpSizeBytes": 150142,
+      "savedBytes": 58746,
+      "reductionPercent": 26.69,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 150142
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-15.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-15.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-15.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 218970,
+      "finalSizeBytes": 218144,
+      "webpSizeBytes": 180558,
+      "savedBytes": 826,
+      "reductionPercent": 0.38,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 180558
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\toravi-solar\\toravi-solar-1.jpg",
+      "primarySrc": "/image/blog/toravi-solar/toravi-solar-1.jpg",
+      "allSrcs": [
+        "/image/blog/toravi-solar/toravi-solar-1.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x768",
+      "optimizedDimensions": "1024x768",
+      "origSizeBytes": 216798,
+      "finalSizeBytes": 141540,
+      "webpSizeBytes": 140682,
+      "savedBytes": 75258,
+      "reductionPercent": 34.71,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 140682
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\perur-desalination\\perur-desalination-7.jpg",
+      "primarySrc": "/image/blog/perur-desalination/perur-desalination-7.jpg",
+      "allSrcs": [
+        "/image/blog/perur-desalination/perur-desalination-7.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1024x576",
+      "optimizedDimensions": "1024x576",
+      "origSizeBytes": 214225,
+      "finalSizeBytes": 142500,
+      "webpSizeBytes": 153240,
+      "savedBytes": 71725,
+      "reductionPercent": 33.48,
+      "isWebpLarger": true,
+      "optimalSizeBytes": 142500
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\kudligi-solar-mms-drilling-concreting-alignment\\kudligi-solar-mms-civil-foundation-work-25.jpg",
+      "primarySrc": "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-25.jpg",
+      "allSrcs": [
+        "/images/blog/kudligi-solar-mms-drilling-concreting-alignment/kudligi-solar-mms-civil-foundation-work-25.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1600x900",
+      "optimizedDimensions": "1600x900",
+      "origSizeBytes": 213704,
+      "finalSizeBytes": 212901,
+      "webpSizeBytes": 173128,
+      "savedBytes": 803,
+      "reductionPercent": 0.38,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 173128
+    },
+    {
+      "canonicalPath": "public\\images\\blog\\solar-infrastructure-hulikunte\\hulikunte-solar-infrastructure-civil-site-development-211.jpg",
+      "primarySrc": "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-211.jpg",
+      "allSrcs": [
+        "/images/blog/solar-infrastructure-hulikunte/hulikunte-solar-infrastructure-civil-site-development-211.jpg"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1599x899",
+      "optimizedDimensions": "1599x899",
+      "origSizeBytes": 212168,
+      "finalSizeBytes": 211220,
+      "webpSizeBytes": 188750,
+      "savedBytes": 948,
+      "reductionPercent": 0.45,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 188750
+    },
+    {
+      "canonicalPath": "public\\image\\blog\\itc-foundation-works-kudligi-solar-project\\12-itc03-transformer-pad-civil.webp",
+      "primarySrc": "/image/blog/itc-foundation-works-kudligi-solar-project/12-itc03-transformer-pad-civil.webp",
+      "allSrcs": [
+        "/image/blog/itc-foundation-works-kudligi-solar-project/12-itc03-transformer-pad-civil.webp"
+      ],
+      "duplicateCount": 1,
+      "originalDimensions": "1280x720",
+      "optimizedDimensions": "1280x720",
+      "origSizeBytes": 207492,
+      "finalSizeBytes": 207492,
+      "webpSizeBytes": 119436,
+      "savedBytes": 0,
+      "reductionPercent": 0,
+      "isWebpLarger": false,
+      "optimalSizeBytes": 119436
+    }
+  ]
+}
