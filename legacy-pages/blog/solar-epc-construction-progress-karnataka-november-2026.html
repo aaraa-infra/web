@@ -128,12 +128,92 @@
     </script>
 
     <style>
+      /* Viewport and Box Sizing Resets */
+      html {
+        -webkit-text-size-adjust: 100%;
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      body {
+        overflow-x: hidden;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+      }
+
       .w-6 { width: 1.5rem !important; }
       .h-6 { height: 1.5rem !important; }
       .w-7 { width: 1.75rem !important; min-width: 1.75rem !important; }
       .h-7 { height: 1.75rem !important; min-height: 1.75rem !important; }
       .w-8 { width: 2rem !important; min-width: 2rem !important; }
       .h-8 { height: 2rem !important; min-height: 2rem !important; }
+
+      /* Site Header & Navigation */
+      .site-header {
+        background-color: #ffffff;
+        border-bottom: 1px solid #e2e8f0;
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+      .header-inner {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 12px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+      }
+      .logo-container a {
+        display: inline-flex;
+        align-items: center;
+      }
+      .logo-container img {
+        height: 38px;
+        width: auto;
+        max-width: 180px;
+        object-fit: contain;
+        display: block;
+      }
+      .main-nav {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .nav-link {
+        font-size: 14px;
+        font-weight: 600;
+        color: #334155;
+        text-decoration: none;
+        padding: 6px 12px;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+      }
+      .nav-link:hover {
+        color: #ed2f39;
+        background-color: rgba(237, 47, 57, 0.06);
+      }
+      .nav-link.active {
+        color: #ed2f39;
+        background-color: rgba(237, 47, 57, 0.1);
+        font-weight: 700;
+      }
+
+      /* Meta Information Bar */
+      .meta-info-bar {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        padding: 16px 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        margin-bottom: 32px;
+        font-size: 14px;
+      }
 
       /* Project Information Cards */
       .project-info-grid {
@@ -195,28 +275,316 @@
         margin: 0 !important;
         word-break: break-word !important;
       }
-      @media (max-width: 640px) {
-        .project-info-grid {
-          grid-template-columns: 1fr !important;
-          gap: 12px !important;
-          margin: 20px 0 !important;
+
+      /* Hero & Section Image Cards */
+      .hero-img-wrap {
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        margin-bottom: 32px;
+      }
+      .hero-img-wrap img {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+      }
+      .hero-img-caption {
+        padding: 14px 16px;
+        background-color: rgba(248, 250, 252, 0.9);
+        font-size: 12px;
+        color: #64748b;
+        text-align: center;
+        border-top: 1px solid rgba(0, 0, 0, 0.06);
+        line-height: 1.5;
+      }
+
+      .article-img-card {
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        background-color: #ffffff;
+      }
+      .article-img-card img {
+        width: 100%;
+        height: 256px;
+        object-fit: cover;
+        display: block;
+      }
+      .article-img-card .img-caption {
+        padding: 12px 14px;
+        font-size: 12px;
+        color: #64748b;
+        text-align: center;
+        border-top: 1px solid rgba(0, 0, 0, 0.06);
+        line-height: 1.45;
+      }
+
+      /* Callout Boxes */
+      .callout-box {
+        padding: 24px;
+        border-radius: 16px;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+      }
+      .callout-box-accent {
+        background-color: #f8fafc;
+        border-left: 4px solid #ed2f39;
+      }
+
+      /* CTA Box */
+      .cta-box {
+        padding: 32px;
+        background-color: #f8fafc;
+        border-radius: 16px;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        text-align: center;
+      }
+
+      /* Site Footer */
+      .site-footer {
+        background-color: #0f172a;
+        color: #94a3b8;
+        padding: 40px 16px 28px;
+        border-top: 1px solid #1e293b;
+        margin-top: 56px;
+      }
+      .footer-inner {
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+      .footer-top {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .footer-logo img {
+        height: 32px;
+        width: auto;
+        filter: brightness(0) invert(1);
+      }
+      .footer-tagline {
+        font-size: 12px;
+        color: #64748b;
+        margin-top: 4px;
+        font-family: monospace;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+      .footer-links a {
+        color: #cbd5e1;
+        text-decoration: none;
+        font-size: 13px;
+        transition: color 0.2s;
+      }
+      .footer-links a:hover {
+        color: #ed2f39;
+      }
+      .footer-bottom {
+        padding-top: 20px;
+        border-top: 1px solid #1e293b;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 12px;
+        color: #64748b;
+      }
+
+      /* Tablet & Desktop Layouts */
+      @media (min-width: 768px) {
+        .footer-top {
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
         }
-        .project-info-card {
-          padding: 14px 16px !important;
+        .footer-bottom {
+          flex-direction: row;
+          justify-content: space-between;
         }
       }
-      /* Mobile Responsiveness Enhancements */
+
+      /* ========================================================
+         Comprehensive Mobile Responsiveness Breakpoints
+         ======================================================== */
       @media (max-width: 768px) {
-        .h-\[450px\] {
-          height: 280px !important;
+        /* Header & Navigation */
+        .header-inner {
+          padding: 10px 14px;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 8px;
+        }
+        .logo-container img {
+          height: 30px;
+          max-width: 140px;
+        }
+        .main-nav {
+          width: 100%;
+          display: flex;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          gap: 6px;
+          padding-bottom: 4px;
+          scrollbar-width: none;
+        }
+        .main-nav::-webkit-scrollbar {
+          display: none;
+        }
+        .nav-link {
+          font-size: 13px;
+          padding: 5px 10px;
+          background: #f1f5f9;
+        }
+        .nav-link.active {
+          background: #ed2f39;
+          color: #ffffff !important;
+        }
+
+        /* Spacing & Typography */
+        main {
+          padding-top: 20px !important;
+          padding-bottom: 40px !important;
+        }
+        .max-w-7xl {
+          padding-left: 14px !important;
+          padding-right: 14px !important;
         }
         h1.text-3xl {
-          font-size: 1.6rem !important;
+          font-size: 1.45rem !important;
           line-height: 1.25 !important;
+          margin-bottom: 12px !important;
         }
-        .text-lg {
+        p.text-secondary.mb-8 {
           font-size: 0.95rem !important;
           line-height: 1.5 !important;
+          margin-bottom: 18px !important;
+        }
+        h2.text-2xl {
+          font-size: 1.25rem !important;
+          line-height: 1.3 !important;
+          padding-bottom: 6px !important;
+        }
+
+        /* Hero Image */
+        .hero-img-wrap {
+          margin-bottom: 24px;
+          border-radius: 12px;
+        }
+        .hero-img-wrap img {
+          height: 230px !important;
+        }
+        .hero-img-caption {
+          padding: 10px 12px !important;
+          font-size: 11px !important;
+          line-height: 1.4 !important;
+        }
+
+        /* Article Images */
+        .article-img-card {
+          border-radius: 10px;
+        }
+        .article-img-card img {
+          height: 210px !important;
+        }
+        .article-img-card .img-caption {
+          padding: 10px 12px !important;
+          font-size: 11px !important;
+          line-height: 1.4 !important;
+        }
+
+        /* Meta Information Bar */
+        .meta-info-bar {
+          grid-template-columns: repeat(2, 1fr) !important;
+          gap: 12px 10px !important;
+          padding: 12px 0 !important;
+          margin-bottom: 22px !important;
+        }
+        .meta-info-bar .meta-val {
+          font-size: 13px !important;
+          line-height: 1.35 !important;
+        }
+
+        /* Callout Boxes */
+        .callout-box {
+          padding: 16px !important;
+          border-radius: 12px !important;
+        }
+
+        /* CTA Box & Buttons */
+        .cta-box {
+          padding: 20px 16px !important;
+          border-radius: 14px !important;
+        }
+        .cta-box h3 {
+          font-size: 1.25rem !important;
+          line-height: 1.3 !important;
+        }
+        .cta-btn-group {
+          flex-direction: column !important;
+          gap: 10px !important;
+        }
+        .cta-btn-group a {
+          width: 100% !important;
+          text-align: center !important;
+          padding: 12px 16px !important;
+          display: block !important;
+        }
+      }
+
+      /* Small Mobile Screens (<= 480px) */
+      @media (max-width: 480px) {
+        .project-info-grid {
+          grid-template-columns: 1fr !important;
+          gap: 10px !important;
+          margin: 18px 0 !important;
+        }
+        .project-info-card {
+          padding: 12px 14px !important;
+          gap: 10px !important;
+        }
+        .project-info-icon-wrap {
+          width: 32px !important;
+          height: 32px !important;
+          min-width: 32px !important;
+        }
+        .project-info-icon-wrap svg {
+          width: 16px !important;
+          height: 16px !important;
+        }
+        .project-info-val {
+          font-size: 13.5px !important;
+        }
+
+        .meta-info-bar {
+          grid-template-columns: 1fr 1fr !important;
+          gap: 10px 8px !important;
+        }
+        .meta-info-bar .meta-label {
+          font-size: 10px !important;
+        }
+        .meta-info-bar .meta-val {
+          font-size: 12.5px !important;
+        }
+      }
+
+      /* Extra Narrow Screens (<= 360px) */
+      @media (max-width: 360px) {
+        .meta-info-bar {
+          grid-template-columns: 1fr !important;
+          gap: 8px !important;
+        }
+        h1.text-3xl {
+          font-size: 1.35rem !important;
         }
       }
     </style>
@@ -242,49 +610,67 @@
         </div>
     </header>
 
-    <main class="py-12 md:py-20">
+    <main class="py-8 sm:py-12 md:py-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <!-- Category & Badge -->
-            <div class="flex items-center gap-3 mb-6">
+            <div class="flex flex-wrap items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
                 <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary">Solar EPC &amp; Renewable Infrastructure</span>
-                <span class="text-sm text-secondary">Site Execution &amp; Field Progress Update</span>
+                <span class="text-xs sm:text-sm text-secondary">Site Execution &amp; Field Progress Update</span>
             </div>
 
             <!-- Title & Subtitle -->
-            <h1 class="text-3xl md:text-5xl font-bold text-on-surface mb-6 leading-tight">Advancing Solar Infrastructure in Karnataka: Construction Progress Update</h1>
-            <p class="text-secondary mb-8 text-lg max-w-4xl">Documenting ongoing utility-scale solar EPC execution across Karnataka, covering heavy ICOG panel crane shifting, MMS table alignment, bulk foundation pit excavation, mechanical rock breaking for AC cable trenches, and structural steel corrosion protection.</p>
+            <h1 class="text-3xl md:text-5xl font-bold text-on-surface mb-4 sm:mb-6 leading-tight">Advancing Solar Infrastructure in Karnataka: Construction Progress Update</h1>
+            <p class="text-secondary mb-6 sm:mb-8 text-base sm:text-lg max-w-4xl">Documenting ongoing utility-scale solar EPC execution across Karnataka, covering heavy ICOG panel crane shifting, MMS table alignment, bulk foundation pit excavation, mechanical rock breaking for AC cable trenches, and structural steel corrosion protection.</p>
 
             <!-- Meta Information Bar -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 py-4 border-y border-outline/10 mb-10 text-sm">
+            <div class="meta-info-bar">
                 <div>
-                    <span class="block text-secondary text-xs uppercase tracking-wider">Date</span>
-                    <p class="font-semibold text-on-surface">20 November 2026</p>
+                    <span class="meta-label block text-secondary text-xs uppercase tracking-wider">Date</span>
+                    <p class="meta-val font-semibold text-on-surface">20 November 2026</p>
                 </div>
                 <div>
-                    <span class="block text-secondary text-xs uppercase tracking-wider">Read Time</span>
-                    <p class="font-semibold text-on-surface">6 min read</p>
+                    <span class="meta-label block text-secondary text-xs uppercase tracking-wider">Read Time</span>
+                    <p class="meta-val font-semibold text-on-surface">6 min read</p>
                 </div>
                 <div>
-                    <span class="block text-secondary text-xs uppercase tracking-wider">Location</span>
-                    <p class="font-semibold text-on-surface">Kudligi, Sidegallu &amp; Hulikunta, Karnataka</p>
+                    <span class="meta-label block text-secondary text-xs uppercase tracking-wider">Location</span>
+                    <p class="meta-val font-semibold text-on-surface">Kudligi, Sidegallu &amp; Hulikunta, Karnataka</p>
                 </div>
                 <div>
-                    <span class="block text-secondary text-xs uppercase tracking-wider">Executed By</span>
-                    <p class="font-semibold text-on-surface">Solar EPC Division – AARAA Infrastructure</p>
+                    <span class="meta-label block text-secondary text-xs uppercase tracking-wider">Executed By</span>
+                    <p class="meta-val font-semibold text-on-surface">Solar EPC Division – AARAA Infrastructure</p>
                 </div>
             </div>
 
             <!-- Hero Image Section -->
-            <div class="mb-12 rounded-2xl overflow-hidden shadow-xl border border-outline/10">
-                <img class="w-full h-[450px] object-cover object-center" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026.jpg" alt="AARAA Infrastructure mobile crane hoisting and erecting heavy ICOG electrical panel at solar EPC project site in Karnataka" width="1200" height="1600" loading="eager" fetchpriority="high" decoding="async">
-                <div class="p-4 bg-surface-variant/30 text-xs text-secondary text-center border-t border-outline/10">
+            <div class="hero-img-wrap">
+                <img src="/image/blog/solar-epc-construction-progress-karnataka-november-2026.jpg" alt="AARAA Infrastructure mobile crane hoisting and erecting heavy ICOG electrical panel at solar EPC project site in Karnataka" width="1200" height="1600" loading="eager" fetchpriority="high" decoding="async">
+                <div class="hero-img-caption">
                     AARAA Infrastructure rigging crew and crane operator maneuvering a heavy weather-wrapped ICOG electrical panel cubicle onto an elevated structural steel mounting platform at a solar EPC project site in Karnataka.
                 </div>
             </div>
 
+            <!-- Mobile Quick Navigation (Accordion) -->
+            <details class="lg:hidden mb-8 p-4 bg-surface-variant/20 rounded-xl border border-outline/10 text-sm">
+                <summary class="font-bold text-sm text-on-surface uppercase tracking-wider cursor-pointer list-none flex items-center justify-between">
+                    <span>Quick Navigation (Jump to Topic)</span>
+                    <span class="text-primary text-xs font-semibold">Tap to View &#9662;</span>
+                </summary>
+                <nav class="space-y-2 mt-3 pt-3 border-t border-outline/10 text-sm text-secondary">
+                    <a class="block py-1 hover:text-primary transition-colors" href="#project-overview">&rarr; Overview: Karnataka Solar EPC</a>
+                    <a class="block py-1 hover:text-primary transition-colors" href="#icog-erection">&rarr; 1. ICOG Panel Crane Transport &amp; Erection</a>
+                    <a class="block py-1 hover:text-primary transition-colors" href="#mms-fixing">&rarr; 2. Module Mounting Structure Fixing</a>
+                    <a class="block py-1 hover:text-primary transition-colors" href="#earthworks-trenching">&rarr; 3. Bulk Excavation &amp; Cable Trenching</a>
+                    <a class="block py-1 hover:text-primary transition-colors" href="#structural-welding">&rarr; 4. Structural Welding &amp; Painting</a>
+                    <a class="block py-1 hover:text-primary transition-colors" href="#site-coordination">&rarr; 5. Coordinated Multi-Front Execution</a>
+                    <a class="block py-1 hover:text-primary transition-colors" href="#field-gallery">&rarr; 6. Photo Gallery: Field Records</a>
+                    <a class="block py-1 hover:text-primary transition-colors" href="#faq">&rarr; 7. Frequently Asked Questions</a>
+                </nav>
+            </details>
+
             <!-- Grid Layout for Table of Contents & Main Article -->
-            <div class="grid grid-cols-1 lg:grid-cols-8 gap-12">
+            <div class="grid grid-cols-1 lg:grid-cols-8 gap-8 lg:gap-12">
                 
                 <!-- Table of Contents Sidebar -->
                 <aside class="lg:col-span-2 hidden lg:block">
@@ -384,7 +770,7 @@
                         <p class="text-secondary">Today's site operations documented two critical operational stages of ICOG deployment: road transit and elevated platform erection. First, an <strong>Escorts F15 mobile hydraulic crane</strong> was deployed to transport the heavy, weather-wrapped cubicle across the graded site access road at Sidegallu, maintaining slow, stabilized speeds to protect sensitive internal relays and switchgear components. Second, our rigging crew hoisted and lowered the unit directly onto an <strong>elevated structural steel platform</strong> anchored atop robust reinforced concrete plinths at Hulikunta.</p>
 
                         <!-- Callout: Lifting Methodology -->
-                        <div class="p-6 bg-surface-variant/20 rounded-2xl border-l-4 border-primary text-sm md:text-base text-on-surface space-y-3">
+                        <div class="callout-box callout-box-accent text-sm md:text-base text-on-surface space-y-3">
                             <h4 class="font-bold text-base text-on-surface">Rigorous Crane Rigging &amp; Placement Protocol:</h4>
                             <ul class="space-y-2 text-secondary text-sm">
                                 <li>• <strong>Mobile Transit Logistics:</strong> Crane transport maintained along compacted site roads with low boom angles to minimize load pendulum oscillations.</li>
@@ -394,16 +780,16 @@
                             </ul>
                         </div>
 
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
-                            <div class="rounded-xl overflow-hidden shadow-md border border-outline/10 bg-surface">
-                                <img class="w-full h-64 object-cover" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-icog-panel-crane-transport-transit.jpg" alt="Escorts F15 mobile crane transporting heavy weather-wrapped ICOG panel in transit along solar plant access road at Sidegallu" width="1280" height="960" loading="lazy" decoding="async">
-                                <div class="p-3 text-xs text-secondary text-center border-t border-outline/10">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 my-6">
+                            <div class="article-img-card">
+                                <img src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-icog-panel-crane-transport-transit.jpg" alt="Escorts F15 mobile crane transporting heavy weather-wrapped ICOG panel in transit along solar plant access road at Sidegallu" width="1280" height="960" loading="lazy" decoding="async">
+                                <div class="img-caption">
                                     Escorts F15 mobile crane transporting the heavy weather-wrapped ICOG cubicle along the internal arterial access road at Sidegallu.
                                 </div>
                             </div>
-                            <div class="rounded-xl overflow-hidden shadow-md border border-outline/10 bg-surface">
-                                <img class="w-full h-64 object-cover" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-icog-panel-erection-karnataka.jpg" alt="Mobile crane lowering and positioning heavy weather-protected ICOG electrical panel onto elevated steel structure" width="1200" height="1600" loading="lazy" decoding="async">
-                                <div class="p-3 text-xs text-secondary text-center border-t border-outline/10">
+                            <div class="article-img-card">
+                                <img src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-icog-panel-erection-karnataka.jpg" alt="Mobile crane lowering and positioning heavy weather-protected ICOG electrical panel onto elevated steel structure" width="1200" height="1600" loading="lazy" decoding="async">
+                                <div class="img-caption">
                                     Hoisting and precision positioning of the ICOG panel cubicle onto the elevated structural steel frame at Hulikunta, Kudligi.
                                 </div>
                             </div>
@@ -417,9 +803,9 @@
                         
                         <p class="text-secondary">As visible in the site photographs, our construction personnel are positioning column posts and diagonal sway bracing directly over cast concrete pile foundations. These assemblies are engineered to resist high cyclic wind uplift forces and thermal expansion over decades of field service.</p>
 
-                        <div class="rounded-xl overflow-hidden shadow-md border border-outline/10 bg-surface my-6">
-                            <img class="w-full h-72 object-cover object-center" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-mms-structure-fixing.jpg" alt="AARAA construction crew fixing and precision-aligning galvanized steel module mounting structures on pile foundations" width="1280" height="960" loading="lazy" decoding="async">
-                            <div class="p-3 text-xs text-secondary text-center border-t border-outline/10">
+                        <div class="article-img-card my-6">
+                            <img class="w-full h-64 sm:h-72 object-cover object-center" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-mms-structure-fixing.jpg" alt="AARAA construction crew fixing and precision-aligning galvanized steel module mounting structures on pile foundations" width="1280" height="960" loading="lazy" decoding="async">
+                            <div class="img-caption">
                                 AARAA construction workers assembling and torque-checking galvanized steel MMS framework on pile caps at Sidegallu / Hulikunta.
                             </div>
                         </div>
@@ -447,22 +833,22 @@
                         
                         <p class="text-secondary">Today's site progress highlighted two key geotechnical activities. First, at the Sidegallu solar block, deep <strong>bulk excavation and pit leveling</strong> was completed for a heavy electrical inverter/control foundation pad, with site surveyors establishing elevation datum levels and pre-laying subsurface conduits directly on the leveled rock base. Second, along the Iyanahalli – Kannakatti Road corridor, a <strong>JCB backhoe excavator fitted with a heavy hydraulic rock breaker</strong> was deployed to fracture hard rock strata for continuous, uniform AC power cable trenches.</p>
 
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
-                            <div class="rounded-xl overflow-hidden shadow-md border border-outline/10 bg-surface">
-                                <img class="w-full h-64 object-cover" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-inverter-room-pit-excavation-leveling.jpg" alt="Bulk foundation pit excavation, surveying and subgrade leveling for solar electrical inverter station at Sidegallu / Hulikunta" width="1280" height="960" loading="lazy" decoding="async">
-                                <div class="p-3 text-xs text-secondary text-center border-t border-outline/10">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 my-6">
+                            <div class="article-img-card">
+                                <img src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-inverter-room-pit-excavation-leveling.jpg" alt="Bulk foundation pit excavation, surveying and subgrade leveling for solar electrical inverter station at Sidegallu / Hulikunta" width="1280" height="960" loading="lazy" decoding="async">
+                                <div class="img-caption">
                                     Deep bulk excavation, survey benchmark check, and conduit bedding preparation for electrical foundation plinth at Sidegallu / Hulikunta.
                                 </div>
                             </div>
-                            <div class="rounded-xl overflow-hidden shadow-md border border-outline/10 bg-surface">
-                                <img class="w-full h-64 object-cover" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-ac-cable-trench-rock-breaking.jpg" alt="JCB excavator equipped with hydraulic rock breaker excavating underground AC cable trench at Karnataka solar project" width="1280" height="960" loading="lazy" decoding="async">
-                                <div class="p-3 text-xs text-secondary text-center border-t border-outline/10">
+                            <div class="article-img-card">
+                                <img src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-ac-cable-trench-rock-breaking.jpg" alt="JCB excavator equipped with hydraulic rock breaker excavating underground AC cable trench at Karnataka solar project" width="1280" height="960" loading="lazy" decoding="async">
+                                <div class="img-caption">
                                     Mechanical rock breaker fracturing hard strata to achieve engineering trench depths for underground AC power cables at Chikkajogihalli.
                                 </div>
                             </div>
                         </div>
 
-                        <div class="p-6 bg-surface-variant/20 rounded-2xl border border-outline/10 space-y-3">
+                        <div class="callout-box bg-surface-variant/20 space-y-3">
                             <h4 class="font-bold text-base text-on-surface">Key Subgrade &amp; Trenching Engineering Standards:</h4>
                             <ul class="space-y-2 text-secondary text-sm">
                                 <li>• <strong>Level Subgrade Bedding:</strong> Comprehensive subgrade leveling and rock excavation to prevent uneven foundation settlement beneath heavy electrical blocks.</li>
@@ -479,16 +865,16 @@
                         
                         <p class="text-secondary">At the Kudligi project front, AARAA's certified structural welders were documented executing full-penetration joint welding and weld-seam grinding across longitudinal and transverse I-beam girders. Following weld quality inspections and de-slagging, our finishing team immediately applied <strong>high-build red oxide anti-corrosive primer</strong> across all exposed steel surfaces and welded joints.</p>
 
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
-                            <div class="rounded-xl overflow-hidden shadow-md border border-outline/10 bg-surface">
-                                <img class="w-full h-64 object-cover" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-icog-structural-welding.jpg" alt="Certified site welder carrying out structural welding and joint alignment on solar ICOG equipment platform" width="1280" height="960" loading="lazy" decoding="async">
-                                <div class="p-3 text-xs text-secondary text-center border-t border-outline/10">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 my-6">
+                            <div class="article-img-card">
+                                <img src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-icog-structural-welding.jpg" alt="Certified site welder carrying out structural welding and joint alignment on solar ICOG equipment platform" width="1280" height="960" loading="lazy" decoding="async">
+                                <div class="img-caption">
                                     Certified site welder carrying out precision joint welding on heavy I-beam support girders at Hulikunta, Kudligi.
                                 </div>
                             </div>
-                            <div class="rounded-xl overflow-hidden shadow-md border border-outline/10 bg-surface">
-                                <img class="w-full h-64 object-cover" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-structural-steel-painting.jpg" alt="Site technician applying protective red oxide primer coating to fabricated solar ICOG structural steel platform" width="1280" height="960" loading="lazy" decoding="async">
-                                <div class="p-3 text-xs text-secondary text-center border-t border-outline/10">
+                            <div class="article-img-card">
+                                <img src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-structural-steel-painting.jpg" alt="Site technician applying protective red oxide primer coating to fabricated solar ICOG structural steel platform" width="1280" height="960" loading="lazy" decoding="async">
+                                <div class="img-caption">
                                     Site technician applying anti-corrosive red oxide primer coating across the fabricated ICOG platform framework.
                                 </div>
                             </div>
@@ -544,28 +930,28 @@
                         <h2 class="text-2xl font-bold text-on-surface border-b border-outline/10 pb-2">6. Photo Gallery: Additional Field Construction Highlights</h2>
                         <p class="text-secondary">Complementary photographic evidence captured on site documenting rigging controls, heavy earthmoving operations, and dedicated engineering supervision across the Karnataka solar plant corridor:</p>
 
-                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
                             
                             <!-- Gallery Item 1: Tag Line Steering -->
-                            <div class="rounded-xl overflow-hidden shadow-md border border-outline/10 bg-surface group">
-                                <img class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-icog-panel-crane-shifting.jpg" alt="Rigging team using tag lines to steer crane lifting and shifting of solar ICOG cubicle panel onto mounting plinths" loading="lazy" width="1200" height="1600" decoding="async">
-                                <div class="p-4 text-xs text-secondary text-center border-t border-outline/10 font-mono">
+                            <div class="article-img-card group">
+                                <img class="group-hover:scale-105 transition-transform duration-300" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-icog-panel-crane-shifting.jpg" alt="Rigging team using tag lines to steer crane lifting and shifting of solar ICOG cubicle panel onto mounting plinths" loading="lazy" width="1200" height="1600" decoding="async">
+                                <div class="img-caption font-mono">
                                     Rigging specialists using tensioned tag lines to steer and damp rotational swing of the suspended ICOG cubicle during crane positioning.
                                 </div>
                             </div>
 
                             <!-- Gallery Item 2: JCB Earthwork Leveling -->
-                            <div class="rounded-xl overflow-hidden shadow-md border border-outline/10 bg-surface group">
-                                <img class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-foundation-earthwork-jcb-leveling.jpg" alt="JCB backhoe loader front shovel leveling soil and clearing earthworks at solar foundation pit" loading="lazy" width="1280" height="960" decoding="async">
-                                <div class="p-4 text-xs text-secondary text-center border-t border-outline/10 font-mono">
+                            <div class="article-img-card group">
+                                <img class="group-hover:scale-105 transition-transform duration-300" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-foundation-earthwork-jcb-leveling.jpg" alt="JCB backhoe loader front shovel leveling soil and clearing earthworks at solar foundation pit" loading="lazy" width="1280" height="960" decoding="async">
+                                <div class="img-caption font-mono">
                                     JCB backhoe loader front shovel carrying out bulk earthwork backfilling and ground leveling at the solar electrical equipment foundation pit.
                                 </div>
                             </div>
 
                             <!-- Gallery Item 3: Engineering Supervision -->
-                            <div class="rounded-xl overflow-hidden shadow-md border border-outline/10 bg-surface group sm:col-span-2 md:col-span-1">
-                                <img class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-icog-crane-lifting-supervision.jpg" alt="AARAA site project engineer supervising Escorts mobile crane lifting and positioning of ICOG cubicle panel along Iyanahalli road" loading="lazy" width="1200" height="1600" decoding="async">
-                                <div class="p-4 text-xs text-secondary text-center border-t border-outline/10 font-mono">
+                            <div class="article-img-card group sm:col-span-2 md:col-span-1">
+                                <img class="group-hover:scale-105 transition-transform duration-300" src="/image/blog/solar-epc-construction-progress-karnataka-november-2026/solar-icog-crane-lifting-supervision.jpg" alt="AARAA site project engineer supervising Escorts mobile crane lifting and positioning of ICOG cubicle panel along Iyanahalli road" loading="lazy" width="1200" height="1600" decoding="async">
+                                <div class="img-caption font-mono">
                                     AARAA site project engineer directly supervising mobile crane hoisting, outrigger placement, and line clearances along the Iyanahalli road.
                                 </div>
                             </div>
@@ -578,22 +964,22 @@
                         <h2 class="text-2xl font-bold text-on-surface border-b border-outline/10 pb-2">7. Frequently Asked Questions</h2>
                         
                         <div class="space-y-4">
-                            <div class="p-5 bg-surface rounded-xl border border-outline/15 shadow-sm">
+                            <div class="p-4 sm:p-5 bg-surface rounded-xl border border-outline/15 shadow-sm">
                                 <h3 class="text-base font-bold text-on-surface mb-2">1. What is an ICOG panel and why is it installed on an elevated steel platform?</h3>
                                 <p class="text-sm text-secondary">An <strong>ICOG (Inverter, Control, and Outgoing)</strong> panel houses primary electrical control circuits, string combiners, and medium-voltage switchgear. Mounting these heavy cubicles on elevated structural steel frames anchored to reinforced concrete pedestals safeguards sensitive electrical hardware from ground-level moisture, monsoon flooding, soil dampness, and blowing sand.</p>
                             </div>
 
-                            <div class="p-5 bg-surface rounded-xl border border-outline/15 shadow-sm">
+                            <div class="p-4 sm:p-5 bg-surface rounded-xl border border-outline/15 shadow-sm">
                                 <h3 class="text-base font-bold text-on-surface mb-2">2. How does AARAA Infrastructure handle rocky soil during solar cable trench excavation?</h3>
                                 <p class="text-sm text-secondary">In boulder-strewn and hard rock formations common across Karnataka's renewable regions, AARAA deploys <strong>hydraulic rock breakers</strong> mounted on JCB backhoe excavators. This controlled mechanical fracturing achieves precise trench depths without disturbing the adjacent MMS pile foundations or causing excessive ground shock.</p>
                             </div>
 
-                            <div class="p-5 bg-surface rounded-xl border border-outline/15 shadow-sm">
+                            <div class="p-4 sm:p-5 bg-surface rounded-xl border border-outline/15 shadow-sm">
                                 <h3 class="text-base font-bold text-on-surface mb-2">3. What quality checks are performed during Module Mounting Structure (MMS) installation?</h3>
                                 <p class="text-sm text-secondary">Our quality assurance team verifies coordinate and elevation benchmarks using digital total stations, tests vertical plumbness with spirit levels, applies calibrated torque wrenches to high-tensile fasteners, and checks diagonal sway bracing alignment before approving the tables for module mounting.</p>
                             </div>
 
-                            <div class="p-5 bg-surface rounded-xl border border-outline/15 shadow-sm">
+                            <div class="p-4 sm:p-5 bg-surface rounded-xl border border-outline/15 shadow-sm">
                                 <h3 class="text-base font-bold text-on-surface mb-2">4. Why is protective red oxide primer applied to solar structural steel frames?</h3>
                                 <p class="text-sm text-secondary">Solar infrastructure is engineered for a 25-year operational lifecycle under intense ultraviolet rays, high seasonal rainfall, and ambient dust. Applying industrial-grade red oxide primer following joint welding ensures comprehensive corrosion resistance and preserves structural steel strength.</p>
                             </div>
@@ -601,15 +987,15 @@
                     </section>
 
                     <!-- Closing Callout & Internal Links -->
-                    <div class="p-8 bg-surface-variant/30 rounded-2xl border border-outline/10 text-center">
+                    <div class="cta-box">
                         <h3 class="text-2xl font-bold text-on-surface mb-3">Partner with AARAA for Turnkey Solar EPC &amp; Civil BoP Execution</h3>
                         <p class="text-secondary text-sm md:text-base mb-6 max-w-2xl mx-auto">From bulk earthworks, pile drilling, and heavy Inverter Control Room construction to high-precision MMS erection and substation civil packages, AARAA Infrastructure delivers uncompromising quality and schedule reliability across India.</p>
                         
-                        <div class="flex flex-wrap items-center justify-center gap-4 mb-6">
-                            <a href="/location/chennai/solar-infrastructure-contractors" class="px-5 py-2.5 rounded-lg text-sm font-semibold bg-primary text-white hover:bg-primary/90 transition-colors">
+                        <div class="cta-btn-group flex flex-wrap items-center justify-center gap-3 sm:gap-4 mb-6">
+                            <a href="/location/chennai/solar-infrastructure-contractors" class="px-5 py-3 rounded-lg text-sm font-semibold bg-primary text-white hover:bg-primary/90 transition-colors">
                                 Explore Solar Civil BoP Services
                             </a>
-                            <a href="/contact-us" class="px-5 py-2.5 rounded-lg text-sm font-semibold bg-surface border border-outline/30 text-on-surface hover:bg-surface-variant/50 transition-colors">
+                            <a href="/contact-us" class="px-5 py-3 rounded-lg text-sm font-semibold bg-surface border border-outline/30 text-on-surface hover:bg-surface-variant/50 transition-colors">
                                 Consult Our Engineering Team
                             </a>
                         </div>
@@ -622,6 +1008,32 @@
             </div>
         </div>
     </main>
+
+    <!-- Footer Block -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="/">
+                        <img decoding="async" src="/image/logo/logo-black.png" alt="AARAA Infrastructure Logo" width="1024" height="399" loading="lazy">
+                    </a>
+                    <p class="footer-tagline">Building Infrastructure. Building Trust.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="/">Home</a>
+                    <a href="/on-going-projects">Projects</a>
+                    <a href="/services">Services</a>
+                    <a href="/blog">Blog Insights</a>
+                    <a href="/about">About Us</a>
+                    <a href="/contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AARAA Infrastructure Pvt. Ltd. All rights reserved.</p>
+                <p>Leading Turnkey Civil &amp; Solar EPC Contractors</p>
+            </div>
+        </div>
+    </footer>
 
     <div id="aaraaVendorOverlay" class="aaraa-popup-overlay"></div>
 </body>
