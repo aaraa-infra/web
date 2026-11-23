@@ -1187,6 +1187,39 @@
 
     const formData = new FormData(form);
 
+    // Enrich with server-side IP & approximate geolocation metadata (max 500ms timeout budget)
+    try {
+      const geoRes = await Promise.race([
+        fetch('/api/geo', { headers: { 'Accept': 'application/json' }, cache: 'no-store' }),
+        new Promise(r => setTimeout(() => r(null), 500))
+      ]);
+      if (geoRes && geoRes.ok) {
+        const geo = await geoRes.json();
+        const meta = {
+          visitor_ip: geo.visitor_ip || 'Unavailable',
+          visitor_country: geo.visitor_country || 'Unavailable',
+          visitor_country_code: geo.visitor_country_code || 'Unavailable',
+          visitor_state: geo.visitor_state || 'Unavailable',
+          visitor_city: geo.visitor_city || 'Unavailable',
+          visitor_postal_code: geo.visitor_postal_code || 'Unavailable',
+          visitor_latitude: geo.visitor_latitude || 'Unavailable',
+          visitor_longitude: geo.visitor_longitude || 'Unavailable',
+          visitor_isp: geo.visitor_isp || 'Unavailable',
+          visitor_asn: geo.visitor_asn || 'Unavailable',
+          visitor_timezone: geo.visitor_timezone || 'Unavailable',
+          submission_timestamp: new Date().toISOString(),
+          submission_page_url: window.location.href,
+          submission_page_title: document.title,
+          submission_referrer: document.referrer || 'Direct / Unknown',
+          form_type: 'seo_modal_enquiry',
+          submission_id: 'AARAA-' + Date.now().toString(36).toUpperCase()
+        };
+        for (const [k, v] of Object.entries(meta)) {
+          if (!formData.has(k)) formData.append(k, String(v));
+        }
+      }
+    } catch (e) {}
+
     try {
       const response = await fetch(form.action, {
         method: 'POST',

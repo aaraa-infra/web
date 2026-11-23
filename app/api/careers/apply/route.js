@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { getClientIp, checkRateLimit, validateUploadedFile } from '@/lib/security-validation';
+import { getIpGeolocation } from '@/lib/geolocation';
 
 const FORMBOLD_URL = 'https://formbold.com/s/oYAAv';
 
@@ -12,8 +13,15 @@ function sanitizeString(str) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#x27;")
-    .replace(/\//g, "&#x2F;");
+    .replace(/'/g, "&#x27;");
+}
+
+/* ---------- Helper: Safe URL Sanitizer (Preserves valid slashes & protocols) ---------- */
+function sanitizeUrl(url) {
+  if (typeof url !== "string") return "Unknown";
+  const trimmed = url.trim();
+  if (!trimmed) return "Unknown";
+  return trimmed.replace(/[<>"'\r\n]/g, "");
 }
 
 /* ---------- Helper: Validate Phone ---------- */
@@ -168,6 +176,27 @@ export async function POST(request) {
       }
     }
 
+    const geo = await getIpGeolocation(ipAddress);
+    const submissionMetadata = {
+      visitor_ip: geo.visitor_ip || ipAddress,
+      visitor_country: geo.visitor_country || 'Unavailable',
+      visitor_country_code: geo.visitor_country_code || 'Unavailable',
+      visitor_state: geo.visitor_state || 'Unavailable',
+      visitor_city: geo.visitor_city || 'Unavailable',
+      visitor_postal_code: geo.visitor_postal_code || 'Unavailable',
+      visitor_latitude: geo.visitor_latitude || 'Unavailable',
+      visitor_longitude: geo.visitor_longitude || 'Unavailable',
+      visitor_isp: geo.visitor_isp || 'Unavailable',
+      visitor_asn: geo.visitor_asn || 'Unavailable',
+      visitor_timezone: geo.visitor_timezone || 'Unavailable',
+      submission_timestamp: timestamp,
+      submission_page_url: sanitizeUrl(fields.submission_page_url || fields.sourceUrl || "Unknown"),
+      submission_page_title: sanitizeString(fields.submission_page_title || fields.pageTitle || "AARAA Careers — Job Application"),
+      submission_referrer: sanitizeUrl(fields.submission_referrer || fields.referrer || "Direct / Unknown"),
+      form_type: formType,
+      submission_id: submissionId
+    };
+
     const record = {
       application_id: submissionId,
       submission_id: submissionId,
@@ -187,9 +216,10 @@ export async function POST(request) {
       job_title: position,
       application_date: dateStr,
       fileUrls,
-      page_url: sanitizeString(fields.sourceUrl || "Unknown"),
+      page_url: submissionMetadata.submission_page_url,
       ipAddress,
-      lead_status: "new"
+      lead_status: "new",
+      metadata: submissionMetadata
     };
 
     // Save submission locally for persistence (graceful fallback on serverless)
@@ -251,6 +281,18 @@ export async function POST(request) {
               ✔️ <strong>Attachment Status:</strong> The candidate's resume file (<code>${uploads.length > 0 ? uploads[0].originalname : 'N/A'}</code>) is directly attached to this email message.
             </div>
 
+            <div style="margin-top: 18px; padding: 12px 16px; background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 13px;">
+              <p style="margin: 0 0 8px; font-weight: bold; color: #334155;">Applicant Geolocation & Submission Metadata (Server-Derived)</p>
+              <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                <tr><td style="padding: 4px; color: #64748b; width: 35%;">Visitor IP:</td><td style="padding: 4px; font-weight: bold;">${submissionMetadata.visitor_ip}</td></tr>
+                <tr style="background-color: #ffffff;"><td style="padding: 4px; color: #64748b;">Approx Location:</td><td style="padding: 4px;">${submissionMetadata.visitor_city}, ${submissionMetadata.visitor_state}, ${submissionMetadata.visitor_country} (${submissionMetadata.visitor_postal_code})</td></tr>
+                <tr><td style="padding: 4px; color: #64748b;">Coordinates:</td><td style="padding: 4px;">${submissionMetadata.visitor_latitude}, ${submissionMetadata.visitor_longitude}</td></tr>
+                <tr style="background-color: #ffffff;"><td style="padding: 4px; color: #64748b;">Network / ISP:</td><td style="padding: 4px;">${submissionMetadata.visitor_isp} (${submissionMetadata.visitor_asn})</td></tr>
+                <tr><td style="padding: 4px; color: #64748b;">Timezone & Time:</td><td style="padding: 4px;">${submissionMetadata.visitor_timezone} | ${submissionMetadata.submission_timestamp}</td></tr>
+                <tr style="background-color: #ffffff;"><td style="padding: 4px; color: #64748b;">Source Page:</td><td style="padding: 4px;">${submissionMetadata.submission_page_url}</td></tr>
+              </table>
+            </div>
+
             <p style="font-size: 12px; color: #94a3b8; text-align: center; margin-top: 24px; border-top: 1px solid #e2e8f0; padding-top: 12px;">
               Sent automatically by AARAA Infrastructure Careers Portal
             </p>
@@ -302,6 +344,13 @@ export async function POST(request) {
         fbFormData.append('attachment', fileObj, up.originalname);
         fbFormData.append('file', fileObj, up.originalname);
         fbFormData.append('attached_resume_name', up.originalname);
+      }
+
+      // Append standardized visitor geolocation & submission metadata
+      for (const [metaKey, metaVal] of Object.entries(submissionMetadata)) {
+        if (!fbFormData.has(metaKey) && metaVal !== undefined && metaVal !== null) {
+          fbFormData.append(metaKey, String(metaVal));
+        }
       }
 
       await fetch(FORMBOLD_URL, {

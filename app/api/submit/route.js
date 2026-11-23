@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { getClientIp, checkRateLimit, validateUploadedFile } from '@/lib/security-validation';
+import { getIpGeolocation } from '@/lib/geolocation';
 
 const FORMBOLD_URL = 'https://formbold.com/s/oYAAv';
 
@@ -12,8 +13,15 @@ function sanitizeString(str) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#x27;")
-    .replace(/\//g, "&#x2F;");
+    .replace(/'/g, "&#x27;");
+}
+
+/* ---------- Helper: Safe URL Sanitizer (Preserves valid slashes & protocols) ---------- */
+function sanitizeUrl(url) {
+  if (typeof url !== "string") return "Unknown";
+  const trimmed = url.trim();
+  if (!trimmed) return "Unknown";
+  return trimmed.replace(/[<>"'\r\n]/g, "");
 }
 
 export async function POST(request) {
@@ -96,14 +104,36 @@ export async function POST(request) {
       }
     }
 
+    const geo = await getIpGeolocation(ipAddress);
+    const submissionMetadata = {
+      visitor_ip: geo.visitor_ip || ipAddress,
+      visitor_country: geo.visitor_country || 'Unavailable',
+      visitor_country_code: geo.visitor_country_code || 'Unavailable',
+      visitor_state: geo.visitor_state || 'Unavailable',
+      visitor_city: geo.visitor_city || 'Unavailable',
+      visitor_postal_code: geo.visitor_postal_code || 'Unavailable',
+      visitor_latitude: geo.visitor_latitude || 'Unavailable',
+      visitor_longitude: geo.visitor_longitude || 'Unavailable',
+      visitor_isp: geo.visitor_isp || 'Unavailable',
+      visitor_asn: geo.visitor_asn || 'Unavailable',
+      visitor_timezone: geo.visitor_timezone || 'Unavailable',
+      submission_timestamp: timestamp,
+      submission_page_url: sanitizeUrl(fields.submission_page_url || fields._pageUrl || fields.sourceUrl || "Unknown"),
+      submission_page_title: sanitizeString(fields.submission_page_title || fields.pageTitle || "AARAA Infrastructure"),
+      submission_referrer: sanitizeUrl(fields.submission_referrer || fields.referrer || "Direct / Unknown"),
+      form_type: formType,
+      submission_id: submissionId
+    };
+
     const record = {
       submission_id: submissionId,
       form_type: formType,
       timestamp,
       fields,
       fileUrls,
-      page_url: sanitizeString(fields._pageUrl || fields.sourceUrl || "Unknown"),
-      ipAddress
+      page_url: submissionMetadata.submission_page_url,
+      ipAddress,
+      metadata: submissionMetadata
     };
 
     // Safe local submission save (with try...catch fallback for read-only serverless filesystems like Vercel)
@@ -129,6 +159,13 @@ export async function POST(request) {
       fbFormData.append('submission_id', submissionId);
       if (fields.email && typeof fields.email === 'string') fbFormData.append('_replyto', fields.email.trim());
       if (name) fbFormData.append('_name', name);
+
+      // Append standardized visitor geolocation & submission metadata
+      for (const [metaKey, metaVal] of Object.entries(submissionMetadata)) {
+        if (!fbFormData.has(metaKey) && metaVal !== undefined && metaVal !== null) {
+          fbFormData.append(metaKey, String(metaVal));
+        }
+      }
 
       // Safe field iteration (handles string, boolean, number, array, object)
       for (const [k, v] of Object.entries(fields)) {

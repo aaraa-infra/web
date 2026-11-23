@@ -102,6 +102,9 @@ export default function ApplicationForm({ job, isOpen, onClose }) {
       data.append('jobCode', job ? job.job_code : 'N/A');
       data.append('consent', formData.consent ? 'true' : 'false');
       data.append('sourceUrl', typeof window !== 'undefined' ? window.location.href : '');
+      data.append('submission_page_url', typeof window !== 'undefined' ? window.location.href : '');
+      data.append('submission_page_title', typeof document !== 'undefined' ? document.title : 'AARAA Careers');
+      data.append('submission_referrer', typeof document !== 'undefined' ? (document.referrer || 'Direct') : 'Direct');
 
       data.append('resume', resumeFile);
 

@@ -12,6 +12,41 @@
 const FORMBOLD_URL = 'https://formbold.com/s/oYAAv';
 
 /* ============================================================
+   Server-Side IP & Approximate Geolocation Enrichment
+   ============================================================ */
+var __aaraaClientGeo = null;
+var __aaraaGeoPromise = null;
+
+function getAaraaGeoMetadata() {
+  if (__aaraaClientGeo) return Promise.resolve(__aaraaClientGeo);
+  if (__aaraaGeoPromise) return __aaraaGeoPromise;
+
+  __aaraaGeoPromise = fetch('/api/geo', {
+    headers: { 'Accept': 'application/json' },
+    cache: 'no-store'
+  })
+    .then(function(res) { return res.ok ? res.json() : null; })
+    .then(function(data) {
+      if (data && data.success) {
+        __aaraaClientGeo = data;
+      }
+      return __aaraaClientGeo;
+    })
+    .catch(function() { return null; });
+
+  return __aaraaGeoPromise;
+}
+
+if (typeof window !== 'undefined') {
+  window.getAaraaGeoMetadata = getAaraaGeoMetadata;
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(function() { getAaraaGeoMetadata(); });
+  } else {
+    setTimeout(getAaraaGeoMetadata, 1000);
+  }
+}
+
+/* ============================================================
    Turnstile Disabled (FormBold Active)
    ============================================================ */
 function renderAllTurnstiles() {
@@ -242,6 +277,42 @@ async function handleFormSubmit(e) {
     if (emailVal) formData.append('_replyto', emailVal);
     const personName = formData.get('name') || formData.get('contact_person') || formData.get('full_name');
     if (personName) formData.append('_name', personName);
+
+    // Enrich with server-side IP & approximate geolocation metadata (max 500ms timeout budget)
+    var geoData = null;
+    try {
+      geoData = await Promise.race([
+        getAaraaGeoMetadata(),
+        new Promise(function(resolve) { setTimeout(function() { resolve(null); }, 500); })
+      ]);
+    } catch(geoErr) {}
+
+    var nowIso = new Date().toISOString();
+    var submissionMeta = {
+      visitor_ip: (geoData && geoData.visitor_ip) ? geoData.visitor_ip : 'Unavailable',
+      visitor_country: (geoData && geoData.visitor_country) ? geoData.visitor_country : 'Unavailable',
+      visitor_country_code: (geoData && geoData.visitor_country_code) ? geoData.visitor_country_code : 'Unavailable',
+      visitor_state: (geoData && geoData.visitor_state) ? geoData.visitor_state : 'Unavailable',
+      visitor_city: (geoData && geoData.visitor_city) ? geoData.visitor_city : 'Unavailable',
+      visitor_postal_code: (geoData && geoData.visitor_postal_code) ? geoData.visitor_postal_code : 'Unavailable',
+      visitor_latitude: (geoData && geoData.visitor_latitude) ? geoData.visitor_latitude : 'Unavailable',
+      visitor_longitude: (geoData && geoData.visitor_longitude) ? geoData.visitor_longitude : 'Unavailable',
+      visitor_isp: (geoData && geoData.visitor_isp) ? geoData.visitor_isp : 'Unavailable',
+      visitor_asn: (geoData && geoData.visitor_asn) ? geoData.visitor_asn : 'Unavailable',
+      visitor_timezone: (geoData && geoData.visitor_timezone) ? geoData.visitor_timezone : 'Unavailable',
+      submission_timestamp: nowIso,
+      submission_page_url: window.location.href,
+      submission_page_title: document.title,
+      submission_referrer: document.referrer || 'Direct / Unknown',
+      form_type: formType,
+      submission_id: 'AARAA-' + Date.now().toString(36).toUpperCase()
+    };
+
+    for (var metaKey in submissionMeta) {
+      if (submissionMeta.hasOwnProperty(metaKey) && !formData.has(metaKey)) {
+        formData.append(metaKey, String(submissionMeta[metaKey]));
+      }
+    }
 
     // FormBold expects data as FormData. We send all submissions as FormData.
     const fetchOptions = {
