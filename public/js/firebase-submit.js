@@ -314,10 +314,62 @@ async function handleFormSubmit(e) {
       }
     }
 
+    // Determine payload to dispatch: For Contact Us enquiries, construct clean 7-field FormBold payload
+    // (5 original business fields + 2 approved technical fields: visitor_ip & submission_id)
+    var payloadToSend = formData;
+    var isContactUsForm = formType === 'contact' || (form && (form.id === 'contactform' || form.classList.contains('form-contact-us')));
+
+    if (isContactUsForm) {
+      var contactFormData = new FormData();
+      var visitorName = (formData.get('name') || formData.get('full_name') || formData.get('contact_person') || '').toString().trim();
+      var visitorEmail = (formData.get('email') || '').toString().trim();
+      var visitorPhone = (formData.get('phone') || formData.get('mobile') || '').toString().trim();
+      var contactReason = (formData.get('leadType') || formData.get('reason') || formData.get('reason_for_contact') || 'General Inquiry').toString().trim();
+      var visitorMessage = (formData.get('message') || '').toString(); // Keep exact text with newlines & special chars
+      var subId = submissionMeta.submission_id;
+      var clientIp = submissionMeta.visitor_ip;
+
+      // Exactly Five Business Fields:
+      contactFormData.append('name', visitorName);
+      contactFormData.append('email', visitorEmail);
+      contactFormData.append('phone', visitorPhone);
+      contactFormData.append('reason', contactReason);
+      contactFormData.append('message', visitorMessage);
+
+      // Exactly Two Approved Technical Fields:
+      contactFormData.append('visitor_ip', clientIp);
+      contactFormData.append('submission_id', subId);
+
+      // FormBold System Routing Headers (envelope only, FormBold never renders '_' fields in email body)
+      var contactSubject = 'New Contact Enquiry — ' + (visitorName || 'Visitor') + ' — [' + subId + ']';
+      contactFormData.append('_subject', contactSubject);
+      if (visitorEmail) contactFormData.append('_replyto', visitorEmail);
+      if (visitorName) contactFormData.append('_name', visitorName);
+
+      payloadToSend = contactFormData;
+
+      // Non-blocking local backup dispatch to /api/submit
+      try {
+        fetch('/api/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            name: visitorName,
+            email: visitorEmail,
+            phone: visitorPhone,
+            reason: contactReason,
+            message: visitorMessage,
+            formType: 'contact',
+            submission_id: subId
+          })
+        }).catch(function() {});
+      } catch (localErr) {}
+    }
+
     // FormBold expects data as FormData. We send all submissions as FormData.
     const fetchOptions = {
       method: 'POST',
-      body: formData,
+      body: payloadToSend,
       headers: {
         'Accept': 'application/json'
       }

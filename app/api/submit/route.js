@@ -149,37 +149,60 @@ export async function POST(request) {
     // Forward to FormBold
     try {
       const fbFormData = new FormData();
-      const subjectText = company 
-        ? `AARAA ${formType} — ${company}${category ? ` (${category})` : ''}` 
-        : `AARAA ${formType} Submission — ${name || submissionId}`;
+      const isContactUs = formType.toLowerCase() === 'contact' || formType.toLowerCase() === 'contact us';
 
-      fbFormData.append('subject', subjectText);
-      fbFormData.append('_subject', subjectText);
-      fbFormData.append('form_type', formType);
-      fbFormData.append('submission_id', submissionId);
-      if (fields.email && typeof fields.email === 'string') fbFormData.append('_replyto', fields.email.trim());
-      if (name) fbFormData.append('_name', name);
+      if (isContactUs) {
+        // Clean 7-field FormBold payload for Contact Us enquiries
+        // (5 original business fields + 2 approved technical fields: visitor_ip & submission_id)
+        const contactReason = sanitizeString(fields.reason || fields.leadType || fields.reason_for_contact || "General Inquiry");
+        const contactMessage = typeof fields.message === 'string' ? fields.message : '';
+        const contactSubject = `New Contact Enquiry — ${name || 'Visitor'} — [${submissionId}]`;
 
-      // Append standardized visitor geolocation & submission metadata
-      for (const [metaKey, metaVal] of Object.entries(submissionMetadata)) {
-        if (!fbFormData.has(metaKey) && metaVal !== undefined && metaVal !== null) {
-          fbFormData.append(metaKey, String(metaVal));
+        fbFormData.append('name', name);
+        if (fields.email && typeof fields.email === 'string') fbFormData.append('email', fields.email.trim());
+        if (fields.phone && typeof fields.phone === 'string') fbFormData.append('phone', fields.phone.trim());
+        fbFormData.append('reason', contactReason);
+        fbFormData.append('message', contactMessage);
+        fbFormData.append('visitor_ip', submissionMetadata.visitor_ip);
+        fbFormData.append('submission_id', submissionId);
+
+        // FormBold System Routing Headers (envelope only, FormBold never renders '_' fields in email body)
+        fbFormData.append('_subject', contactSubject);
+        if (fields.email && typeof fields.email === 'string') fbFormData.append('_replyto', fields.email.trim());
+        if (name) fbFormData.append('_name', name);
+      } else {
+        const subjectText = company 
+          ? `AARAA ${formType} — ${company}${category ? ` (${category})` : ''}` 
+          : `AARAA ${formType} Submission — ${name || submissionId}`;
+
+        fbFormData.append('subject', subjectText);
+        fbFormData.append('_subject', subjectText);
+        fbFormData.append('form_type', formType);
+        fbFormData.append('submission_id', submissionId);
+        if (fields.email && typeof fields.email === 'string') fbFormData.append('_replyto', fields.email.trim());
+        if (name) fbFormData.append('_name', name);
+
+        // Append standardized visitor geolocation & submission metadata
+        for (const [metaKey, metaVal] of Object.entries(submissionMetadata)) {
+          if (!fbFormData.has(metaKey) && metaVal !== undefined && metaVal !== null) {
+            fbFormData.append(metaKey, String(metaVal));
+          }
         }
-      }
 
-      // Safe field iteration (handles string, boolean, number, array, object)
-      for (const [k, v] of Object.entries(fields)) {
-        if (v === null || v === undefined) continue;
-        if (k.startsWith('_') || fbFormData.has(k)) continue;
+        // Safe field iteration (handles string, boolean, number, array, object)
+        for (const [k, v] of Object.entries(fields)) {
+          if (v === null || v === undefined) continue;
+          if (k.startsWith('_') || fbFormData.has(k)) continue;
 
-        if (typeof v === 'string') {
-          if (v.trim() !== '') fbFormData.append(k, v.trim());
-        } else if (typeof v === 'number' || typeof v === 'boolean') {
-          fbFormData.append(k, String(v));
-        } else if (Array.isArray(v)) {
-          fbFormData.append(k, v.join(', '));
-        } else if (typeof v === 'object') {
-          fbFormData.append(k, JSON.stringify(v));
+          if (typeof v === 'string') {
+            if (v.trim() !== '') fbFormData.append(k, v.trim());
+          } else if (typeof v === 'number' || typeof v === 'boolean') {
+            fbFormData.append(k, String(v));
+          } else if (Array.isArray(v)) {
+            fbFormData.append(k, v.join(', '));
+          } else if (typeof v === 'object') {
+            fbFormData.append(k, JSON.stringify(v));
+          }
         }
       }
 
@@ -224,6 +247,59 @@ export async function POST(request) {
         success: false,
         message: "Form submission connection error. Please try again or email aaraainfrastructure@gmail.com directly."
       }, { status: 502 });
+    }
+
+    // Direct Nodemailer SMTP Notification for Contact Us (if SMTP credentials configured)
+    const isContactSubmission = formType.toLowerCase() === 'contact' || formType.toLowerCase() === 'contact us';
+    if (isContactSubmission && process.env.SMTP_USER && process.env.SMTP_PASS) {
+      try {
+        const nodemailer = await import('nodemailer');
+        const smtpUser = process.env.SMTP_USER;
+        const smtpPass = process.env.SMTP_PASS;
+        const smtpHost = process.env.SMTP_HOST || "smtp.gmail.com";
+        const smtpPort = parseInt(process.env.SMTP_PORT || "465", 10);
+        const smtpSecure = process.env.SMTP_SECURE !== "false";
+        const smtpTo = process.env.SMTP_TO || "aaraainfrastructure@gmail.com";
+
+        const transporter = nodemailer.createTransport({
+          host: smtpHost,
+          port: smtpPort,
+          secure: smtpSecure,
+          auth: { user: smtpUser, pass: smtpPass }
+        });
+
+        const contactReason = sanitizeString(fields.reason || fields.leadType || fields.reason_for_contact || "General Inquiry");
+        const contactMessage = typeof fields.message === 'string' ? fields.message : '';
+        const subject = `New Contact Enquiry — ${name || 'Visitor'} — [${submissionId}]`;
+
+        const htmlBody = `
+          <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; color: #333;">
+            <h2 style="color: #ed2f39; border-bottom: 2px solid #ed2f39; padding-bottom: 10px; margin-top: 0;">New Contact Us Enquiry</h2>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+              <tr style="background-color: #f7fafc;"><td style="padding: 10px; border: 1px solid #cbd5e0; font-weight: bold; width: 35%;">Full Name</td><td style="padding: 10px; border: 1px solid #cbd5e0;">${name || 'N/A'}</td></tr>
+              <tr><td style="padding: 10px; border: 1px solid #cbd5e0; font-weight: bold;">Email Address</td><td style="padding: 10px; border: 1px solid #cbd5e0;"><a href="mailto:${fields.email || ''}">${fields.email || 'N/A'}</a></td></tr>
+              <tr style="background-color: #f7fafc;"><td style="padding: 10px; border: 1px solid #cbd5e0; font-weight: bold;">Phone Number</td><td style="padding: 10px; border: 1px solid #cbd5e0;"><a href="tel:${fields.phone || ''}">${fields.phone || 'N/A'}</a></td></tr>
+              <tr><td style="padding: 10px; border: 1px solid #cbd5e0; font-weight: bold;">Reason for Contact</td><td style="padding: 10px; border: 1px solid #cbd5e0;">${contactReason}</td></tr>
+              <tr style="background-color: #f7fafc;"><td style="padding: 10px; border: 1px solid #cbd5e0; font-weight: bold; vertical-align: top;">Message</td><td style="padding: 10px; border: 1px solid #cbd5e0; white-space: pre-wrap;">${contactMessage}</td></tr>
+              <tr><td style="padding: 10px; border: 1px solid #cbd5e0; font-weight: bold;">Sender IP Address</td><td style="padding: 10px; border: 1px solid #cbd5e0; font-family: monospace;">${submissionMetadata.visitor_ip}</td></tr>
+              <tr style="background-color: #f7fafc;"><td style="padding: 10px; border: 1px solid #cbd5e0; font-weight: bold;">Submission ID</td><td style="padding: 10px; border: 1px solid #cbd5e0; font-family: monospace; font-weight: bold; color: #ed2f39;">${submissionId}</td></tr>
+            </table>
+            <p style="font-size: 12px; color: #718096; text-align: center; border-top: 1px solid #e2e8f0; padding-top: 10px; margin-top: 20px;">
+              Sent via AARAA Infrastructure Contact Us Portal
+            </p>
+          </div>
+        `;
+
+        await transporter.sendMail({
+          from: `"AARAA Contact Us" <${smtpUser}>`,
+          to: smtpTo,
+          replyTo: fields.email || smtpUser,
+          subject,
+          html: htmlBody
+        });
+      } catch (smtpErr) {
+        console.warn("[Direct Contact Email Warning] Could not send direct SMTP email:", smtpErr.message);
+      }
     }
 
     return Response.json({
