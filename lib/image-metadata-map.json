@@ -7060,5 +7060,13 @@
     "width": 1280,
     "height": 960,
     "aspectRatio": 1.3333333333333333
+  },
+  "/image/blog/aaraa-mens-day-celebration-2026.jpg": {
+    "width": 1920,
+    "height": 1080
+  },
+  "image/blog/aaraa-mens-day-celebration-2026.jpg": {
+    "width": 1920,
+    "height": 1080
   }
 }

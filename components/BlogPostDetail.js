@@ -269,6 +269,47 @@ export default function BlogPostDetail({ page }) {
     }
   };
 
+  const videoSchema = page.videoSrc ? {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": page.videoHeading || page.title,
+    "description": page.subtitle || page.description || `${page.title} - Video highlights by AARAA Infrastructure.`,
+    "thumbnailUrl": [
+      page.videoPoster 
+        ? (page.videoPoster.startsWith('http') ? page.videoPoster : `https://www.aaraainfrastructure.com${page.videoPoster}`)
+        : (page.heroImage ? `https://www.aaraainfrastructure.com${page.heroImage}` : "https://www.aaraainfrastructure.com/image-watermarked/project-item/project-item-12.jpg")
+    ],
+    "uploadDate": page.date ? `${page.date}T10:00:00+05:30` : "2026-11-19T10:00:00+05:30",
+    "duration": page.videoDuration || "PT47S",
+    "contentUrl": page.videoSrc.startsWith('http') ? page.videoSrc : `https://www.aaraainfrastructure.com${page.videoSrc}`,
+    "embedUrl": typeof window !== 'undefined' ? window.location.href : `https://www.aaraainfrastructure.com/${(page.sourcePath || '').replace(/\.html$/, '')}`
+  } : null;
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.aaraainfrastructure.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.aaraainfrastructure.com/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": page.title,
+        "item": `https://www.aaraainfrastructure.com/${(page.sourcePath || '').replace(/\.html$/, '')}`
+      }
+    ]
+  };
+
   return (
     <div className="premium-blog-wrapper">
       {/* JSON-LD Schema for SEO, AEO, and GEO */}
@@ -276,6 +317,16 @@ export default function BlogPostDetail({ page }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      {videoSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }}
+        />
+      )}
 
       {/* Sticky Header with Reading Progress */}
       <nav className="blog-nav-sticky">
@@ -382,14 +433,29 @@ export default function BlogPostDetail({ page }) {
           {page.videoSrc && (!page.galleryImages || !page.galleryImages.some(img => img.src === page.videoSrc || (img.src && (img.src.includes('youtube.com') || img.src.includes('youtu.be'))))) && (
             <div 
               className="blog-video-card blog-reveal" 
-              style={page.videoSrc.includes('.mp4') ? { maxWidth: '400px', margin: '0 auto 64px', aspectRatio: '9/16' } : {}}
+              style={{
+                width: '100%',
+                maxWidth: page.videoAspect === '9/16' ? '400px' : '100%',
+                margin: '0 auto 48px',
+                aspectRatio: page.videoAspect === '9/16' ? '9/16' : '16/9'
+              }}
             >
+              {page.videoHeading && (
+                <div style={{ marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <span style={{ display: 'inline-block', width: '8px', height: '8px', borderRadius: '50%', background: '#2563eb' }}></span>
+                  <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-slate-900, #0f172a)', margin: 0 }}>
+                    {page.videoHeading}
+                  </h3>
+                </div>
+              )}
               {page.videoSrc.includes('.mp4') ? (
                 <video 
                   controls 
                   preload="metadata" 
-                  poster={page.heroImage} 
-                  style={{ width: '100%', height: '100%', borderRadius: 'var(--radius-premium)', objectFit: 'contain', background: '#000' }}
+                  playsInline
+                  poster={page.videoPoster || page.heroImage} 
+                  aria-label={page.videoHeading || page.title}
+                  style={{ width: '100%', height: '100%', borderRadius: 'var(--radius-premium, 16px)', objectFit: page.videoAspect === '9/16' ? 'contain' : 'cover', background: '#000', boxShadow: '0 10px 25px -5px rgba(0,0,0,0.1)' }}
                 >
                   <source src={page.videoSrc} type="video/mp4" />
                   Your browser does not support the video tag.
@@ -397,7 +463,7 @@ export default function BlogPostDetail({ page }) {
               ) : (
                 <iframe
                   src={page.videoSrc.includes('youtu.be/') ? `https://www.youtube.com/embed/${page.videoSrc.split('youtu.be/')[1]?.split('?')[0]}` : page.videoSrc}
-                  title="Featured Video"
+                  title={page.videoHeading || "Featured Video"}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>

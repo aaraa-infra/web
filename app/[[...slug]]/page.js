@@ -63,6 +63,8 @@ const REDIRECTS_MAP = {
   'blog-post-10': '/blog/140-6-mw-wind-solar-hybrid-project-karnataka',
   'onam-celebration-at-our-office': '/blog/onam-celebration-at-our-office',
   'potluck-celebration-2026': '/blog/potluck-celebration-2026',
+  'aaraa-mens-day-celebration-2026': '/blog/aaraa-mens-day-celebration-2026',
+  'celebrating-the-men-of-aaraa': '/blog/aaraa-mens-day-celebration-2026',
   '140.6_MW_Capacity_Wind–Solar_Hybrid_Power_Project': '/blog/140-6-mw-wind-solar-hybrid-project-karnataka',
   '140.6_MW_Capacity_Wind-Solar_Hybrid_Power_Project': '/blog/140-6-mw-wind-solar-hybrid-project-karnataka',
   '140-6-mw-wind-solar-hybrid-power-project': '/blog/140-6-mw-wind-solar-hybrid-project-karnataka',
@@ -146,6 +148,7 @@ function isBlogPostPath(sourcePath = '') {
     norm.startsWith('blog-post-') ||
     norm.startsWith('potluck-celebration-') ||
     norm.startsWith('onam-celebration-') ||
+    norm.startsWith('aaraa-mens-day-celebration-') ||
     norm.includes('project-details-orchid') ||
     norm.includes('orchid-project') ||
     norm.includes('400-MLD-') ||
@@ -327,6 +330,18 @@ export default async function Page({params}){
 
   return (
     <>
+      {p.preloadLinks?.map((l, i) => (
+        <link
+          key={`preload-${i}`}
+          rel={l.rel}
+          href={l.href}
+          as={l.as}
+          type={l.type}
+          media={l.media}
+          crossOrigin={l.crossOrigin === '' ? true : l.crossOrigin}
+          fetchPriority={l.fetchPriority}
+        />
+      ))}
       {p.stylesheets.map((s,i)=><link key={`${s.href}-${i}`} rel="stylesheet" href={s.href} media={s.media}/>)}
       {p.inlineStyles.map((css,i)=><style key={i} dangerouslySetInnerHTML={{__html:css}}/>)}
       <LegacyDocument page={p}/>
