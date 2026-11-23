@@ -103,7 +103,7 @@ Because both Pass 1 and Pass 2 records were appended to `batch4-optimization-res
 
 ## 3. Complete Image Integrity Verification
 
-As detailed in [BATCH_4_FINAL_IMAGE_INTEGRITY_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_FINAL_IMAGE_INTEGRITY_REPORT.md):
+As detailed in [BATCH_4_FINAL_IMAGE_INTEGRITY_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/archive/batches/BATCH_4_FINAL_IMAGE_INTEGRITY_REPORT.md):
 
 ### 3.1 22 Corporate Client Logos Hash Audit (100% PASS)
 All 22 corporate marquee logos (`public/image-watermarked/brand/brand-1.png` through `brand-22.png`) were compared against the baseline Git HEAD object tree:
@@ -184,10 +184,10 @@ In strict accordance with Atlas's directive:
 
 ## 7. Deliverables Summary
 
-1. Master Evidence Report: [BATCH_4_FINAL_CLOSURE_EVIDENCE.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_FINAL_CLOSURE_EVIDENCE.md)
+1. Master Evidence Report: [BATCH_4_FINAL_CLOSURE_EVIDENCE.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/archive/batches/BATCH_4_FINAL_CLOSURE_EVIDENCE.md)
 2. Corrected Reconciled Dataset: [BATCH_4_CORRECTED_IMAGE_RECONCILIATION.json](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_CORRECTED_IMAGE_RECONCILIATION.json)
 3. 22 Logos Hash Audit CSV: [BATCH_4_LOGO_HASH_VERIFICATION.csv](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_LOGO_HASH_VERIFICATION.csv)
-4. Final Image Quality & Integrity Report: [BATCH_4_FINAL_IMAGE_INTEGRITY_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_FINAL_IMAGE_INTEGRITY_REPORT.md)
+4. Final Image Quality & Integrity Report: [BATCH_4_FINAL_IMAGE_INTEGRITY_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/archive/batches/BATCH_4_FINAL_IMAGE_INTEGRITY_REPORT.md)
 
 ---
 

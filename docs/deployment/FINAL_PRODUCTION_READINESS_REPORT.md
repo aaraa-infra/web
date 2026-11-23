@@ -45,7 +45,7 @@ In accordance with strict production governance standards, all aspects of the we
 - [x] **Performance Metrics Clarified:** Replaced previous estimates with real laboratory-measured Google Lighthouse data across 5 distinct route archetypes.
 
 ### Category D: Requires Management Approval (Staged Recommendations)
-The following recommendations have been prepared with complete implementation blueprints in [SECURITY_GAP_REGISTER.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/SECURITY_GAP_REGISTER.md) and [AUDIT_RECONCILIATION_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/AUDIT_RECONCILIATION_REPORT.md). They await management approval before code modifications are made:
+The following recommendations have been prepared with complete implementation blueprints in [SECURITY_GAP_REGISTER.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/security/SECURITY_GAP_REGISTER.md) and [AUDIT_RECONCILIATION_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/governance/AUDIT_RECONCILIATION_REPORT.md). They await management approval before code modifications are made:
 
 1. **Deploy Content Security Policy (Report-Only):**
    - *Recommendation:* Add `Content-Security-Policy-Report-Only` header to `next.config.mjs` to monitor third-party asset calls without breaking live functionality.
@@ -69,12 +69,12 @@ The following recommendations have been prepared with complete implementation bl
 
 | Document Name | File Path | Format | Status |
 |---|---|---|---|
-| **Audit Reconciliation Master Report** | [AUDIT_RECONCILIATION_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/AUDIT_RECONCILIATION_REPORT.md) | Markdown | Complete |
+| **Audit Reconciliation Master Report** | [AUDIT_RECONCILIATION_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/governance/AUDIT_RECONCILIATION_REPORT.md) | Markdown | Complete |
 | **Route Reconciliation Matrix** | [ROUTE_RECONCILIATION.csv](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/ROUTE_RECONCILIATION.csv) | CSV (414 rows) | Complete |
 | **Image Count Reconciliation Matrix** | [IMAGE_COUNT_RECONCILIATION.csv](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/IMAGE_COUNT_RECONCILIATION.csv) | CSV (Mutually Exclusive) | Complete |
 | **Location SEO Indexability Matrix** | [LOCATION_SEO_INDEXABILITY.csv](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/LOCATION_SEO_INDEXABILITY.csv) | CSV (243 rows) | Complete |
-| **Security Gap Register & Blueprint** | [SECURITY_GAP_REGISTER.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/SECURITY_GAP_REGISTER.md) | Markdown | Complete |
-| **Final Production Readiness Report** | [FINAL_PRODUCTION_READINESS_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/FINAL_PRODUCTION_READINESS_REPORT.md) | Markdown | Complete |
+| **Security Gap Register & Blueprint** | [SECURITY_GAP_REGISTER.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/security/SECURITY_GAP_REGISTER.md) | Markdown | Complete |
+| **Final Production Readiness Report** | [FINAL_PRODUCTION_READINESS_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/deployment/FINAL_PRODUCTION_READINESS_REPORT.md) | Markdown | Complete |
 | **Unused Image Asset Manifest** | [UNUSED_IMAGE_MANIFEST.csv](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/UNUSED_IMAGE_MANIFEST.csv) | CSV (1,404 rows) | Complete |
 | **Asset Restoration Rollback Script** | [ASSET_RESTORATION_MANIFEST.csv](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/ASSET_RESTORATION_MANIFEST.csv) | CSV (1,404 rows) | Complete |
 

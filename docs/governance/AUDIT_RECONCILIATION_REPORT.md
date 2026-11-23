@@ -145,7 +145,7 @@ To address the distinction between estimated, build-derived, and laboratory-meas
 
 ## 6. Security Gap Analysis Summary
 
-A dedicated register has been authored in [SECURITY_GAP_REGISTER.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/SECURITY_GAP_REGISTER.md).
+A dedicated register has been authored in [SECURITY_GAP_REGISTER.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/security/SECURITY_GAP_REGISTER.md).
 
 Summary of Gaps:
 1. **Content Security Policy (CSP):** Missing. Recommended to stage in `Content-Security-Policy-Report-Only` first to avoid breaking inline scripts and third-party widgets.
@@ -160,9 +160,9 @@ Summary of Gaps:
 
 | Deliverable File | Description | Status |
 |---|---|---|
-| [AUDIT_RECONCILIATION_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/AUDIT_RECONCILIATION_REPORT.md) | This master reconciliation document | **Completed** |
+| [AUDIT_RECONCILIATION_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/governance/AUDIT_RECONCILIATION_REPORT.md) | This master reconciliation document | **Completed** |
 | [ROUTE_RECONCILIATION.csv](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/ROUTE_RECONCILIATION.csv) | All 414 legacy HTML paths with HTTP status & SSG status | **Completed** |
 | [IMAGE_COUNT_RECONCILIATION.csv](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/IMAGE_COUNT_RECONCILIATION.csv) | Mutually exclusive 4,574 image classification & overlap proof | **Completed** |
 | [LOCATION_SEO_INDEXABILITY.csv](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/LOCATION_SEO_INDEXABILITY.csv) | Indexability matrix across all 243 programmatic location pages | **Completed** |
-| [SECURITY_GAP_REGISTER.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/SECURITY_GAP_REGISTER.md) | Risk analysis, recommended fixes, and priority for 5 security gaps | **Completed** |
-| [FINAL_PRODUCTION_READINESS_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/FINAL_PRODUCTION_READINESS_REPORT.md) | Final deployment sign-off & governance readiness matrix | **Completed** |
+| [SECURITY_GAP_REGISTER.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/security/SECURITY_GAP_REGISTER.md) | Risk analysis, recommended fixes, and priority for 5 security gaps | **Completed** |
+| [FINAL_PRODUCTION_READINESS_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/deployment/FINAL_PRODUCTION_READINESS_REPORT.md) | Final deployment sign-off & governance readiness matrix | **Completed** |

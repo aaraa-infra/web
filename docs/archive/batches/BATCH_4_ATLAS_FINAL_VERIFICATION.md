@@ -74,7 +74,7 @@ All totals have been re-derived directly from the underlying byte counts in `scr
 
 ## 3. WebP Delivery Implementation Status
 
-As detailed in [BATCH_4_WEBP_DELIVERY_VERIFICATION.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_WEBP_DELIVERY_VERIFICATION.md):
+As detailed in [BATCH_4_WEBP_DELIVERY_VERIFICATION.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/archive/batches/BATCH_4_WEBP_DELIVERY_VERIFICATION.md):
 
 * **Generation & Sibling Status:** **COMPLETE** (256 WebP siblings exist on disk).
 * **Browser Delivery Status:** **PENDING / NOT IMPLEMENTED IN CURRENT BROWSER RUNTIME**.
@@ -111,7 +111,7 @@ Measured across generated HTML routes in `.next/server/app/`:
 
 ## 5. Image Quality & Integrity QA Summary
 
-As documented in [BATCH_4_IMAGE_QUALITY_QA.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_IMAGE_QUALITY_QA.md):
+As documented in [BATCH_4_IMAGE_QUALITY_QA.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/archive/batches/BATCH_4_IMAGE_QUALITY_QA.md):
 * **Project Photographs (`Project1.png`):** $\text{PSNR} = \mathbf{37.59\text{ dB}}$ ($\text{MSE} = 11.32$, Rating: **EXCELLENT**).
 * **Blog Photographs (`srm/5.jpg`):** $\text{PSNR} = \mathbf{30.90\text{ dB}}$ ($\text{MSE} = 52.86$, Rating: **GOOD**). Downscaled from $4624\times 3468$ camera raw to $1920\times 1440$ web display.
 * **Logos & Branding (`brand-1.png`):** $\text{PSNR} = \mathbf{\infty}$ ($\text{MSE} = 0.00$, Rating: **EXCELLENT / Lossless**).
@@ -139,7 +139,7 @@ Executed by `scratch/audit-html-detailed.mjs` across all 390 pre-rendered HTML r
 
 ## 7. Production Build & Regression Verification
 
-As documented in [BATCH_4_FINAL_BUILD_AND_REGRESSION_LOG.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_FINAL_BUILD_AND_REGRESSION_LOG.md):
+As documented in [BATCH_4_FINAL_BUILD_AND_REGRESSION_LOG.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/archive/batches/BATCH_4_FINAL_BUILD_AND_REGRESSION_LOG.md):
 
 * **Build Command:** `node scratch/run-build.mjs` (`next build`)
 * **Exit Code:** **0 (SUCCESS)**
@@ -155,11 +155,11 @@ As documented in [BATCH_4_FINAL_BUILD_AND_REGRESSION_LOG.md](file:///d:/Web_Proj
 
 ## 8. Complete Deliverables Index
 
-1. Final Verification Report: [BATCH_4_ATLAS_FINAL_VERIFICATION.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_ATLAS_FINAL_VERIFICATION.md)
+1. Final Verification Report: [BATCH_4_ATLAS_FINAL_VERIFICATION.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/archive/batches/BATCH_4_ATLAS_FINAL_VERIFICATION.md)
 2. Master Reconciled Dataset: [BATCH_4_CORRECTED_IMAGE_RECONCILIATION.json](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_CORRECTED_IMAGE_RECONCILIATION.json)
-3. WebP Delivery Verification: [BATCH_4_WEBP_DELIVERY_VERIFICATION.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_WEBP_DELIVERY_VERIFICATION.md)
-4. Image Quality & Integrity QA: [BATCH_4_IMAGE_QUALITY_QA.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_IMAGE_QUALITY_QA.md)
-5. Build & Regression Log: [BATCH_4_FINAL_BUILD_AND_REGRESSION_LOG.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_FINAL_BUILD_AND_REGRESSION_LOG.md)
+3. WebP Delivery Verification: [BATCH_4_WEBP_DELIVERY_VERIFICATION.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/archive/batches/BATCH_4_WEBP_DELIVERY_VERIFICATION.md)
+4. Image Quality & Integrity QA: [BATCH_4_IMAGE_QUALITY_QA.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/archive/batches/BATCH_4_IMAGE_QUALITY_QA.md)
+5. Build & Regression Log: [BATCH_4_FINAL_BUILD_AND_REGRESSION_LOG.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/archive/batches/BATCH_4_FINAL_BUILD_AND_REGRESSION_LOG.md)
 
 ---
 

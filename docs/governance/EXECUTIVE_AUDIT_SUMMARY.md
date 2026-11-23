@@ -92,14 +92,14 @@ All audit reports and manifests have been generated in the project root:
 
 | File | Purpose |
 |---|---|
-| [PROJECT_FULL_AUDIT_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/PROJECT_FULL_AUDIT_REPORT.md) | Master Comprehensive Audit Report covering all 10 phases |
-| [PROJECT_IMAGE_AUDIT_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/PROJECT_IMAGE_AUDIT_REPORT.md) | Dedicated Image Asset & Duplicate Analysis Report |
+| [PROJECT_FULL_AUDIT_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/governance/PROJECT_FULL_AUDIT_REPORT.md) | Master Comprehensive Audit Report covering all 10 phases |
+| [PROJECT_IMAGE_AUDIT_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/verification/PROJECT_IMAGE_AUDIT_REPORT.md) | Dedicated Image Asset & Duplicate Analysis Report |
 | [UNUSED_IMAGE_MANIFEST.csv](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/UNUSED_IMAGE_MANIFEST.csv) | Full CSV inventory of all 1,404 quarantined assets with hashes and sizes |
 | [ASSET_RESTORATION_MANIFEST.csv](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/ASSET_RESTORATION_MANIFEST.csv) | Rollback manifest with exact PowerShell restoration commands |
-| [SEO_AUDIT_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/SEO_AUDIT_REPORT.md) | Technical SEO, Meta, Heading, Canonical & Schema Report |
-| [PERFORMANCE_AUDIT_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/PERFORMANCE_AUDIT_REPORT.md) | Core Web Vitals, JS Bundles & Asset Performance Report |
-| [SECURITY_AUDIT_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/SECURITY_AUDIT_REPORT.md) | Secrets, Security Headers, API & Vulnerability Report |
-| [CODE_FIX_CHANGELOG.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/CODE_FIX_CHANGELOG.md) | Changelog of safe optimizations applied during the audit |
+| [SEO_AUDIT_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/seo/SEO_AUDIT_REPORT.md) | Technical SEO, Meta, Heading, Canonical & Schema Report |
+| [PERFORMANCE_AUDIT_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/performance/PERFORMANCE_AUDIT_REPORT.md) | Core Web Vitals, JS Bundles & Asset Performance Report |
+| [SECURITY_AUDIT_REPORT.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/security/SECURITY_AUDIT_REPORT.md) | Secrets, Security Headers, API & Vulnerability Report |
+| [CODE_FIX_CHANGELOG.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/implementation/CODE_FIX_CHANGELOG.md) | Changelog of safe optimizations applied during the audit |
 
 ---
 

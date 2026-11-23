@@ -264,7 +264,7 @@ Net Gain of Size-Aware Delivery vs Blind WebP: +2.06 MiB saved (2.7% extra bandw
 
 ## 7. Changed Files & Evidence Artifacts
 
-- Reconciliation Report: [BATCH_4_IMAGE_OPTIMISATION_RECONCILIATION.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/BATCH_4_IMAGE_OPTIMISATION_RECONCILIATION.md)
+- Reconciliation Report: [BATCH_4_IMAGE_OPTIMISATION_RECONCILIATION.md](file:///d:/Web_Projects/aaraa-infrastructure-nextjs/docs/archive/batches/BATCH_4_IMAGE_OPTIMISATION_RECONCILIATION.md)
 - Reconciliation Dataset: `scratch/reconciliation-data.json` (complete 256-file de-duplicated records)
 - WebP Delivery Test Suite: `scratch/test-webp-delivery.mjs`
 - WebP Delivery Test Results: `scratch/webp-delivery-test-results.json`
