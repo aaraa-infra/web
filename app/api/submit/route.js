@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { getClientIp, checkRateLimit, validateUploadedFile } from '@/lib/security-validation';
 
 const FORMBOLD_URL = 'https://formbold.com/s/oYAAv';
 
@@ -15,23 +16,19 @@ function sanitizeString(str) {
     .replace(/\//g, "&#x2F;");
 }
 
-/* ---------- Helper: Validate File Upload Security ---------- */
-function validateFile(filename, mimeType, bufferSize) {
-  const allowedExtensions = ['.pdf', '.doc', '.docx', '.jpg', '.jpeg', '.png'];
-  const ext = path.extname(filename).toLowerCase();
-  if (!allowedExtensions.includes(ext)) {
-    return { valid: false, message: `Extension ${ext} is not allowed.` };
-  }
-  const maxSizeBytes = 10 * 1024 * 1024; // 10MB
-  if (bufferSize > maxSizeBytes) {
-    return { valid: false, message: `File size exceeds 10MB limit.` };
-  }
-  return { valid: true };
-}
-
 export async function POST(request) {
   try {
-    const ipAddress = request.headers.get("x-forwarded-for") || request.headers.get("x-real-ip") || "127.0.0.1";
+    const ipAddress = getClientIp(request);
+
+    // Distributed / Hybrid Rate Limiting: Max 5 requests per 10-minute window
+    const rateLimit = await checkRateLimit(ipAddress, 'submit', 5, 10 * 60 * 1000);
+    if (!rateLimit.allowed) {
+      return Response.json(
+        { success: false, message: `Too many requests. Please try again in ${rateLimit.retryAfter} seconds.` },
+        { status: 429, headers: { 'Retry-After': String(rateLimit.retryAfter) } }
+      );
+    }
+
     const contentType = request.headers.get("content-type") || "";
 
     let fields = {};
@@ -77,9 +74,9 @@ export async function POST(request) {
     const fileUrls = {};
     if (uploads.length > 0) {
       for (const up of uploads) {
-        const check = validateFile(up.originalname, up.mimetype, up.size);
+        const check = validateUploadedFile(up);
         if (!check.valid) {
-          return Response.json({ success: false, message: check.message }, { status: 400 });
+          return Response.json({ success: false, message: check.message }, { status: check.status || 400 });
         }
       }
 

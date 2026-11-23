@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { getClientIp, checkRateLimit, validateUploadedFile } from '@/lib/security-validation';
 
 const FORMBOLD_URL = 'https://formbold.com/s/oYAAv';
 
@@ -28,31 +29,6 @@ function isValidEmail(email) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
-/* ---------- Helper: Validate File Upload Security ---------- */
-function validateFile(filename, mimeType, bufferSize) {
-  const allowedExtensions = ['.pdf', '.doc', '.docx'];
-  const allowedMimeTypes = [
-    'application/pdf',
-    'application/msword',
-    'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-  ];
-
-  const ext = path.extname(filename).toLowerCase();
-  if (!allowedExtensions.includes(ext)) {
-    return { valid: false, message: `Extension ${ext} is not allowed. Only PDF, DOC, DOCX are permitted.` };
-  }
-
-  if (mimeType && !allowedMimeTypes.includes(mimeType)) {
-    return { valid: false, message: `MIME type ${mimeType} is not allowed. Only PDF, DOC, DOCX are permitted.` };
-  }
-
-  const maxSizeBytes = 5 * 1024 * 1024; // 5MB limit
-  if (bufferSize > maxSizeBytes) {
-    return { valid: false, message: `File size exceeds the 5MB limit.` };
-  }
-
-  return { valid: true };
-}
 
 /* ---------- Helper: Generate Sequential Application ID (AICRYYYYMMDD-SERIALNO) ---------- */
 async function generateCareerApplicationId() {
@@ -90,7 +66,17 @@ async function generateCareerApplicationId() {
 
 export async function POST(request) {
   try {
-    const ipAddress = request.headers.get("x-forwarded-for") || "127.0.0.1";
+    const ipAddress = getClientIp(request);
+
+    // Distributed / Hybrid Rate Limiting: Max 3 requests per 30-minute window for careers
+    const rateLimit = await checkRateLimit(ipAddress, 'careers', 3, 30 * 60 * 1000);
+    if (!rateLimit.allowed) {
+      return Response.json(
+        { success: false, message: `Too many applications submitted. Please try again in ${rateLimit.retryAfter} seconds.` },
+        { status: 429, headers: { 'Retry-After': String(rateLimit.retryAfter) } }
+      );
+    }
+
     const contentType = request.headers.get("content-type") || "";
 
     let fields = {};
@@ -158,9 +144,9 @@ export async function POST(request) {
     // File validation & optional local backup
     if (uploads.length > 0) {
       for (const up of uploads) {
-        const check = validateFile(up.originalname, up.mimetype, up.size);
+        const check = validateUploadedFile(up, ['.pdf', '.doc', '.docx']);
         if (!check.valid) {
-          return Response.json({ success: false, message: check.message }, { status: 400 });
+          return Response.json({ success: false, message: check.message }, { status: check.status || 400 });
         }
       }
 

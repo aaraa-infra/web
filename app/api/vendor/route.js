@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { getClientIp, checkRateLimit, validateUploadedFile } from '@/lib/security-validation';
 
 const FORMBOLD_URL = 'https://formbold.com/s/oYAAv';
 
@@ -28,21 +29,6 @@ function isValidEmail(email) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
-/* ---------- Helper: Validate File Upload Security ---------- */
-function validateFile(filename, mimeType, bufferSize) {
-  const allowedExtensions = ['.pdf', '.doc', '.docx', '.jpg', '.jpeg', '.png'];
-  const ext = path.extname(filename).toLowerCase();
-  if (!allowedExtensions.includes(ext)) {
-    return { valid: false, message: `Extension ${ext} is not allowed. Only PDF, DOC, DOCX, JPG, PNG are permitted.` };
-  }
-
-  const maxSizeBytes = 10 * 1024 * 1024; // 10MB limit
-  if (bufferSize > maxSizeBytes) {
-    return { valid: false, message: `File size exceeds the 10MB limit.` };
-  }
-
-  return { valid: true };
-}
 
 /* ---------- Helper: Generate Sequential Vendor ID (AAVN-YYYYMMDD-SERIALNO) ---------- */
 async function generateVendorSubmissionId() {
@@ -78,7 +64,17 @@ async function generateVendorSubmissionId() {
 
 export async function POST(request) {
   try {
-    const ipAddress = request.headers.get("x-forwarded-for") || "127.0.0.1";
+    const ipAddress = getClientIp(request);
+
+    // Distributed / Hybrid Rate Limiting: Max 5 requests per 10-minute window
+    const rateLimit = await checkRateLimit(ipAddress, 'vendor', 5, 10 * 60 * 1000);
+    if (!rateLimit.allowed) {
+      return Response.json(
+        { success: false, message: `Too many vendor applications. Please try again in ${rateLimit.retryAfter} seconds.` },
+        { status: 429, headers: { 'Retry-After': String(rateLimit.retryAfter) } }
+      );
+    }
+
     const contentType = request.headers.get("content-type") || "";
 
     let fields = {};
@@ -111,14 +107,14 @@ export async function POST(request) {
       return Response.json({ success: false, message: "Spam detected." }, { status: 400 });
     }
 
-    const company = sanitizeString(fields.company || fields.company_name || "");
-    const contactPerson = sanitizeString(fields.contact_person || fields.name || fields.signatory_name || "");
+    const company = sanitizeString(fields.company || fields.company_name || fields.companyName || "");
+    const contactPerson = sanitizeString(fields.contact_person || fields.contactPerson || fields.name || fields.signatory_name || "");
     const email = sanitizeString(fields.email || "");
     const phone = sanitizeString(fields.phone || fields.mobile || fields.signatory_contact || "");
-    const category = sanitizeString(fields.vendor_category || fields.vendorCategory || "General Vendor");
-    const cityState = sanitizeString(fields.city_state || fields.location || "");
-    const gst = sanitizeString(fields.gst || fields.gst_number || "");
-    const pan = sanitizeString(fields.pan || fields.pan_number || "");
+    const category = sanitizeString(fields.vendor_category || fields.vendorCategory || fields.category || "General Vendor");
+    const cityState = sanitizeString(fields.city_state || fields.cityState || fields.location || "");
+    const gst = sanitizeString(fields.gst || fields.gst_number || fields.gstNumber || "");
+    const pan = sanitizeString(fields.pan || fields.pan_number || fields.panNumber || "");
     const services = sanitizeString(fields.services || fields.message || "");
 
     if (!company || !contactPerson || !phone || !email) {
@@ -137,9 +133,9 @@ export async function POST(request) {
     const fileUrls = {};
     if (uploads.length > 0) {
       for (const up of uploads) {
-        const check = validateFile(up.originalname, up.mimetype, up.size);
+        const check = validateUploadedFile(up);
         if (!check.valid) {
-          return Response.json({ success: false, message: check.message }, { status: 400 });
+          return Response.json({ success: false, message: check.message }, { status: check.status || 400 });
         }
       }
 
