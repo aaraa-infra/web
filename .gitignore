@@ -12,3 +12,6 @@ __pycache__/
 service_account.json
 
 
+
+# Quarantined assets backup
+_asset_quarantine/
