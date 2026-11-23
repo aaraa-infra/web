@@ -78,7 +78,7 @@
 }
 
 /* Typography & Headers */
-.font-roboto { font-family: 'Roboto Condensed', sans-serif; }
+.font-roboto { font-family: 'Roboto Condensed', 'RobotoCondensed-Fallback', sans-serif; }
 .font-montserrat { font-family: 'Montserrat', sans-serif; }
 .heading-125 { font-size: 125px; font-weight: 700; line-height: 1.1; }
 .heading-125-light { font-size: 125px; font-weight: 400; line-height: 1.1; }

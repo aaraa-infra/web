@@ -19173,7 +19173,7 @@ a.mapboxgl-ctrl-logo {
 
 /* === Font Family Customization === */
 body, p {
-  font-family: "Outfit", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: "Outfit", "Outfit-Fallback", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -19325,7 +19325,7 @@ p  { font-size: 1rem; }
 
 /* Use Outfit for body text */
 body {
-  font-family: "Outfit", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: "Outfit", "Outfit-Fallback", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
 /* Blog slider arrows */

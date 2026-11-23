@@ -382,11 +382,15 @@
 
   function scheduleInit() {
     if ('requestIdleCallback' in window) {
-      window.requestIdleCallback(function () {
-        safeInit();
-      }, { timeout: 2000 });
+      window.requestIdleCallback(function (deadline) {
+        if (deadline && (deadline.didTimeout || (typeof deadline.timeRemaining === 'function' && deadline.timeRemaining() > 10))) {
+          safeInit();
+        } else {
+          window.requestIdleCallback(safeInit, { timeout: 4000 });
+        }
+      }, { timeout: 4000 });
     } else {
-      setTimeout(safeInit, 200);
+      setTimeout(safeInit, 800);
     }
   }
 
