@@ -3,7 +3,7 @@
 
   var CONFIG = {
     toastDuration: 5000,
-    debug: window.location.hostname === 'localhost'
+    debug: false
   };
 
   function log() {
@@ -51,6 +51,9 @@
     },
 
     openModal(overlay) {
+      if (!document.documentElement.classList.contains('aaraa-modals-init')) {
+        this.init();
+      }
       if (!overlay || overlay.classList.contains('active')) return;
       if (window.__aaraaShouldBlockAutoPop && window.__aaraaShouldBlockAutoPop()) {
         log('Suppressed automatic modal on mobile/tablet device:', overlay.id || overlay);
@@ -370,14 +373,42 @@
     }
   };
 
-  function boot() {
+  var _initialized = false;
+  function safeInit() {
+    if (_initialized) return;
+    _initialized = true;
     AaraaModals.init();
   }
 
+  function scheduleInit() {
+    if ('requestIdleCallback' in window) {
+      window.requestIdleCallback(function () {
+        safeInit();
+      }, { timeout: 2000 });
+    } else {
+      setTimeout(safeInit, 200);
+    }
+  }
+
+  // Pre-bind click delegation to guarantee instantaneous responsiveness if user clicks any modal trigger before idle callback runs
+  document.addEventListener('click', function (e) {
+    if (_initialized) return;
+    var trigger = e.target && e.target.closest && (
+      e.target.closest('[data-modal-open]') ||
+      e.target.closest('[data-bs-toggle="modal"]') ||
+      e.target.closest('.open-enquiry-modal') ||
+      e.target.closest('[onclick*="openPopup"]') ||
+      e.target.closest('[onclick*="enquiryModal"]')
+    );
+    if (trigger) {
+      safeInit();
+    }
+  }, { capture: true, passive: true });
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', boot);
+    document.addEventListener('DOMContentLoaded', scheduleInit);
   } else {
-    boot();
+    scheduleInit();
   }
 
   window.AaraaModals = AaraaModals;

@@ -133,22 +133,6 @@ export default function LegacyDocument({page}){
     };
 
     (async () => {
-      // Blocking scripts preloading
-      const blockingSrcs = page.scripts
-        .filter(item => item.src && !item.async && !item.defer && item.type !== 'module')
-        .map(item => item.src);
-      const uniqueSrcs = [...new Set(blockingSrcs)];
-
-      await Promise.all(uniqueSrcs.map(src => new Promise(resolve => {
-        const link = document.createElement('link');
-        link.rel = 'preload';
-        link.as = 'script';
-        link.href = src;
-        link.onload = resolve;
-        link.onerror = resolve;
-        document.head.appendChild(link);
-        mounted.push(link);
-      })));
       if (cancelled) return;
 
       // Ensure window.tailwind is defined to prevent ReferenceError when executing inline config
@@ -176,6 +160,8 @@ export default function LegacyDocument({page}){
         if (item.src && !item.async && !item.defer && item.type !== 'module') {
           await new Promise(r => { s.onload = r; s.onerror = r; });
         }
+        // Yield to the main thread between scripts to prevent main-thread monopolization (TBT reduction)
+        await new Promise(r => setTimeout(r, 0));
       }
       window.dispatchEvent(new Event('load'));
       document.dispatchEvent(new Event('DOMContentLoaded'));

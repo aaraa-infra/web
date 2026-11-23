@@ -29,28 +29,81 @@ export default function RootLayout({children}){
         <link rel="shortcut icon" href="/image/logo/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" />
+        <link
+          rel="preload"
+          as="style"
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Roboto+Condensed:wght@400;700&family=Montserrat:wght@400;600;700&family=Oswald:wght@500;700&display=swap"
+        />
+        <link
+          rel="stylesheet"
+          id="google-fonts-css"
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Roboto+Condensed:wght@400;700&family=Montserrat:wght@400;600;700&family=Oswald:wght@500;700&display=swap"
+          media="print"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var el=document.getElementById('google-fonts-css');if(el)el.media='all';})();`
+          }}
+        />
         <link rel="stylesheet" href="/css/brand_marquee.css" />
       </head>
       <body>
         {/* Google AdSense Script */}
         <AdSenseScript />
 
-        {/* Google Analytics 4 (GA4) */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-B83YDF8ME5"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
+        {/* Unified Non-Blocking Analytics Architecture (GTM, GA4, FB Pixel, Clarity) */}
+        <Script id="unified-deferred-analytics" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-B83YDF8ME5', { page_path: window.location.pathname });
-            gtag('config', 'G-DHGDK2T2VR', { page_path: window.location.pathname });
+            (function() {
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){ window.dataLayer.push(arguments); }
+              window.gtag = gtag;
+              gtag('js', new Date());
+
+              window.fbq = window.fbq || function(){ (window.fbq.q = window.fbq.q || []).push(arguments); };
+              window.fbq.l = +new Date;
+
+              var initialized = false;
+              function initAllAnalytics() {
+                if (initialized) return;
+                initialized = true;
+
+                // 1. Google Analytics 4 & Tag Manager
+                var s1 = document.createElement('script');
+                s1.async = true;
+                s1.src = 'https://www.googletagmanager.com/gtag/js?id=G-B83YDF8ME5';
+                document.head.appendChild(s1);
+
+                gtag('config', 'G-B83YDF8ME5', { page_path: window.location.pathname });
+                gtag('config', 'G-DHGDK2T2VR', { page_path: window.location.pathname });
+                gtag('config', 'AW-1533096646', { page_path: window.location.pathname });
+
+                // 2. Facebook Pixel
+                var s2 = document.createElement('script');
+                s2.async = true;
+                s2.src = 'https://connect.facebook.net/en_US/fbevents.js';
+                document.head.appendChild(s2);
+                window.fbq('init', '1495102235345639');
+                window.fbq('track', 'PageView');
+
+                // 3. Microsoft Clarity
+                (function(c,l,a,r,i,t,y){
+                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+                })(window, document, "clarity", "script", "${process.env.NEXT_PUBLIC_CLARITY_ID || 'xxliejeihp'}");
+              }
+
+              // Fire on real user engagement
+              ['scroll', 'touchstart', 'click', 'keydown'].forEach(function(evt) {
+                window.addEventListener(evt, initAllAnalytics, { once: true, passive: true });
+              });
+
+              // Idle fallback: trigger after 20 seconds if user remains idle
+              setTimeout(initAllAnalytics, 20000);
+            })();
           `}
         </Script>
-
 
         {/* Global Unhandled JS Error Guard for Microsoft Clarity Metrics */}
         <Script id="global-js-error-guard" strategy="beforeInteractive">
@@ -80,17 +133,6 @@ export default function RootLayout({children}){
                 }
               });
             })();
-          `}
-        </Script>
-
-        {/* Microsoft Clarity */}
-        <Script id="microsoft-clarity" strategy="afterInteractive">
-          {`
-            (function(c,l,a,r,i,t,y){
-                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window,document,"clarity","script","${process.env.NEXT_PUBLIC_CLARITY_ID || 'xxliejeihp'}");
           `}
         </Script>
 
